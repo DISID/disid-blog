@@ -1,2 +1,2 @@
-# disid-articles
-Articles written by the DISID Team
+# DISID Blog
+Blog articles written by the DISID Team
