@@ -1,0 +1,12 @@
+---
+layout: default
+title: Test draft
+shortTitle: Test draft
+documentationExpanded: false
+comments: true
+postsExpanded: true
+excerpt: excerpt
+root: ../../../
+---
+
+Test draft.
