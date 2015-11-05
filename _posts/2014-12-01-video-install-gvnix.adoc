@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: post
 title: Instala gvNIX
 shortTitle: Instala gvNIX
 documentationExpanded: false
@@ -7,6 +7,7 @@ comments: true
 postsExpanded: true
 excerpt: excerpt
 root: ../../../
+lang: en
 ---
 
 Instala fácilmente gvNIX, configura el entorno de desarrollo y pon en marcha tu primera aplicación.

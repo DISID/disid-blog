@@ -1,0 +1,107 @@
+<!-- Smooth Page Scroll to Top with jQuery
+================================================== -->
+<a class="scrollup" href="#" rel="tooltip" data-original-title=""  data-placement="left"></a>
+
+<footer id="footer" class="text-center align-middle animated from-top">
+
+   <div class="blueBackground row" id="footerTop">
+        <div class="col-md-8">
+          <h3>What is the next step?&nbsp;If you have an idea,&nbsp;we help you do it</h3>
+        </div>
+        <div class="col-md-4 text-center">
+          <a class="btn btn-large btn-blue" title="Contact with us" href="mailto:{{ site.owner.email }}">Contact with us&nbsp;
+          <i class="icon-angle-right">&nbsp;</i></a>
+        </div>
+   </div>
+
+   <!-- Footer content - Config contents includes --->
+    <div class="row" id="footerContent">
+      <div class="container-fluid">
+        <div class="row">
+          <img class="pull-left" alt="DISID" title="DISID" src="{{ site.url }}/images/{{ site.logo-negative }}" width="120" />
+        </div>
+         <div class="row">
+            <div class="col-md-4" id="footerSection1">
+            <h4> We are a software engineering company specialized in Java technology.</h4>
+            <p> We get involved in each and every one of our projects, with our highest level of excellence in everything we do. Because what we do, we know we do well. Our commitment is the success of your project.</p>
+            </div><!--/span4 -->
+            <div class="col-md-4" id="footerSection2">
+              <!-- Twiter Slides --->
+              <div class="twitter-wrapper">
+                <div class="twitter flexslider clearfix">
+                  <p class="icon-twitter">
+                    &nbsp;</p>
+                  <div id="example1">
+                    &nbsp;</div>
+                </div>
+               </div>
+            </div><!--/span4 -->
+            <div class="col-md-4" id="footerSection3">
+            <address>
+            <p> <strong>DISID Corporation</strong><br>
+             C/ San Vicente Mártir, 84 - 5A Valencia, CP 46002, Spain<br> Phone:(+34) 963 516 309<br> Fax:(+34) 961 198 112</p>
+
+           <p> <strong>Contact us</strong><br> <a class="email" title="Contact DISID" href="mailto:info@disid.com">info@disid.com</a><br> <a href="/contacto" target="_self" title="Contact us">More info&nbsp;<i class="icon-angle-right">&nbsp;</i></a></p> </address>
+            </div><!--/span4 -->
+        </div><!-- /row -->
+
+    </div><!-- /container -->
+
+  </div><!-- /row footerContent -->
+
+<!-- Footer bottom --->
+<div class="row" id="footerBottom">
+
+  <div class="container-fluid">
+      <div class="col-md-6">
+        <p class="pull-left">
+        <a href="{{ site.url-external }}/c/portal/login" id="sign-in" rel="nofollow">Sign in</a> |
+        <a data-original-title="Read legal Notice" href="{{ site.url-external }}/aviso-legal" rel="tooltip" target="_self">Legal notice</a> |&nbsp;
+        <a data-original-title="Read terms of use " href="{{ site.url-external }}/condiciones-de-uso" rel="tooltip" target="_self">Terms of use </a>&nbsp;|
+        <a data-original-title="Go to cookies policy" href="{{ site.url-external }}/politica-de-cookies" rel="tooltip" target="_self">Cookies</a> |&nbsp;
+        <a data-original-title="Read our privacy policy" href="{{ site.url-external }}/politica-de-privacidad" rel="tooltip" target="_self">Privacy policy</a>&nbsp;|&nbsp;
+        <a data-original-title="Contact us" href="{{ site.url-external }}/contacto" rel="tooltip" target="_self">Contact us</a>&nbsp;|&nbsp;
+        <a data-original-title="See the sitemap" href="{{ site.url-external }}/mapaweb" rel="tooltip" target="_self">Sitemap</a> |
+         © DISID Corporation&nbsp;</p>
+      </div>
+      <div class="col-md-6">
+          <p class="pull-right"> Sociedad Limitada 2013 CC BY-NC-SA 3.0 ES | Developed with Jekyll, Liferay &amp; Bootstrap |
+          Connect us
+          <a data-original-title="DISID at Twitter" href="https://twitter.com/disid_corp" rel="tooltip" target="_blank"><i class="icon-twitter">&nbsp;</i></a> <a data-original-title="DISID at Github" href="https://github.com/DISID" rel="tooltip" target="_blank"><i class="icon-github">&nbsp;</i></a> <a data-original-title="DISID at Linkedin" href="http://www.linkedin.com/company/disid" rel="tooltip" target="_blank"><i class="icon-linkedin">&nbsp;</i></a> <a data-original-title="DISID at Facebook" href="https://www.facebook.com/DISIDCorp" rel="tooltip" target="_blank"><i class="icon-facebook">&nbsp;</i></a> <a data-original-title="Contact us with Skype" href="skype:disid_info?call" rel="tooltip"><i class="icon-skype">&nbsp;</i></a></p>
+      </div>
+
+  </div><!--end: Container -->
+</div><!-- /footerBottom -->
+
+    {% if site.animated_fins and site.triangleheader %}
+        <div class="decor-wrapper">
+            <svg id="footer-decor" class="decor top" xmlns="http://www.w3.org/2000/svg" version="1.1" viewBox="0 0 100 100" preserveAspectRatio="none">
+
+                <path class="large left" d="M0 0 L50 50 L0 100" fill="rgba({{ site.fin_color }}, .1)"></path>
+                <path class="large right" d="M100 0 L50 50 L100 100" fill="rgba({{ site.fin_color }}, .1)"></path>
+
+                <path class="medium left" d="M0 0 L50 50 L0 66.6" fill="rgba({{ site.fin_color }}, .3)"></path>
+                <path class="medium right" d="M100 0 L50 50 L100 66.6" fill="rgba({{ site.fin_color }}, .3)"></path>
+
+                <path class="small left" d="M0 0 L50 50 L0 33.3" fill="rgba({{ site.fin_color }}, .5)"></path>
+                <path class="small right" d="M100 0 L50 50 L100 33.3" fill="rgba({{ site.fin_color }}, .5)"></path>
+
+                <path d="M0 0 L50 50 L100 0 L0 0" fill="rgba(255,255,255, 1)"></path>
+
+                <path d="M48 48 L50 51 L52 48 L48 48" fill="rgba(255,255,255, 1)"></path>
+
+            </svg>
+        </div>
+    {% else %}
+    {% if site.triangleheader %}
+        <div class="decor-wrapper">
+            <svg id="footer-decor" class="decor top" xmlns="http://www.w3.org/2000/svg" version="1.1" viewBox="0 0 100 100" preserveAspectRatio="none">
+                <path d="M0 0 L50 50 L100 0 L0 0" fill="rgba(255,255,255, 1)"></path>
+
+                <path d="M48 48 L50 51 L52 48 L48 48" fill="rgba(255,255,255, 1)"></path>
+
+            </svg>
+        </div>
+    {% endif %}
+    {% endif %}
+</footer>

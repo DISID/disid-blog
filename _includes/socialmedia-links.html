@@ -1,0 +1,88 @@
+<!-- languages link -->
+<li class="social">
+  <span>
+  <a href="http://www.disid.com/" data-placement="bottom" alt="Website in Spanish" title="" rel="tooltip" data-original-title="Website in Spanish">
+    <img src="http://www.disid.com/disid-bootstrap-theme/images/language/es_ES.png"> </a></span>
+    <span>
+    <a href="http://www.disid.com/en" data-placement="bottom" alt="Website in English" title="" rel="tooltip" data-original-title="Website in English">
+  <img src="http://www.disid.com/disid-bootstrap-theme/images/language/en_GB.png">
+  </a>
+  </span>
+</li>
+
+<!-- contact -->
+{% if site.owner.email %}
+<li class="social">
+<a data-target=".nav-collapse" rel="tooltip" data-original-title="Contact with us" data-placement="bottom" href="mailto:{{ site.owner.email }}">
+  <span><i class="icon-envelope">&nbsp;</i></span>
+</a>
+</li>
+{% endif %}
+
+<!-- social networks -->
+{% if site.owner.facebook %}
+<li class="social">
+        <a href="http://facebook.com/{{ site.owner.facebook }}" title="DISID on Facebook">
+          <i class="fa fa-facebook"></i>
+        </a>
+</li>
+{% endif %}
+
+{% if site.owner.twitter %}
+<li class="social">
+        <a href="http://twitter.com/{{ site.owner.twitter }}" title="DISID on Twitter">
+          <i class="fa fa-twitter"></i>
+         </a>
+</li>
+{% endif %}
+
+{% if site.owner.github %}
+<li class="social">
+        <a href="http://github.com/{{ site.owner.github }}" title="DISID on Github">
+          <i class="fa fa-github"></i>
+        </a>
+</li>
+{% endif %}
+
+{% if site.owner.linkedin %}
+<li class="social">
+        <a href="http://linkedin.com/{{ site.owner.linkedin }}" title="DISID on LinkedIn">
+          <i class="fa fa-linkedin"></i>
+        </a>
+</li>
+ {% endif %}
+
+{% if site.owner.skype %}
+<li class="social">
+        <a href="http://linkedin.com/{{ site.owner.linkedin }}" title="DISID on Skype">
+          <i class="fa fa-skype"></i>
+        </a>
+</li>
+{% endif %}
+
+{% if site.owner.google_plus %}
+<li class="social">
+        <a href="{{ site.owner.google_plus }}" title="DISID on Google+">
+            <i class="fa fa-google-plus"></i>
+        </a>
+</li>
+{% endif %}
+{% if site.owner.instagram %}
+<li class="social">
+        <a href="http://instagram.com/{{ site.owner.instagram }}" title="DISID on Instagram">
+          <i class="fa fa-instagram"></i>
+        </a>
+</li>
+{% endif %}
+<li class="social">
+        <a href="{{ site.url }}/feed.xml" title="Atom/RSS feed">
+          <i class="fa fa-rss-square"></i>
+        </a>
+</li>
+
+<!-- phone -->
+{% if site.owner.phone %}
+<li class="social">
+    <span rel="tooltip" data-originaltitle="We talk?" data-placement="bottom">{{ site.owner.phone }} <i class="icon-phone"></i></span>
+</li>
+{% endif %}

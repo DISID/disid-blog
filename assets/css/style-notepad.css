@@ -1,0 +1,349 @@
+/*!
+ * HMFAYSAL NOTEPAD
+ * Responsive Jekyll Theme
+ *
+ * Copyright 2014 Hossain Mohd Faysal
+ *
+ * Designed and built with all the love in the world by @hmfaysal
+ *
+ * Custom by DISID
+ */
+
+body {
+    font-family: "Open Sans", sans-serif;
+    background: rgb(255, 255, 255);
+    color: rgb(34, 34, 34);
+    padding: 0px;
+    margin: 0px;
+    font-weight: normal;
+    font-style: normal;
+    line-height: 1;
+    position: relative;
+    cursor: default;
+    overflow-x: hidden;
+    left: 0;
+    right: 0;
+   }
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: "Montserrat", sans-serif; }
+
+::selection {
+    background: rgb(54, 97, 128);
+    color: rgb(255, 255, 255);
+}
+*, ::before, ::after {
+    box-sizing: border-box;
+}
+div, dl, dt, dd, ul, ol, li, h1, h2, h3, h4, h5, h6, pre, form, p, blockquote, th, td {
+    margin: 0px;
+    padding: 0px;
+}
+img {
+    max-width: 100%;
+    height: auto;
+    display: inline-block;
+    vertical-align: middle;
+}
+a img {
+    border: none;
+    border-image-source: initial;
+    border-image-slice: initial;
+    border-image-width: initial;
+    border-image-outset: initial;
+    border-image-repeat: initial;
+}
+
+a, #sidebar, #fade, body {
+    -webkit-transition: all .25s ease;
+    transition: all .25s ease;
+}
+a {
+    color: #366180;
+    text-decoration: none;
+    line-height: inherit;
+}
+  a:hover {
+    color: #4B84AD;
+}
+p{
+    font-family: inherit;
+    font-weight: normal;
+    font-size: 1em;
+    line-height: 1.6;
+    margin-bottom: 1.25em;
+    text-rendering: optimizeLegibility;
+}
+
+/* Tags */
+
+.entry-tags a,
+.post-tags a{ text-transform: uppercase;}
+
+/* Header */
+
+.summer-site-head .summer-site-head-menu {
+    background: white;
+    padding: 0.5em;
+}
+.summer-site-head .summer-site-head-menu .summer-blog-logo {
+    display: inline-block;
+    max-height: 5rem;
+}
+.summer-site-head .summer-site-head-menu .summer-blog-logo img {
+    max-height: 7rem;
+}
+.summer-blog-menu {
+    padding-top: 0;
+    padding-bottom: 0;
+    margin-right: 15px;
+    float: right;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 400;
+}
+  @media only screen and (min-width: 40.063em){
+  .summer-blog-menu {
+      padding-top: 1.75rem;
+      padding-bottom: 1.5625rem;
+      }
+  }
+
+.summer-blog-menu ul {
+    -webkit-transform: translate3d(0, -110%, 0);
+    -ms-transform: translate3d(0, -110%, 0);
+    -moz-transform: translate3d(0, -110%, 0);
+    -o-transform: translate3d(0, -110%, 0);
+    transform: translate3d(0, -110%, 0);
+    list-style-type: none;
+    margin: 0;
+    -webkit-transition: -webkit-transform .3s;
+    transition: transform .3s;
+    padding-top: 0;
+    padding-bottom: 3.125rem;
+}
+    @media only screen and (min-width: 40.063em){
+    .summer-blog-menu ul {
+        width: auto;
+        list-style-type: none;
+        margin: 0;
+        -webkit-transform: none;
+        -ms-transform: none;
+        -moz-transform: none;
+        -o-transform: none;
+        transform: none;
+        padding-top: 0;
+        padding-bottom: 0;
+        }
+}
+
+.summer-blog-menu ul li {
+    display: block;
+    margin: 0;
+    width: 100%;
+    font-size: 2.25rem;
+    text-align: center;
+    padding: 0.3125rem;
+}
+  @media only screen and (min-width: 40.063em){
+  .summer-blog-menu ul li {
+      display: inline-block;
+      /* margin-left: 1.25rem; */
+      width: auto;
+      font-size: 1.3rem;
+      text-align: left;
+      padding: 0;
+      /* padding-right: 1.25rem; */
+    }
+}
+.summer-blog-menu ul li a {
+    color: white;
+    display: block;
+    width: 100%;
+    height: 100%;
+    outline: none;
+    color: #999;
+    text-transform: uppercase;
+    font-size: .9em;
+    padding: 10px 7px;
+    font-family: 'Open Sans',Helvetica,sans-serif;
+    font-weight: 400;
+}
+   @media only screen and (min-width: 40.063em){
+    .summer-blog-menu ul li a {
+        display: inline-block;
+        border-bottom: 0.2875rem solid transparent;
+        width: auto;
+        height: auto;
+    }
+    .summer-blog-menu ul li a:hover {
+        border-bottom: 0.2875rem solid #366180;
+    }
+}
+
+/*social icons*/
+.summer-menu li.social span,
+.summer-menu li.social a{
+  margin: 0;
+  padding: 0 3px 0 0;
+  color: #999;
+}
+.summer-menu li.social span:hover,
+.summer-menu li.social a:hover{
+    color: #366180;
+}
+
+/**********/
+/* Post  */
+/*********/
+
+.summer-content .summer-index-post{
+    visibility: hidden;
+    padding-top: 1em;
+    padding-bottom: 3em;
+    border-bottom: 0.1em solid rgb(217, 217, 217);
+    display: table;
+    }
+     @media only screen and (min-width: 40.063em){
+         .summer-content .summer-index-post{
+         padding-top: 3em;
+         }
+     }
+
+.summer-content .summer-index-post .summer-post-meta {
+    display: block;
+    text-align: center;
+}
+.summer-content .summer-index-post .summer-post-meta .day {
+    display: block;
+    font-size: 3em;
+    font-weight: 800;
+    color: #366180;
+    font-family: "Montserrat", sans-serif;
+}
+.summer-content .summer-index-post .summer-post-meta .month-year {
+    display: block;
+    color: black;
+    font-size: 0.75em;
+    font-family: "Montserrat", sans-serif;
+    text-transform: uppercase;
+}
+.summer-content .summer-index-post .summer-post-header .summer-post-title {
+    color: black;
+    font-weight: 700;
+    text-transform: uppercase;
+    margin: 0;
+    padding: 0;
+    line-height: 1.1;
+    text-align: left;
+    font-size: 2em;
+    margin-bottom: 0.9375em;
+}
+.summer-content .summer-index-post .summer-post-header .summer-post-title a {
+    color: black;
+}
+.summer-content .summer-index-post .summer-post-header .summer-post-title a:hover {
+    text-decoration: underline;
+}
+.summer-content .summer-index-post .summer-post-excerpt {
+    color: black;
+    font-size: 1.05em;
+    margin-top: 0.625em;
+    text-align: left;
+}
+.pagination span,
+.pagination a,
+.summer-content .summer-index-post .summer-index-post-tags {
+    font-size: 0.7125em;
+    color: black;
+    margin-top: 1.5625em;
+    font-family: "Montserrat", sans-serif;
+    text-align: left;
+}
+.pagination span {text-align: center;}
+
+.pagination a,
+.pagination span,
+.summer-content .summer-index-post .summer-index-post-tags a {
+    display: inline-block;
+    padding: 0.3125em 0.625em;
+    color: black;
+    border: 0.125em solid black;
+    border-radius: 0.20em;
+}
+
+/*******************/
+/* Animation posts */
+/*******************/
+
+.fadeInDown {
+  -webkit-animation-duration: 1s;
+  animation-duration: 1s;
+  -webkit-animation-fill-mode: both;
+  animation-fill-mode: both;
+  -webkit-animation-name: fadeInDown;
+  animation-name: fadeInDown;
+  visibility: visible !important; }
+
+@-webkit-keyframes fadeInDown {
+  0% {
+    opacity: 0;
+    -webkit-transform: translateY(-20px);
+    transform: translateY(-20px); }
+
+  100% {
+    opacity: 1;
+    -webkit-transform: translateY(0);
+    transform: translateY(0); }
+}
+@keyframes fadeInDown {
+  0% {
+    opacity: 0;
+    -webkit-transform: translateY(-20px);
+    -ms-transform: translateY(-20px);
+    transform: translateY(-20px); }
+
+  100% {
+    opacity: 1;
+    -webkit-transform: translateY(0);
+    -ms-transform: translateY(0);
+    transform: translateY(0); }
+}
+
+
+
+/*************************/
+/* Menu mobile Boostrap  */
+/************************/
+
+.navbar-toggle{
+  background-color: black;
+  color: white;
+}
+
+.summer-blog-menu.navbar-collapse.in {
+  border: 1px solid red;
+
+}
+
+/* collapse menu */
+@media(max-width:768px) {
+.navbar-default .navbar-collapse {
+    border-color: rgba(255,255,255,.02);
+    background: #222;
+    border-radius: 4px;
+       /*  background: black; */
+   /*  position: absolute; */
+  }
+  li.lang {
+  margin-left: 10px;
+  margin-bottom: 0;
+  }
+.navbar-collapse li.lang ul li {
+  margin-bottom: 0;
+  float: left;
+  }
+.navbar-collapse .navbar-nav{
+  margin: 0;
+}
+}
+

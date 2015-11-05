@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: post
 title: Jekyll-Asciidoc Quickstart
 shortTitle: Entry short title
 documentationExpanded: false
@@ -7,6 +7,7 @@ comments: true
 postsExpanded: true
 excerpt: excerpt
 root: ../../../
+lang: en
 ---
 
 === Example entry

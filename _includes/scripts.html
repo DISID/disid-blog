@@ -1,0 +1,99 @@
+
+<!--  Replaced by query-1.11.1. in head -->
+<!-- <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script> -->
+<script>window.jQuery || document.write('<script src="{{ site.url }}/assets/js/vendor/jquery-1.9.1.min.js"><\/script>')</script>
+
+
+<script type="text/javascript" src="{{ site.url }}/assets/js/scripts.min.js"></script>
+<script type="text/javascript" src="{{ site.url }}/assets/js/waypoints.min.js"></script>
+<script type="text/javascript" src="{{ site.url }}/assets/js/script.js"></script>
+<script type='text/javascript'>console.log("HMFaysal Omega Theme Version 2.0 custom by DISID");</script>
+<script type='text/javascript'>$(document).ready(function(){$(".time").text(function(a,b){return Math.round(parseFloat(b))})});</script>
+
+<!-- flexslider content slider twitter slider and initializations -->
+<script type="text/javascript" src="{{ site.url }}/assets/js/jquery.flexslider-min.js"></script>
+
+ <!-- Animations article Notepad Theme -->
+ <script src="{{ site.url }}/assets/js/summerb146.js"></script>
+
+ <!-- Menu Responsive -->
+ <script type="text/javascript" src="{{{ site.url }}/assets/js/bootstrap.min.js"></script>
+
+
+<script type="text/javascript">
+
+/*      Slides       */
+
+$("a#slide").click(function(){
+    $("#sidebar,body,a#slide,#fade").addClass("slide")
+});
+
+$("#fade,#header,#posts-container").click(function(){
+    $("#sidebar,body,a#slide,#fade").removeClass("slide")
+});
+
+$("a#click-filter").click(function(){
+    $("#slide-filter").slideToggle("medium");
+    $("#slide-pages").slideOut("medium");
+});
+
+$("a#click-pages").click(function(){
+    $("#slide-pages").slideToggle("medium");
+    $("#slide-filter").slideOut("medium");
+});
+
+/*      End-Slides      */
+
+</script>
+
+{% if site.search %}
+<!-- Jekyll Simple Search option -->
+<script>
+  $(document).ready(function() {
+      $('.search-field').simpleJekyllSearch({
+          jsonFile : '{{ site.url }}/search.json',
+          searchResults : '.search-results',
+          template : '<li><article><a href="{url}">{title} <span class="entry-date"><time datetime="{date}">{shortdate}</time></span></a></article></li>',
+          noResults: '<p>Nothing found.</p>'
+        });
+  });
+
+  (function( $, window, undefined ) {
+
+     var bs = {
+          close: $(".icon-remove-sign"),
+          searchform: $(".search-form"),
+          canvas: $("body"),
+          dothis: $('.dosearch')
+      };
+
+    bs.dothis.on('click', function() {
+      $('.search-wrapper').css({ display: "block" });
+      bs.searchform.toggleClass('active');
+      bs.searchform.find('input').focus();
+      bs.canvas.toggleClass('search-overlay');
+    });
+
+      bs.close.on('click', function() {
+        $('.search-wrapper').removeAttr( 'style' );
+        bs.searchform.toggleClass('active');
+        bs.canvas.removeClass('search-overlay');
+    });
+  })( jQuery, window );
+</script>
+{% endif %}
+
+
+
+<!-- cookies consent -->
+
+{% if site.google_analytics %}
+<script>
+    $(document).ready(function () {
+      console.log("Cookies consent loaded");
+      $.cookieCuttr();
+    });
+</script>
+{% endif %}
+
+{% if page.comments %}{% include disqus_comments.html %}{% endif %}
