@@ -1,7 +1,5 @@
 # jekyll configuration
 
-title: "Jekyll-asciidoc-quickstart"
-
 asciidoctor:
   attributes:
     - idseparator=_
