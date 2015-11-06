@@ -1,0 +1,23 @@
+callback([
+
+  {
+    "text": "Instala gvNIX",
+    "href": "/2014/12/01/video-install-gvnix.html"
+  } ,
+
+  {
+    "text": "Jekyll-Asciidoc Quickstart",
+    "href": "/2015/01/01/first-entry.html"
+  } ,
+
+  {
+    "text": "Seminario gratuito de gvNIX",
+    "href": "/es/2015/02/06/seminario-gvnix-etsinf.html"
+  } ,
+
+  {
+    "text": "Jekyll-Asciidoc Quickstart",
+    "href": "/2015/08/03/second-entry.html"
+  } 
+
+])
