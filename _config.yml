@@ -1,3 +1,6 @@
+title:            DISID Blog
+
+
 # jekyll configuration
 
 asciidoctor:
@@ -8,107 +11,5 @@ asciidoctor:
 
 # end of configuration
 
-title:            DISID Blog
-description:      "Software solutions provider"
-logo:             logo_DISID.png
-logo-negative:    logo_negative_DISID.png
-disqus_shortname: disid_corp
-
-
-# Assign a default image for your site's header and footer
-default_bg:       punteado.png
-search:           true
-share:            true
-# Read Time is a calculator tp provide post read-time based on word count. Usage is recommended.
-readtime:         true
-# Specify the average Words per minute. If not defined, 180 will be used
-wpm:              200
-# Turn on or off the fin animations in the header and footer
-triangleheader:   false
-animated_fins:    false
-# Specify the fin color in RGB value
-fin_color:        "255,255,255"
-# Change url to your domain. Leave localhost server or blank when working locally.
-url:              http://disid.github.io/disid-blog
-#url:             http://localhost:4000
-url-external:     http://www.disid.com/en
-
-# Change url to your domain. Leave localhost server or blank when working locally.
-# or use the hint from http://jekyllrb.com/docs/github-pages/ to keep this the same
-# whether working locally or remotely. Start Jekyll with: jekyll serve --baseurl ''
-#url:        	  http://hmfaysal.github.io
-
-# Owner/author information
-owner:
-  name:           DISID Corporation
-  avatar:         favicon_DISID.png
-  email:          info@disid.com
-  # Use the coder's toolbox at http://coderstoolbox.net/string/#!encoding=xml&action=encode&charset=us_ascii to encode your description into XML string
-  description:    Software solutions provider
-  # Social networking links used in footer. Update and remove as you like.
-  twitter:        disid_corp
-  facebook:       DISIDCorp
-  github:         DISID
-  instagram:      disid_corp
-  linkedin:       company/disid
-  skype:          skype:disid_info?call
-  phone:          +34 963 516 309
-
-  # For Google Authorship https://plus.google.com/authorship
-  #google_plus:    https://plus.google.com/u/0/102602916593522619858
-
-# Analytics and webmaster tools stuff goes here
-google_analytics:  UA-1393802-5
-google_verify:
-# https://ssl.bing.com/webmaster/configure/verify/ownership Option 2 content= goes here
-bing_verify:
-
-# Links to include in footer navigation
-# For external links add external: true
-links:
-  - title: Home
-    url: http://www.disid.com/en
-    external: true
-    icon: home
-  - title: Projects
-    url: http://www.disid.com/en/#proyectosDisid
-    external: true
-  - title: What we do
-    url: http://www.disid.com/en/que-hacemos
-    external: true
-  - title: Who we are
-    url: http://www.disid.com/en/quienes-somos
-    external: true
-  - title: Labs
-    url: http://www.disid.com/en/labs
-    external: true
-  - title: Jobs
-    url: http://www.disid.com/en/empleo
-    external: true
-  - title: Contact
-    url: http://www.disid.com/en/contacto
-    external: true
-  - title: Blog
-    url: /
-    external: false
-    icon: home
-  - title: Featured posts
-    url: /featured
-    tooltip: Featured posts
-  - title: Category Index
-    url: /categories
-    tooltip: Category index
-  - title: Tags
-    url: /tags
-# http://en.wikipedia.org/wiki/List_of_tz_database_time_zones
-timezone:    Europe/Madrid
-future:      true
-highlighter: pygments
-markdown:    kramdown
-paginate:    5
-paginate_path: "page:num"
-
-# https://github.com/mojombo/jekyll/wiki/Permalinks
-permalink:   blog/:categories/:title
 
 
