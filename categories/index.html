@@ -116,23 +116,30 @@ if (jQuery.cookie('cc_cookie_accept') == "cc_cookie_accept") {
 <body class="home-template" itemscope itemtype="http://schema.org/WebPage">
 <nav class="summer-site-head navbar navbar-fixed-top" role="navigation">
 
-    <div class="summer-site-head-menu">
+ <div class="summer-site-head-menu">
 
+  <div class="container-fluid">
 
-        <!-- menu collapse -->
-         <div class="navbar-header page-scroll">
-                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#menu">
-                    <span class="sr-only">Toggle navigation</span>
-                    <span class="fa fa-bars"></span>
-                </button>
-            </div>
+    <!-- Brand and toggle get grouped for better mobile display -->
+    <div class="navbar-header  page-scroll">
+      <!-- <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button> -->
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#menu">
+              <span class="sr-only">Toggle navigation</span>
+               <span class="fa fa-bars"></span>
+      </button>
+      <!-- <a class="navbar-brand" href="#">Brand</a> -->
+      <a class="summer-blog-logo" href="http://www.disid.com/en"><img src="http://disid.github.io/disid-blog/images/logo_DISID.png" alt="Blog Logo" /></a>
+    </div>
 
-       <a class="summer-blog-logo" href="http://www.disid.com/en"><img src="http://disid.github.io/disid-blog/images/logo_DISID.png" alt="Blog Logo" /></a>
+    <!-- menu collapse -->
+    <div class="collapse navbar-collapse" id="menu">
 
-         <div class="summer-blog-menu collapse navbar-collapse" id="menu">
-
-          <ul class="summer-menu">
-
+          <ul class="nav navbar-nav">
               
               
               <li>
@@ -193,24 +200,22 @@ if (jQuery.cookie('cc_cookie_accept') == "cc_cookie_accept") {
               
 
               <li><a href="http://disid.github.io/disid-blog">Blog</a></li>
-
-              <!-- languages link -->
+              <li>
+              <div class="social navbar-right">
+                <!-- languages link -->
 <li class="social">
-  <span>
   <a href="http://www.disid.com/" data-placement="bottom" alt="Website in Spanish" title="" rel="tooltip" data-original-title="Website in Spanish">
-    <img src="http://www.disid.com/disid-bootstrap-theme/images/language/es_ES.png"> </a></span>
-    <span>
+    <img src="http://www.disid.com/disid-bootstrap-theme/images/language/es_ES.png"> </a>
     <a href="http://www.disid.com/en" data-placement="bottom" alt="Website in English" title="" rel="tooltip" data-original-title="Website in English">
   <img src="http://www.disid.com/disid-bootstrap-theme/images/language/en_GB.png">
   </a>
-  </span>
 </li>
 
 <!-- contact -->
 
 <li class="social">
 <a data-target=".nav-collapse" rel="tooltip" data-original-title="Contact with us" data-placement="bottom" href="mailto:info@disid.com">
-  <span><i class="icon-envelope">&nbsp;</i></span>
+  <i class="icon-envelope">&nbsp;</i>
 </a>
 </li>
 
@@ -276,14 +281,14 @@ if (jQuery.cookie('cc_cookie_accept') == "cc_cookie_accept") {
     <span rel="tooltip" data-originaltitle="We talk?" data-placement="bottom">+34 963 516 309 <i class="icon-phone"></i></span>
 </li>
 
+              </div>
+              </li>
           </ul>
-      </div>
-        <div class="clearfix"></div>
-    </div>
 
+     </div>
 
-
-
+  </div>
+</div>
 
 </nav>
 
