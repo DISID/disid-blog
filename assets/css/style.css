@@ -111,12 +111,20 @@ blockquote:before {
   width: 4px;
 }
 .cursive {
-  font-family: 'Sacramento', cursive;
   color: #4B84AD;
   font-size: 34px;
   text-align: center;
   padding-bottom: 0.5em;
+  text-transform: uppercase;
+   font-weight: 800;
 }
+
+.title-link{
+  border: 1px solid #366180;
+  border-radius: 4px;
+  padding: 10px;
+}
+
 /* - Form elements - */
 select,
 textarea,
@@ -199,7 +207,7 @@ input[type=number]::-webkit-outer-spin-button {
 /*  page scroll  */
 
 a.scrollup {
-  bottom:30px;
+  bottom:50px;
   right:10px;
   position: fixed;
   display: none;
@@ -208,13 +216,13 @@ a.scrollup {
   text-align: center;
   font: 22px/40px "icon";
   color: #fff;
-  background: #002436;
+  background:#366180;
   border-radius: 3px;
   z-index: 31;
   padding-top: 4px;
 }
 a.scrollup:hover {
-    background: #366180;
+    background: #30526B;
     color: #fff;
 }
 
@@ -443,7 +451,7 @@ blockquote:before {
   background-color: rgba(255, 255, 255, 0.15);
 }
 .overlay:after {
-  background-color: rgba(0, 0, 0, 0.65);
+  background-color: rgba(0, 0, 0, 0.25);
 }
 #masthead {
   background-color: #002d44;
@@ -485,7 +493,7 @@ html {
   display: table;
   text-align: center;
   width: 100%;
-  height: 40%;
+  height: 50%;
   padding: 48px 0;
   margin-bottom: 72px;
   box-sizing: border-box;
@@ -564,6 +572,7 @@ html {
   margin-top: 0;
   margin-bottom: 12px;
   padding-bottom: 12px;
+  text-transform: uppercase;
 }
 /* - Post info - */
 .post-info {
@@ -576,7 +585,7 @@ html {
   margin-bottom: 72px;
 }
 .post-template .post-body {
-  padding-bottom: 36px;
+  padding: 36px 0;
   margin-bottom: 24px;
 }
 .post-body img {
@@ -669,7 +678,7 @@ html {
 #footerTop h3 {
     font-size: 1.4em;
     line-height: 1.1em;
-    letter-spacing: -1px;
+    letter-spacing: -0.5px;
     margin: 25px 0;
     color: rgba(255,255,255,0.7);
     text-transform: none;
@@ -706,7 +715,10 @@ html {
     border-top: 1px solid #777;
     padding: 20px 30px;
 }
-#footerContent p {}
+
+#footerContent .container-fluid .row:first-child{
+  margin-bottom: 2em;
+}
 #footerContent h4{
     color: rgb(136, 136, 136);
     text-transform: none;
@@ -714,6 +726,7 @@ html {
     font-weight: normal;
     height: 40px;
     line-height: 20px;
+    margin-bottom: 1em;
 }
 #footerBottom {
     background: #002436;
@@ -723,7 +736,7 @@ html {
 #footer p{
     color: #999;
     font-size: 0.75em;
-    line-height: 1.2em;
+    line-height: 1.4em;
     margin-bottom: 20px;
 }
 
@@ -801,12 +814,13 @@ padding: 0;
     padding: 0 0 10px 0;
     float:left;
 }
-.twitter.flexslider span {
+.twitter.flexslider ul li .user img {
+  display: none;
 }
 .twitter.flexslider span a {
     font-size:100%!important;
 }
-.twitter.flexslider a{
+.twitter.flexslider .user a{
 font-size:70%!important;
 }
 .twitter.flexslider .flex-direction-nav { *height: 0 }
@@ -1002,7 +1016,7 @@ body input,
 body textarea,
 body .btn,
 body button {
-  font-family: 'Merriweather', serif;
+/*   font-family: 'Merriweather', serif; */
 }
 .lighter {
   font-weight: 200 !important;
@@ -2742,7 +2756,7 @@ body.search-overlay:after {
 }
 .post-list {
     padding: 0;
-    margin: 0;
+    margin: 1em 0;
     list-style-type: none;
 }
 
@@ -2780,7 +2794,7 @@ body.search-overlay:after {
 }
 .tag-box {
     padding: 4px 0;
-    margin: 0;
+    margin: 0 0 1em;
     overflow: hidden;
     list-style: none;
     *zoom: 1;
@@ -4092,12 +4106,12 @@ a#slide{
     display:block;
     width:40px;
     height:40px;
-    bottom:30px;
+    bottom:50px;
     left:10px;
     text-align:center;
     font:22px/40px "icon";
     color:#fff;
-    background:#002436;
+    background:#366180;
     border-radius:3px;
     z-index:31;
     font-weight: bold;
@@ -4106,7 +4120,7 @@ a#slide{
     }
 
 a#slide:hover{
-    background: #366180
+    background: #30526B
     }
 
 a#slide:after{
