@@ -6,14 +6,25 @@
         <img src="{{site.url}}/images/{{ site.owner.avatar }}" alt="{{ site.owner.name }}'s photo" itemprop="image" class="post-avatar img-circle img-responsive"/>
       {% endif %}
 
-      <h4 class="bordered-bottom vcard author" itemprop="author" itemscope itemtype="http://schema.org/Person">
-      By <span itemprop="name" class="fn">
-      <a href="http://twitter.com/@{{page.author.twitter}}" title="Connect {{ page.author.name }}" itemprop="url">{{ page.author.name }}</a>
-      </a></span>
-      </h4>
-      <p> {{page.author.jobdescription}} at
-      <a href="http://twitter.com/@{{ site.owner.twitter }}" title="Connect {{ site.owner.name }}" itemprop="url">
-      {{ site.owner.name }}</p>
-<hr>      
+      {% if page.author.image != null %}
+        <h4 class="bordered-bottom vcard author" itemprop="author" itemscope itemtype="http://schema.org/Person">
+        By <span itemprop="name" class="fn">
+        <a href="http://twitter.com/@{{page.author.twitter}}" title="Connect {{ page.author.name }}" itemprop="url">{{ page.author.name }}</a>
+        </a></span>
+        </h4>
+        <p> {{page.author.jobdescription}} at
+        <a href="http://twitter.com/@{{ site.owner.twitter }}" title="Connect {{ site.owner.name }}" itemprop="url">
+        {{ site.owner.name }}</p>
+      {% else %}
+        <h4 class="bordered-bottom vcard author" itemprop="author" itemscope itemtype="http://schema.org/Person">
+        By <span itemprop="name" class="fn">
+        <a href="http://twitter.com/@{{ site.owner.twitter }}" title="Connect {{ site.owner.name }}" itemprop="url">
+        {{ site.owner.name }}
+        </a></span></h4>
+        <p>{{ site.owner.description }}</p>
+
+      {% endif %}
+
+<hr>
 </div>
 
