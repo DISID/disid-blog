@@ -9,9 +9,9 @@ asciidoctor:
 # end of configuration
 
 title:            DISID Blog
-description:      "Software solutions provider"
+description:      Come Learn and Share
 logo:             logo_DISID.png
-logo-negative:    logo_negative_DISID.png
+logo-negative:    logo-disid-inverse.png
 disqus_shortname: disid_corp
 
 
@@ -53,12 +53,6 @@ owner:
   linkedin:       company/disid
   skype:          skype:disid_info?call
   phone:          +34 963 516 309
-
-#author information
-
-
-
-
 
   # For Google Authorship https://plus.google.com/authorship
   #google_plus:    https://plus.google.com/u/0/102602916593522619858
@@ -116,8 +110,6 @@ paginate_path: "page:num"
 
 # https://github.com/mojombo/jekyll/wiki/Permalinks
 permalink:   /:categories/:title
-
-
 
 kramdown:
   auto_ids: true

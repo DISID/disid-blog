@@ -35,10 +35,10 @@ h1, h2, h3, h4, h5, h6 {
 *, ::before, ::after {
     box-sizing: border-box;
 }
-div, dl, dt, dd, ul, ol, li, h1, h2, h3, h4, h5, h6, pre, form, p, blockquote, th, td {
+/* div, dl, dt, dd, ul, ol, li, h1, h2, h3, h4, h5, h6, pre, form, p, blockquote, th, td {
     margin: 0px;
     padding: 0px;
-}
+} */
 img {
     max-width: 100%;
     height: auto;
@@ -85,6 +85,7 @@ p{
 .summer-site-head .summer-site-head-menu {
     background: white;
     padding: 0.5em;
+    border-bottom: 1px solid rgba(211,211,211,0.20);
 }
 .summer-site-head .summer-site-head-menu .summer-blog-logo {
     display: inline-block;

@@ -5,8 +5,8 @@ require 'rake-jekyll'
 # See http://github.com/jirutka/rake-jekyll for more options.
 Rake::Jekyll::GitDeployTask.new(:deploy)
 
-  # adapted from https://github.com/imathis/octopress/blob/master/Rakefile
-  # usage rake new_post['My New Post'] or rake new_post (defaults to "My New Post")
+# adapted from https://github.com/imathis/octopress/blob/master/Rakefile
+# usage rake new_post['My New Post'] or rake new_post (defaults to "My New Post")
   desc "Start a new post"
   task :new, :title do |t, args|
    args.with_defaults(:title => 'My New Post')

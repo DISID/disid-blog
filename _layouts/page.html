@@ -12,14 +12,14 @@
         <div class="row">
             <article class="page col-md-8 col-md-offset-2">
 
-		            {% if site.wpm %}
-		            {% assign readtime = page.content | strip_html | number_of_words | append: '.0' | divided_by:site.wpm %}
-		            {% else %}
-		            {% assign readtime = page.content | strip_html | number_of_words | append: '.0' | divided_by:180 %}
-		            {% endif %}
+                {% if site.wpm %}
+                {% assign readtime = page.content | strip_html | number_of_words | append: '.0' | divided_by:site.wpm %}
+                {% else %}
+                {% assign readtime = page.content | strip_html | number_of_words | append: '.0' | divided_by:180 %}
+                {% endif %}
                     <header class="post-header">
                         {% if page.link %}
-                        <h1 class="post-title text-center hyper lighter"><a href="{{ page.link }}" data-toggle="tooltip" title="Go to {{ page.link }}" style="color: #fff; background-color: #45ADA8; border-radius: 4px; padding: 10px">{{ page.title }} <span class="link-arrow">&rarr;</span></a></h1>
+                        <h1 class="post-title text-center hyper lighter"><a href="{{ page.link }}" data-toggle="tooltip" title="Go to {{ page.link }}" class="title-link">{{ page.title }} <span class="link-arrow">&rarr;</span></a></h1>
                         {% else %}
                         <h1 class="post-title text-center hyper lighter bordered-bottom">{{ page.title }}</h1>
                         {% endif %}
