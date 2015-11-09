@@ -24,18 +24,18 @@ var summer = (function ($) {
         }
     },
 
-    mobileMenu = function () {
-        if($(mainMenu).length) {
-            $(mobileMenuButton).on('click', function(e){
-                e.preventDefault();
-                $(mainMenu).addClass('opened');
-            });
-            $(mobileMenuCloseButton).on('click', function(e){
-                e.preventDefault();
-                $(mainMenu).removeClass('opened');
-            });
-        }
-    },
+//    mobileMenu = function () {
+//        if($(mainMenu).length) {
+//            $(mobileMenuButton).on('click', function(e){
+//                e.preventDefault();
+//                $(mainMenu).addClass('opened');
+//            });
+//            $(mobileMenuCloseButton).on('click', function(e){
+//                e.preventDefault();
+//                $(mainMenu).removeClass('opened');
+//            });
+//        }
+//    },
 
     headerTitlesBackgroundCheck = function () {
         if ($(bgCheckClass).length && $(postBgImages).length) {
