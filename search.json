@@ -1,11 +1,43 @@
 [
 	
 		{
-		  "title"      : "Post demo adoc with link",
-		  "category"   : "theme",
-		  "url"        : "http://disid.github.io/disid-blog/theme/post-link",
-		  "date"       : "2015-07-30 00:00:00 +0200",
-		  "shortdate"  : "July 30, 2015"
+		  "title"      : "A Post with a Video",
+		  "category"   : "Sample-Posts",
+		  "url"        : "http://disid.github.io/disid-blog/sample-posts/sample-video-post",
+		  "date"       : "2014-01-07 00:00:00 +0100",
+		  "shortdate"  : "January 07, 2014"
+		} ,
+	
+		{
+		  "title"      : "Fancy Some Columns?",
+		  "category"   : "Sample-Posts",
+		  "url"        : "http://disid.github.io/disid-blog/sample-posts/fancy-columns",
+		  "date"       : "2014-01-07 00:00:00 +0100",
+		  "shortdate"  : "January 07, 2014"
+		} ,
+	
+		{
+		  "title"      : "Sample Link Post",
+		  "category"   : "Sample-Posts",
+		  "url"        : "http://disid.github.io/disid-blog/sample-posts/sample-link-post",
+		  "date"       : "2014-01-05 00:00:00 +0100",
+		  "shortdate"  : "January 05, 2014"
+		} ,
+	
+		{
+		  "title"      : "A Post with Images",
+		  "category"   : "Sample-Posts",
+		  "url"        : "http://disid.github.io/disid-blog/sample-posts/sample-post-images",
+		  "date"       : "2014-01-03 00:00:00 +0100",
+		  "shortdate"  : "January 03, 2014"
+		} ,
+	
+		{
+		  "title"      : "Theme Elements",
+		  "category"   : "Sample-Posts",
+		  "url"        : "http://disid.github.io/disid-blog/sample-posts/theme-elements",
+		  "date"       : "2011-03-10 00:00:00 +0100",
+		  "shortdate"  : "March 10, 2011"
 		} 
 	
 ]

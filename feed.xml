@@ -4,7 +4,7 @@
 <generator uri="https://github.com/mojombo/jekyll">Jekyll</generator>
 <link rel="self" type="application/atom+xml" href="http://disid.github.io/disid-blog/feed.xml" />
 <link rel="alternate" type="text/html" href="http://disid.github.io/disid-blog" />
-<updated>2015-11-10T13:27:57+01:00</updated>
+<updated>2015-11-10T18:32:46+01:00</updated>
 <id>http://disid.github.io/disid-blog/</id>
 <author>
   <name>DISID Corporation</name>
@@ -14,40 +14,476 @@
 
 
 <entry>
-  <title type="html"><![CDATA[Post demo adoc with link]]></title>
-  <link>www.disid.com</link>
-  <id>http://disid.github.io/disid-blog/theme/post-link</id>
-  <published>2015-07-30T00:00:00+02:00</published>
-  <updated>2015-07-30T00:00:00+02:00</updated>
+  <title type="html"><![CDATA[A Post with a Video]]></title>
+  <link>http://disid.github.io/disid-blog/sample-posts/sample-video-post</link>
+  <id>http://disid.github.io/disid-blog/sample-posts/sample-video-post</id>
+  <published>2014-01-07T00:00:00+01:00</published>
+  <updated>2014-01-07T00:00:00+01:00</updated>
   <author>
     <name>DISID Corporation</name>
     <uri>http://disid.github.io/disid-blog</uri>
     <email>info@disid.com</email>
   </author>
-  <content type="html">&lt;div class=&quot;paragraph lead&quot;&gt;
-&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam sed tellus nec&lt;br&gt;
-nisl venenatis gravida at non odio. Sed dolor sapien, auctor ac tortor vel,&lt;br&gt;
-consequat tincidunt nisl. Quisque eget nisl quis urna gravida bibendum at sit amet ligula.&lt;br&gt;
-Proin rhoncus augue nec convallis pellentesque. Nullam posuere est ut tincidunt eleifend.&lt;br&gt;
-Praesent vitae commodo orci, eget vulputate ipsum. Aenean sodales tempor suscipit.&lt;br&gt;
-Cras ornare nisi sapien, et aliquam erat dignissim nec.&lt;/p&gt;
+  <content type="html">&lt;div class=&quot;paragraph&quot;&gt;
+&lt;p&gt;Video embeds are responsive and scale with the width of the main content block with the help of [FitVids](&lt;a href=&quot;http://fitvidsjs.com/&quot; class=&quot;bare&quot;&gt;http://fitvidsjs.com/&lt;/a&gt;).&lt;/p&gt;
 &lt;/div&gt;
 &lt;div class=&quot;paragraph&quot;&gt;
-&lt;p&gt;&amp;lt;br&amp;gt;&lt;/p&gt;
+&lt;p&gt;Not sure if this only effects Kramdown or if it&amp;#8217;s an issue with Markdown in general. But adding YouTube video embeds causes errors when building your Jekyll site. To fix add a space between the &lt;code&gt;&amp;lt;iframe&amp;gt;&lt;/code&gt; tags and remove &lt;code&gt;allowfullscreen&lt;/code&gt;. Example below:&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&quot;listingblock&quot;&gt;
+&lt;div class=&quot;content&quot;&gt;
+&lt;pre class=&quot;CodeRay highlight&quot;&gt;&lt;code data-lang=&quot;html&quot;&gt;&lt;span class=&quot;tag&quot;&gt;&amp;lt;iframe&lt;/span&gt; &lt;span class=&quot;attribute-name&quot;&gt;width&lt;/span&gt;=&lt;span class=&quot;string&quot;&gt;&lt;span class=&quot;delimiter&quot;&gt;&amp;quot;&lt;/span&gt;&lt;span class=&quot;content&quot;&gt;940&lt;/span&gt;&lt;span class=&quot;delimiter&quot;&gt;&amp;quot;&lt;/span&gt;&lt;/span&gt; &lt;span class=&quot;attribute-name&quot;&gt;height&lt;/span&gt;=&lt;span class=&quot;string&quot;&gt;&lt;span class=&quot;delimiter&quot;&gt;&amp;quot;&lt;/span&gt;&lt;span class=&quot;content&quot;&gt;529&lt;/span&gt;&lt;span class=&quot;delimiter&quot;&gt;&amp;quot;&lt;/span&gt;&lt;/span&gt; &lt;span class=&quot;attribute-name&quot;&gt;src&lt;/span&gt;=&lt;span class=&quot;string&quot;&gt;&lt;span class=&quot;delimiter&quot;&gt;&amp;quot;&lt;/span&gt;&lt;span class=&quot;content&quot;&gt;//www.youtube.com/embed/CQJByFp7H38?theme=light&lt;/span&gt;&lt;span class=&quot;entity&quot;&gt;&amp;amp;amp;&lt;/span&gt;&lt;span class=&quot;content&quot;&gt;color=white&lt;/span&gt;&lt;span class=&quot;delimiter&quot;&gt;&amp;quot;&lt;/span&gt;&lt;/span&gt; &lt;span class=&quot;attribute-name&quot;&gt;frameborder&lt;/span&gt;=&lt;span class=&quot;string&quot;&gt;&lt;span class=&quot;delimiter&quot;&gt;&amp;quot;&lt;/span&gt;&lt;span class=&quot;content&quot;&gt;0&lt;/span&gt;&lt;span class=&quot;delimiter&quot;&gt;&amp;quot;&lt;/span&gt;&lt;/span&gt; &lt;span class=&quot;attribute-name&quot;&gt;allowfullscreen&lt;/span&gt;&lt;span class=&quot;tag&quot;&gt;&amp;gt;&lt;/span&gt; &lt;span class=&quot;tag&quot;&gt;&amp;lt;/iframe&amp;gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+  &lt;p&gt;&lt;a href=&quot;http://disid.github.io/disid-blog/sample-posts/sample-video-post&quot;&gt;A Post with a Video&lt;/a&gt; was originally published by DISID Corporation at &lt;a href=&quot;http://disid.github.io/disid-blog&quot;&gt;DISID Blog&lt;/a&gt; on January 07, 2014.&lt;/p&gt;</content>
+</entry>
+
+
+<entry>
+  <title type="html"><![CDATA[Fancy Some Columns?]]></title>
+  <link>http://disid.github.io/disid-blog/sample-posts/fancy-columns</link>
+  <id>http://disid.github.io/disid-blog/sample-posts/fancy-columns</id>
+  <published>2014-01-07T00:00:00+01:00</published>
+  <updated>2014-01-07T00:00:00+01:00</updated>
+  <author>
+    <name>DISID Corporation</name>
+    <uri>http://disid.github.io/disid-blog</uri>
+    <email>info@disid.com</email>
+  </author>
+  <content type="html">&lt;div class=&quot;paragraph&quot;&gt;
+&lt;p&gt;Some Premium WordPress themes feature multi-column text entries, which is quite important for academics and engineers like myself for content presentation. HMFAYSAL OMEGA is the first Jekyll Theme to showcase multi-column text entries. HMFAYSAL OMEGA features four types of multi-column configuration, the first being the single column, the others are two, three and four columns. To insert a two-column text entry, simply enter this markup:&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&quot;literalblock&quot;&gt;
+&lt;div class=&quot;content&quot;&gt;
+&lt;pre&gt;[.col-md-6]
+Some Content Here for Column One&lt;/pre&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&quot;literalblock&quot;&gt;
+&lt;div class=&quot;content&quot;&gt;
+&lt;pre&gt;[.col-md-6]
+Some Content Here for Column Two&lt;/pre&gt;
+&lt;/div&gt;
 &lt;/div&gt;
 &lt;div class=&quot;paragraph&quot;&gt;
-&lt;p&gt;Interdum et malesuada fames ac ante ipsum primis in faucibus. Vivamus enim urna,&lt;br&gt;
-eleifend non convallis sit amet, tincidunt tincidunt diam. Lorem ipsum dolor sit amet,&lt;br&gt;
-consectetur adipiscing elit. In hac habitasse platea dictumst. Nulla eleifend ex sem,&lt;br&gt;
-a elementum lacus lobortis in. Proin sodales dolor vitae facilisis dapibus. Curabitur leo lacus,&lt;br&gt;
-auctor nec fermentum eu, dignissim faucibus ipsum. Aenean hendrerit sagittis consectetur. Nulla ac purus sem.&lt;/p&gt;
+&lt;p&gt;Which results in two columns with your content and looks like the following:&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&quot;paragraph col-md-6&quot;&gt;
+&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed rutrum velit quis magna iaculis lacinia. Aenean sed nisi condimentum, placerat eros sit amet, lacinia purus. Ut sed euismod mauris. Morbi vitae diam quis diam egestas scelerisque a a ipsum.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&quot;paragraph col-md-6&quot;&gt;
+&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed rutrum velit quis magna iaculis lacinia. Aenean sed nisi condimentum, placerat eros sit amet, lacinia purus. Ut sed euismod mauris. Morbi vitae diam quis diam egestas scelerisque a a ipsum.&lt;/p&gt;
 &lt;/div&gt;
 &lt;div class=&quot;paragraph&quot;&gt;
-&lt;p&gt;&amp;lt;figure&amp;gt;&lt;br&gt;
-&amp;lt;img src=&quot;http://disid.github.io/disid-blog/images/post/twitter-card-summary-large-image.jpg&quot; alt=&quot;search screenshot&quot;&amp;gt;&lt;br&gt;
-&amp;lt;/figure&amp;gt;&lt;/p&gt;
+&lt;p&gt;For three-column text entry, simply enter this markup:&lt;/p&gt;
 &lt;/div&gt;
-  &lt;p&gt;&lt;a href=&quot;http://disid.github.io/disid-blog/theme/post-link&quot;&gt;Post demo adoc with link&lt;/a&gt; was originally published by DISID Corporation at &lt;a href=&quot;http://disid.github.io/disid-blog&quot;&gt;DISID Blog&lt;/a&gt; on July 30, 2015.&lt;/p&gt;</content>
+&lt;div class=&quot;literalblock&quot;&gt;
+&lt;div class=&quot;content&quot;&gt;
+&lt;pre&gt;[.col-md-4]
+Some Content Here for Column One&lt;/pre&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&quot;literalblock&quot;&gt;
+&lt;div class=&quot;content&quot;&gt;
+&lt;pre&gt;[.col-md-4]
+Some Content Here for Column Two&lt;/pre&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&quot;literalblock&quot;&gt;
+&lt;div class=&quot;content&quot;&gt;
+&lt;pre&gt;[.col-md-4]
+Some Content Here for Column Three&lt;/pre&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&quot;paragraph&quot;&gt;
+&lt;p&gt;Which results in three columns with your content and looks like the following:&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&quot;paragraph col-md-4&quot;&gt;
+&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed rutrum velit quis magna iaculis lacinia. Aenean sed nisi condimentum, placerat eros sit amet, lacinia purus. Ut sed euismod mauris. Morbi vitae diam quis diam egestas scelerisque a a ipsum.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&quot;paragraph col-md-4&quot;&gt;
+&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed rutrum velit quis magna iaculis lacinia. Aenean sed nisi condimentum, placerat eros sit amet, lacinia purus. Ut sed euismod mauris. Morbi vitae diam quis diam egestas scelerisque a a ipsum.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&quot;paragraph col-md-4&quot;&gt;
+&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed rutrum velit quis magna iaculis lacinia. Aenean sed nisi condimentum, placerat eros sit amet, lacinia purus. Ut sed euismod mauris. Morbi vitae diam quis diam egestas scelerisque a a ipsum.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&quot;paragraph&quot;&gt;
+&lt;p&gt;For four-column text entry, simply enter this markup:&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&quot;literalblock&quot;&gt;
+&lt;div class=&quot;content&quot;&gt;
+&lt;pre&gt;[.col-md-3]
+Some Content Here for Column One&lt;/pre&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&quot;literalblock&quot;&gt;
+&lt;div class=&quot;content&quot;&gt;
+&lt;pre&gt;[.col-md-3]
+Some Content Here for Column One&lt;/pre&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&quot;literalblock&quot;&gt;
+&lt;div class=&quot;content&quot;&gt;
+&lt;pre&gt;[.col-md-3]
+Some Content Here for Column One&lt;/pre&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&quot;literalblock&quot;&gt;
+&lt;div class=&quot;content&quot;&gt;
+&lt;pre&gt;[.col-md-3]
+Some Content Here for Column One&lt;/pre&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&quot;paragraph&quot;&gt;
+&lt;p&gt;Which results in four columns with your content and looks like the following:&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&quot;paragraph col-md-3&quot;&gt;
+&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed rutrum velit quis magna iaculis lacinia. Aenean sed nisi condimentum, placerat eros sit amet, lacinia purus. Ut sed euismod mauris. Morbi vitae diam quis diam egestas scelerisque a a ipsum.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&quot;paragraph col-md-3&quot;&gt;
+&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed rutrum velit quis magna iaculis lacinia. Aenean sed nisi condimentum, placerat eros sit amet, lacinia purus. Ut sed euismod mauris. Morbi vitae diam quis diam egestas scelerisque a a ipsum.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&quot;paragraph col-md-3&quot;&gt;
+&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed rutrum velit quis magna iaculis lacinia. Aenean sed nisi condimentum, placerat eros sit amet, lacinia purus. Ut sed euismod mauris. Morbi vitae diam quis diam egestas scelerisque a a ipsum.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&quot;paragraph col-md-3&quot;&gt;
+&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed rutrum velit quis magna iaculis lacinia. Aenean sed nisi condimentum, placerat eros sit amet, lacinia purus. Ut sed euismod mauris. Morbi vitae diam quis diam egestas scelerisque a a ipsum.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&quot;paragraph&quot;&gt;
+&lt;p&gt;You can also have multiple layouts.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&quot;paragraph col-md-6&quot;&gt;
+&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed rutrum velit quis magna iaculis lacinia. Aenean sed nisi condimentum, placerat eros sit amet, lacinia purus. Ut sed euismod mauris. Morbi vitae diam quis diam egestas scelerisque a a ipsum. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed rutrum velit quis magna iaculis lacinia. Aenean sed nisi condimentum, placerat eros sit amet, lacinia purus. Ut sed euismod mauris. Morbi vitae diam quis diam egestas scelerisque a a ipsum. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed rutrum velit quis magna iaculis lacinia. Aenean sed nisi&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&quot;paragraph col-md-3&quot;&gt;
+&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed rutrum velit quis magna iaculis lacinia. Aenean sed nisi condimentum, placerat eros sit amet, lacinia purus. Ut sed euismod mauris. Morbi vitae diam quis diam egestas scelerisque a a ipsum.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&quot;paragraph col-md-3&quot;&gt;
+&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed rutrum velit quis magna iaculis lacinia. Aenean sed nisi condimentum, placerat eros sit amet, lacinia purus. Ut sed euismod mauris. Morbi vitae diam quis diam egestas scelerisque a a ipsum.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&quot;paragraph clearfix&quot;&gt;
+&lt;p&gt;For any layout, make sure in the &lt;code&gt;col-md-&lt;mark&gt;&lt;/code&gt; the &lt;code&gt;&quot;col-md-&lt;/mark&gt;&quot;&lt;/code&gt; numbers add up to 12. the You can include any type of elements between the tags, like texts, images, videos etc.&lt;/p&gt;
+&lt;/div&gt;
+  &lt;p&gt;&lt;a href=&quot;http://disid.github.io/disid-blog/sample-posts/fancy-columns&quot;&gt;Fancy Some Columns?&lt;/a&gt; was originally published by DISID Corporation at &lt;a href=&quot;http://disid.github.io/disid-blog&quot;&gt;DISID Blog&lt;/a&gt; on January 07, 2014.&lt;/p&gt;</content>
+</entry>
+
+
+<entry>
+  <title type="html"><![CDATA[Sample Link Post]]></title>
+  <link>http://www.disid.com</link>
+  <id>http://disid.github.io/disid-blog/sample-posts/sample-link-post</id>
+  <published>2014-01-05T00:00:00+01:00</published>
+  <updated>2014-01-05T00:00:00+01:00</updated>
+  <author>
+    <name>DISID Corporation</name>
+    <uri>http://disid.github.io/disid-blog</uri>
+    <email>info@disid.com</email>
+  </author>
+  <content type="html">&lt;div class=&quot;paragraph&quot;&gt;
+&lt;p&gt;HMFAYSAL OMEGA Theme now supports &lt;strong&gt;link posts&lt;/strong&gt;, made famous by John Gruber.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&quot;paragraph&quot;&gt;
+&lt;p&gt;To activate just add &lt;code&gt;link: &lt;a href=&quot;http://url-you-want-linked&quot; class=&quot;bare&quot;&gt;http://url-you-want-linked&lt;/a&gt;&lt;/code&gt; to the post&amp;#8217;s YAML front matter and you&amp;#8217;re done.&lt;/p&gt;
+&lt;/div&gt;
+  &lt;p&gt;&lt;a href=&quot;http://disid.github.io/disid-blog/sample-posts/sample-link-post&quot;&gt;Sample Link Post&lt;/a&gt; was originally published by DISID Corporation at &lt;a href=&quot;http://disid.github.io/disid-blog&quot;&gt;DISID Blog&lt;/a&gt; on January 05, 2014.&lt;/p&gt;</content>
+</entry>
+
+
+<entry>
+  <title type="html"><![CDATA[A Post with Images]]></title>
+  <link>http://disid.github.io/disid-blog/sample-posts/sample-post-images</link>
+  <id>http://disid.github.io/disid-blog/sample-posts/sample-post-images</id>
+  <published>2014-01-03T00:00:00+01:00</published>
+  <updated>2014-01-03T00:00:00+01:00</updated>
+  <author>
+    <name>DISID Corporation</name>
+    <uri>http://disid.github.io/disid-blog</uri>
+    <email>info@disid.com</email>
+  </author>
+  <content type="html">&lt;div class=&quot;paragraph&quot;&gt;
+&lt;p&gt;Here are some examples of what a post with images might look like. If you want to display two or three images next to each other responsively use &lt;code&gt;figure&lt;/code&gt; with the appropriate &lt;code&gt;class&lt;/code&gt;. Images are responsive and are opened in a Magnific Popup lightbox if you link a larger image to the entry. Also if you link a larger image, the image thumbs uses CSS3 transitions to turn B&amp;amp;W and change back to color on mouse-hover. Each instance of &lt;code&gt;figure&lt;/code&gt; is auto-numbered and displayed in the caption.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&quot;sect1&quot;&gt;
+&lt;h2 id=&quot;figures_for_images_or_video&quot;&gt;Figures (for images or video)&lt;/h2&gt;
+&lt;div class=&quot;sectionbody&quot;&gt;
+&lt;div class=&quot;sect2&quot;&gt;
+&lt;h3 id=&quot;align_image&quot;&gt;Align image&lt;/h3&gt;
+&lt;div class=&quot;listingblock&quot;&gt;
+&lt;div class=&quot;content&quot;&gt;
+&lt;pre&gt;image::http://disid.github.io/disid-blog/images/cover-demo.jpg[Tiger,200,200,float=&quot;right&quot;,align=&quot;center&quot;]
+
+image::http://disid.github.io/disid-blog/images/cover-demo.jpg[Tiger,200,200,float=&quot;left&quot;,align=&quot;center&quot;]
+
+image::http://disid.github.io/disid-blog/images/cover-demo.jpg[[Tiger,200,200,align=&quot;center&quot;]&lt;/pre&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&quot;imageblock&quot; style=&quot;text-align: center;float: right&quot;&gt;
+&lt;div class=&quot;content&quot;&gt;
+&lt;img src=&quot;http://disid.github.io/disid-blog/images/cover-demo.jpg&quot; alt=&quot;Tiger&quot; width=&quot;200&quot; height=&quot;200&quot;&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&quot;imageblock&quot; style=&quot;text-align: center;float: left&quot;&gt;
+&lt;div class=&quot;content&quot;&gt;
+&lt;img src=&quot;http://disid.github.io/disid-blog/images/cover-demo.jpg&quot; alt=&quot;Tiger&quot; width=&quot;200&quot; height=&quot;200&quot;&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&quot;imageblock&quot; style=&quot;text-align: center&quot;&gt;
+&lt;div class=&quot;content&quot;&gt;
+&lt;img src=&quot;http://disid.github.io/disid-blog/images/cover-demo.jpg&quot; alt=&quot;[Tiger&quot; width=&quot;200&quot; height=&quot;200&quot;&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&quot;sect2&quot;&gt;
+&lt;h3 id=&quot;one_up&quot;&gt;One Up&lt;/h3&gt;
+&lt;div class=&quot;listingblock&quot;&gt;
+&lt;div class=&quot;content&quot;&gt;
+&lt;pre&gt;[[img-id-anchor-link]]
+.A description image for caption figure with http://discuss.asciidoctor.org/[link].
+image::http://disid.github.io/disid-blog/images/cover-demo.jpg[Sunset, 300, 200, align=&quot;center&quot;, link=&quot;http://disid.github.io/disid-blog/images/cover-demo.jpg&quot;]&lt;/pre&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div id=&quot;img-id-anchor-link&quot; class=&quot;imageblock&quot; style=&quot;text-align: center&quot;&gt;
+&lt;div class=&quot;content&quot;&gt;
+&lt;a class=&quot;image&quot; href=&quot;http://disid.github.io/disid-blog/images/cover-demo.jpg&quot;&gt;&lt;img src=&quot;http://disid.github.io/disid-blog/images/cover-demo.jpg&quot; alt=&quot;Sunset&quot; width=&quot;300&quot; height=&quot;200&quot;&gt;&lt;/a&gt;
+&lt;/div&gt;
+&lt;div class=&quot;title&quot;&gt;Figure 1. A description image for caption figure with &lt;a href=&quot;http://discuss.asciidoctor.org/&quot;&gt;link&lt;/a&gt;.&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&quot;sect2&quot;&gt;
+&lt;h3 id=&quot;two_up&quot;&gt;Two Up&lt;/h3&gt;
+&lt;div class=&quot;paragraph&quot;&gt;
+&lt;p&gt;Apply the &lt;code&gt;half&lt;/code&gt; class like so to display two images side by side that share the same caption.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&quot;listingblock&quot;&gt;
+&lt;div class=&quot;content&quot;&gt;
+&lt;pre&gt;[.half]
+image::http://disid.github.io/disid-blog/images/cover-demo.jpg[A,link=&quot;http://disid.github.io/disid-blog/images/cover-demo.jpg&quot;]
+
+[.half]
+image::http://disid.github.io/disid-blog/images/cover-demo.jpg[B,link=&quot;http://disid.github.io/disid-blog/images/cover-demo.jpg&quot;]
+
+[.half]
+image::http://disid.github.io/disid-blog/images/cover-demo.jpg[A,link=&quot;http://disid.github.io/disid-blog/images/cover-demo.jpg&quot;]
+
+[.half]
+.Caption describing these three images.
+image::http://disid.github.io/disid-blog/images/cover-demo.jpg[B,link=&quot;http://disid.github.io/disid-blog/images/cover-demo.jpg&quot;]&lt;/pre&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&quot;paragraph&quot;&gt;
+&lt;p&gt;And you&amp;#8217;ll get something that looks like this:&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&quot;imageblock half&quot;&gt;
+&lt;div class=&quot;content&quot;&gt;
+&lt;a class=&quot;image&quot; href=&quot;http://disid.github.io/disid-blog/images/cover-demo.jpg&quot;&gt;&lt;img src=&quot;http://disid.github.io/disid-blog/images/cover-demo.jpg&quot; alt=&quot;A&quot;&gt;&lt;/a&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&quot;imageblock half&quot;&gt;
+&lt;div class=&quot;content&quot;&gt;
+&lt;a class=&quot;image&quot; href=&quot;http://disid.github.io/disid-blog/images/cover-demo.jpg&quot;&gt;&lt;img src=&quot;http://disid.github.io/disid-blog/images/cover-demo.jpg&quot; alt=&quot;B&quot;&gt;&lt;/a&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&quot;imageblock half&quot;&gt;
+&lt;div class=&quot;content&quot;&gt;
+&lt;a class=&quot;image&quot; href=&quot;http://disid.github.io/disid-blog/images/cover-demo.jpg&quot;&gt;&lt;img src=&quot;http://disid.github.io/disid-blog/images/cover-demo.jpg&quot; alt=&quot;A&quot;&gt;&lt;/a&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&quot;imageblock half&quot;&gt;
+&lt;div class=&quot;content&quot;&gt;
+&lt;a class=&quot;image&quot; href=&quot;http://disid.github.io/disid-blog/images/cover-demo.jpg&quot;&gt;&lt;img src=&quot;http://disid.github.io/disid-blog/images/cover-demo.jpg&quot; alt=&quot;B&quot;&gt;&lt;/a&gt;
+&lt;/div&gt;
+&lt;div class=&quot;title&quot;&gt;Figure 2. Caption describing these four images.&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&quot;sect2&quot;&gt;
+&lt;h3 id=&quot;three_up&quot;&gt;Three Up&lt;/h3&gt;
+&lt;div class=&quot;paragraph&quot;&gt;
+&lt;p&gt;Apply the &lt;code&gt;third&lt;/code&gt; class like so to display three images side by side that share the same caption.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&quot;listingblock&quot;&gt;
+&lt;div class=&quot;content&quot;&gt;
+&lt;pre&gt;[.third]
+image::http://disid.github.io/disid-blog/images/cover-demo.jpg[A,link=&quot;http://disid.github.io/disid-blog/images/cover-demo.jpg&quot;]
+
+[.third]
+image::http://disid.github.io/disid-blog/images/cover-demo.jpg[B,link=&quot;http://disid.github.io/disid-blog/images/cover-demo.jpg&quot;]
+
+[.third]
+image::http://disid.github.io/disid-blog/images/cover-demo.jpg[A,link=&quot;http://disid.github.io/disid-blog/images/cover-demo.jpg&quot;]
+
+[.third]
+image::http://disid.github.io/disid-blog/images/cover-demo.jpg[A,link=&quot;http://disid.github.io/disid-blog/images/cover-demo.jpg&quot;]
+
+[.third]
+image::http://disid.github.io/disid-blog/images/cover-demo.jpg[A,link=&quot;http://disid.github.io/disid-blog/images/cover-demo.jpg&quot;]
+
+[.third]
+.Caption describing these three images.
+image::http://disid.github.io/disid-blog/images/cover-demo.jpg[B,link=&quot;http://disid.github.io/disid-blog/images/cover-demo.jpg&quot;]&lt;/pre&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&quot;paragraph&quot;&gt;
+&lt;p&gt;And you&amp;#8217;ll get something that looks like this:&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&quot;imageblock third&quot;&gt;
+&lt;div class=&quot;content&quot;&gt;
+&lt;a class=&quot;image&quot; href=&quot;http://disid.github.io/disid-blog/images/cover-demo.jpg&quot;&gt;&lt;img src=&quot;http://disid.github.io/disid-blog/images/cover-demo.jpg&quot; alt=&quot;A&quot;&gt;&lt;/a&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&quot;imageblock third&quot;&gt;
+&lt;div class=&quot;content&quot;&gt;
+&lt;a class=&quot;image&quot; href=&quot;http://disid.github.io/disid-blog/images/cover-demo.jpg&quot;&gt;&lt;img src=&quot;http://disid.github.io/disid-blog/images/cover-demo.jpg&quot; alt=&quot;B&quot;&gt;&lt;/a&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&quot;imageblock third&quot;&gt;
+&lt;div class=&quot;content&quot;&gt;
+&lt;a class=&quot;image&quot; href=&quot;http://disid.github.io/disid-blog/images/cover-demo.jpg&quot;&gt;&lt;img src=&quot;http://disid.github.io/disid-blog/images/cover-demo.jpg&quot; alt=&quot;A&quot;&gt;&lt;/a&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&quot;imageblock third&quot;&gt;
+&lt;div class=&quot;content&quot;&gt;
+&lt;a class=&quot;image&quot; href=&quot;http://disid.github.io/disid-blog/images/cover-demo.jpg&quot;&gt;&lt;img src=&quot;http://disid.github.io/disid-blog/images/cover-demo.jpg&quot; alt=&quot;B&quot;&gt;&lt;/a&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&quot;imageblock third&quot;&gt;
+&lt;div class=&quot;content&quot;&gt;
+&lt;a class=&quot;image&quot; href=&quot;http://disid.github.io/disid-blog/images/cover-demo.jpg&quot;&gt;&lt;img src=&quot;http://disid.github.io/disid-blog/images/cover-demo.jpg&quot; alt=&quot;B&quot;&gt;&lt;/a&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&quot;imageblock third&quot;&gt;
+&lt;div class=&quot;content&quot;&gt;
+&lt;a class=&quot;image&quot; href=&quot;http://disid.github.io/disid-blog/images/cover-demo.jpg&quot;&gt;&lt;img src=&quot;http://disid.github.io/disid-blog/images/cover-demo.jpg&quot; alt=&quot;B&quot;&gt;&lt;/a&gt;
+&lt;/div&gt;
+&lt;div class=&quot;title&quot;&gt;Figure 3. Caption describing these three images.&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+  &lt;p&gt;&lt;a href=&quot;http://disid.github.io/disid-blog/sample-posts/sample-post-images&quot;&gt;A Post with Images&lt;/a&gt; was originally published by DISID Corporation at &lt;a href=&quot;http://disid.github.io/disid-blog&quot;&gt;DISID Blog&lt;/a&gt; on January 03, 2014.&lt;/p&gt;</content>
+</entry>
+
+
+<entry>
+  <title type="html"><![CDATA[Theme Elements]]></title>
+  <link>http://disid.github.io/disid-blog/sample-posts/theme-elements</link>
+  <id>http://disid.github.io/disid-blog/sample-posts/theme-elements</id>
+  <published>2011-03-10T00:00:00+01:00</published>
+  <updated>2011-03-10T00:00:00+01:00</updated>
+  <author>
+    <name>DISID Corporation</name>
+    <uri>http://disid.github.io/disid-blog</uri>
+    <email>info@disid.com</email>
+  </author>
+  <content type="html">&lt;div class=&quot;paragraph&quot;&gt;
+&lt;p&gt;Below is just about everything you&amp;#8217;ll need to style in the theme. Check the source code to see the many embedded elements within paragraphs.&lt;/p&gt;
+&lt;/div&gt;
+&lt;h1 id=&quot;heading_1&quot; class=&quot;sect0&quot;&gt;Heading 1&lt;/h1&gt;
+&lt;div class=&quot;sect1&quot;&gt;
+&lt;h2 id=&quot;heading_2&quot;&gt;Heading 2&lt;/h2&gt;
+&lt;div class=&quot;sectionbody&quot;&gt;
+&lt;div class=&quot;sect2&quot;&gt;
+&lt;h3 id=&quot;heading_3&quot;&gt;Heading 3&lt;/h3&gt;
+&lt;div class=&quot;sect3&quot;&gt;
+&lt;h4 id=&quot;heading_4&quot;&gt;Heading 4&lt;/h4&gt;
+&lt;div class=&quot;sect4&quot;&gt;
+&lt;h5 id=&quot;heading_5&quot;&gt;Heading 5&lt;/h5&gt;
+&lt;div class=&quot;sect5&quot;&gt;
+&lt;h6 id=&quot;heading_6&quot;&gt;Heading 6&lt;/h6&gt;
+
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&quot;sect2&quot;&gt;
+&lt;h3 id=&quot;body_text&quot;&gt;Body text&lt;/h3&gt;
+&lt;div class=&quot;paragraph&quot;&gt;
+&lt;p&gt;Lorem ipsum dolor sit amet, test link adipiscing elit. &lt;strong&gt;This is strong&lt;/strong&gt;. Nullam dignissim convallis est. Quisque aliquam.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&quot;paragraph&quot;&gt;
+&lt;p&gt;&lt;em&gt;This is emphasized&lt;/em&gt;. Donec faucibus. Nunc iaculis suscipit dui. Water is H&lt;sub&gt;O&lt;/sub&gt;. Nam sit amet sem. Aliquam libero nisi, imperdiet at, tincidunt nec, gravida vehicula, nisl.&lt;br&gt;
+The markup &lt;u&gt;underline &lt;strong&gt;me&lt;/strong&gt;&lt;/u&gt; renders as underlined text and &amp;#8220;me&amp;#8221; is bold.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&quot;paragraph&quot;&gt;
+&lt;p&gt;Maecenas ornare tortor. Donec sed tellus eget sapien fringilla nonummy. Mauris a ante. Suspendisse quam sem, consequat at, commodo vitae, feugiat in, nunc. Morbi imperdiet augue quis tellus.&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&quot;sect2&quot;&gt;
+&lt;h3 id=&quot;blockquotes&quot;&gt;Blockquotes&lt;/h3&gt;
+&lt;div class=&quot;quoteblock&quot;&gt;
+&lt;blockquote&gt;
+&lt;div class=&quot;paragraph&quot;&gt;
+&lt;p&gt;Lorem ipsum dolor sit amet, test link adipiscing elit. Nullam dignissim convallis est. Quisque aliquam.&lt;/p&gt;
+&lt;/div&gt;
+&lt;/blockquote&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&quot;sect1&quot;&gt;
+&lt;h2 id=&quot;list_types&quot;&gt;List Types&lt;/h2&gt;
+&lt;div class=&quot;sectionbody&quot;&gt;
+&lt;div class=&quot;sect2&quot;&gt;
+&lt;h3 id=&quot;ordered_lists&quot;&gt;Ordered Lists&lt;/h3&gt;
+&lt;div class=&quot;olist arabic&quot;&gt;
+&lt;ol class=&quot;arabic&quot;&gt;
+&lt;li&gt;
+&lt;p&gt;Step 1&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Step 2&lt;/p&gt;
+&lt;div class=&quot;olist loweralpha&quot;&gt;
+&lt;ol class=&quot;loweralpha&quot; type=&quot;a&quot;&gt;
+&lt;li&gt;
+&lt;p&gt;Step 2a&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Step 2b&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/div&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Step 3&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&quot;sect2&quot;&gt;
+&lt;h3 id=&quot;unordered_lists&quot;&gt;Unordered Lists&lt;/h3&gt;
+&lt;div class=&quot;ulist&quot;&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;Item one&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Item two&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Item three&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&quot;sect1&quot;&gt;
+&lt;h2 id=&quot;code_snippets&quot;&gt;Code Snippets&lt;/h2&gt;
+&lt;div class=&quot;sectionbody&quot;&gt;
+&lt;div class=&quot;paragraph&quot;&gt;
+&lt;p&gt;Syntax highlighting via Pygments&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&quot;listingblock&quot;&gt;
+&lt;div class=&quot;content&quot;&gt;
+&lt;pre class=&quot;CodeRay highlight&quot;&gt;&lt;code data-lang=&quot;css&quot;&gt;&lt;span class=&quot;id&quot;&gt;#container&lt;/span&gt; {
+  &lt;span class=&quot;key&quot;&gt;float&lt;/span&gt;: &lt;span class=&quot;value&quot;&gt;left&lt;/span&gt;;
+  &lt;span class=&quot;key&quot;&gt;margin&lt;/span&gt;: &lt;span class=&quot;float&quot;&gt;0&lt;/span&gt; &lt;span class=&quot;float&quot;&gt;-240px&lt;/span&gt; &lt;span class=&quot;float&quot;&gt;0&lt;/span&gt; &lt;span class=&quot;float&quot;&gt;0&lt;/span&gt;;
+  &lt;span class=&quot;key&quot;&gt;width&lt;/span&gt;: &lt;span class=&quot;float&quot;&gt;100%&lt;/span&gt;;
+}&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+  &lt;p&gt;&lt;a href=&quot;http://disid.github.io/disid-blog/sample-posts/theme-elements&quot;&gt;Theme Elements&lt;/a&gt; was originally published by DISID Corporation at &lt;a href=&quot;http://disid.github.io/disid-blog&quot;&gt;DISID Blog&lt;/a&gt; on March 10, 2011.&lt;/p&gt;</content>
 </entry>
 
 </feed>

@@ -1,8 +1,28 @@
 callback([
 
   {
-    "text": "Post demo adoc with link",
-    "href": "http://disid.github.io/disid-blog/theme/post-link"
+    "text": "Theme Elements",
+    "href": "http://disid.github.io/disid-blog/sample-posts/theme-elements"
+  } ,
+
+  {
+    "text": "A Post with Images",
+    "href": "http://disid.github.io/disid-blog/sample-posts/sample-post-images"
+  } ,
+
+  {
+    "text": "Sample Link Post",
+    "href": "http://disid.github.io/disid-blog/sample-posts/sample-link-post"
+  } ,
+
+  {
+    "text": "Fancy Some Columns?",
+    "href": "http://disid.github.io/disid-blog/sample-posts/fancy-columns"
+  } ,
+
+  {
+    "text": "A Post with a Video",
+    "href": "http://disid.github.io/disid-blog/sample-posts/sample-video-post"
   } 
 
 ])

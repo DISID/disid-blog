@@ -16,7 +16,23 @@
     
     
     <url>
-        <loc>http://disid.github.io/disid-blog/theme/post-link</loc>
+        <loc>http://disid.github.io/disid-blog/sample-posts/sample-video-post</loc>
+    </url>
+    
+    <url>
+        <loc>http://disid.github.io/disid-blog/sample-posts/fancy-columns</loc>
+    </url>
+    
+    <url>
+        <loc>http://disid.github.io/disid-blog/sample-posts/sample-link-post</loc>
+    </url>
+    
+    <url>
+        <loc>http://disid.github.io/disid-blog/sample-posts/sample-post-images</loc>
+    </url>
+    
+    <url>
+        <loc>http://disid.github.io/disid-blog/sample-posts/theme-elements</loc>
     </url>
     
 </urlset>
