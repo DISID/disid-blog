@@ -47,7 +47,8 @@ function tooltipInit() {
 
 function postInit() {
     // Set lead paragraphs
-    $('.post-body p:first-child').addClass('lead');
+    //$('.post-body p:first-child').addClass('lead'); // markdown format post
+	$('.post-body div.paragraph:first-child').addClass('lead');  // adoc format post
 
     // Set feature image
     var featured = $('.featured-image').find('img').attr('src');
