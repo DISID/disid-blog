@@ -2,22 +2,22 @@ callback([
 
   {
     "text": "Instala gvNIX",
-    "href": "http://disid.github.io/disid-blog/video-install-gvnix"
+    "href": "http://localhost:4000/video-install-gvnix"
   } ,
 
   {
     "text": "Jekyll-Asciidoc Quickstart",
-    "href": "http://disid.github.io/disid-blog/first-entry"
+    "href": "http://localhost:4000/first-entry"
   } ,
 
   {
     "text": "Seminario gratuito de gvNIX",
-    "href": "http://disid.github.io/disid-blog/es/seminario-gvnix-etsinf"
+    "href": "http://localhost:4000/es/seminario-gvnix-etsinf"
   } ,
 
   {
     "text": "Jekyll-Asciidoc Quickstart",
-    "href": "http://disid.github.io/disid-blog/second-entry"
+    "href": "http://localhost:4000/second-entry"
   } 
 
 ])

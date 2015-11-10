@@ -2,33 +2,33 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
      
     <url>
-        <loc>http://disid.github.io/disid-blog/</loc>
+        <loc>http://localhost:4000/</loc>
     </url> 
     <url>
-        <loc>http://disid.github.io/disid-blog/featured</loc>
+        <loc>http://localhost:4000/featured</loc>
     </url> 
     <url>
-        <loc>http://disid.github.io/disid-blog/categories</loc>
+        <loc>http://localhost:4000/categories</loc>
     </url> 
     <url>
-        <loc>http://disid.github.io/disid-blog/tags</loc>
+        <loc>http://localhost:4000/tags</loc>
     </url>
     
     
     <url>
-        <loc>http://disid.github.io/disid-blog/second-entry</loc>
+        <loc>http://localhost:4000/second-entry</loc>
     </url>
     
     <url>
-        <loc>http://disid.github.io/disid-blog/es/seminario-gvnix-etsinf</loc>
+        <loc>http://localhost:4000/es/seminario-gvnix-etsinf</loc>
     </url>
     
     <url>
-        <loc>http://disid.github.io/disid-blog/first-entry</loc>
+        <loc>http://localhost:4000/first-entry</loc>
     </url>
     
     <url>
-        <loc>http://disid.github.io/disid-blog/video-install-gvnix</loc>
+        <loc>http://localhost:4000/video-install-gvnix</loc>
     </url>
     
 </urlset>

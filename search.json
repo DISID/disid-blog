@@ -3,7 +3,7 @@
 		{
 		  "title"      : "Jekyll-Asciidoc Quickstart",
 		  "category"   : "",
-		  "url"        : "http://disid.github.io/disid-blog/second-entry",
+		  "url"        : "http://localhost:4000/second-entry",
 		  "date"       : "2015-08-03 00:00:00 +0200",
 		  "shortdate"  : "August 03, 2015"
 		} ,
@@ -11,7 +11,7 @@
 		{
 		  "title"      : "Seminario gratuito de gvNIX",
 		  "category"   : "es",
-		  "url"        : "http://disid.github.io/disid-blog/es/seminario-gvnix-etsinf",
+		  "url"        : "http://localhost:4000/es/seminario-gvnix-etsinf",
 		  "date"       : "2015-02-06 00:00:00 +0100",
 		  "shortdate"  : "February 06, 2015"
 		} ,
@@ -19,7 +19,7 @@
 		{
 		  "title"      : "Jekyll-Asciidoc Quickstart",
 		  "category"   : "",
-		  "url"        : "http://disid.github.io/disid-blog/first-entry",
+		  "url"        : "http://localhost:4000/first-entry",
 		  "date"       : "2015-01-01 00:00:00 +0100",
 		  "shortdate"  : "January 01, 2015"
 		} ,
@@ -27,7 +27,7 @@
 		{
 		  "title"      : "Instala gvNIX",
 		  "category"   : "",
-		  "url"        : "http://disid.github.io/disid-blog/video-install-gvnix",
+		  "url"        : "http://localhost:4000/video-install-gvnix",
 		  "date"       : "2014-12-01 00:00:00 +0100",
 		  "shortdate"  : "December 01, 2014"
 		} 
