@@ -6,19 +6,21 @@ asciidoctor:
     - source-highlighter=coderay
     - icons=font-awesome
 
-# end of configuration
-
+# Assign a default content for your site's
 title:            DISID Blog
 description:      Come Learn and Share
 logo:             logo_DISID.png
 logo-negative:    logo-disid-inverse.png
-disqus_shortname: disid_corp
-
 
 # Assign a default image for your site's header and footer
-default_bg:       punteado.png
+default_bg:       dotted.png
+
+# Assign a default properties for your site
+disqus_shortname: disid
+comments:         true
 search:           true
 share:            true
+
 # Read Time is a calculator tp provide post read-time based on word count. Usage is recommended.
 readtime:         true
 # Specify the average Words per minute. If not defined, 180 will be used
@@ -29,8 +31,8 @@ animated_fins:    false
 # Specify the fin color in RGB value
 fin_color:        "255,255,255"
 # Change url to your domain. Leave localhost server or blank when working locally.
-url:              http://disid.github.io/disid-blog
-#url:             http://localhost:4000
+#url:             http://disid.github.io/disid-blog
+url:              http://localhost:4000
 url-external:     http://www.disid.com/en
 
 # Change url to your domain. Leave localhost server or blank when working locally.

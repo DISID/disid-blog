@@ -24,7 +24,6 @@ Rake::Jekyll::GitDeployTask.new(:deploy)
      post.puts "tags: []"
      post.puts "image: "
      post.puts "  feature: "
-     post.puts "comments: true"
      post.puts "mathjax: "
      post.puts "---"
    end
@@ -48,7 +47,6 @@ Rake::Jekyll::GitDeployTask.new(:deploy)
      post.puts "tags: []"
      post.puts "image: "
      post.puts "  feature: "
-     post.puts "comments: false"
      post.puts "mathjax: "
      post.puts "---"
    end
@@ -72,7 +70,6 @@ Rake::Jekyll::GitDeployTask.new(:deploy)
      post.puts "tags: []"
      post.puts "image: "
      post.puts "  feature: "
-     post.puts "comments: false"
      post.puts "mathjax: "
      post.puts "---"
    end
@@ -97,7 +94,6 @@ Rake::Jekyll::GitDeployTask.new(:deploy)
      post.puts "tags: []"
      post.puts "image: "
      post.puts "  feature: "
-     post.puts "comments: true"
      post.puts "mathjax: "
      post.puts "---"
    end
