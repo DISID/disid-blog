@@ -1,0 +1,32 @@
+---
+layout: post
+title: "A Post with signature author"
+description: "Custom written post author"
+headline: "Custom written post author"
+category: Sample-Posts
+tags: [sample post, sign]
+imagefeature: cover-demo.jpg
+image:
+  thumb: disid-thumbnail.png #keep it square 200x200 px is good
+lang: en
+featured: true
+author:
+  name: Pilar Argudo
+  image: https://pbs.twimg.com/profile_images/2885389269/098383c349b67aee48bcbccb0914dcb6_400x400.jpeg
+  jobdescription: Front-end developer
+  twitter: pilarargudo
+---
+
+
+TBC Video embeds are responsive and scale with the width of the main content block with the help of [FitVids](http://fitvidsjs.com/).
+
+TBC Not sure if this only effects Kramdown or if it's an issue with Markdown in general. But adding YouTube video embeds causes errors when building your Jekyll site. To fix add a space between the `<iframe>` tags and remove `allowfullscreen`. Example below:
+
+[source,yaml]
+----
+author:
+    name: Pilar Argudo
+    image: https://pbs.twimg.com/profile_images/2885389269/098383c349b67aee48bcbccb0914dcb6_400x400.jpeg
+    jobdescription: Front-end developer
+    twitter: pilarargudo
+----

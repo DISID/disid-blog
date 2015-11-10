@@ -1,0 +1,17 @@
+---
+layout: post
+title: "Sample Link Post"
+description: "Example and code for using link posts."
+headline: "Sample Link Headline Post"
+category: Sample-Posts
+tags: [sample post, link post]
+imagefeature: cover-demo.jpg
+image:
+  thumb: disid-thumbnail.png #keep it square 200x200 px is good
+lang: en
+link: http://www.disid.com
+---
+
+HMFAYSAL OMEGA Theme now supports **link posts**, made famous by John Gruber.
+
+To activate just add `link: http://url-you-want-linked` to the post's YAML front matter and you're done.

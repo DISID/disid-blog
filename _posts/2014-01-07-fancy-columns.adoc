@@ -1,0 +1,96 @@
+---
+layout: post
+title: "Fancy Some Columns?"
+description: "Test of Twitter Bootstrap's 12 column setup"
+headline: "Fancy Some Columns?"
+category: Sample-Posts
+tags: [sample post, columns]
+imagefeature: cover-demo.jpg
+image:
+  thumb: disid-thumbnail.png #keep it square 200x200 px is good
+lang: en
+---
+
+Some Premium WordPress themes feature multi-column text entries, which is quite important for academics and engineers like myself for content presentation. HMFAYSAL OMEGA is the first Jekyll Theme to showcase multi-column text entries. HMFAYSAL OMEGA features four types of multi-column configuration, the first being the single column, the others are two, three and four columns. To insert a two-column text entry, simply enter this markup:
+
+    [.col-md-6]
+    Some Content Here for Column One
+
+    [.col-md-6]
+    Some Content Here for Column Two
+
+Which results in two columns with your content and looks like the following:
+
+[.col-md-6]
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed rutrum velit quis magna iaculis lacinia. Aenean sed nisi condimentum, placerat eros sit amet, lacinia purus. Ut sed euismod mauris. Morbi vitae diam quis diam egestas scelerisque a a ipsum.
+
+[.col-md-6]
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed rutrum velit quis magna iaculis lacinia. Aenean sed nisi condimentum, placerat eros sit amet, lacinia purus. Ut sed euismod mauris. Morbi vitae diam quis diam egestas scelerisque a a ipsum.
+
+
+For three-column text entry, simply enter this markup:
+
+    [.col-md-4]
+    Some Content Here for Column One
+
+    [.col-md-4]
+    Some Content Here for Column Two
+
+    [.col-md-4]
+    Some Content Here for Column Three
+
+Which results in three columns with your content and looks like the following:
+
+[.col-md-4]
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed rutrum velit quis magna iaculis lacinia. Aenean sed nisi condimentum, placerat eros sit amet, lacinia purus. Ut sed euismod mauris. Morbi vitae diam quis diam egestas scelerisque a a ipsum.
+
+[.col-md-4]
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed rutrum velit quis magna iaculis lacinia. Aenean sed nisi condimentum, placerat eros sit amet, lacinia purus. Ut sed euismod mauris. Morbi vitae diam quis diam egestas scelerisque a a ipsum.
+
+[.col-md-4]
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed rutrum velit quis magna iaculis lacinia. Aenean sed nisi condimentum, placerat eros sit amet, lacinia purus. Ut sed euismod mauris. Morbi vitae diam quis diam egestas scelerisque a a ipsum.
+
+For four-column text entry, simply enter this markup:
+
+    [.col-md-3]
+    Some Content Here for Column One
+
+    [.col-md-3]
+    Some Content Here for Column One
+
+    [.col-md-3]
+    Some Content Here for Column One
+
+    [.col-md-3]
+    Some Content Here for Column One
+
+Which results in four columns with your content and looks like the following:
+
+[.col-md-3]
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed rutrum velit quis magna iaculis lacinia. Aenean sed nisi condimentum, placerat eros sit amet, lacinia purus. Ut sed euismod mauris. Morbi vitae diam quis diam egestas scelerisque a a ipsum.
+
+[.col-md-3]
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed rutrum velit quis magna iaculis lacinia. Aenean sed nisi condimentum, placerat eros sit amet, lacinia purus. Ut sed euismod mauris. Morbi vitae diam quis diam egestas scelerisque a a ipsum.
+
+[.col-md-3]
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed rutrum velit quis magna iaculis lacinia. Aenean sed nisi condimentum, placerat eros sit amet, lacinia purus. Ut sed euismod mauris. Morbi vitae diam quis diam egestas scelerisque a a ipsum.
+
+[.col-md-3]
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed rutrum velit quis magna iaculis lacinia. Aenean sed nisi condimentum, placerat eros sit amet, lacinia purus. Ut sed euismod mauris. Morbi vitae diam quis diam egestas scelerisque a a ipsum.
+
+
+You can also have multiple layouts.
+
+[.col-md-6]
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed rutrum velit quis magna iaculis lacinia. Aenean sed nisi condimentum, placerat eros sit amet, lacinia purus. Ut sed euismod mauris. Morbi vitae diam quis diam egestas scelerisque a a ipsum. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed rutrum velit quis magna iaculis lacinia. Aenean sed nisi condimentum, placerat eros sit amet, lacinia purus. Ut sed euismod mauris. Morbi vitae diam quis diam egestas scelerisque a a ipsum. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed rutrum velit quis magna iaculis lacinia. Aenean sed nisi
+
+[.col-md-3]
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed rutrum velit quis magna iaculis lacinia. Aenean sed nisi condimentum, placerat eros sit amet, lacinia purus. Ut sed euismod mauris. Morbi vitae diam quis diam egestas scelerisque a a ipsum.
+
+[.col-md-3]
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed rutrum velit quis magna iaculis lacinia. Aenean sed nisi condimentum, placerat eros sit amet, lacinia purus. Ut sed euismod mauris. Morbi vitae diam quis diam egestas scelerisque a a ipsum.
+
+[.clearfix]
+
+
+For any layout, make sure in the `col-md-#` the `"col-md-#"` numbers add up to 12. the You can include any type of elements between the tags, like texts, images, videos etc.

@@ -31,7 +31,7 @@
 
 {% if page.imagefeature %}
 <header id="masthead" class="blog-background overlay align-center align-middle animated from-bottom"  style="background-image: url({{ site.url }}/images/{{ page.imagefeature }})" itemscope itemtype="http://schema.org/Organization">
-{% if page.imagecredit %}<span class="image-credit">Photo Credit: <a href="{{ page.imagecreditlink }}" target="_blank">{{ page.imagecredit }}</a></span>
+{% if page.image.credit %}<span class="image-credit">Photo Credit: <a href="{{ page.image.creditlink }}" target="_blank">{{ page.image.credit }}</a></span>
 {% endif %}
 {% else %}
 <header id="masthead" class="blog-background align-center align-middle animated from-bottom"  style="background-image: url({{ site.url }}/images/{{ site.default_bg }})" itemscope itemtype="http://schema.org/Organization">

@@ -1,0 +1,52 @@
+---
+layout: post
+title: "Adding new posts"
+description: Simple method to get started with DISID's blog
+headline: Simple method to get started with DISID's blog
+category: Sample-Posts
+tags: [sample post, sign]
+imagefeature: cover-demo.jpg
+image:
+  thumb: disid-thumbnail.png #keep it square 200x200 px is good
+lang: en
+featured: true
+author:
+  name: Pilar Argudo
+  image: https://pbs.twimg.com/profile_images/2885389269/098383c349b67aee48bcbccb0914dcb6_400x400.jpeg
+  jobdescription: Front-end developer
+  twitter: pilarargudo
+---
+
+TBC
+
+= Step 8: Adding new posts/Modifying posts
+
+This is most probably the most essential part that gives Jekyll its name. Jekyll is a blog aware static site generator, and without the blog part it would be useless. To add a new post, simply navigate to the _posts/ directory and create a new file with this structure YYYY-MM-DD-Title-Of-Your-New-Post.markdown. You can have the file in different extensions as per your choice, like *.md, *.textile etc. If you fail to name the file in this structure, Jekyll will ignore that post in the final compilation. Open up your newly created file, and fill out the Front matter YAML. This enables Jekyll to properly recognize the post and get essential information regarding the post, like its categories and tags. A simple post file should have the following Front matter YAML embedded on top:
+
+{% highlight ruby %}
+---
+layout: post
+title:  "Title of the Post"
+date:   2013-12-21 15:47:09 #YYYY-MM-DD HH:MM:SS
+categories: articles
+---
+Content goes here
+{% endhighlight %}
+
+The lines in between the triple dashes (—) provide the essential information about that post to the markdown/textile parser during Jekyll compilation.
+
+= Step 9: Compiling the site for deployment
+
+After you’ve added one or few posts and you’re feeling ready to offload the site to a deployment environment, run the ~ $ jekyll serve command to see you site live at http://localhost:4000. Additionally you can run ~ $ jekyll serve -w to view the site live while you add/edit something and see the changes reflected instantly on the local server. When you’re quite happy with the results, press CTRL + C to stop the local server and run the following command:
+
+{% highlight bash %}
+~ $ jekyll build
+{% endhighlight %}
+
+This will generate the site in the _site/ directory inside your Jekyll site folder, which is ready for deployment.
+
+
+= Step 10: Deployment
+
+Deployment is painless with Jekyll. At this step, you can simply copy over the contents of the _site/ folder to your web-hosting over FTP. There are other novel approaches of deployment using Git and SSH, but that’s a matter of discussion for another day. Jekyll is a highly flexible platform, and it lets you do things in your way, a feature no other platforms can even offer.
+

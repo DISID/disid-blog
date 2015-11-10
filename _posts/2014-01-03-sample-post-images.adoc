@@ -1,0 +1,135 @@
+---
+layout: post
+type: photo
+title: "A Post with Images"
+description: "Examples and code for displaying images in posts."
+headline: "Examples and code for displaying images in posts."
+category: Sample-Posts
+tags: [sample post, images]
+imagefeature: cover-demo.jpg
+image:
+  thumb: disid-thumbnail.png =keep it square 200x200 px is good
+lang: en
+featured: true
+author:
+  name: Pilar Argudo
+  image: https://pbs.twimg.com/profile_images/2885389269/098383c349b67aee48bcbccb0914dcb6_400x400.jpeg
+  jobdescription: Front-end developer
+  twitter: pilarargudo
+---
+
+Here are some examples of what a post with images might look like. If you want to display two or three images next to each other responsively use `figure` with the appropriate `class`. Images are responsive and are opened in a Magnific Popup lightbox if you link a larger image to the entry. Also if you link a larger image, the image thumbs uses CSS3 transitions to turn B&W and change back to color on mouse-hover. Each instance of `figure` is auto-numbered and displayed in the caption.
+
+== Figures (for images or video)
+
+=== Align image
+
+----
+image::{{ site.url }}/images/cover-demo.jpg[Tiger,200,200,float="right",align="center"]
+
+image::{{ site.url }}/images/cover-demo.jpg[Tiger,200,200,float="left",align="center"]
+
+image::{{ site.url }}/images/cover-demo.jpg[[Tiger,200,200,align="center"]
+----
+
+image::{{ site.url }}/images/cover-demo.jpg[Tiger,200,200,float="right",align="center"]
+
+image::{{ site.url }}/images/cover-demo.jpg[Tiger,200,200,float="left",align="center"]
+
+image::{{ site.url }}/images/cover-demo.jpg[[Tiger,200,200,align="center"]
+
+
+=== One Up
+
+----
+[[img-id-anchor-link]]
+.A description image for caption figure with http://discuss.asciidoctor.org/[link].
+image::{{ site.url }}/images/cover-demo.jpg[Sunset, 300, 200, align="center", link="{{ site.url }}/images/cover-demo.jpg"]
+----
+
+[[img-id-anchor-link]]
+.A description image for caption figure with http://discuss.asciidoctor.org/[link].
+image::{{ site.url }}/images/cover-demo.jpg[Sunset, 300, 200, align="center", link="{{ site.url }}/images/cover-demo.jpg"]
+
+
+=== Two Up
+
+Apply the `half` class like so to display two images side by side that share the same caption.
+
+----
+[.half]
+image::{{ site.url }}/images/cover-demo.jpg[A,link="{{ site.url }}/images/cover-demo.jpg"]
+
+[.half]
+image::{{ site.url }}/images/cover-demo.jpg[B,link="{{ site.url }}/images/cover-demo.jpg"]
+
+[.half]
+image::{{ site.url }}/images/cover-demo.jpg[A,link="{{ site.url }}/images/cover-demo.jpg"]
+
+[.half]
+.Caption describing these three images.
+image::{{ site.url }}/images/cover-demo.jpg[B,link="{{ site.url }}/images/cover-demo.jpg"]
+----
+
+And you'll get something that looks like this:
+
+[.half]
+image::{{ site.url }}/images/cover-demo.jpg[A,link="{{ site.url }}/images/cover-demo.jpg"]
+
+[.half]
+image::{{ site.url }}/images/cover-demo.jpg[B,link="{{ site.url }}/images/cover-demo.jpg"]
+
+[.half]
+image::{{ site.url }}/images/cover-demo.jpg[A,link="{{ site.url }}/images/cover-demo.jpg"]
+
+[.half]
+.Caption describing these four images.
+image::{{ site.url }}/images/cover-demo.jpg[B,link="{{ site.url }}/images/cover-demo.jpg"]
+
+
+=== Three Up
+
+Apply the `third` class like so to display three images side by side that share the same caption.
+
+----
+[.third]
+image::{{ site.url }}/images/cover-demo.jpg[A,link="{{ site.url }}/images/cover-demo.jpg"]
+
+[.third]
+image::{{ site.url }}/images/cover-demo.jpg[B,link="{{ site.url }}/images/cover-demo.jpg"]
+
+[.third]
+image::{{ site.url }}/images/cover-demo.jpg[A,link="{{ site.url }}/images/cover-demo.jpg"]
+
+[.third]
+image::{{ site.url }}/images/cover-demo.jpg[A,link="{{ site.url }}/images/cover-demo.jpg"]
+
+[.third]
+image::{{ site.url }}/images/cover-demo.jpg[A,link="{{ site.url }}/images/cover-demo.jpg"]
+
+[.third]
+.Caption describing these three images.
+image::{{ site.url }}/images/cover-demo.jpg[B,link="{{ site.url }}/images/cover-demo.jpg"]
+----
+
+And you'll get something that looks like this:
+
+[.third]
+image::{{ site.url }}/images/cover-demo.jpg[A,link="{{ site.url }}/images/cover-demo.jpg"]
+
+[.third]
+image::{{ site.url }}/images/cover-demo.jpg[B,link="{{ site.url }}/images/cover-demo.jpg"]
+
+[.third]
+image::{{ site.url }}/images/cover-demo.jpg[A,link="{{ site.url }}/images/cover-demo.jpg"]
+
+[.third]
+image::{{ site.url }}/images/cover-demo.jpg[B,link="{{ site.url }}/images/cover-demo.jpg"]
+
+[.third]
+image::{{ site.url }}/images/cover-demo.jpg[B,link="{{ site.url }}/images/cover-demo.jpg"]
+
+[.third]
+.Caption describing these three images.
+image::{{ site.url }}/images/cover-demo.jpg[B,link="{{ site.url }}/images/cover-demo.jpg"]
+

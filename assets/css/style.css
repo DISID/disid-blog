@@ -124,7 +124,7 @@ blockquote:before {
   border-radius: 4px;
   padding: 10px;
 }
-
+.clearfix{ clear: both;}
 /* - Form elements - */
 select,
 textarea,
@@ -232,6 +232,7 @@ a.scrollup:after{
 
 
 /* - Figures - */
+.post-body img,
 figure {
   margin: 0 0 24px;
 }
@@ -2817,28 +2818,29 @@ body.search-overlay:after {
     font-size: 14px;
     vertical-align: super;
 }
+.post-body img,
 figure {
     margin: 0;
     *zoom: 1;
 }
-
+.post-body img:before, .post-body img:after,
 figure:before,figure:after {
     display: table;
     line-height: 0;
     content: "";
 }
-
+.post-body img:after,
 figure:after {
     clear: both;
 }
-
+.post-body img,
 figure img {
     display: block;
     margin-right: auto;
     margin-bottom: 10px;
     margin-left: auto;
 }
-
+.post-body a img,
 figure a img {
     filter: gray; /* IE6-9 */
     -webkit-filter: brightness(100%); /* Google Chrome & Safari 6+ */
@@ -2851,7 +2853,7 @@ figure a img {
     -moz-transition-duration: .25s;
     -o-transition-duration: .25s;
 }
-
+.post-body a img:hover,
 figure a img:hover {
     filter: none;
     -webkit-filter: brightness(130%);
@@ -2866,26 +2868,28 @@ figure a img:hover {
 }
 
 @media only screen and (min-width:62.5em) {
+    .post-body .half img,
     figure.half img {
         float: left;
         width: 49%;
         margin-right: 0.5%;
         margin-left: 0.5%;
     }
-
+    .post-body .half .imageblock .title,
     figure.half figcaption {
         clear: left;
     }
 }
 
 @media only screen and (min-width:62.5em) {
+    .post-body .third img,
     figure.third img {
         float: left;
         width: 32.3%;
         margin-right: 0.5%;
         margin-left: 0.5%;
     }
-
+    .post-body .third .imageblock .title,
     figure.third figcaption {
         clear: left;
     }
@@ -2894,6 +2898,7 @@ figure a img:hover {
 svg:not(:root) {
     overflow: hidden;
 }
+.imageblock .title,
 figcaption {
     padding-top: 10px;
     text-align: center;
@@ -3609,8 +3614,8 @@ pre {
 .CodeRay {
     margin-bottom: 1.5em;
     font-family: 'source-code-pro',monospace;
-    font-size: 12px;
-    font-size: .75rem;
+/*     font-size: 12px;
+    font-size: .75rem; */
     line-height: 2;
     color: #333332;
     border: 1px solid #dedede;
