@@ -2,26 +2,26 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
 <title type="text">DISID Blog</title>
 <generator uri="https://github.com/mojombo/jekyll">Jekyll</generator>
-<link rel="self" type="application/atom+xml" href="http://localhost:4000/feed.xml" />
-<link rel="alternate" type="text/html" href="http://localhost:4000" />
-<updated>2015-11-10T10:49:46+01:00</updated>
-<id>http://localhost:4000/</id>
+<link rel="self" type="application/atom+xml" href="http://disid.github.io/disid-blog/feed.xml" />
+<link rel="alternate" type="text/html" href="http://disid.github.io/disid-blog" />
+<updated>2015-11-10T10:59:47+01:00</updated>
+<id>http://disid.github.io/disid-blog/</id>
 <author>
   <name>DISID Corporation</name>
-  <uri>http://localhost:4000/</uri>
+  <uri>http://disid.github.io/disid-blog/</uri>
   <email>info@disid.com</email>
 </author>
 
 
 <entry>
   <title type="html"><![CDATA[Jekyll-Asciidoc Quickstart]]></title>
-  <link>http://localhost:4000/second-entry</link>
-  <id>http://localhost:4000/second-entry</id>
+  <link>http://disid.github.io/disid-blog/second-entry</link>
+  <id>http://disid.github.io/disid-blog/second-entry</id>
   <published>2015-08-03T00:00:00+02:00</published>
   <updated>2015-08-03T00:00:00+02:00</updated>
   <author>
     <name>DISID Corporation</name>
-    <uri>http://localhost:4000</uri>
+    <uri>http://disid.github.io/disid-blog</uri>
     <email>info@disid.com</email>
   </author>
   <content type="html">&lt;div class=&quot;sect2&quot;&gt;
@@ -42,20 +42,20 @@
 &lt;p&gt;In quo debet iriure adolescens, nec molestie accusata ad, sea te malis atomorum petentium. Convenire corrumpit id vis, ad accumsan interesset usu. Esse dictas sea ne. Cum constituto deterruisset no, vim laudem doctus at. Nam dicat zril ea, mei omnesque explicari pertinacia ea. Nihil dicunt aliquam nam ne.&lt;/p&gt;
 &lt;/div&gt;
 &lt;/div&gt;
-  &lt;p&gt;&lt;a href=&quot;http://localhost:4000/second-entry&quot;&gt;Jekyll-Asciidoc Quickstart&lt;/a&gt; was originally published by DISID Corporation at &lt;a href=&quot;http://localhost:4000&quot;&gt;DISID Blog&lt;/a&gt; on August 03, 2015.&lt;/p&gt;</content>
+  &lt;p&gt;&lt;a href=&quot;http://disid.github.io/disid-blog/second-entry&quot;&gt;Jekyll-Asciidoc Quickstart&lt;/a&gt; was originally published by DISID Corporation at &lt;a href=&quot;http://disid.github.io/disid-blog&quot;&gt;DISID Blog&lt;/a&gt; on August 03, 2015.&lt;/p&gt;</content>
 </entry>
 
 
 <entry>
   <title type="html"><![CDATA[Seminario gratuito de gvNIX]]></title>
-  <link>http://localhost:4000/es/seminario-gvnix-etsinf</link>
-  <id>http://localhost:4000/es/seminario-gvnix-etsinf</id>
+  <link>http://disid.github.io/disid-blog/es/seminario-gvnix-etsinf</link>
+  <id>http://disid.github.io/disid-blog/es/seminario-gvnix-etsinf</id>
   <updated>2015-02-27T00:00:00-00:00</updated>
   <published>2015-02-06T00:00:00+01:00</published>
   
   <author>
     <name>DISID Corporation</name>
-    <uri>http://localhost:4000</uri>
+    <uri>http://disid.github.io/disid-blog</uri>
     <email>info@disid.com</email>
   </author>
   <content type="html">&lt;h1&gt;Seminario de gvNIX en la ETSINF&lt;/h1&gt;
@@ -90,55 +90,55 @@ Eduardo Vendrell, Director de la ETSINF y César Ferri Subdirector de Relaciones
 &lt;/div&gt;
 &lt;div class=&quot;paragraph&quot;&gt;
 &lt;p&gt;&amp;lt;figure class=&quot;third&quot;&amp;gt;&lt;br&gt;
-  &amp;lt;a href=&quot;http://localhost:4000/images/post/etsinf/etsinf-1.jpg&quot;&amp;gt;&amp;lt;img src=&quot;http://localhost:4000/images/post/etsinf/etsinf-1.jpg&quot;&amp;gt;&amp;lt;/a&amp;gt;&lt;br&gt;
-  &amp;lt;a href=&quot;http://localhost:4000/images/post/etsinf/etsinf-2.jpg&quot;&amp;gt;&amp;lt;img src=&quot;http://localhost:4000/images/post/etsinf/etsinf-2.jpg&quot;&amp;gt;&amp;lt;/a&amp;gt;&lt;br&gt;
-  &amp;lt;a href=&quot;http://localhost:4000/images/post/etsinf/etsinf-3.jpg&quot;&amp;gt;&amp;lt;img src=&quot;http://localhost:4000/images/post/etsinf/etsinf-3.jpg&quot;&amp;gt;&amp;lt;/a&amp;gt;&lt;br&gt;
+  &amp;lt;a href=&quot;http://disid.github.io/disid-blog/images/post/etsinf/etsinf-1.jpg&quot;&amp;gt;&amp;lt;img src=&quot;http://disid.github.io/disid-blog/images/post/etsinf/etsinf-1.jpg&quot;&amp;gt;&amp;lt;/a&amp;gt;&lt;br&gt;
+  &amp;lt;a href=&quot;http://disid.github.io/disid-blog/images/post/etsinf/etsinf-2.jpg&quot;&amp;gt;&amp;lt;img src=&quot;http://disid.github.io/disid-blog/images/post/etsinf/etsinf-2.jpg&quot;&amp;gt;&amp;lt;/a&amp;gt;&lt;br&gt;
+  &amp;lt;a href=&quot;http://disid.github.io/disid-blog/images/post/etsinf/etsinf-3.jpg&quot;&amp;gt;&amp;lt;img src=&quot;http://disid.github.io/disid-blog/images/post/etsinf/etsinf-3.jpg&quot;&amp;gt;&amp;lt;/a&amp;gt;&lt;br&gt;
 &amp;lt;/figure&amp;gt;&lt;br&gt;
 &amp;lt;figure class=&quot;half&quot;&amp;gt;&lt;br&gt;
-  &amp;lt;a href=&quot;http://localhost:4000/images/post/etsinf/etsinf-4.jpg&quot;&amp;gt;&amp;lt;img src=&quot;http://localhost:4000/images/post/etsinf/etsinf-4.jpg&quot;&amp;gt;&amp;lt;/a&amp;gt;&lt;br&gt;
-  &amp;lt;a href=&quot;http://localhost:4000/images/post/etsinf/etsinf-5.jpg&quot;&amp;gt;&amp;lt;img src=&quot;http://localhost:4000/images/post/etsinf/etsinf-5.jpg&quot;&amp;gt;&amp;lt;/a&amp;gt;&lt;br&gt;
+  &amp;lt;a href=&quot;http://disid.github.io/disid-blog/images/post/etsinf/etsinf-4.jpg&quot;&amp;gt;&amp;lt;img src=&quot;http://disid.github.io/disid-blog/images/post/etsinf/etsinf-4.jpg&quot;&amp;gt;&amp;lt;/a&amp;gt;&lt;br&gt;
+  &amp;lt;a href=&quot;http://disid.github.io/disid-blog/images/post/etsinf/etsinf-5.jpg&quot;&amp;gt;&amp;lt;img src=&quot;http://disid.github.io/disid-blog/images/post/etsinf/etsinf-5.jpg&quot;&amp;gt;&amp;lt;/a&amp;gt;&lt;br&gt;
 &amp;lt;/figure&amp;gt;&lt;br&gt;
 &amp;lt;figure class=&quot;half&quot;&amp;gt;&lt;br&gt;
-    &amp;lt;a href=&quot;http://localhost:4000/images/post/etsinf/etsinf-7.jpg&quot;&amp;gt;&amp;lt;img src=&quot;http://localhost:4000/images/post/etsinf/etsinf-7.jpg&quot;&amp;gt;&amp;lt;/a&amp;gt;&lt;br&gt;
-    &amp;lt;a href=&quot;http://localhost:4000/images/post/etsinf/etsinf-8.jpg&quot;&amp;gt;&amp;lt;img src=&quot;http://localhost:4000/images/post/etsinf/etsinf-8.jpg&quot;&amp;gt;&amp;lt;/a&amp;gt;&lt;br&gt;
+    &amp;lt;a href=&quot;http://disid.github.io/disid-blog/images/post/etsinf/etsinf-7.jpg&quot;&amp;gt;&amp;lt;img src=&quot;http://disid.github.io/disid-blog/images/post/etsinf/etsinf-7.jpg&quot;&amp;gt;&amp;lt;/a&amp;gt;&lt;br&gt;
+    &amp;lt;a href=&quot;http://disid.github.io/disid-blog/images/post/etsinf/etsinf-8.jpg&quot;&amp;gt;&amp;lt;img src=&quot;http://disid.github.io/disid-blog/images/post/etsinf/etsinf-8.jpg&quot;&amp;gt;&amp;lt;/a&amp;gt;&lt;br&gt;
 &amp;lt;/figure&amp;gt;&lt;br&gt;
 &amp;lt;figure class=&quot;third&quot;&amp;gt;&lt;br&gt;
-    &amp;lt;a href=&quot;http://localhost:4000/images/post/etsinf/etsinf-9.jpg&quot;&amp;gt;&amp;lt;img src=&quot;http://localhost:4000/images/post/etsinf/etsinf-9.jpg&quot;&amp;gt;&amp;lt;/a&amp;gt;&lt;br&gt;
-    &amp;lt;a href=&quot;http://localhost:4000/images/post/etsinf/etsinf-10.jpg&quot;&amp;gt;&amp;lt;img src=&quot;http://localhost:4000/images/post/etsinf/etsinf-10.jpg&quot;&amp;gt;&amp;lt;/a&amp;gt;&lt;br&gt;
-    &amp;lt;a href=&quot;http://localhost:4000/images/post/etsinf/etsinf-11.jpg&quot;&amp;gt;&amp;lt;img src=&quot;http://localhost:4000/images/post/etsinf/etsinf-11.jpg&quot;&amp;gt;&amp;lt;/a&amp;gt;&lt;br&gt;
+    &amp;lt;a href=&quot;http://disid.github.io/disid-blog/images/post/etsinf/etsinf-9.jpg&quot;&amp;gt;&amp;lt;img src=&quot;http://disid.github.io/disid-blog/images/post/etsinf/etsinf-9.jpg&quot;&amp;gt;&amp;lt;/a&amp;gt;&lt;br&gt;
+    &amp;lt;a href=&quot;http://disid.github.io/disid-blog/images/post/etsinf/etsinf-10.jpg&quot;&amp;gt;&amp;lt;img src=&quot;http://disid.github.io/disid-blog/images/post/etsinf/etsinf-10.jpg&quot;&amp;gt;&amp;lt;/a&amp;gt;&lt;br&gt;
+    &amp;lt;a href=&quot;http://disid.github.io/disid-blog/images/post/etsinf/etsinf-11.jpg&quot;&amp;gt;&amp;lt;img src=&quot;http://disid.github.io/disid-blog/images/post/etsinf/etsinf-11.jpg&quot;&amp;gt;&amp;lt;/a&amp;gt;&lt;br&gt;
 &amp;lt;/figure&amp;gt;&lt;br&gt;
 &amp;lt;figure class=&quot;half&quot;&amp;gt;&lt;br&gt;
-  &amp;lt;a href=&quot;http://localhost:4000/images/post/etsinf/etsinf-12.jpg&quot;&amp;gt;&amp;lt;img src=&quot;http://localhost:4000/images/post/etsinf/etsinf-12.jpg&quot;&amp;gt;&amp;lt;/a&amp;gt;&lt;br&gt;
-  &amp;lt;a href=&quot;http://localhost:4000/images/post/etsinf/etsinf-13.jpg&quot;&amp;gt;&amp;lt;img src=&quot;http://localhost:4000/images/post/etsinf/etsinf-13.jpg&quot;&amp;gt;&amp;lt;/a&amp;gt;&lt;br&gt;
+  &amp;lt;a href=&quot;http://disid.github.io/disid-blog/images/post/etsinf/etsinf-12.jpg&quot;&amp;gt;&amp;lt;img src=&quot;http://disid.github.io/disid-blog/images/post/etsinf/etsinf-12.jpg&quot;&amp;gt;&amp;lt;/a&amp;gt;&lt;br&gt;
+  &amp;lt;a href=&quot;http://disid.github.io/disid-blog/images/post/etsinf/etsinf-13.jpg&quot;&amp;gt;&amp;lt;img src=&quot;http://disid.github.io/disid-blog/images/post/etsinf/etsinf-13.jpg&quot;&amp;gt;&amp;lt;/a&amp;gt;&lt;br&gt;
 &amp;lt;/figure&amp;gt;&lt;br&gt;
 &amp;lt;figure&amp;gt;&lt;br&gt;
 &amp;lt;figure class=&quot;third&quot;&amp;gt;&lt;br&gt;
-    &amp;lt;a href=&quot;http://localhost:4000/images/post/etsinf/etsinf-14.jpg&quot;&amp;gt;&amp;lt;img src=&quot;http://localhost:4000/images/post/etsinf/etsinf-14.jpg&quot;&amp;gt;&amp;lt;/a&amp;gt;&lt;br&gt;
-    &amp;lt;a href=&quot;http://localhost:4000/images/post/etsinf/etsinf-15.jpg&quot;&amp;gt;&amp;lt;img src=&quot;http://localhost:4000/images/post/etsinf/etsinf-15.jpg&quot;&amp;gt;&amp;lt;/a&amp;gt;&lt;br&gt;
-    &amp;lt;a href=&quot;http://localhost:4000/images/post/etsinf/etsinf-16.jpg&quot;&amp;gt;&amp;lt;img src=&quot;http://localhost:4000/images/post/etsinf/etsinf-16.jpg&quot;&amp;gt;&amp;lt;/a&amp;gt;&lt;br&gt;
+    &amp;lt;a href=&quot;http://disid.github.io/disid-blog/images/post/etsinf/etsinf-14.jpg&quot;&amp;gt;&amp;lt;img src=&quot;http://disid.github.io/disid-blog/images/post/etsinf/etsinf-14.jpg&quot;&amp;gt;&amp;lt;/a&amp;gt;&lt;br&gt;
+    &amp;lt;a href=&quot;http://disid.github.io/disid-blog/images/post/etsinf/etsinf-15.jpg&quot;&amp;gt;&amp;lt;img src=&quot;http://disid.github.io/disid-blog/images/post/etsinf/etsinf-15.jpg&quot;&amp;gt;&amp;lt;/a&amp;gt;&lt;br&gt;
+    &amp;lt;a href=&quot;http://disid.github.io/disid-blog/images/post/etsinf/etsinf-16.jpg&quot;&amp;gt;&amp;lt;img src=&quot;http://disid.github.io/disid-blog/images/post/etsinf/etsinf-16.jpg&quot;&amp;gt;&amp;lt;/a&amp;gt;&lt;br&gt;
 &amp;lt;/figure&amp;gt;&lt;br&gt;
 &amp;lt;figure class=&quot;third&quot;&amp;gt;&lt;br&gt;
-    &amp;lt;a href=&quot;http://localhost:4000/images/post/etsinf/etsinf-17.jpg&quot;&amp;gt;&amp;lt;img src=&quot;http://localhost:4000/images/post/etsinf/etsinf-17.jpg&quot;&amp;gt;&amp;lt;/a&amp;gt;&lt;br&gt;
-    &amp;lt;a href=&quot;http://localhost:4000/images/post/etsinf/etsinf-18.jpg&quot;&amp;gt;&amp;lt;img src=&quot;http://localhost:4000/images/post/etsinf/etsinf-18.jpg&quot;&amp;gt;&amp;lt;/a&amp;gt;&lt;br&gt;
-    &amp;lt;a href=&quot;http://localhost:4000/images/post/etsinf/etsinf-19.jpg&quot;&amp;gt;&amp;lt;img src=&quot;http://localhost:4000/images/post/etsinf/etsinf-19.jpg&quot;&amp;gt;&amp;lt;/a&amp;gt;&lt;br&gt;
+    &amp;lt;a href=&quot;http://disid.github.io/disid-blog/images/post/etsinf/etsinf-17.jpg&quot;&amp;gt;&amp;lt;img src=&quot;http://disid.github.io/disid-blog/images/post/etsinf/etsinf-17.jpg&quot;&amp;gt;&amp;lt;/a&amp;gt;&lt;br&gt;
+    &amp;lt;a href=&quot;http://disid.github.io/disid-blog/images/post/etsinf/etsinf-18.jpg&quot;&amp;gt;&amp;lt;img src=&quot;http://disid.github.io/disid-blog/images/post/etsinf/etsinf-18.jpg&quot;&amp;gt;&amp;lt;/a&amp;gt;&lt;br&gt;
+    &amp;lt;a href=&quot;http://disid.github.io/disid-blog/images/post/etsinf/etsinf-19.jpg&quot;&amp;gt;&amp;lt;img src=&quot;http://disid.github.io/disid-blog/images/post/etsinf/etsinf-19.jpg&quot;&amp;gt;&amp;lt;/a&amp;gt;&lt;br&gt;
   &amp;lt;figcaption&amp;gt;Fotos realizadas por la ETSINF&amp;lt;/figcaption&amp;gt;&lt;br&gt;
 &amp;lt;/figure&amp;gt;&lt;br&gt;
 &amp;lt;br&amp;gt;&lt;br&gt;
 Muchas gracias a todos por la asistencia.&lt;/p&gt;
 &lt;/div&gt;
-  &lt;p&gt;&lt;a href=&quot;http://localhost:4000/es/seminario-gvnix-etsinf&quot;&gt;Seminario gratuito de gvNIX&lt;/a&gt; was originally published by DISID Corporation at &lt;a href=&quot;http://localhost:4000&quot;&gt;DISID Blog&lt;/a&gt; on February 06, 2015.&lt;/p&gt;</content>
+  &lt;p&gt;&lt;a href=&quot;http://disid.github.io/disid-blog/es/seminario-gvnix-etsinf&quot;&gt;Seminario gratuito de gvNIX&lt;/a&gt; was originally published by DISID Corporation at &lt;a href=&quot;http://disid.github.io/disid-blog&quot;&gt;DISID Blog&lt;/a&gt; on February 06, 2015.&lt;/p&gt;</content>
 </entry>
 
 
 <entry>
   <title type="html"><![CDATA[Jekyll-Asciidoc Quickstart]]></title>
-  <link>http://localhost:4000/first-entry</link>
-  <id>http://localhost:4000/first-entry</id>
+  <link>http://disid.github.io/disid-blog/first-entry</link>
+  <id>http://disid.github.io/disid-blog/first-entry</id>
   <published>2015-01-01T00:00:00+01:00</published>
   <updated>2015-01-01T00:00:00+01:00</updated>
   <author>
     <name>DISID Corporation</name>
-    <uri>http://localhost:4000</uri>
+    <uri>http://disid.github.io/disid-blog</uri>
     <email>info@disid.com</email>
   </author>
   <content type="html">&lt;div class=&quot;sect2&quot;&gt;
@@ -159,25 +159,25 @@ Muchas gracias a todos por la asistencia.&lt;/p&gt;
 &lt;p&gt;In quo debet iriure adolescens, nec molestie accusata ad, sea te malis atomorum petentium. Convenire corrumpit id vis, ad accumsan interesset usu. Esse dictas sea ne. Cum constituto deterruisset no, vim laudem doctus at. Nam dicat zril ea, mei omnesque explicari pertinacia ea. Nihil dicunt aliquam nam ne.&lt;/p&gt;
 &lt;/div&gt;
 &lt;/div&gt;
-  &lt;p&gt;&lt;a href=&quot;http://localhost:4000/first-entry&quot;&gt;Jekyll-Asciidoc Quickstart&lt;/a&gt; was originally published by DISID Corporation at &lt;a href=&quot;http://localhost:4000&quot;&gt;DISID Blog&lt;/a&gt; on January 01, 2015.&lt;/p&gt;</content>
+  &lt;p&gt;&lt;a href=&quot;http://disid.github.io/disid-blog/first-entry&quot;&gt;Jekyll-Asciidoc Quickstart&lt;/a&gt; was originally published by DISID Corporation at &lt;a href=&quot;http://disid.github.io/disid-blog&quot;&gt;DISID Blog&lt;/a&gt; on January 01, 2015.&lt;/p&gt;</content>
 </entry>
 
 
 <entry>
   <title type="html"><![CDATA[Instala gvNIX]]></title>
-  <link>http://localhost:4000/video-install-gvnix</link>
-  <id>http://localhost:4000/video-install-gvnix</id>
+  <link>http://disid.github.io/disid-blog/video-install-gvnix</link>
+  <id>http://disid.github.io/disid-blog/video-install-gvnix</id>
   <published>2014-12-01T00:00:00+01:00</published>
   <updated>2014-12-01T00:00:00+01:00</updated>
   <author>
     <name>DISID Corporation</name>
-    <uri>http://localhost:4000</uri>
+    <uri>http://disid.github.io/disid-blog</uri>
     <email>info@disid.com</email>
   </author>
   <content type="html">&lt;div class=&quot;paragraph&quot;&gt;
 &lt;p&gt;Instala fácilmente gvNIX, configura el entorno de desarrollo y pon en marcha tu primera aplicación.&lt;/p&gt;
 &lt;/div&gt;
-  &lt;p&gt;&lt;a href=&quot;http://localhost:4000/video-install-gvnix&quot;&gt;Instala gvNIX&lt;/a&gt; was originally published by DISID Corporation at &lt;a href=&quot;http://localhost:4000&quot;&gt;DISID Blog&lt;/a&gt; on December 01, 2014.&lt;/p&gt;</content>
+  &lt;p&gt;&lt;a href=&quot;http://disid.github.io/disid-blog/video-install-gvnix&quot;&gt;Instala gvNIX&lt;/a&gt; was originally published by DISID Corporation at &lt;a href=&quot;http://disid.github.io/disid-blog&quot;&gt;DISID Blog&lt;/a&gt; on December 01, 2014.&lt;/p&gt;</content>
 </entry>
 
 </feed>
