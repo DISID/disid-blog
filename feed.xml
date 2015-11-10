@@ -4,7 +4,7 @@
 <generator uri="https://github.com/mojombo/jekyll">Jekyll</generator>
 <link rel="self" type="application/atom+xml" href="http://disid.github.io/disid-blog/feed.xml" />
 <link rel="alternate" type="text/html" href="http://disid.github.io/disid-blog" />
-<updated>2015-11-10T11:54:05+01:00</updated>
+<updated>2015-11-10T13:08:54+01:00</updated>
 <id>http://disid.github.io/disid-blog/</id>
 <author>
   <name>DISID Corporation</name>
@@ -14,170 +14,40 @@
 
 
 <entry>
-  <title type="html"><![CDATA[Jekyll-Asciidoc Quickstart]]></title>
-  <link>http://disid.github.io/disid-blog/second-entry</link>
-  <id>http://disid.github.io/disid-blog/second-entry</id>
-  <published>2015-08-03T00:00:00+02:00</published>
-  <updated>2015-08-03T00:00:00+02:00</updated>
+  <title type="html"><![CDATA[Post demo adoc with link]]></title>
+  <link>www.disid.com</link>
+  <id>http://disid.github.io/disid-blog/theme/post-link</id>
+  <published>2015-07-30T00:00:00+02:00</published>
+  <updated>2015-07-30T00:00:00+02:00</updated>
   <author>
     <name>DISID Corporation</name>
     <uri>http://disid.github.io/disid-blog</uri>
     <email>info@disid.com</email>
   </author>
-  <content type="html">&lt;div class=&quot;sect2&quot;&gt;
-&lt;h3 id=&quot;example_entry&quot;&gt;Example entry&lt;/h3&gt;
-&lt;div class=&quot;paragraph&quot;&gt;
-&lt;p&gt;Lorem ipsum dolor sit amet, et elitr docendi officiis vix. An has impedit concludaturque, an vim dicam feugiat nominavi. Veniam oblique menandri sea ea, agam novum appareat in his. Constituto posidonium te his. Pri quot iudico ex, noster apeirian concludaturque mel cu.&lt;/p&gt;
+  <content type="html">&lt;div class=&quot;paragraph lead&quot;&gt;
+&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam sed tellus nec&lt;br&gt;
+nisl venenatis gravida at non odio. Sed dolor sapien, auctor ac tortor vel,&lt;br&gt;
+consequat tincidunt nisl. Quisque eget nisl quis urna gravida bibendum at sit amet ligula.&lt;br&gt;
+Proin rhoncus augue nec convallis pellentesque. Nullam posuere est ut tincidunt eleifend.&lt;br&gt;
+Praesent vitae commodo orci, eget vulputate ipsum. Aenean sodales tempor suscipit.&lt;br&gt;
+Cras ornare nisi sapien, et aliquam erat dignissim nec.&lt;/p&gt;
 &lt;/div&gt;
 &lt;div class=&quot;paragraph&quot;&gt;
-&lt;p&gt;Ocurreret salutatus scribentur ne est, quo nostrud scriptorem ex, vis ea cetero labores delicatissimi. Quis viris nullam ea pri, vim solum lobortis eu. Augue intellegat interpretaris eum ei. Ludus integre id qui, cu ludus partiendo interpretaris cum. At cibo mentitum his, ei vero accusamus qui. At ius iudico postea platonem, no vim efficiendi efficiantur, ea mea reprimique percipitur liberavisse.&lt;/p&gt;
+&lt;p&gt;&amp;lt;br&amp;gt;&lt;/p&gt;
 &lt;/div&gt;
 &lt;div class=&quot;paragraph&quot;&gt;
-&lt;p&gt;Altera eruditi nam et, in vim veniam option probatus. Ei delicata adolescens quo. Iriure salutatus constituam an vix, ex mei aliquip persius oporteat. Id decore molestiae eam, at essent gubergren percipitur ius. Mea et probo laboramus, tibique ocurreret ea ius.&lt;/p&gt;
+&lt;p&gt;Interdum et malesuada fames ac ante ipsum primis in faucibus. Vivamus enim urna,&lt;br&gt;
+eleifend non convallis sit amet, tincidunt tincidunt diam. Lorem ipsum dolor sit amet,&lt;br&gt;
+consectetur adipiscing elit. In hac habitasse platea dictumst. Nulla eleifend ex sem,&lt;br&gt;
+a elementum lacus lobortis in. Proin sodales dolor vitae facilisis dapibus. Curabitur leo lacus,&lt;br&gt;
+auctor nec fermentum eu, dignissim faucibus ipsum. Aenean hendrerit sagittis consectetur. Nulla ac purus sem.&lt;/p&gt;
 &lt;/div&gt;
 &lt;div class=&quot;paragraph&quot;&gt;
-&lt;p&gt;Tale vide scripserit pro id. Habeo latine percipit et mea, eos at nusquam principes conclusionemque. Ei possim eirmod euripidis his. Ei his veri choro, omnesque vituperata theophrastus nec no.&lt;/p&gt;
+&lt;p&gt;&amp;lt;figure&amp;gt;&lt;br&gt;
+&amp;lt;img src=&quot;http://disid.github.io/disid-blog/images/post/twitter-card-summary-large-image.jpg&quot; alt=&quot;search screenshot&quot;&amp;gt;&lt;br&gt;
+&amp;lt;/figure&amp;gt;&lt;/p&gt;
 &lt;/div&gt;
-&lt;div class=&quot;paragraph&quot;&gt;
-&lt;p&gt;In quo debet iriure adolescens, nec molestie accusata ad, sea te malis atomorum petentium. Convenire corrumpit id vis, ad accumsan interesset usu. Esse dictas sea ne. Cum constituto deterruisset no, vim laudem doctus at. Nam dicat zril ea, mei omnesque explicari pertinacia ea. Nihil dicunt aliquam nam ne.&lt;/p&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-  &lt;p&gt;&lt;a href=&quot;http://disid.github.io/disid-blog/second-entry&quot;&gt;Jekyll-Asciidoc Quickstart&lt;/a&gt; was originally published by DISID Corporation at &lt;a href=&quot;http://disid.github.io/disid-blog&quot;&gt;DISID Blog&lt;/a&gt; on August 03, 2015.&lt;/p&gt;</content>
-</entry>
-
-
-<entry>
-  <title type="html"><![CDATA[Seminario gratuito de gvNIX]]></title>
-  <link>http://disid.github.io/disid-blog/es/seminario-gvnix-etsinf</link>
-  <id>http://disid.github.io/disid-blog/es/seminario-gvnix-etsinf</id>
-  <updated>2015-02-27T00:00:00-00:00</updated>
-  <published>2015-02-06T00:00:00+01:00</published>
-  
-  <author>
-    <name>DISID Corporation</name>
-    <uri>http://disid.github.io/disid-blog</uri>
-    <email>info@disid.com</email>
-  </author>
-  <content type="html">&lt;h1&gt;Seminario de gvNIX en la ETSINF&lt;/h1&gt;
-&lt;div class=&quot;paragraph&quot;&gt;
-&lt;p&gt;La Escuela Técnica Superior de Informática (ETSINF) en colaboración con la&lt;br&gt;
-empresa tecnológica DISID te ofrecen la posibilidad de conocer gvNIX,&lt;br&gt;
-el entorno de código abierto para el desarrollo de aplicaciones Java&lt;br&gt;
-que se ha convertido en el estándar oficial de la Generalitat Valenciana.&lt;/p&gt;
-&lt;/div&gt;
-&lt;div class=&quot;paragraph&quot;&gt;
-&lt;p&gt;El seminario consta de 12 horas y permite conocer cómo gvNIX puede ayudarte a desarrollar aplicaciones empresariales Java.&lt;/p&gt;
-&lt;/div&gt;
-&lt;div class=&quot;paragraph&quot;&gt;
-&lt;p&gt;Se desarrollará los días 23, 24, 25 y 26 de febrero de 2015 de 16h a 19h en un laboratorio de la ETSINF.&lt;/p&gt;
-&lt;/div&gt;
-&lt;div class=&quot;paragraph&quot;&gt;
-&lt;p&gt;Para la asistencia al curso es necesaria la [inscripción](&lt;a href=&quot;https://docs.google.com/forms/d/1ScRvEgKB8bi2qyrLI571LX99jLRTJFuaTauN0X7_9mI/viewform&quot; class=&quot;bare&quot;&gt;https://docs.google.com/forms/d/1ScRvEgKB8bi2qyrLI571LX99jLRTJFuaTauN0X7_9mI/viewform&lt;/a&gt;).&lt;/p&gt;
-&lt;/div&gt;
-&lt;div class=&quot;paragraph&quot;&gt;
-&lt;p&gt;Recuerda que las plazas son limitadas y la inscripción estará abierta&lt;br&gt;
-hasta el 17 de febrero (incluído).&lt;/p&gt;
-&lt;/div&gt;
-&lt;div class=&quot;paragraph&quot;&gt;
-&lt;p&gt;Te invitamos a asistir y mejorar tus oportunidades profesionales.&lt;/p&gt;
-&lt;/div&gt;
-&lt;div class=&quot;paragraph&quot;&gt;
-&lt;p&gt;Toda la información detallada en el blog de la [subdirección de relaciones con Empresas de la ETSINF](&lt;a href=&quot;http://empretsinf.blogs.upv.es/2015/02/05/seminario-gratuito-gvnix-en-la-etsinf/&quot; class=&quot;bare&quot;&gt;http://empretsinf.blogs.upv.es/2015/02/05/seminario-gratuito-gvnix-en-la-etsinf/&lt;/a&gt;)&lt;/p&gt;
-&lt;/div&gt;
-&lt;div class=&quot;paragraph&quot;&gt;
-&lt;p&gt;La apertura del seminario contó con la presencia de Jorge Elena, Director de Administración en DISID,&lt;br&gt;
-Eduardo Vendrell, Director de la ETSINF y César Ferri Subdirector de Relaciones con el Entorno Profesional de la  ETSINF.&lt;/p&gt;
-&lt;/div&gt;
-&lt;div class=&quot;paragraph&quot;&gt;
-&lt;p&gt;&amp;lt;figure class=&quot;third&quot;&amp;gt;&lt;br&gt;
-  &amp;lt;a href=&quot;http://disid.github.io/disid-blog/images/post/etsinf/etsinf-1.jpg&quot;&amp;gt;&amp;lt;img src=&quot;http://disid.github.io/disid-blog/images/post/etsinf/etsinf-1.jpg&quot;&amp;gt;&amp;lt;/a&amp;gt;&lt;br&gt;
-  &amp;lt;a href=&quot;http://disid.github.io/disid-blog/images/post/etsinf/etsinf-2.jpg&quot;&amp;gt;&amp;lt;img src=&quot;http://disid.github.io/disid-blog/images/post/etsinf/etsinf-2.jpg&quot;&amp;gt;&amp;lt;/a&amp;gt;&lt;br&gt;
-  &amp;lt;a href=&quot;http://disid.github.io/disid-blog/images/post/etsinf/etsinf-3.jpg&quot;&amp;gt;&amp;lt;img src=&quot;http://disid.github.io/disid-blog/images/post/etsinf/etsinf-3.jpg&quot;&amp;gt;&amp;lt;/a&amp;gt;&lt;br&gt;
-&amp;lt;/figure&amp;gt;&lt;br&gt;
-&amp;lt;figure class=&quot;half&quot;&amp;gt;&lt;br&gt;
-  &amp;lt;a href=&quot;http://disid.github.io/disid-blog/images/post/etsinf/etsinf-4.jpg&quot;&amp;gt;&amp;lt;img src=&quot;http://disid.github.io/disid-blog/images/post/etsinf/etsinf-4.jpg&quot;&amp;gt;&amp;lt;/a&amp;gt;&lt;br&gt;
-  &amp;lt;a href=&quot;http://disid.github.io/disid-blog/images/post/etsinf/etsinf-5.jpg&quot;&amp;gt;&amp;lt;img src=&quot;http://disid.github.io/disid-blog/images/post/etsinf/etsinf-5.jpg&quot;&amp;gt;&amp;lt;/a&amp;gt;&lt;br&gt;
-&amp;lt;/figure&amp;gt;&lt;br&gt;
-&amp;lt;figure class=&quot;half&quot;&amp;gt;&lt;br&gt;
-    &amp;lt;a href=&quot;http://disid.github.io/disid-blog/images/post/etsinf/etsinf-7.jpg&quot;&amp;gt;&amp;lt;img src=&quot;http://disid.github.io/disid-blog/images/post/etsinf/etsinf-7.jpg&quot;&amp;gt;&amp;lt;/a&amp;gt;&lt;br&gt;
-    &amp;lt;a href=&quot;http://disid.github.io/disid-blog/images/post/etsinf/etsinf-8.jpg&quot;&amp;gt;&amp;lt;img src=&quot;http://disid.github.io/disid-blog/images/post/etsinf/etsinf-8.jpg&quot;&amp;gt;&amp;lt;/a&amp;gt;&lt;br&gt;
-&amp;lt;/figure&amp;gt;&lt;br&gt;
-&amp;lt;figure class=&quot;third&quot;&amp;gt;&lt;br&gt;
-    &amp;lt;a href=&quot;http://disid.github.io/disid-blog/images/post/etsinf/etsinf-9.jpg&quot;&amp;gt;&amp;lt;img src=&quot;http://disid.github.io/disid-blog/images/post/etsinf/etsinf-9.jpg&quot;&amp;gt;&amp;lt;/a&amp;gt;&lt;br&gt;
-    &amp;lt;a href=&quot;http://disid.github.io/disid-blog/images/post/etsinf/etsinf-10.jpg&quot;&amp;gt;&amp;lt;img src=&quot;http://disid.github.io/disid-blog/images/post/etsinf/etsinf-10.jpg&quot;&amp;gt;&amp;lt;/a&amp;gt;&lt;br&gt;
-    &amp;lt;a href=&quot;http://disid.github.io/disid-blog/images/post/etsinf/etsinf-11.jpg&quot;&amp;gt;&amp;lt;img src=&quot;http://disid.github.io/disid-blog/images/post/etsinf/etsinf-11.jpg&quot;&amp;gt;&amp;lt;/a&amp;gt;&lt;br&gt;
-&amp;lt;/figure&amp;gt;&lt;br&gt;
-&amp;lt;figure class=&quot;half&quot;&amp;gt;&lt;br&gt;
-  &amp;lt;a href=&quot;http://disid.github.io/disid-blog/images/post/etsinf/etsinf-12.jpg&quot;&amp;gt;&amp;lt;img src=&quot;http://disid.github.io/disid-blog/images/post/etsinf/etsinf-12.jpg&quot;&amp;gt;&amp;lt;/a&amp;gt;&lt;br&gt;
-  &amp;lt;a href=&quot;http://disid.github.io/disid-blog/images/post/etsinf/etsinf-13.jpg&quot;&amp;gt;&amp;lt;img src=&quot;http://disid.github.io/disid-blog/images/post/etsinf/etsinf-13.jpg&quot;&amp;gt;&amp;lt;/a&amp;gt;&lt;br&gt;
-&amp;lt;/figure&amp;gt;&lt;br&gt;
-&amp;lt;figure&amp;gt;&lt;br&gt;
-&amp;lt;figure class=&quot;third&quot;&amp;gt;&lt;br&gt;
-    &amp;lt;a href=&quot;http://disid.github.io/disid-blog/images/post/etsinf/etsinf-14.jpg&quot;&amp;gt;&amp;lt;img src=&quot;http://disid.github.io/disid-blog/images/post/etsinf/etsinf-14.jpg&quot;&amp;gt;&amp;lt;/a&amp;gt;&lt;br&gt;
-    &amp;lt;a href=&quot;http://disid.github.io/disid-blog/images/post/etsinf/etsinf-15.jpg&quot;&amp;gt;&amp;lt;img src=&quot;http://disid.github.io/disid-blog/images/post/etsinf/etsinf-15.jpg&quot;&amp;gt;&amp;lt;/a&amp;gt;&lt;br&gt;
-    &amp;lt;a href=&quot;http://disid.github.io/disid-blog/images/post/etsinf/etsinf-16.jpg&quot;&amp;gt;&amp;lt;img src=&quot;http://disid.github.io/disid-blog/images/post/etsinf/etsinf-16.jpg&quot;&amp;gt;&amp;lt;/a&amp;gt;&lt;br&gt;
-&amp;lt;/figure&amp;gt;&lt;br&gt;
-&amp;lt;figure class=&quot;third&quot;&amp;gt;&lt;br&gt;
-    &amp;lt;a href=&quot;http://disid.github.io/disid-blog/images/post/etsinf/etsinf-17.jpg&quot;&amp;gt;&amp;lt;img src=&quot;http://disid.github.io/disid-blog/images/post/etsinf/etsinf-17.jpg&quot;&amp;gt;&amp;lt;/a&amp;gt;&lt;br&gt;
-    &amp;lt;a href=&quot;http://disid.github.io/disid-blog/images/post/etsinf/etsinf-18.jpg&quot;&amp;gt;&amp;lt;img src=&quot;http://disid.github.io/disid-blog/images/post/etsinf/etsinf-18.jpg&quot;&amp;gt;&amp;lt;/a&amp;gt;&lt;br&gt;
-    &amp;lt;a href=&quot;http://disid.github.io/disid-blog/images/post/etsinf/etsinf-19.jpg&quot;&amp;gt;&amp;lt;img src=&quot;http://disid.github.io/disid-blog/images/post/etsinf/etsinf-19.jpg&quot;&amp;gt;&amp;lt;/a&amp;gt;&lt;br&gt;
-  &amp;lt;figcaption&amp;gt;Fotos realizadas por la ETSINF&amp;lt;/figcaption&amp;gt;&lt;br&gt;
-&amp;lt;/figure&amp;gt;&lt;br&gt;
-&amp;lt;br&amp;gt;&lt;br&gt;
-Muchas gracias a todos por la asistencia.&lt;/p&gt;
-&lt;/div&gt;
-  &lt;p&gt;&lt;a href=&quot;http://disid.github.io/disid-blog/es/seminario-gvnix-etsinf&quot;&gt;Seminario gratuito de gvNIX&lt;/a&gt; was originally published by DISID Corporation at &lt;a href=&quot;http://disid.github.io/disid-blog&quot;&gt;DISID Blog&lt;/a&gt; on February 06, 2015.&lt;/p&gt;</content>
-</entry>
-
-
-<entry>
-  <title type="html"><![CDATA[Jekyll-Asciidoc Quickstart]]></title>
-  <link>http://disid.github.io/disid-blog/first-entry</link>
-  <id>http://disid.github.io/disid-blog/first-entry</id>
-  <published>2015-01-01T00:00:00+01:00</published>
-  <updated>2015-01-01T00:00:00+01:00</updated>
-  <author>
-    <name>DISID Corporation</name>
-    <uri>http://disid.github.io/disid-blog</uri>
-    <email>info@disid.com</email>
-  </author>
-  <content type="html">&lt;div class=&quot;sect2&quot;&gt;
-&lt;h3 id=&quot;example_entry&quot;&gt;Example entry&lt;/h3&gt;
-&lt;div class=&quot;paragraph&quot;&gt;
-&lt;p&gt;Lorem ipsum dolor sit amet, et elitr docendi officiis vix. An has impedit concludaturque, an vim dicam feugiat nominavi. Veniam oblique menandri sea ea, agam novum appareat in his. Constituto posidonium te his. Pri quot iudico ex, noster apeirian concludaturque mel cu.&lt;/p&gt;
-&lt;/div&gt;
-&lt;div class=&quot;paragraph&quot;&gt;
-&lt;p&gt;Ocurreret salutatus scribentur ne est, quo nostrud scriptorem ex, vis ea cetero labores delicatissimi. Quis viris nullam ea pri, vim solum lobortis eu. Augue intellegat interpretaris eum ei. Ludus integre id qui, cu ludus partiendo interpretaris cum. At cibo mentitum his, ei vero accusamus qui. At ius iudico postea platonem, no vim efficiendi efficiantur, ea mea reprimique percipitur liberavisse.&lt;/p&gt;
-&lt;/div&gt;
-&lt;div class=&quot;paragraph&quot;&gt;
-&lt;p&gt;Altera eruditi nam et, in vim veniam option probatus. Ei delicata adolescens quo. Iriure salutatus constituam an vix, ex mei aliquip persius oporteat. Id decore molestiae eam, at essent gubergren percipitur ius. Mea et probo laboramus, tibique ocurreret ea ius.&lt;/p&gt;
-&lt;/div&gt;
-&lt;div class=&quot;paragraph&quot;&gt;
-&lt;p&gt;Tale vide scripserit pro id. Habeo latine percipit et mea, eos at nusquam principes conclusionemque. Ei possim eirmod euripidis his. Ei his veri choro, omnesque vituperata theophrastus nec no.&lt;/p&gt;
-&lt;/div&gt;
-&lt;div class=&quot;paragraph&quot;&gt;
-&lt;p&gt;In quo debet iriure adolescens, nec molestie accusata ad, sea te malis atomorum petentium. Convenire corrumpit id vis, ad accumsan interesset usu. Esse dictas sea ne. Cum constituto deterruisset no, vim laudem doctus at. Nam dicat zril ea, mei omnesque explicari pertinacia ea. Nihil dicunt aliquam nam ne.&lt;/p&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-  &lt;p&gt;&lt;a href=&quot;http://disid.github.io/disid-blog/first-entry&quot;&gt;Jekyll-Asciidoc Quickstart&lt;/a&gt; was originally published by DISID Corporation at &lt;a href=&quot;http://disid.github.io/disid-blog&quot;&gt;DISID Blog&lt;/a&gt; on January 01, 2015.&lt;/p&gt;</content>
-</entry>
-
-
-<entry>
-  <title type="html"><![CDATA[Instala gvNIX]]></title>
-  <link>http://disid.github.io/disid-blog/video-install-gvnix</link>
-  <id>http://disid.github.io/disid-blog/video-install-gvnix</id>
-  <published>2014-12-01T00:00:00+01:00</published>
-  <updated>2014-12-01T00:00:00+01:00</updated>
-  <author>
-    <name>DISID Corporation</name>
-    <uri>http://disid.github.io/disid-blog</uri>
-    <email>info@disid.com</email>
-  </author>
-  <content type="html">&lt;div class=&quot;paragraph&quot;&gt;
-&lt;p&gt;Instala fácilmente gvNIX, configura el entorno de desarrollo y pon en marcha tu primera aplicación.&lt;/p&gt;
-&lt;/div&gt;
-  &lt;p&gt;&lt;a href=&quot;http://disid.github.io/disid-blog/video-install-gvnix&quot;&gt;Instala gvNIX&lt;/a&gt; was originally published by DISID Corporation at &lt;a href=&quot;http://disid.github.io/disid-blog&quot;&gt;DISID Blog&lt;/a&gt; on December 01, 2014.&lt;/p&gt;</content>
+  &lt;p&gt;&lt;a href=&quot;http://disid.github.io/disid-blog/theme/post-link&quot;&gt;Post demo adoc with link&lt;/a&gt; was originally published by DISID Corporation at &lt;a href=&quot;http://disid.github.io/disid-blog&quot;&gt;DISID Blog&lt;/a&gt; on July 30, 2015.&lt;/p&gt;</content>
 </entry>
 
 </feed>
