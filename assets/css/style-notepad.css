@@ -101,7 +101,7 @@ p{
 #menu .navbar-nav {
     padding-top: 15px;
     padding-bottom: 0;
-    margin-right: 15px;
+    margin-left: 15px;
     float: right;
 }
 
@@ -322,6 +322,7 @@ ul.nav.navbar-nav li.social a:hover{
 .navbar-toggle{
   background-color: black;
   color: white;
+  margin: 0;
 }
 
 /* responsive menu */
@@ -332,8 +333,6 @@ ul.nav.navbar-nav li.social a:hover{
     border-color: rgba(255,255,255,.02);
     background: #222;
     border-radius: 4px;
-       /*  background: black; */
-   /*  position: absolute; */
   }
   li.lang {
   margin-left: 10px;
@@ -360,15 +359,20 @@ ul.nav.navbar-nav li.social a:hover{
     text-align: center;
     padding: 0.3125rem;
     }
-    #menu ul li a:hover {
-        border-bottom: 1px solid white;
-        border: 1px solid #366180;
-        border-radius: 4px;
-        padding: 10px;
-    }
     #menu .navbar-nav > li.social{
-      display: inline-block;
+      display: block;
       float: left;
+      width: auto;
+      font-size: 1em;
+    }
+    #menu .navbar-nav > li.social > a:hover {
+      border-bottom: 0.2875rem solid transparent;
+    }
+    #menu .navbar-nav > li.social > a:hover i{
+      color: #366180;
+    }
+    #menu .navbar-nav > li.social span{
+      font-size: 0.8em;
     }
 }
 
