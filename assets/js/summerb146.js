@@ -61,7 +61,7 @@ var summer = (function ($) {
             indexPostAnimate();
         });
         postHeaderCoverImg();
-        mobileMenu();
+        //mobileMenu();
         headerTitlesBackgroundCheck();
         $('p:has(> img)').addClass('with-image');
     };
