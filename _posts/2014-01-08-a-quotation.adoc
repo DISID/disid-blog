@@ -2,16 +2,20 @@
 layout: post
 type: quote
 title: "Sample Quotation Post"
-description: See the rest of the post about Albert Einstein
-headline: 
+description: Sample Quotation Post
+headline: "Sample Video Headline Post"
 category: Sample-Posts
 tags: [sample post, quotation]
-imagefeature: albert-einstein-2068-hd-wallpapers.jpg
-comments: true
-mathjax: 
+imagefeature: cover-demo.jpg
+image:
+  thumb: disid-thumbnail.png #keep it square 200x200 px is good
+lang: en
 ---
->&quot;Any intelligent fool can make things bigger, more complex, and more violent. It takes a touch of genius - and a lot of courage - to move in the opposite direction.&quot;
-><small><cite title="Albert Einstein">Albert Einstein</cite></small>
+
+> I hold it that a little rebellion now and then is a good thing,
+> and as necessary in the political world as storms in the physical.
+> -- Albert Einstein
+
 
 HMFAYSAL OMEGA theme now supports Quotation posting, made famous by some premium WordPress themes. To make a quotation post, specify the post type as quote in the Front Matter YAML. So the Front Matter YAML should look like something like the following:
 
@@ -19,14 +23,10 @@ HMFAYSAL OMEGA theme now supports Quotation posting, made famous by some premium
     layout: post
     type: quote
     title: "Sample Quotation Post"
-    description: 
-    headline: 
+    description:
+    headline:
     modified: YYYY-MM-DD
-    category: quote
-    image: 
-      feature: 
-    comments: true
-    mathjax: 
+    ..
     ---
 
 Or you can simply run the rake task command `rake newquote["Some Quotation Title"]` to generate a skeleton quotation post. Include the intended quotation in Markdown format in your post. A sample quotation in markdown looks like the following:
@@ -37,7 +37,7 @@ Or you can simply run the rake task command `rake newquote["Some Quotation Title
 You can add additional details about the quotation in the post. Just make sure the posted quotation goes first in the post, meaning it is the first paragraph of the post. Additional paragraphs can only be seen in the post page. You can also assign a featured image for the post page in the post's Front Matter YAML.
 
 
-----------
+---
 
 
 Albert Einstein was born at Ulm, in Württemberg, Germany, on March 14, 1879. Six weeks later the family moved to Munich, where he later on began his schooling at the Luitpold Gymnasium. Later, they moved to Italy and Albert continued his education at Aarau, Switzerland and in 1896 he entered the Swiss Federal Polytechnic School in Zurich to be trained as a teacher in physics and mathematics. In 1901, the year he gained his diploma, he acquired Swiss citizenship and, as he was unable to find a teaching post, he accepted a position as technical assistant in the Swiss Patent Office. In 1905 he obtained his doctor's degree.

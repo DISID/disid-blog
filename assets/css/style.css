@@ -102,7 +102,15 @@ blockquote {
   padding-left: 0;
   border: 0;
   position: relative;
+  /*asciidoc format*/
+  margin: 0;
 }
+blockquote + div.attribution{ /*asciidoc format*/
+  font-style: italic;
+  margin-bottom: 3em;
+  font-size: 0.8em;
+}
+
 blockquote:before {
   content: "";
   position: absolute;
