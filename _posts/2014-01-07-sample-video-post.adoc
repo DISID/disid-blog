@@ -22,3 +22,15 @@ Not sure if this only effects Kramdown or if it's an issue with Markdown in gene
 ----
 <iframe width="940" height="529" src="//www.youtube.com/embed/CQJByFp7H38?theme=light&amp;color=white" frameborder="0" allowfullscreen> </iframe>
 ----
+
+To start a video post, make sure your post contains the following contents in your post's Front Matter YAML:
+
+    ---
+    layout: post
+    type: video
+    title: "Sample Video Title"
+    description:
+    headline:
+    modified: YYYY-MM-DD
+    ..
+    ---

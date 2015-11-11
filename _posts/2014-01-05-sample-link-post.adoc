@@ -15,3 +15,16 @@ link: http://www.disid.com
 HMFAYSAL OMEGA Theme now supports **link posts**, made famous by John Gruber.
 
 To activate just add `link: http://url-you-want-linked` to the post's YAML front matter and you're done.
+
+To start a link post, make sure your post contains the following contents in your post's Front Matter YAML:
+
+    ---
+    layout: post
+    type: photo
+    title: "Sample Link Title"
+    description:
+    headline:
+    modified: YYYY-MM-DD
+    ..
+    link: http://www.url.com
+    ---
