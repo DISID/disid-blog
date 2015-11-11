@@ -21,6 +21,11 @@ callback([
   } ,
 
   {
+    "text": "Sample Mathjax Post",
+    "href": "http://disid.github.io/disid-blog/sample-posts/sample-mathjax-post"
+  } ,
+
+  {
     "text": "Fancy Some Columns?",
     "href": "http://disid.github.io/disid-blog/sample-posts/fancy-columns"
   } ,

@@ -4,7 +4,7 @@
 <generator uri="https://github.com/mojombo/jekyll">Jekyll</generator>
 <link rel="self" type="application/atom+xml" href="http://disid.github.io/disid-blog/feed.xml" />
 <link rel="alternate" type="text/html" href="http://disid.github.io/disid-blog" />
-<updated>2015-11-11T14:35:32+01:00</updated>
+<updated>2015-11-11T14:45:26+01:00</updated>
 <id>http://disid.github.io/disid-blog/</id>
 <author>
   <name>DISID Corporation</name>
@@ -218,6 +218,107 @@ Some Content Here for Column One&lt;/pre&gt;
 &lt;p&gt;For any layout, make sure in the &lt;code&gt;col-md-&lt;mark&gt;&lt;/code&gt; the &lt;code&gt;&quot;col-md-&lt;/mark&gt;&quot;&lt;/code&gt; numbers add up to 12. the You can include any type of elements between the tags, like texts, images, videos etc.&lt;/p&gt;
 &lt;/div&gt;
   &lt;p&gt;&lt;a href=&quot;http://disid.github.io/disid-blog/sample-posts/fancy-columns&quot;&gt;Fancy Some Columns?&lt;/a&gt; was originally published by DISID Corporation at &lt;a href=&quot;http://disid.github.io/disid-blog&quot;&gt;DISID Blog&lt;/a&gt; on January 07, 2014.&lt;/p&gt;</content>
+</entry>
+
+
+<entry>
+  <title type="html"><![CDATA[Sample Mathjax Post]]></title>
+  <link>http://disid.github.io/disid-blog/sample-posts/sample-mathjax-post</link>
+  <id>http://disid.github.io/disid-blog/sample-posts/sample-mathjax-post</id>
+  <published>2014-01-06T00:00:00+01:00</published>
+  <updated>2014-01-06T00:00:00+01:00</updated>
+  <author>
+    <name>DISID Corporation</name>
+    <uri>http://disid.github.io/disid-blog</uri>
+    <email>info@disid.com</email>
+  </author>
+  <content type="html">&lt;div class=&quot;paragraph&quot;&gt;
+&lt;p&gt;HMFAYSAL OMEGA theme supports both inline and displayed equations via MathJax.  The theme keeps MathJax turned off by default to improve page load speed. MathJax can be turned on from the post&amp;#8217;s Front Matter YAML. Simply put the following statement in the post&amp;#8217;s Front Matter YAML:&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&quot;literalblock&quot;&gt;
+&lt;div class=&quot;content&quot;&gt;
+&lt;pre&gt;mathjax: true&lt;/pre&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&quot;paragraph&quot;&gt;
+&lt;p&gt;Here are some examples collected from the MathJax page:&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&quot;paragraph&quot;&gt;
+&lt;p&gt;&lt;strong&gt;The Lorenz Equations&lt;/strong&gt;&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&quot;paragraph&quot;&gt;
+&lt;p&gt;\begin{aligned}
+\dot{x} &amp;amp; = \sigma(y-x) \\
+\dot{y} &amp;amp; = \rho x - y - xz \\
+\dot{z} &amp;amp; = -\beta z + xy
+\end{aligned}&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&quot;paragraph&quot;&gt;
+&lt;p&gt;&lt;strong&gt;The Cauchy-Schwarz Inequality&lt;/strong&gt;&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&quot;paragraph&quot;&gt;
+&lt;p&gt;\begin{aligned}
+\left( \sum_{k=1}^n a_k b_k \right)^{\!\!2} \leq
+\left( \sum_{k=1}^n a_k^2 \right) \left( \sum_{k=1}^n b_k^2 \right)
+\end{aligned}&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&quot;paragraph&quot;&gt;
+&lt;p&gt;&lt;strong&gt;A Cross Product Formula&lt;/strong&gt;&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&quot;paragraph&quot;&gt;
+&lt;p&gt;\begin{aligned}
+  \mathbf{V}_1 \times \mathbf{V}_2 =
+   \begin{vmatrix}
+    \mathbf{i} &amp;amp; \mathbf{j} &amp;amp; \mathbf{k} \\
+    \frac{\partial X}{\partial u} &amp;amp; \frac{\partial Y}{\partial u} &amp;amp; 0 \\
+    \frac{\partial X}{\partial v} &amp;amp; \frac{\partial Y}{\partial v} &amp;amp; 0 \\
+   \end{vmatrix}
+\end{aligned}&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&quot;paragraph&quot;&gt;
+&lt;p&gt;&lt;strong&gt;The probability of getting \(k\) heads when flipping \(n\) coins is:&lt;/strong&gt;&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&quot;paragraph&quot;&gt;
+&lt;p&gt;\begin{aligned}P(E) = {n \choose k} p^k (1-p)^{ n-k} \end{aligned}&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&quot;paragraph&quot;&gt;
+&lt;p&gt;&lt;strong&gt;An Identity of Ramanujan&lt;/strong&gt;&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&quot;paragraph&quot;&gt;
+&lt;p&gt;\begin{aligned}
+   \frac{1}{(\sqrt{\phi \sqrt{5}}-\phi) e^{\frac25 \pi}} =
+     1+\frac{e^{-2\pi}} {1+\frac{e^{-4\pi}} {1+\frac{e^{-6\pi}}
+      {1+\frac{e^{-8\pi}} {1+\ldots} } } }
+\end{aligned}&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&quot;paragraph&quot;&gt;
+&lt;p&gt;&lt;strong&gt;A Rogers-Ramanujan Identity&lt;/strong&gt;&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&quot;paragraph&quot;&gt;
+&lt;p&gt;\begin{aligned}
+  1 +  \frac{q^2}{(1-q)}+\frac{q^6}{(1-q)(1-q^2)}+\cdots =
+    \prod_{j=0}^{\infty}\frac{1}{(1-q^{5j+2})(1-q^{5j+3})},
+     \quad\quad \text{for $|q|&amp;lt;1$}.
+\end{aligned}&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&quot;paragraph&quot;&gt;
+&lt;p&gt;&lt;strong&gt;Maxwell&amp;#8217;s Equations&lt;/strong&gt;&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&quot;paragraph&quot;&gt;
+&lt;p&gt;\begin{align}
+  \nabla \times \vec{\mathbf{B}} -\, \frac1c\, \frac{\partial\vec{\mathbf{E}}}{\partial t} &amp;amp; = \frac{4\pi}{c}\vec{\mathbf{j}} \\
+  \nabla \cdot \vec{\mathbf{E}} &amp;amp; = 4 \pi \rho \\
+  \nabla \times \vec{\mathbf{E}}\, +\, \frac1c\, \frac{\partial\vec{\mathbf{B}}}{\partial t} &amp;amp; = \vec{\mathbf{0}} \\
+  \nabla \cdot \vec{\mathbf{B}} &amp;amp; = 0
+\end{align}&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&quot;paragraph&quot;&gt;
+&lt;p&gt;Finally, while display equations look good for a page of samples, the ability to mix math and text in a paragraph is also important.  This expression $\(\sqrt{3x-1}+(1+x)^2\)$ is an example of an inline equation.  As you see, MathJax equations can be used this way as well, without unduly disturbing the spacing between lines.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&quot;paragraph&quot;&gt;
+&lt;p&gt;In MathJax I use &lt;code&gt;...&lt;/code&gt; or (&lt;code&gt;\begin{equation(&lt;strong&gt;)}&amp;#8230;&amp;#8203;\end{equation(&lt;/strong&gt;)}&lt;/code&gt; also works) for displayed equations and &lt;code&gt;$&amp;#8230;&amp;#8203;.$&lt;/code&gt; for inline equations. Take care of &amp;gt;,&amp;lt; and &amp;amp;, because they have special meanings in .html files. If your post/page is not displaying the equations properly, try to wrap the equations between &lt;code&gt;{% raw %}&amp;#8230;&amp;#8203;{% endraw %}&lt;/code&gt; tags.&lt;/p&gt;
+&lt;/div&gt;
+  &lt;p&gt;&lt;a href=&quot;http://disid.github.io/disid-blog/sample-posts/sample-mathjax-post&quot;&gt;Sample Mathjax Post&lt;/a&gt; was originally published by DISID Corporation at &lt;a href=&quot;http://disid.github.io/disid-blog&quot;&gt;DISID Blog&lt;/a&gt; on January 06, 2014.&lt;/p&gt;</content>
 </entry>
 
 
