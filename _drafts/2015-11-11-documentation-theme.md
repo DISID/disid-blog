@@ -7,6 +7,7 @@ tags: [Jekyll, theme, install, setup]
 image:
   feature: picture-11.jpg
 lang: en
+published: false
 ---
 
 General notes and suggestions for customizing **HMFAYSAL OMEGA Theme**.
