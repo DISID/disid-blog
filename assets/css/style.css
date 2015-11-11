@@ -109,6 +109,7 @@ blockquote + div.attribution{ /*asciidoc format*/
   font-style: italic;
   margin-bottom: 3em;
   font-size: 0.8em;
+  color: grey;
 }
 
 blockquote:before {
