@@ -23,6 +23,11 @@ callback([
   {
     "text": "A Post with a Video",
     "href": "http://disid.github.io/disid-blog/sample-posts/sample-video-post"
+  } ,
+
+  {
+    "text": "Sample Status Post",
+    "href": "http://disid.github.io/disid-blog/sample-posts/sample-post-status"
   } 
 
 ])

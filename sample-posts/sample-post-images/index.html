@@ -402,12 +402,28 @@ if (jQuery.cookie('cc_cookie_accept') == "cc_cookie_accept") {
                         <div class="post-info text-center small">
                             <span class="entry-date date published updated"><time datetime="2014-01-03T00:00:00+01:00" class="post-time" itemprop="datePublished">03 Jan 2014</time><span>
                             in <span class="post-tags"><a href="http://disid.github.io/disid-blog/categories/index.html#sample-posts" data-toggle="tooltip" title="Other posts from the Sample-posts category" rel="tag">Sample-posts</a></span>&nbsp;<span class="post-tags">
-                            <i class="icon-time"></i>&nbsp;<span class="time">1.795</span> minutes read</span>
+                            <i class="icon-time"></i>&nbsp;<span class="time">1.97</span> minutes read</span>
                         </div>
                     </header>
                     <div class="post-body bordered-bottom" itemprop="description">
                         
                         <div class="paragraph">
+<p>To start a photo post, make sure your post contains the following contents in your post&#8217;s Front Matter YAML:</p>
+</div>
+<div class="literalblock">
+<div class="content">
+<pre>---
+layout: post
+type: photo
+title: "Sample Photo Post Title"
+description:
+headline:
+modified: YYYY-MM-DD
+..
+---</pre>
+</div>
+</div>
+<div class="paragraph">
 <p>Here are some examples of what a post with images might look like. If you want to display two or three images next to each other responsively use <code>figure</code> with the appropriate <code>class</code>. Images are responsive and are opened in a Magnific Popup lightbox if you link a larger image to the entry. Also if you link a larger image, the image thumbs uses CSS3 transitions to turn B&amp;W and change back to color on mouse-hover. Each instance of <code>figure</code> is auto-numbered and displayed in the caption.</p>
 </div>
 <div class="sect1">

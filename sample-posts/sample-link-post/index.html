@@ -413,6 +413,23 @@ if (jQuery.cookie('cc_cookie_accept') == "cc_cookie_accept") {
 <div class="paragraph">
 <p>To activate just add <code>link: <a href="http://url-you-want-linked" class="bare">http://url-you-want-linked</a></code> to the post&#8217;s YAML front matter and you&#8217;re done.</p>
 </div>
+<div class="paragraph">
+<p>To start a link post, make sure your post contains the following contents in your post&#8217;s Front Matter YAML:</p>
+</div>
+<div class="literalblock">
+<div class="content">
+<pre>---
+layout: post
+type: photo
+title: "Sample Link Title"
+description:
+headline:
+modified: YYYY-MM-DD
+..
+link: http://www.url.com
+---</pre>
+</div>
+</div>
                         <br>
                     
                     
