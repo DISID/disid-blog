@@ -17,6 +17,14 @@
 		} ,
 	
 		{
+		  "title"      : "Sample Quotation Post",
+		  "category"   : "Sample-Posts",
+		  "url"        : "http://disid.github.io/disid-blog/sample-posts/a-quotation",
+		  "date"       : "2014-01-08 00:00:00 +0100",
+		  "shortdate"  : "January 08, 2014"
+		} ,
+	
+		{
 		  "title"      : "A Post with a Video",
 		  "category"   : "Sample-Posts",
 		  "url"        : "http://disid.github.io/disid-blog/sample-posts/sample-video-post",

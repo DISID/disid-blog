@@ -31,6 +31,11 @@ callback([
   } ,
 
   {
+    "text": "Sample Quotation Post",
+    "href": "http://disid.github.io/disid-blog/sample-posts/a-quotation"
+  } ,
+
+  {
     "text": "Sample Status Post",
     "href": "http://disid.github.io/disid-blog/sample-posts/sample-post-status"
   } ,
