@@ -1,11 +1,6 @@
 callback([
 
   {
-    "text": "Theme Elements",
-    "href": "http://disid.github.io/disid-blog/sample-posts/theme-elements"
-  } ,
-
-  {
     "text": "A Post with Images",
     "href": "http://disid.github.io/disid-blog/sample-posts/sample-post-images"
   } ,
@@ -38,6 +33,11 @@ callback([
   {
     "text": "Sample Status Post",
     "href": "http://disid.github.io/disid-blog/sample-posts/sample-post-status"
+  } ,
+
+  {
+    "text": "Theme Elements",
+    "href": "http://disid.github.io/disid-blog/sample-posts/theme-elements"
   } 
 
 ])

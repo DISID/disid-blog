@@ -1,6 +1,14 @@
 [
 	
 		{
+		  "title"      : "Theme Elements",
+		  "category"   : "Sample-Posts",
+		  "url"        : "http://disid.github.io/disid-blog/sample-posts/theme-elements",
+		  "date"       : "2014-03-10 00:00:00 +0100",
+		  "shortdate"  : "March 10, 2014"
+		} ,
+	
+		{
 		  "title"      : "Sample Status Post",
 		  "category"   : "Sample-Posts",
 		  "url"        : "http://disid.github.io/disid-blog/sample-posts/sample-post-status",
@@ -54,14 +62,6 @@
 		  "url"        : "http://disid.github.io/disid-blog/sample-posts/sample-post-images",
 		  "date"       : "2014-01-03 00:00:00 +0100",
 		  "shortdate"  : "January 03, 2014"
-		} ,
-	
-		{
-		  "title"      : "Theme Elements",
-		  "category"   : "Sample-Posts",
-		  "url"        : "http://disid.github.io/disid-blog/sample-posts/theme-elements",
-		  "date"       : "2011-03-10 00:00:00 +0100",
-		  "shortdate"  : "March 10, 2011"
 		} 
 	
 ]
