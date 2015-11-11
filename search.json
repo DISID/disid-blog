@@ -33,6 +33,14 @@
 		} ,
 	
 		{
+		  "title"      : "Syntax Highlighting Post",
+		  "category"   : "Sample-Posts",
+		  "url"        : "http://disid.github.io/disid-blog/sample-posts/code-highlighting-post",
+		  "date"       : "2014-01-04 00:00:00 +0100",
+		  "shortdate"  : "January 04, 2014"
+		} ,
+	
+		{
 		  "title"      : "A Post with Images",
 		  "category"   : "Sample-Posts",
 		  "url"        : "http://disid.github.io/disid-blog/sample-posts/sample-post-images",

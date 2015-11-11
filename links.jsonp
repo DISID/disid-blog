@@ -11,6 +11,11 @@ callback([
   } ,
 
   {
+    "text": "Syntax Highlighting Post",
+    "href": "http://disid.github.io/disid-blog/sample-posts/code-highlighting-post"
+  } ,
+
+  {
     "text": "Sample Link Post",
     "href": "http://disid.github.io/disid-blog/sample-posts/sample-link-post"
   } ,
