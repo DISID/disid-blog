@@ -1,8 +1,8 @@
 ---
 layout: post
 title: "A Post with signature author"
-description: "Custom written post author"
-headline: "Custom written post author"
+description: "Sign your post"
+headline: "Sign your post"
 category: Sample-Posts
 tags: [sample post, sign]
 imagefeature: cover-demo.jpg
@@ -17,10 +17,9 @@ author:
   twitter: pilarargudo
 ---
 
+DISID blog posts embeds a corporative signature after the main content block.
 
-TBC Video embeds are responsive and scale with the width of the main content block with the help of [FitVids](http://fitvidsjs.com/).
-
-TBC Not sure if this only effects Kramdown or if it's an issue with Markdown in general. But adding YouTube video embeds causes errors when building your Jekyll site. To fix add a space between the `<iframe>` tags and remove `allowfullscreen`. Example below:
+To add your signature on a post, make sure your post contains the following contents and customizes with your data in your post's Front Matter YAML:
 
 [source,yaml]
 ----
@@ -30,3 +29,5 @@ author:
     jobdescription: Front-end developer
     twitter: pilarargudo
 ----
+
+Enjoy!

@@ -31,8 +31,8 @@ animated_fins:    false
 # Specify the fin color in RGB value
 fin_color:        "255,255,255"
 # Change url to your domain. Leave localhost server or blank when working locally.
-url:             http://disid.github.io/disid-blog
-#url:              http://localhost:4000
+#url:             http://disid.github.io/disid-blog
+url:              http://localhost:4000
 url-external:     http://www.disid.com/en
 
 # Change url to your domain. Leave localhost server or blank when working locally.
