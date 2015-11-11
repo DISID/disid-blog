@@ -2,47 +2,52 @@ callback([
 
   {
     "text": "A Post with Images",
-    "href": "http://disid.github.io/disid-blog/sample-posts/sample-post-images"
+    "href": "http://localhost:4000/sample-posts/sample-post-images"
   } ,
 
   {
     "text": "Syntax Highlighting Post",
-    "href": "http://disid.github.io/disid-blog/sample-posts/code-highlighting-post"
+    "href": "http://localhost:4000/sample-posts/code-highlighting-post"
   } ,
 
   {
     "text": "Sample Link Post",
-    "href": "http://disid.github.io/disid-blog/sample-posts/sample-link-post"
+    "href": "http://localhost:4000/sample-posts/sample-link-post"
   } ,
 
   {
     "text": "Sample Mathjax Post",
-    "href": "http://disid.github.io/disid-blog/sample-posts/sample-mathjax-post"
+    "href": "http://localhost:4000/sample-posts/sample-mathjax-post"
   } ,
 
   {
     "text": "Fancy Some Columns?",
-    "href": "http://disid.github.io/disid-blog/sample-posts/fancy-columns"
+    "href": "http://localhost:4000/sample-posts/fancy-columns"
   } ,
 
   {
     "text": "A Post with a Video",
-    "href": "http://disid.github.io/disid-blog/sample-posts/sample-video-post"
+    "href": "http://localhost:4000/sample-posts/sample-video-post"
   } ,
 
   {
     "text": "Sample Quotation Post",
-    "href": "http://disid.github.io/disid-blog/sample-posts/a-quotation"
+    "href": "http://localhost:4000/sample-posts/a-quotation"
   } ,
 
   {
     "text": "Sample Status Post",
-    "href": "http://disid.github.io/disid-blog/sample-posts/sample-post-status"
+    "href": "http://localhost:4000/sample-posts/sample-post-status"
   } ,
 
   {
     "text": "Theme Elements",
-    "href": "http://disid.github.io/disid-blog/sample-posts/theme-elements"
+    "href": "http://localhost:4000/sample-posts/theme-elements"
+  } ,
+
+  {
+    "text": "A Post with signature author",
+    "href": "http://localhost:4000/sample-posts/sample-author-post"
   } 
 
 ])
