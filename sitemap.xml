@@ -1,38 +1,58 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-    
+     
     <url>
         <loc>http://disid.github.io/disid-blog/</loc>
-    </url>
+    </url> 
     <url>
         <loc>http://disid.github.io/disid-blog/featured</loc>
-    </url>
+    </url> 
     <url>
         <loc>http://disid.github.io/disid-blog/categories</loc>
-    </url>
+    </url> 
     <url>
         <loc>http://disid.github.io/disid-blog/tags</loc>
     </url>
-
     
     
+    <url>
+        <loc>http://disid.github.io/disid-blog/sample-posts/sample-author-post</loc>
+    </url>
     
+    <url>
+        <loc>http://disid.github.io/disid-blog/sample-posts/theme-elements</loc>
+    </url>
     
+    <url>
+        <loc>http://disid.github.io/disid-blog/sample-posts/sample-post-status</loc>
+    </url>
     
+    <url>
+        <loc>http://disid.github.io/disid-blog/sample-posts/a-quotation</loc>
+    </url>
     
+    <url>
+        <loc>http://disid.github.io/disid-blog/sample-posts/sample-video-post</loc>
+    </url>
     
+    <url>
+        <loc>http://disid.github.io/disid-blog/sample-posts/fancy-columns</loc>
+    </url>
     
+    <url>
+        <loc>http://disid.github.io/disid-blog/sample-posts/sample-mathjax-post</loc>
+    </url>
     
+    <url>
+        <loc>http://disid.github.io/disid-blog/sample-posts/sample-link-post</loc>
+    </url>
     
+    <url>
+        <loc>http://disid.github.io/disid-blog/sample-posts/code-highlighting-post</loc>
+    </url>
     
-    
-    
-    
-    
-    
-    
-    
-    
-    
+    <url>
+        <loc>http://disid.github.io/disid-blog/sample-posts/sample-post-images</loc>
+    </url>
     
 </urlset>

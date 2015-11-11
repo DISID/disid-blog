@@ -2,24 +2,24 @@
 <html lang="en">
 <head>
 <meta charset="utf-8">
-<title>THEME ELEMENTS - DISID BLOG</title>
-<meta name="description" content="Just about everything you'll need to style in the theme: headings, paragraphs, blockquotes, tables, code blocks, and more.">
-<meta name="keywords" content="sample">
+<title>SAMPLE MATHJAX POST - DISID BLOG</title>
+<meta name="description" content="MathJax Test article">
+<meta name="keywords" content="sample post, MathJax post">
 
 <!-- Twitter Cards -->
 <meta name="twitter:card" content="summary_large_image">
 <meta name="twitter:image" content="http://disid.github.io/disid-blog/images/cover-demo.jpg">
 
-<meta name="twitter:title" content="Theme Elements">
-<meta name="twitter:description" content="Just about everything you'll need to style in the theme: headings, paragraphs, blockquotes, tables, code blocks, and more.">
+<meta name="twitter:title" content="Sample Mathjax Post">
+<meta name="twitter:description" content="MathJax Test article">
 <meta name="twitter:creator" content="@disid_corp">
 
 <!-- Open Graph -->
 <meta property="og:locale" content="en_US">
 <meta property="og:type" content="article">
-<meta property="og:title" content="Theme Elements">
-<meta property="og:description" content="Just about everything you'll need to style in the theme: headings, paragraphs, blockquotes, tables, code blocks, and more.">
-<meta property="og:url" content="http://disid.github.io/disid-blog/sample/theme-elements">
+<meta property="og:title" content="Sample Mathjax Post">
+<meta property="og:description" content="MathJax Test article">
+<meta property="og:url" content="http://disid.github.io/disid-blog/sample-posts/sample-mathjax-post">
 <meta property="og:site_name" content="DISID Blog">
 <meta property="og:image" content="http://disid.github.io/disid-blog/images/cover-demo.jpg">
 
@@ -27,7 +27,7 @@
 
 
 
-<link rel="canonical" href="http://disid.github.io/disid-blog/sample/theme-elements">
+<link rel="canonical" href="http://disid.github.io/disid-blog/sample-posts/sample-mathjax-post">
 <link href="http://disid.github.io/disid-blog/feed.xml" type="application/atom+xml" rel="alternate" title="DISID Blog Feed">
 
 
@@ -51,6 +51,32 @@
 <link rel="stylesheet" href="http://disid.github.io/disid-blog/assets/css/cookiecuttr.css" rel="stylesheet" type="text/css">
 
 
+<!--Load Mathjax-->
+<script type="text/javascript" src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
+        <script>
+        MathJax.Hub.Config({
+            config: ["MMLorHTML.js"],
+            extensions: ["tex2jax.js","TeX/AMSmath.js","TeX/AMSsymbols.js"],
+            jax: ["input/TeX"],
+            tex2jax: {
+                inlineMath: [ ['$','$'], ["\\(","\\)"] ],
+                displayMath: [ ['$$','$$'], ["\\[","\\]"] ],
+                processEscapes: false
+            },
+            TeX: {
+                TagSide: "right",
+                TagIndent: ".8em",
+                MultLineWidth: "85%",
+                equationNumbers: {
+                   autoNumber: "AMS",
+                },
+                unicode: {
+                   fonts: "STIXGeneral,'Arial Unicode MS'"
+                }
+            },
+            showProcessingMessages: false
+        });
+    </script>
 
 
 <!-- Icons -->
@@ -370,7 +396,7 @@ if (jQuery.cookie('cc_cookie_accept') == "cc_cookie_accept") {
             </h1>
             </a>
             <h2 class="blog-description light bordered bordered-top" itemprop="description">
-                Just about everything you'll need to style in the theme
+                MathJax Test article
             </h2>
         </div>
     </div>
@@ -396,143 +422,109 @@ if (jQuery.cookie('cc_cookie_accept') == "cc_cookie_accept") {
                         <!-- 
                         
                          -->
-                        Theme Elements</h1>
+                        Sample Mathjax Post</h1>
                         
-                        <div class="text-center cursive lighter"><h2>Just about everything you'll need to style in the theme: headings, paragraphs, blockquotes, tables, code blocks, and more.</h2></div>
+                        <div class="text-center cursive lighter"><h2>MathJax Test article</h2></div>
                         <div class="post-info text-center small">
-                            <span class="entry-date date published updated"><time datetime="2015-11-16T00:00:00+01:00" class="post-time" itemprop="datePublished">16 Nov 2015</time><span>
-                            in <span class="post-tags"><a href="http://disid.github.io/disid-blog/categories/index.html#sample" data-toggle="tooltip" title="Other posts from the Sample category" rel="tag">Sample</a></span>&nbsp;<span class="post-tags">
+                            <span class="entry-date date published updated"><time datetime="2014-01-06T00:00:00+01:00" class="post-time" itemprop="datePublished">06 Jan 2014</time><span>
+                            in <span class="post-tags"><a href="http://disid.github.io/disid-blog/categories/index.html#sample-posts" data-toggle="tooltip" title="Other posts from the Sample-posts category" rel="tag">Sample-posts</a></span>&nbsp;<span class="post-tags">
                             <i class="icon-time"></i>&nbsp;1 minute read</span>
                         </div>
                     </header>
                     <div class="post-body bordered-bottom" itemprop="description">
                         
                         <div class="paragraph">
-<p>Below is just about everything you&#8217;ll need to style in the theme. Check the source code to see the many embedded elements within paragraphs.</p>
+<p>HMFAYSAL OMEGA theme supports both inline and displayed equations via MathJax.  The theme keeps MathJax turned off by default to improve page load speed. MathJax can be turned on from the post&#8217;s Front Matter YAML. Simply put the following statement in the post&#8217;s Front Matter YAML:</p>
 </div>
-<h1 id="heading_1" class="sect0">Heading 1</h1>
-<div class="sect1">
-<h2 id="heading_2">Heading 2</h2>
-<div class="sectionbody">
-<div class="sect2">
-<h3 id="heading_3">Heading 3</h3>
-<div class="sect3">
-<h4 id="heading_4">Heading 4</h4>
-<div class="sect4">
-<h5 id="heading_5">Heading 5</h5>
-<div class="sect5">
-<h6 id="heading_6">Heading 6</h6>
-
-</div>
-</div>
-</div>
-</div>
-<div class="sect2">
-<h3 id="body_text">Body text</h3>
-<div class="paragraph">
-<p>Lorem ipsum dolor sit amet, test link adipiscing elit. <strong>This is strong</strong>. Nullam dignissim convallis est. Quisque aliquam.</p>
-</div>
-<div class="paragraph">
-<p><em>This is emphasized</em>. Donec faucibus. Nunc iaculis suscipit dui. Water is H<sub>O</sub>. Nam sit amet sem. Aliquam libero nisi, imperdiet at, tincidunt nec, gravida vehicula, nisl.<br>
-The markup <u>underline <strong>me</strong></u> renders as underlined text and &#8220;me&#8221; is bold.</p>
-</div>
-<div class="paragraph">
-<p>Maecenas ornare tortor. Donec sed tellus eget sapien fringilla nonummy. Mauris a ante. Suspendisse quam sem, consequat at, commodo vitae, feugiat in, nunc. Morbi imperdiet augue quis tellus.</p>
-</div>
-</div>
-<div class="sect2">
-<h3 id="blockquotes">Blockquotes</h3>
-<div class="quoteblock">
-<blockquote>
-<div class="paragraph">
-<p>Lorem ipsum dolor sit amet, test link adipiscing elit. Nullam dignissim convallis est. Quisque aliquam.</p>
-</div>
-</blockquote>
-</div>
-<div class="quoteblock">
-<blockquote>
-<div class="paragraph">
-<p>I hold it that a little rebellion now and then is a good thing,<br>
-and as necessary in the political world as storms in the physical.</p>
-</div>
-</blockquote>
-<div class="attribution">
-&#8212; Albert Einstein
-</div>
-</div>
-</div>
-</div>
-</div>
-<div class="sect1">
-<h2 id="list_types">List Types</h2>
-<div class="sectionbody">
-<div class="sect2">
-<h3 id="ordered_lists">Ordered Lists</h3>
-<div class="olist arabic">
-<ol class="arabic">
-<li>
-<p>Step 1</p>
-</li>
-<li>
-<p>Step 2</p>
-<div class="olist loweralpha">
-<ol class="loweralpha" type="a">
-<li>
-<p>Step 2a</p>
-</li>
-<li>
-<p>Step 2b</p>
-</li>
-</ol>
-</div>
-</li>
-<li>
-<p>Step 3</p>
-</li>
-</ol>
-</div>
-</div>
-<div class="sect2">
-<h3 id="unordered_lists">Unordered Lists</h3>
-<div class="ulist">
-<ul>
-<li>
-<p>Item one</p>
-</li>
-<li>
-<p>Item two</p>
-</li>
-<li>
-<p>Item three</p>
-</li>
-</ul>
-</div>
-</div>
-</div>
-</div>
-<div class="sect1">
-<h2 id="code_snippets">Code Snippets</h2>
-<div class="sectionbody">
-<div class="paragraph">
-<p>Syntax highlighting via Pygments</p>
-</div>
-<div class="listingblock">
+<div class="literalblock">
 <div class="content">
-<pre class="CodeRay highlight"><code data-lang="css"><span class="id">#container</span> {
-  <span class="key">float</span>: <span class="value">left</span>;
-  <span class="key">margin</span>: <span class="float">0</span> <span class="float">-240px</span> <span class="float">0</span> <span class="float">0</span>;
-  <span class="key">width</span>: <span class="float">100%</span>;
-}</code></pre>
+<pre>mathjax: true</pre>
 </div>
 </div>
+<div class="paragraph">
+<p>Here are some examples collected from the MathJax page:</p>
 </div>
+<div class="paragraph">
+<p><strong>The Lorenz Equations</strong></p>
+</div>
+<div class="paragraph">
+<p>\begin{aligned}
+\dot{x} &amp; = \sigma(y-x) \\
+\dot{y} &amp; = \rho x - y - xz \\
+\dot{z} &amp; = -\beta z + xy
+\end{aligned}</p>
+</div>
+<div class="paragraph">
+<p><strong>The Cauchy-Schwarz Inequality</strong></p>
+</div>
+<div class="paragraph">
+<p>\begin{aligned}
+\left( \sum_{k=1}^n a_k b_k \right)^{\!\!2} \leq
+\left( \sum_{k=1}^n a_k^2 \right) \left( \sum_{k=1}^n b_k^2 \right)
+\end{aligned}</p>
+</div>
+<div class="paragraph">
+<p><strong>A Cross Product Formula</strong></p>
+</div>
+<div class="paragraph">
+<p>\begin{aligned}
+  \mathbf{V}_1 \times \mathbf{V}_2 =
+   \begin{vmatrix}
+    \mathbf{i} &amp; \mathbf{j} &amp; \mathbf{k} \\
+    \frac{\partial X}{\partial u} &amp; \frac{\partial Y}{\partial u} &amp; 0 \\
+    \frac{\partial X}{\partial v} &amp; \frac{\partial Y}{\partial v} &amp; 0 \\
+   \end{vmatrix}
+\end{aligned}</p>
+</div>
+<div class="paragraph">
+<p><strong>The probability of getting \(k\) heads when flipping \(n\) coins is:</strong></p>
+</div>
+<div class="paragraph">
+<p>\begin{aligned}P(E) = {n \choose k} p^k (1-p)^{ n-k} \end{aligned}</p>
+</div>
+<div class="paragraph">
+<p><strong>An Identity of Ramanujan</strong></p>
+</div>
+<div class="paragraph">
+<p>\begin{aligned}
+   \frac{1}{(\sqrt{\phi \sqrt{5}}-\phi) e^{\frac25 \pi}} =
+     1+\frac{e^{-2\pi}} {1+\frac{e^{-4\pi}} {1+\frac{e^{-6\pi}}
+      {1+\frac{e^{-8\pi}} {1+\ldots} } } }
+\end{aligned}</p>
+</div>
+<div class="paragraph">
+<p><strong>A Rogers-Ramanujan Identity</strong></p>
+</div>
+<div class="paragraph">
+<p>\begin{aligned}
+  1 +  \frac{q^2}{(1-q)}+\frac{q^6}{(1-q)(1-q^2)}+\cdots =
+    \prod_{j=0}^{\infty}\frac{1}{(1-q^{5j+2})(1-q^{5j+3})},
+     \quad\quad \text{for $|q|&lt;1$}.
+\end{aligned}</p>
+</div>
+<div class="paragraph">
+<p><strong>Maxwell&#8217;s Equations</strong></p>
+</div>
+<div class="paragraph">
+<p>\begin{align}
+  \nabla \times \vec{\mathbf{B}} -\, \frac1c\, \frac{\partial\vec{\mathbf{E}}}{\partial t} &amp; = \frac{4\pi}{c}\vec{\mathbf{j}} \\
+  \nabla \cdot \vec{\mathbf{E}} &amp; = 4 \pi \rho \\
+  \nabla \times \vec{\mathbf{E}}\, +\, \frac1c\, \frac{\partial\vec{\mathbf{B}}}{\partial t} &amp; = \vec{\mathbf{0}} \\
+  \nabla \cdot \vec{\mathbf{B}} &amp; = 0
+\end{align}</p>
+</div>
+<div class="paragraph">
+<p>Finally, while display equations look good for a page of samples, the ability to mix math and text in a paragraph is also important.  This expression $\(\sqrt{3x-1}+(1+x)^2\)$ is an example of an inline equation.  As you see, MathJax equations can be used this way as well, without unduly disturbing the spacing between lines.</p>
+</div>
+<div class="paragraph">
+<p>In MathJax I use <code>...</code> or (<code>\begin{equation(<strong>)}&#8230;&#8203;\end{equation(</strong>)}</code> also works) for displayed equations and <code>$&#8230;&#8203;.$</code> for inline equations. Take care of &gt;,&lt; and &amp;, because they have special meanings in .html files. If your post/page is not displaying the equations properly, try to wrap the equations between <code>{% raw %}&#8230;&#8203;{% endraw %}</code> tags.</p>
 </div>
                         <br>
                     
                     
                     <div class="entry-tags text-center">
 
-                        <i class="icon-tags"></i>&nbsp;Tagged with <a href="http://disid.github.io/disid-blog/tags/index.html#sample" data-toggle="tooltip" title="Posts tagged with sample" rel="tag">sample</a>
+                        <i class="icon-tags"></i>&nbsp;Tagged with <a href="http://disid.github.io/disid-blog/tags/index.html#sample post" data-toggle="tooltip" title="Posts tagged with sample post" rel="tag">sample post</a>&nbsp;&bull;&nbsp;<a href="http://disid.github.io/disid-blog/tags/index.html#MathJax post" data-toggle="tooltip" title="Posts tagged with MathJax post" rel="tag">MathJax post</a>
 
                     </div>
                     
@@ -545,19 +537,19 @@ and as necessary in the political world as storms in the physical.</p>
     </p>
     <ul class="social-mini">
         <li>
-            <a href="https://twitter.com/intent/tweet?text=&quot;Theme Elements&quot;%20http://disid.github.io/disid-blog/sample/theme-elements%20via%20&#64;disid_corp"
+            <a href="https://twitter.com/intent/tweet?text=&quot;Sample Mathjax Post&quot;%20http://disid.github.io/disid-blog/sample-posts/sample-mathjax-post%20via%20&#64;disid_corp"
             onclick="window.open(this.href, 'twitter-share', 'width=550,height=235');return false;" data-toggle="tooltip" title="Share on Twitter" itemprop="Twitter">
                 <i class="icon-twitter"></i>
             </a>
         </li>
         <li>
-            <a  href="https://www.facebook.com/sharer/sharer.php?u=http://disid.github.io/disid-blog/sample/theme-elements"
+            <a  href="https://www.facebook.com/sharer/sharer.php?u=http://disid.github.io/disid-blog/sample-posts/sample-mathjax-post"
             onclick="window.open(this.href, 'facebook-share','width=580,height=296');return false;" data-toggle="tooltip" title="Share on Facebook" itemprop="Facebook">
                 <i class="icon-facebook"></i>
             </a>
         </li>
         <li>
-            <a href="https://plus.google.com/share?url=http://disid.github.io/disid-blog/sample/theme-elements"
+            <a href="https://plus.google.com/share?url=http://disid.github.io/disid-blog/sample-posts/sample-mathjax-post"
            onclick="window.open(this.href, 'google-plus-share', 'width=490,height=530');return false;" data-toggle="tooltip" title="Share on Google plus" itemprop="GooglePlus">
                 <i class="icon-google-plus"></i>
             </a>

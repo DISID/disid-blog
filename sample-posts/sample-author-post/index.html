@@ -2,24 +2,24 @@
 <html lang="en">
 <head>
 <meta charset="utf-8">
-<title>A POST WITH IMAGES - DISID BLOG</title>
-<meta name="description" content="Examples and code for displaying images in posts.">
-<meta name="keywords" content="sample">
+<title>A POST WITH SIGNATURE AUTHOR - DISID BLOG</title>
+<meta name="description" content="Sign your post">
+<meta name="keywords" content="sample post, sign">
 
 <!-- Twitter Cards -->
 <meta name="twitter:card" content="summary_large_image">
 <meta name="twitter:image" content="http://disid.github.io/disid-blog/images/cover-demo.jpg">
 
-<meta name="twitter:title" content="A Post with Images">
-<meta name="twitter:description" content="Examples and code for displaying images in posts.">
+<meta name="twitter:title" content="A Post with signature author">
+<meta name="twitter:description" content="Sign your post">
 <meta name="twitter:creator" content="@disid_corp">
 
 <!-- Open Graph -->
 <meta property="og:locale" content="en_US">
 <meta property="og:type" content="article">
-<meta property="og:title" content="A Post with Images">
-<meta property="og:description" content="Examples and code for displaying images in posts.">
-<meta property="og:url" content="http://disid.github.io/disid-blog/sample/sample-post-images">
+<meta property="og:title" content="A Post with signature author">
+<meta property="og:description" content="Sign your post">
+<meta property="og:url" content="http://disid.github.io/disid-blog/sample-posts/sample-author-post">
 <meta property="og:site_name" content="DISID Blog">
 <meta property="og:image" content="http://disid.github.io/disid-blog/images/cover-demo.jpg">
 
@@ -27,7 +27,7 @@
 
 
 
-<link rel="canonical" href="http://disid.github.io/disid-blog/sample/sample-post-images">
+<link rel="canonical" href="http://disid.github.io/disid-blog/sample-posts/sample-author-post">
 <link href="http://disid.github.io/disid-blog/feed.xml" type="application/atom+xml" rel="alternate" title="DISID Blog Feed">
 
 
@@ -370,7 +370,7 @@ if (jQuery.cookie('cc_cookie_accept') == "cc_cookie_accept") {
             </h1>
             </a>
             <h2 class="blog-description light bordered bordered-top" itemprop="description">
-                Examples and code for displaying images in posts.
+                Sign your post
             </h2>
         </div>
     </div>
@@ -395,199 +395,42 @@ if (jQuery.cookie('cc_cookie_accept') == "cc_cookie_accept") {
                         
                         <!-- 
                         
-                        <i class="icon-picture"></i>  -->
-                        A Post with Images</h1>
+                         -->
+                        A Post with signature author</h1>
                         
-                        <div class="text-center cursive lighter"><h2>Examples and code for displaying images in posts.</h2></div>
+                        <div class="text-center cursive lighter"><h2>Sign your post</h2></div>
                         <div class="post-info text-center small">
-                            <span class="entry-date date published updated"><time datetime="2015-11-16T00:00:00+01:00" class="post-time" itemprop="datePublished">16 Nov 2015</time><span>
-                            in <span class="post-tags"><a href="http://disid.github.io/disid-blog/categories/index.html#sample" data-toggle="tooltip" title="Other posts from the Sample category" rel="tag">Sample</a></span>&nbsp;<span class="post-tags">
-                            <i class="icon-time"></i>&nbsp;<span class="time">1.97</span> minutes read</span>
+                            <span class="entry-date date published updated"><time datetime="2015-11-10T00:00:00+01:00" class="post-time" itemprop="datePublished">10 Nov 2015</time><span>
+                            in <span class="post-tags"><a href="http://disid.github.io/disid-blog/categories/index.html#sample-posts" data-toggle="tooltip" title="Other posts from the Sample-posts category" rel="tag">Sample-posts</a></span>&nbsp;<span class="post-tags">
+                            <i class="icon-time"></i>&nbsp;Less than 1 minute read</span>
                         </div>
                     </header>
                     <div class="post-body bordered-bottom" itemprop="description">
                         
                         <div class="paragraph">
-<p>To start a photo post, make sure your post contains the following contents in your post&#8217;s Front Matter YAML:</p>
-</div>
-<div class="literalblock">
-<div class="content">
-<pre>---
-layout: post
-type: photo
-title: "Sample Photo Post Title"
-description:
-headline:
-modified: YYYY-MM-DD
-..
----</pre>
-</div>
+<p>DISID blog posts embeds a corporative signature after the main content block.</p>
 </div>
 <div class="paragraph">
-<p>Here are some examples of what a post with images might look like. If you want to display two or three images next to each other responsively use <code>figure</code> with the appropriate <code>class</code>. Images are responsive and are opened in a Magnific Popup lightbox if you link a larger image to the entry. Also if you link a larger image, the image thumbs uses CSS3 transitions to turn B&amp;W and change back to color on mouse-hover. Each instance of <code>figure</code> is auto-numbered and displayed in the caption.</p>
-</div>
-<div class="sect1">
-<h2 id="figures_for_images_or_video">Figures (for images or video)</h2>
-<div class="sectionbody">
-<div class="sect2">
-<h3 id="align_image">Align image</h3>
-<div class="listingblock">
-<div class="content">
-<pre>image::http://disid.github.io/disid-blog/images/cover-demo.jpg[Tiger,200,200,float="right",align="center"]
-
-image::http://disid.github.io/disid-blog/images/cover-demo.jpg[Tiger,200,200,float="left",align="center"]
-
-image::http://disid.github.io/disid-blog/images/cover-demo.jpg[[Tiger,200,200,align="center"]</pre>
-</div>
-</div>
-<div class="imageblock" style="text-align: center;float: right">
-<div class="content">
-<img src="http://disid.github.io/disid-blog/images/cover-demo.jpg" alt="Tiger" width="200" height="200">
-</div>
-</div>
-<div class="imageblock" style="text-align: center;float: left">
-<div class="content">
-<img src="http://disid.github.io/disid-blog/images/cover-demo.jpg" alt="Tiger" width="200" height="200">
-</div>
-</div>
-<div class="imageblock" style="text-align: center">
-<div class="content">
-<img src="http://disid.github.io/disid-blog/images/cover-demo.jpg" alt="[Tiger" width="200" height="200">
-</div>
-</div>
-</div>
-<div class="sect2">
-<h3 id="one_up">One Up</h3>
-<div class="listingblock">
-<div class="content">
-<pre>[[img-id-anchor-link]]
-.A description image for caption figure with http://discuss.asciidoctor.org/[link].
-image::http://disid.github.io/disid-blog/images/cover-demo.jpg[Sunset, 300, 200, align="center", link="http://disid.github.io/disid-blog/images/cover-demo.jpg"]</pre>
-</div>
-</div>
-<div id="img-id-anchor-link" class="imageblock" style="text-align: center">
-<div class="content">
-<a class="image" href="http://disid.github.io/disid-blog/images/cover-demo.jpg"><img src="http://disid.github.io/disid-blog/images/cover-demo.jpg" alt="Sunset" width="300" height="200"></a>
-</div>
-<div class="title">Figure 1. A description image for caption figure with <a href="http://discuss.asciidoctor.org/">link</a>.</div>
-</div>
-</div>
-<div class="sect2">
-<h3 id="two_up">Two Up</h3>
-<div class="paragraph">
-<p>Apply the <code>half</code> class like so to display two images side by side that share the same caption.</p>
+<p>To add your signature on a post, make sure your post contains the following contents and customizes with your data in your post&#8217;s Front Matter YAML:</p>
 </div>
 <div class="listingblock">
 <div class="content">
-<pre>[.half]
-image::http://disid.github.io/disid-blog/images/cover-demo.jpg[A,link="http://disid.github.io/disid-blog/images/cover-demo.jpg"]
-
-[.half]
-image::http://disid.github.io/disid-blog/images/cover-demo.jpg[B,link="http://disid.github.io/disid-blog/images/cover-demo.jpg"]
-
-[.half]
-image::http://disid.github.io/disid-blog/images/cover-demo.jpg[A,link="http://disid.github.io/disid-blog/images/cover-demo.jpg"]
-
-[.half]
-.Caption describing these three images.
-image::http://disid.github.io/disid-blog/images/cover-demo.jpg[B,link="http://disid.github.io/disid-blog/images/cover-demo.jpg"]</pre>
+<pre class="CodeRay highlight"><code data-lang="yaml"><span class="key">author</span>:
+    <span class="key">name</span>: <span class="string"><span class="content">Pilar Argudo</span></span>
+    <span class="key">image</span>: <span class="string"><span class="content">https://pbs.twimg.com/profile_images/2885389269/098383c349b67aee48bcbccb0914dcb6_400x400.jpeg</span></span>
+    <span class="key">jobdescription</span>: <span class="string"><span class="content">Front-end developer</span></span>
+    <span class="key">twitter</span>: <span class="string"><span class="content">pilarargudo</span></span></code></pre>
 </div>
 </div>
 <div class="paragraph">
-<p>And you&#8217;ll get something that looks like this:</p>
-</div>
-<div class="imageblock half">
-<div class="content">
-<a class="image" href="http://disid.github.io/disid-blog/images/cover-demo.jpg"><img src="http://disid.github.io/disid-blog/images/cover-demo.jpg" alt="A"></a>
-</div>
-</div>
-<div class="imageblock half">
-<div class="content">
-<a class="image" href="http://disid.github.io/disid-blog/images/cover-demo.jpg"><img src="http://disid.github.io/disid-blog/images/cover-demo.jpg" alt="B"></a>
-</div>
-</div>
-<div class="imageblock half">
-<div class="content">
-<a class="image" href="http://disid.github.io/disid-blog/images/cover-demo.jpg"><img src="http://disid.github.io/disid-blog/images/cover-demo.jpg" alt="A"></a>
-</div>
-</div>
-<div class="imageblock half">
-<div class="content">
-<a class="image" href="http://disid.github.io/disid-blog/images/cover-demo.jpg"><img src="http://disid.github.io/disid-blog/images/cover-demo.jpg" alt="B"></a>
-</div>
-<div class="title">Figure 2. Caption describing these four images.</div>
-</div>
-</div>
-<div class="sect2">
-<h3 id="three_up">Three Up</h3>
-<div class="paragraph">
-<p>Apply the <code>third</code> class like so to display three images side by side that share the same caption.</p>
-</div>
-<div class="listingblock">
-<div class="content">
-<pre>[.third]
-image::http://disid.github.io/disid-blog/images/cover-demo.jpg[A,link="http://disid.github.io/disid-blog/images/cover-demo.jpg"]
-
-[.third]
-image::http://disid.github.io/disid-blog/images/cover-demo.jpg[B,link="http://disid.github.io/disid-blog/images/cover-demo.jpg"]
-
-[.third]
-image::http://disid.github.io/disid-blog/images/cover-demo.jpg[A,link="http://disid.github.io/disid-blog/images/cover-demo.jpg"]
-
-[.third]
-image::http://disid.github.io/disid-blog/images/cover-demo.jpg[A,link="http://disid.github.io/disid-blog/images/cover-demo.jpg"]
-
-[.third]
-image::http://disid.github.io/disid-blog/images/cover-demo.jpg[A,link="http://disid.github.io/disid-blog/images/cover-demo.jpg"]
-
-[.third]
-.Caption describing these three images.
-image::http://disid.github.io/disid-blog/images/cover-demo.jpg[B,link="http://disid.github.io/disid-blog/images/cover-demo.jpg"]</pre>
-</div>
-</div>
-<div class="paragraph">
-<p>And you&#8217;ll get something that looks like this:</p>
-</div>
-<div class="imageblock third">
-<div class="content">
-<a class="image" href="http://disid.github.io/disid-blog/images/cover-demo.jpg"><img src="http://disid.github.io/disid-blog/images/cover-demo.jpg" alt="A"></a>
-</div>
-</div>
-<div class="imageblock third">
-<div class="content">
-<a class="image" href="http://disid.github.io/disid-blog/images/cover-demo.jpg"><img src="http://disid.github.io/disid-blog/images/cover-demo.jpg" alt="B"></a>
-</div>
-</div>
-<div class="imageblock third">
-<div class="content">
-<a class="image" href="http://disid.github.io/disid-blog/images/cover-demo.jpg"><img src="http://disid.github.io/disid-blog/images/cover-demo.jpg" alt="A"></a>
-</div>
-</div>
-<div class="imageblock third">
-<div class="content">
-<a class="image" href="http://disid.github.io/disid-blog/images/cover-demo.jpg"><img src="http://disid.github.io/disid-blog/images/cover-demo.jpg" alt="B"></a>
-</div>
-</div>
-<div class="imageblock third">
-<div class="content">
-<a class="image" href="http://disid.github.io/disid-blog/images/cover-demo.jpg"><img src="http://disid.github.io/disid-blog/images/cover-demo.jpg" alt="B"></a>
-</div>
-</div>
-<div class="imageblock third">
-<div class="content">
-<a class="image" href="http://disid.github.io/disid-blog/images/cover-demo.jpg"><img src="http://disid.github.io/disid-blog/images/cover-demo.jpg" alt="B"></a>
-</div>
-<div class="title">Figure 3. Caption describing these three images.</div>
-</div>
-</div>
-</div>
+<p>Enjoy!</p>
 </div>
                         <br>
                     
                     
                     <div class="entry-tags text-center">
 
-                        <i class="icon-tags"></i>&nbsp;Tagged with <a href="http://disid.github.io/disid-blog/tags/index.html#sample" data-toggle="tooltip" title="Posts tagged with sample" rel="tag">sample</a>
+                        <i class="icon-tags"></i>&nbsp;Tagged with <a href="http://disid.github.io/disid-blog/tags/index.html#sample post" data-toggle="tooltip" title="Posts tagged with sample post" rel="tag">sample post</a>&nbsp;&bull;&nbsp;<a href="http://disid.github.io/disid-blog/tags/index.html#sign" data-toggle="tooltip" title="Posts tagged with sign" rel="tag">sign</a>
 
                     </div>
                     
@@ -600,19 +443,19 @@ image::http://disid.github.io/disid-blog/images/cover-demo.jpg[B,link="http://di
     </p>
     <ul class="social-mini">
         <li>
-            <a href="https://twitter.com/intent/tweet?text=&quot;A Post with Images&quot;%20http://disid.github.io/disid-blog/sample/sample-post-images%20via%20&#64;disid_corp"
+            <a href="https://twitter.com/intent/tweet?text=&quot;A Post with signature author&quot;%20http://disid.github.io/disid-blog/sample-posts/sample-author-post%20via%20&#64;disid_corp"
             onclick="window.open(this.href, 'twitter-share', 'width=550,height=235');return false;" data-toggle="tooltip" title="Share on Twitter" itemprop="Twitter">
                 <i class="icon-twitter"></i>
             </a>
         </li>
         <li>
-            <a  href="https://www.facebook.com/sharer/sharer.php?u=http://disid.github.io/disid-blog/sample/sample-post-images"
+            <a  href="https://www.facebook.com/sharer/sharer.php?u=http://disid.github.io/disid-blog/sample-posts/sample-author-post"
             onclick="window.open(this.href, 'facebook-share','width=580,height=296');return false;" data-toggle="tooltip" title="Share on Facebook" itemprop="Facebook">
                 <i class="icon-facebook"></i>
             </a>
         </li>
         <li>
-            <a href="https://plus.google.com/share?url=http://disid.github.io/disid-blog/sample/sample-post-images"
+            <a href="https://plus.google.com/share?url=http://disid.github.io/disid-blog/sample-posts/sample-author-post"
            onclick="window.open(this.href, 'google-plus-share', 'width=490,height=530');return false;" data-toggle="tooltip" title="Share on Google plus" itemprop="GooglePlus">
                 <i class="icon-google-plus"></i>
             </a>

@@ -2,24 +2,24 @@
 <html lang="en">
 <head>
 <meta charset="utf-8">
-<title>A POST WITH SIGNATURE AUTHOR - DISID BLOG</title>
-<meta name="description" content="Sign your post">
-<meta name="keywords" content="sample">
+<title>A POST WITH A VIDEO - DISID BLOG</title>
+<meta name="description" content="Custom written post descriptions are the way to go... if you're not lazy.">
+<meta name="keywords" content="sample post, video">
 
 <!-- Twitter Cards -->
 <meta name="twitter:card" content="summary_large_image">
 <meta name="twitter:image" content="http://disid.github.io/disid-blog/images/cover-demo.jpg">
 
-<meta name="twitter:title" content="A Post with signature author">
-<meta name="twitter:description" content="Sign your post">
+<meta name="twitter:title" content="A Post with a Video">
+<meta name="twitter:description" content="Custom written post descriptions are the way to go... if you're not lazy.">
 <meta name="twitter:creator" content="@disid_corp">
 
 <!-- Open Graph -->
 <meta property="og:locale" content="en_US">
 <meta property="og:type" content="article">
-<meta property="og:title" content="A Post with signature author">
-<meta property="og:description" content="Sign your post">
-<meta property="og:url" content="http://disid.github.io/disid-blog/sample/sample-author-post">
+<meta property="og:title" content="A Post with a Video">
+<meta property="og:description" content="Custom written post descriptions are the way to go... if you're not lazy.">
+<meta property="og:url" content="http://disid.github.io/disid-blog/sample-posts/sample-video-post">
 <meta property="og:site_name" content="DISID Blog">
 <meta property="og:image" content="http://disid.github.io/disid-blog/images/cover-demo.jpg">
 
@@ -27,7 +27,7 @@
 
 
 
-<link rel="canonical" href="http://disid.github.io/disid-blog/sample/sample-author-post">
+<link rel="canonical" href="http://disid.github.io/disid-blog/sample-posts/sample-video-post">
 <link href="http://disid.github.io/disid-blog/feed.xml" type="application/atom+xml" rel="alternate" title="DISID Blog Feed">
 
 
@@ -370,7 +370,7 @@ if (jQuery.cookie('cc_cookie_accept') == "cc_cookie_accept") {
             </h1>
             </a>
             <h2 class="blog-description light bordered bordered-top" itemprop="description">
-                Sign your post
+                Sample Video Headline Post
             </h2>
         </div>
     </div>
@@ -389,48 +389,60 @@ if (jQuery.cookie('cc_cookie_accept') == "cc_cookie_accept") {
             
             
                     <header class="post-header entry-header">
-                    <div class="cursive">Featured post</div>
+                    
                         
                         <h1 class="post-title text-center super lighter bordered-bottom entry-title" itemprop="headline">
                         
                         <!-- 
-                        
+                        <i class="icon-play-circle"></i> 
                          -->
-                        A Post with signature author</h1>
+                        A Post with a Video</h1>
                         
-                        <div class="text-center cursive lighter"><h2>Sign your post</h2></div>
+                        <div class="text-center cursive lighter"><h2>Custom written post descriptions are the way to go... if you're not lazy.</h2></div>
                         <div class="post-info text-center small">
-                            <span class="entry-date date published updated"><time datetime="2015-11-16T00:00:00+01:00" class="post-time" itemprop="datePublished">16 Nov 2015</time><span>
-                            in <span class="post-tags"><a href="http://disid.github.io/disid-blog/categories/index.html#sample" data-toggle="tooltip" title="Other posts from the Sample category" rel="tag">Sample</a></span>&nbsp;<span class="post-tags">
+                            <span class="entry-date date published updated"><time datetime="2014-01-07T00:00:00+01:00" class="post-time" itemprop="datePublished">07 Jan 2014</time><span>
+                            in <span class="post-tags"><a href="http://disid.github.io/disid-blog/categories/index.html#sample-posts" data-toggle="tooltip" title="Other posts from the Sample-posts category" rel="tag">Sample-posts</a></span>&nbsp;<span class="post-tags">
                             <i class="icon-time"></i>&nbsp;Less than 1 minute read</span>
                         </div>
                     </header>
                     <div class="post-body bordered-bottom" itemprop="description">
                         
+                        
+                        <iframe width="940" height="529" src="//www.youtube.com/embed/http://www.youtube.com/watch?v=CQJByFp7H38?theme=light&amp;color=white" frameborder="0" allowfullscreen> </iframe>
+                        
                         <div class="paragraph">
-<p>DISID blog posts embeds a corporative signature after the main content block.</p>
+<p>Video embeds are responsive and scale with the width of the main content block with the help of [FitVids](<a href="http://fitvidsjs.com/" class="bare">http://fitvidsjs.com/</a>).</p>
 </div>
 <div class="paragraph">
-<p>To add your signature on a post, make sure your post contains the following contents and customizes with your data in your post&#8217;s Front Matter YAML:</p>
+<p>Not sure if this only effects Kramdown or if it&#8217;s an issue with Markdown in general. But adding YouTube video embeds causes errors when building your Jekyll site. To fix add a space between the <code>&lt;iframe&gt;</code> tags and remove <code>allowfullscreen</code>. Example below:</p>
 </div>
 <div class="listingblock">
 <div class="content">
-<pre class="CodeRay highlight"><code data-lang="yaml"><span class="key">author</span>:
-    <span class="key">name</span>: <span class="string"><span class="content">Your Name</span></span>
-    <span class="key">image</span>: <span class="string"><span class="content">profile picture URL</span></span>
-    <span class="key">jobdescription</span>: <span class="string"><span class="content">Job Description</span></span>
-    <span class="key">twitter</span>: <span class="string"><span class="content">@twitter-profile</span></span></code></pre>
+<pre class="CodeRay highlight"><code data-lang="html"><span class="tag">&lt;iframe</span> <span class="attribute-name">width</span>=<span class="string"><span class="delimiter">&quot;</span><span class="content">940</span><span class="delimiter">&quot;</span></span> <span class="attribute-name">height</span>=<span class="string"><span class="delimiter">&quot;</span><span class="content">529</span><span class="delimiter">&quot;</span></span> <span class="attribute-name">src</span>=<span class="string"><span class="delimiter">&quot;</span><span class="content">//www.youtube.com/embed/CQJByFp7H38?theme=light</span><span class="entity">&amp;amp;</span><span class="content">color=white</span><span class="delimiter">&quot;</span></span> <span class="attribute-name">frameborder</span>=<span class="string"><span class="delimiter">&quot;</span><span class="content">0</span><span class="delimiter">&quot;</span></span> <span class="attribute-name">allowfullscreen</span><span class="tag">&gt;</span> <span class="tag">&lt;/iframe&gt;</span></code></pre>
 </div>
 </div>
 <div class="paragraph">
-<p>Enjoy!</p>
+<p>To start a video post, make sure your post contains the following contents in your post&#8217;s Front Matter YAML:</p>
+</div>
+<div class="literalblock">
+<div class="content">
+<pre>---
+layout: post
+type: video
+title: "Sample Video Title"
+description:
+headline:
+modified: YYYY-MM-DD
+..
+---</pre>
+</div>
 </div>
                         <br>
                     
                     
                     <div class="entry-tags text-center">
 
-                        <i class="icon-tags"></i>&nbsp;Tagged with <a href="http://disid.github.io/disid-blog/tags/index.html#sample" data-toggle="tooltip" title="Posts tagged with sample" rel="tag">sample</a>
+                        <i class="icon-tags"></i>&nbsp;Tagged with <a href="http://disid.github.io/disid-blog/tags/index.html#sample post" data-toggle="tooltip" title="Posts tagged with sample post" rel="tag">sample post</a>&nbsp;&bull;&nbsp;<a href="http://disid.github.io/disid-blog/tags/index.html#video" data-toggle="tooltip" title="Posts tagged with video" rel="tag">video</a>
 
                     </div>
                     
@@ -443,19 +455,19 @@ if (jQuery.cookie('cc_cookie_accept') == "cc_cookie_accept") {
     </p>
     <ul class="social-mini">
         <li>
-            <a href="https://twitter.com/intent/tweet?text=&quot;A Post with signature author&quot;%20http://disid.github.io/disid-blog/sample/sample-author-post%20via%20&#64;disid_corp"
+            <a href="https://twitter.com/intent/tweet?text=&quot;A Post with a Video&quot;%20http://disid.github.io/disid-blog/sample-posts/sample-video-post%20via%20&#64;disid_corp"
             onclick="window.open(this.href, 'twitter-share', 'width=550,height=235');return false;" data-toggle="tooltip" title="Share on Twitter" itemprop="Twitter">
                 <i class="icon-twitter"></i>
             </a>
         </li>
         <li>
-            <a  href="https://www.facebook.com/sharer/sharer.php?u=http://disid.github.io/disid-blog/sample/sample-author-post"
+            <a  href="https://www.facebook.com/sharer/sharer.php?u=http://disid.github.io/disid-blog/sample-posts/sample-video-post"
             onclick="window.open(this.href, 'facebook-share','width=580,height=296');return false;" data-toggle="tooltip" title="Share on Facebook" itemprop="Facebook">
                 <i class="icon-facebook"></i>
             </a>
         </li>
         <li>
-            <a href="https://plus.google.com/share?url=http://disid.github.io/disid-blog/sample/sample-author-post"
+            <a href="https://plus.google.com/share?url=http://disid.github.io/disid-blog/sample-posts/sample-video-post"
            onclick="window.open(this.href, 'google-plus-share', 'width=490,height=530');return false;" data-toggle="tooltip" title="Share on Google plus" itemprop="GooglePlus">
                 <i class="icon-google-plus"></i>
             </a>
@@ -465,18 +477,17 @@ if (jQuery.cookie('cc_cookie_accept') == "cc_cookie_accept") {
                         <div class="post-author text-center">
 
       
-         <img src="https://pbs.twimg.com/profile_images/2885389269/098383c349b67aee48bcbccb0914dcb6_400x400.jpeg" alt="Pilar Argudo's photo" itemprop="image" class="post-avatar img-circle img-responsive"/>
+        <img src="http://disid.github.io/disid-blog/images/favicon_DISID.png" alt="DISID Corporation's photo" itemprop="image" class="post-avatar img-circle img-responsive"/>
       
 
       
         <h4 class="bordered-bottom vcard author" itemprop="author" itemscope itemtype="http://schema.org/Person">
         By <span itemprop="name" class="fn">
-        <a href="http://twitter.com/@pilarargudo" title="Connect Pilar Argudo" itemprop="url">Pilar Argudo</a>
-        </a></span>
-        </h4>
-        <p> Front-end developer at
         <a href="http://twitter.com/@disid_corp" title="Connect DISID Corporation" itemprop="url">
-        DISID Corporation</p>
+        DISID Corporation
+        </a></span></h4>
+        <p>Software solutions provider</p>
+
       
 
 <hr>
