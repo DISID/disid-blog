@@ -1,83 +1,43 @@
 [
 	
 		{
-		  "title"      : "A Post with signature author",
-		  "category"   : "Sample-Posts",
-		  "url"        : "http://disid.github.io/disid-blog/sample-posts/sample-author-post",
-		  "date"       : "2015-11-10 00:00:00 +0100",
-		  "shortdate"  : "November 10, 2015"
+		
 		} ,
 	
 		{
-		  "title"      : "Theme Elements",
-		  "category"   : "Sample-Posts",
-		  "url"        : "http://disid.github.io/disid-blog/sample-posts/theme-elements",
-		  "date"       : "2014-03-10 00:00:00 +0100",
-		  "shortdate"  : "March 10, 2014"
+		
 		} ,
 	
 		{
-		  "title"      : "Sample Status Post",
-		  "category"   : "Sample-Posts",
-		  "url"        : "http://disid.github.io/disid-blog/sample-posts/sample-post-status",
-		  "date"       : "2014-01-11 00:00:00 +0100",
-		  "shortdate"  : "January 11, 2014"
+		
 		} ,
 	
 		{
-		  "title"      : "Sample Quotation Post",
-		  "category"   : "Sample-Posts",
-		  "url"        : "http://disid.github.io/disid-blog/sample-posts/a-quotation",
-		  "date"       : "2014-01-08 00:00:00 +0100",
-		  "shortdate"  : "January 08, 2014"
+		
 		} ,
 	
 		{
-		  "title"      : "A Post with a Video",
-		  "category"   : "Sample-Posts",
-		  "url"        : "http://disid.github.io/disid-blog/sample-posts/sample-video-post",
-		  "date"       : "2014-01-07 00:00:00 +0100",
-		  "shortdate"  : "January 07, 2014"
+		
 		} ,
 	
 		{
-		  "title"      : "Fancy Some Columns?",
-		  "category"   : "Sample-Posts",
-		  "url"        : "http://disid.github.io/disid-blog/sample-posts/fancy-columns",
-		  "date"       : "2014-01-07 00:00:00 +0100",
-		  "shortdate"  : "January 07, 2014"
+		
 		} ,
 	
 		{
-		  "title"      : "Sample Mathjax Post",
-		  "category"   : "Sample-Posts",
-		  "url"        : "http://disid.github.io/disid-blog/sample-posts/sample-mathjax-post",
-		  "date"       : "2014-01-06 00:00:00 +0100",
-		  "shortdate"  : "January 06, 2014"
+		
 		} ,
 	
 		{
-		  "title"      : "Sample Link Post",
-		  "category"   : "Sample-Posts",
-		  "url"        : "http://disid.github.io/disid-blog/sample-posts/sample-link-post",
-		  "date"       : "2014-01-05 00:00:00 +0100",
-		  "shortdate"  : "January 05, 2014"
+		
 		} ,
 	
 		{
-		  "title"      : "Syntax Highlighting Post",
-		  "category"   : "Sample-Posts",
-		  "url"        : "http://disid.github.io/disid-blog/sample-posts/code-highlighting-post",
-		  "date"       : "2014-01-04 00:00:00 +0100",
-		  "shortdate"  : "January 04, 2014"
+		
 		} ,
 	
 		{
-		  "title"      : "A Post with Images",
-		  "category"   : "Sample-Posts",
-		  "url"        : "http://disid.github.io/disid-blog/sample-posts/sample-post-images",
-		  "date"       : "2014-01-03 00:00:00 +0100",
-		  "shortdate"  : "January 03, 2014"
+		
 		} 
 	
 ]

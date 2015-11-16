@@ -1,53 +1,43 @@
 callback([
 
   {
-    "text": "A Post with Images",
-    "href": "http://disid.github.io/disid-blog/sample-posts/sample-post-images"
+  
   } ,
 
   {
-    "text": "Syntax Highlighting Post",
-    "href": "http://disid.github.io/disid-blog/sample-posts/code-highlighting-post"
+  
   } ,
 
   {
-    "text": "Sample Link Post",
-    "href": "http://disid.github.io/disid-blog/sample-posts/sample-link-post"
+  
   } ,
 
   {
-    "text": "Sample Mathjax Post",
-    "href": "http://disid.github.io/disid-blog/sample-posts/sample-mathjax-post"
+  
   } ,
 
   {
-    "text": "Fancy Some Columns?",
-    "href": "http://disid.github.io/disid-blog/sample-posts/fancy-columns"
+  
   } ,
 
   {
-    "text": "A Post with a Video",
-    "href": "http://disid.github.io/disid-blog/sample-posts/sample-video-post"
+  
   } ,
 
   {
-    "text": "Sample Quotation Post",
-    "href": "http://disid.github.io/disid-blog/sample-posts/a-quotation"
+  
   } ,
 
   {
-    "text": "Sample Status Post",
-    "href": "http://disid.github.io/disid-blog/sample-posts/sample-post-status"
+  
   } ,
 
   {
-    "text": "Theme Elements",
-    "href": "http://disid.github.io/disid-blog/sample-posts/theme-elements"
+  
   } ,
 
   {
-    "text": "A Post with signature author",
-    "href": "http://disid.github.io/disid-blog/sample-posts/sample-author-post"
+  
   } 
 
 ])
