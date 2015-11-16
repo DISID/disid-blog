@@ -2,24 +2,24 @@
 <html lang="en">
 <head>
 <meta charset="utf-8">
-<title>A POST WITH SIGNATURE AUTHOR - DISID BLOG</title>
-<meta name="description" content="Sign your post">
-<meta name="keywords" content="sample post, sign">
+<title>SYNTAX HIGHLIGHTING POST - DISID BLOG</title>
+<meta name="description" content="Demo post displaying the various ways of highlighting code in Asciidoc.">
+<meta name="keywords" content="sample">
 
 <!-- Twitter Cards -->
 <meta name="twitter:card" content="summary_large_image">
 <meta name="twitter:image" content="http://disid.github.io/disid-blog/images/cover-demo.jpg">
 
-<meta name="twitter:title" content="A Post with signature author">
-<meta name="twitter:description" content="Sign your post">
+<meta name="twitter:title" content="Syntax Highlighting Post">
+<meta name="twitter:description" content="Demo post displaying the various ways of highlighting code in Asciidoc.">
 <meta name="twitter:creator" content="@disid_corp">
 
 <!-- Open Graph -->
 <meta property="og:locale" content="en_US">
 <meta property="og:type" content="article">
-<meta property="og:title" content="A Post with signature author">
-<meta property="og:description" content="Sign your post">
-<meta property="og:url" content="http://disid.github.io/disid-blog/sample-posts/sample-author-post">
+<meta property="og:title" content="Syntax Highlighting Post">
+<meta property="og:description" content="Demo post displaying the various ways of highlighting code in Asciidoc.">
+<meta property="og:url" content="http://disid.github.io/disid-blog/sample/code-highlighting-post">
 <meta property="og:site_name" content="DISID Blog">
 <meta property="og:image" content="http://disid.github.io/disid-blog/images/cover-demo.jpg">
 
@@ -27,7 +27,7 @@
 
 
 
-<link rel="canonical" href="http://disid.github.io/disid-blog/sample-posts/sample-author-post">
+<link rel="canonical" href="http://disid.github.io/disid-blog/sample/code-highlighting-post">
 <link href="http://disid.github.io/disid-blog/feed.xml" type="application/atom+xml" rel="alternate" title="DISID Blog Feed">
 
 
@@ -370,7 +370,7 @@ if (jQuery.cookie('cc_cookie_accept') == "cc_cookie_accept") {
             </h1>
             </a>
             <h2 class="blog-description light bordered bordered-top" itemprop="description">
-                Sign your post
+                Demo post displaying the various ways of highlighting code in Asciidoc.
             </h2>
         </div>
     </div>
@@ -389,48 +389,186 @@ if (jQuery.cookie('cc_cookie_accept') == "cc_cookie_accept") {
             
             
                     <header class="post-header entry-header">
-                    <div class="cursive">Featured post</div>
+                    
                         
                         <h1 class="post-title text-center super lighter bordered-bottom entry-title" itemprop="headline">
                         
                         <!-- 
                         
                          -->
-                        A Post with signature author</h1>
+                        Syntax Highlighting Post</h1>
                         
-                        <div class="text-center cursive lighter"><h2>Sign your post</h2></div>
+                        <div class="text-center cursive lighter"><h2>Demo post displaying the various ways of highlighting code in Asciidoc.</h2></div>
                         <div class="post-info text-center small">
-                            <span class="entry-date date published updated"><time datetime="2015-11-10T00:00:00+01:00" class="post-time" itemprop="datePublished">10 Nov 2015</time><span>
-                            in <span class="post-tags"><a href="http://disid.github.io/disid-blog/categories/index.html#sample-posts" data-toggle="tooltip" title="Other posts from the Sample-posts category" rel="tag">Sample-posts</a></span>&nbsp;<span class="post-tags">
-                            <i class="icon-time"></i>&nbsp;Less than 1 minute read</span>
+                            <span class="entry-date date published updated"><time datetime="2014-01-04T00:00:00+01:00" class="post-time" itemprop="datePublished">04 Jan 2014</time><span>
+                            in <span class="post-tags"><a href="http://disid.github.io/disid-blog/categories/index.html#sample" data-toggle="tooltip" title="Other posts from the Sample category" rel="tag">Sample</a></span>&nbsp;<span class="post-tags">
+                            <i class="icon-time"></i>&nbsp;<span class="time">1.525</span> minutes read</span>
                         </div>
                     </header>
                     <div class="post-body bordered-bottom" itemprop="description">
                         
                         <div class="paragraph">
-<p>DISID blog posts embeds a corporative signature after the main content block.</p>
+<p>Syntax highlighting is a feature that displays source code, in different colors and fonts according to the category of terms. This feature facilitates writing in a structured language such as a programming language or a markup language as both structures and syntax errors are visually distinct. Highlighting does not affect the meaning of the text itself; it is intended only for human readers.[^1]</p>
 </div>
 <div class="paragraph">
-<p>To add your signature on a post, make sure your post contains the following contents and customizes with your data in your post&#8217;s Front Matter YAML:</p>
+<p>[^1]: <a href="http://en.wikipedia.org/wiki/Syntax_highlighting" class="bare">http://en.wikipedia.org/wiki/Syntax_highlighting</a></p>
+</div>
+<div class="sect2">
+<h3 id="pygments_code_blocks">Pygments Code Blocks</h3>
+<div class="paragraph">
+<p>To modify styling and highlight colors edit <code>/assets/less/pygments.less</code> and compile <code>main.less</code> with your favorite preprocessor. Or edit <code>main.css</code> if that&#8217;s your thing, the classes you want to modify all begin with <code>.highlight</code>.</p>
 </div>
 <div class="listingblock">
 <div class="content">
-<pre class="CodeRay highlight"><code data-lang="yaml"><span class="key">author</span>:
-    <span class="key">name</span>: <span class="string"><span class="content">Pilar Argudo</span></span>
-    <span class="key">image</span>: <span class="string"><span class="content">https://pbs.twimg.com/profile_images/2885389269/098383c349b67aee48bcbccb0914dcb6_400x400.jpeg</span></span>
-    <span class="key">jobdescription</span>: <span class="string"><span class="content">Front-end developer</span></span>
-    <span class="key">twitter</span>: <span class="string"><span class="content">pilarargudo</span></span></code></pre>
+<pre class="CodeRay highlight"><code data-lang="css"><span class="id">#container</span> {
+    <span class="key">float</span>: <span class="value">left</span>;
+    <span class="key">margin</span>: <span class="float">0</span> <span class="float">-240px</span> <span class="float">0</span> <span class="float">0</span>;
+    <span class="key">width</span>: <span class="float">100%</span>;
+}</code></pre>
 </div>
 </div>
+<div class="listingblock">
+<div class="content">
+<pre class="CodeRay highlight"><code data-lang="html"><span class="tag">&lt;nav</span> <span class="attribute-name">class</span>=<span class="string"><span class="delimiter">&quot;</span><span class="content">pagination</span><span class="delimiter">&quot;</span></span> <span class="attribute-name">role</span>=<span class="string"><span class="delimiter">&quot;</span><span class="content">navigation</span><span class="delimiter">&quot;</span></span><span class="tag">&gt;</span>
+
+        <span class="tag">&lt;a</span> <span class="attribute-name">href</span>=<span class="string"><span class="delimiter">&quot;</span><span class="content">http://disid.github.io/disid-blog/sample/sample-post-images</span><span class="delimiter">&quot;</span></span> <span class="attribute-name">class</span>=<span class="string"><span class="delimiter">&quot;</span><span class="content">btn</span><span class="delimiter">&quot;</span></span> <span class="attribute-name">title</span>=<span class="string"><span class="delimiter">&quot;</span><span class="content">A Post with Images</span><span class="delimiter">&quot;</span></span><span class="tag">&gt;</span>Previous article<span class="tag">&lt;/a&gt;</span>
+
+
+        <span class="tag">&lt;a</span> <span class="attribute-name">href</span>=<span class="string"><span class="delimiter">&quot;</span><span class="content">http://disid.github.io/disid-blog/sample/sample-link-post</span><span class="delimiter">&quot;</span></span> <span class="attribute-name">class</span>=<span class="string"><span class="delimiter">&quot;</span><span class="content">btn</span><span class="delimiter">&quot;</span></span> <span class="attribute-name">title</span>=<span class="string"><span class="delimiter">&quot;</span><span class="content">Sample Link Post</span><span class="delimiter">&quot;</span></span><span class="tag">&gt;</span>Next article<span class="tag">&lt;/a&gt;</span>
+
+<span class="tag">&lt;/nav&gt;</span><span class="comment">&lt;!-- /.pagination --&gt;</span></code></pre>
+</div>
+</div>
+<div class="listingblock">
+<div class="content">
+<pre class="CodeRay highlight"><code data-lang="ruby"><span class="keyword">module</span> <span class="class">Jekyll</span>
+  <span class="keyword">class</span> <span class="class">TagIndex</span> &lt; <span class="constant">Page</span>
+    <span class="keyword">def</span> <span class="function">initialize</span>(site, base, dir, tag)
+      <span class="instance-variable">@site</span> = site
+      <span class="instance-variable">@base</span> = base
+      <span class="instance-variable">@dir</span> = dir
+      <span class="instance-variable">@name</span> = <span class="string"><span class="delimiter">'</span><span class="content">index.html</span><span class="delimiter">'</span></span>
+      <span class="predefined-constant">self</span>.process(<span class="instance-variable">@name</span>)
+      <span class="predefined-constant">self</span>.read_yaml(<span class="constant">File</span>.join(base, <span class="string"><span class="delimiter">'</span><span class="content">_layouts</span><span class="delimiter">'</span></span>), <span class="string"><span class="delimiter">'</span><span class="content">tag_index.html</span><span class="delimiter">'</span></span>)
+      <span class="predefined-constant">self</span>.data[<span class="string"><span class="delimiter">'</span><span class="content">tag</span><span class="delimiter">'</span></span>] = tag
+      tag_title_prefix = site.config[<span class="string"><span class="delimiter">'</span><span class="content">tag_title_prefix</span><span class="delimiter">'</span></span>] || <span class="string"><span class="delimiter">'</span><span class="content">Tagged: </span><span class="delimiter">'</span></span>
+      tag_title_suffix = site.config[<span class="string"><span class="delimiter">'</span><span class="content">tag_title_suffix</span><span class="delimiter">'</span></span>] || <span class="string"><span class="delimiter">'</span><span class="content">&amp;#8211;</span><span class="delimiter">'</span></span>
+      <span class="predefined-constant">self</span>.data[<span class="string"><span class="delimiter">'</span><span class="content">title</span><span class="delimiter">'</span></span>] = <span class="string"><span class="delimiter">&quot;</span><span class="inline"><span class="inline-delimiter">#{</span>tag_title_prefix<span class="inline-delimiter">}</span></span><span class="inline"><span class="inline-delimiter">#{</span>tag<span class="inline-delimiter">}</span></span><span class="delimiter">&quot;</span></span>
+      <span class="predefined-constant">self</span>.data[<span class="string"><span class="delimiter">'</span><span class="content">description</span><span class="delimiter">'</span></span>] = <span class="string"><span class="delimiter">&quot;</span><span class="content">An archive of posts tagged </span><span class="inline"><span class="inline-delimiter">#{</span>tag<span class="inline-delimiter">}</span></span><span class="content">.</span><span class="delimiter">&quot;</span></span>
+    <span class="keyword">end</span>
+  <span class="keyword">end</span>
+<span class="keyword">end</span></code></pre>
+</div>
+</div>
+</div>
+<div class="sect2">
+<h3 id="standard_code_block">Standard Code Block</h3>
+<div class="listingblock">
+<div class="content">
+<pre>    &lt;nav class="pagination" role="navigation"&gt;
+
+            &lt;a href="http://disid.github.io/disid-blog/sample/sample-post-images" class="btn" title="A Post with Images"&gt;Previous article&lt;/a&gt;
+
+
+            &lt;a href="http://disid.github.io/disid-blog/sample/sample-link-post" class="btn" title="Sample Link Post"&gt;Next article&lt;/a&gt;
+
+    &lt;/nav&gt;&lt;!-- /.pagination --&gt;</pre>
+</div>
+</div>
+</div>
+<div class="sect2">
+<h3 id="fenced_code_blocks">Fenced Code Blocks</h3>
 <div class="paragraph">
-<p>Enjoy!</p>
+<p>To modify styling and highlight colors edit <code>/assets/less/coderay.less</code> and compile <code>main.less</code> with your favorite preprocessor. Or edit <code>main.css</code> if that&#8217;s your thing, the classes you want to modify all begin with <code>.coderay</code>. Line numbers and a few other things can be modified in <code>_config.yml</code> under <code>coderay</code>.</p>
+</div>
+<div class="listingblock">
+<div class="content">
+<pre class="CodeRay highlight"><code data-lang="css"><table class="CodeRay"><tr>
+  <td class="line-numbers"><pre>1
+2
+3
+4
+5
+</pre></td>
+  <td class="code"><pre><span class="id">#container</span> {
+    <span class="key">float</span>: <span class="value">left</span>;
+    <span class="key">margin</span>: <span class="float">0</span> <span class="float">-240px</span> <span class="float">0</span> <span class="float">0</span>;
+    <span class="key">width</span>: <span class="float">100%</span>;
+}</pre></td>
+</tr></table></code></pre>
+</div>
+</div>
+<div class="listingblock">
+<div class="content">
+<pre class="CodeRay highlight"><code data-lang="html"><table class="CodeRay"><tr>
+  <td class="line-numbers"><pre>1
+2
+3
+4
+5
+6
+7
+8
+</pre></td>
+  <td class="code"><pre><span class="tag">&lt;nav</span> <span class="attribute-name">class</span>=<span class="string"><span class="delimiter">&quot;</span><span class="content">pagination</span><span class="delimiter">&quot;</span></span> <span class="attribute-name">role</span>=<span class="string"><span class="delimiter">&quot;</span><span class="content">navigation</span><span class="delimiter">&quot;</span></span><span class="tag">&gt;</span>
+
+        <span class="tag">&lt;a</span> <span class="attribute-name">href</span>=<span class="string"><span class="delimiter">&quot;</span><span class="content">http://disid.github.io/disid-blog/sample/sample-post-images</span><span class="delimiter">&quot;</span></span> <span class="attribute-name">class</span>=<span class="string"><span class="delimiter">&quot;</span><span class="content">btn</span><span class="delimiter">&quot;</span></span> <span class="attribute-name">title</span>=<span class="string"><span class="delimiter">&quot;</span><span class="content">A Post with Images</span><span class="delimiter">&quot;</span></span><span class="tag">&gt;</span>Previous article<span class="tag">&lt;/a&gt;</span>
+
+
+        <span class="tag">&lt;a</span> <span class="attribute-name">href</span>=<span class="string"><span class="delimiter">&quot;</span><span class="content">http://disid.github.io/disid-blog/sample/sample-link-post</span><span class="delimiter">&quot;</span></span> <span class="attribute-name">class</span>=<span class="string"><span class="delimiter">&quot;</span><span class="content">btn</span><span class="delimiter">&quot;</span></span> <span class="attribute-name">title</span>=<span class="string"><span class="delimiter">&quot;</span><span class="content">Sample Link Post</span><span class="delimiter">&quot;</span></span><span class="tag">&gt;</span>Next article<span class="tag">&lt;/a&gt;</span>
+
+<span class="tag">&lt;/nav&gt;</span><span class="comment">&lt;!-- /.pagination --&gt;</span></pre></td>
+</tr></table></code></pre>
+</div>
+</div>
+<div class="listingblock">
+<div class="content">
+<pre class="CodeRay highlight"><code data-lang="ruby"><table class="CodeRay"><tr>
+  <td class="line-numbers"><pre>1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+11
+12
+13
+14
+15
+16
+17
+</pre></td>
+  <td class="code"><pre><span class="keyword">module</span> <span class="class">Jekyll</span>
+  <span class="keyword">class</span> <span class="class">TagIndex</span> &lt; <span class="constant">Page</span>
+    <span class="keyword">def</span> <span class="function">initialize</span>(site, base, dir, tag)
+      <span class="instance-variable">@site</span> = site
+      <span class="instance-variable">@base</span> = base
+      <span class="instance-variable">@dir</span> = dir
+      <span class="instance-variable">@name</span> = <span class="string"><span class="delimiter">'</span><span class="content">index.html</span><span class="delimiter">'</span></span>
+      <span class="predefined-constant">self</span>.process(<span class="instance-variable">@name</span>)
+      <span class="predefined-constant">self</span>.read_yaml(<span class="constant">File</span>.join(base, <span class="string"><span class="delimiter">'</span><span class="content">_layouts</span><span class="delimiter">'</span></span>), <span class="string"><span class="delimiter">'</span><span class="content">tag_index.html</span><span class="delimiter">'</span></span>)
+      <span class="predefined-constant">self</span>.data[<span class="string"><span class="delimiter">'</span><span class="content">tag</span><span class="delimiter">'</span></span>] = tag
+      tag_title_prefix = site.config[<span class="string"><span class="delimiter">'</span><span class="content">tag_title_prefix</span><span class="delimiter">'</span></span>] || <span class="string"><span class="delimiter">'</span><span class="content">Tagged: </span><span class="delimiter">'</span></span>
+      tag_title_suffix = site.config[<span class="string"><span class="delimiter">'</span><span class="content">tag_title_suffix</span><span class="delimiter">'</span></span>] || <span class="string"><span class="delimiter">'</span><span class="content">&amp;#8211;</span><span class="delimiter">'</span></span>
+      <span class="predefined-constant">self</span>.data[<span class="string"><span class="delimiter">'</span><span class="content">title</span><span class="delimiter">'</span></span>] = <span class="string"><span class="delimiter">&quot;</span><span class="inline"><span class="inline-delimiter">#{</span>tag_title_prefix<span class="inline-delimiter">}</span></span><span class="inline"><span class="inline-delimiter">#{</span>tag<span class="inline-delimiter">}</span></span><span class="delimiter">&quot;</span></span>
+      <span class="predefined-constant">self</span>.data[<span class="string"><span class="delimiter">'</span><span class="content">description</span><span class="delimiter">'</span></span>] = <span class="string"><span class="delimiter">&quot;</span><span class="content">An archive of posts tagged </span><span class="inline"><span class="inline-delimiter">#{</span>tag<span class="inline-delimiter">}</span></span><span class="content">.</span><span class="delimiter">&quot;</span></span>
+    <span class="keyword">end</span>
+  <span class="keyword">end</span>
+<span class="keyword">end</span></pre></td>
+</tr></table></code></pre>
+</div>
+</div>
 </div>
                         <br>
                     
                     
                     <div class="entry-tags text-center">
 
-                        <i class="icon-tags"></i>&nbsp;Tagged with <a href="http://disid.github.io/disid-blog/tags/index.html#sample post" data-toggle="tooltip" title="Posts tagged with sample post" rel="tag">sample post</a>&nbsp;&bull;&nbsp;<a href="http://disid.github.io/disid-blog/tags/index.html#sign" data-toggle="tooltip" title="Posts tagged with sign" rel="tag">sign</a>
+                        <i class="icon-tags"></i>&nbsp;Tagged with <a href="http://disid.github.io/disid-blog/tags/index.html#sample" data-toggle="tooltip" title="Posts tagged with sample" rel="tag">sample</a>
 
                     </div>
                     
@@ -443,19 +581,19 @@ if (jQuery.cookie('cc_cookie_accept') == "cc_cookie_accept") {
     </p>
     <ul class="social-mini">
         <li>
-            <a href="https://twitter.com/intent/tweet?text=&quot;A Post with signature author&quot;%20http://disid.github.io/disid-blog/sample-posts/sample-author-post%20via%20&#64;disid_corp"
+            <a href="https://twitter.com/intent/tweet?text=&quot;Syntax Highlighting Post&quot;%20http://disid.github.io/disid-blog/sample/code-highlighting-post%20via%20&#64;disid_corp"
             onclick="window.open(this.href, 'twitter-share', 'width=550,height=235');return false;" data-toggle="tooltip" title="Share on Twitter" itemprop="Twitter">
                 <i class="icon-twitter"></i>
             </a>
         </li>
         <li>
-            <a  href="https://www.facebook.com/sharer/sharer.php?u=http://disid.github.io/disid-blog/sample-posts/sample-author-post"
+            <a  href="https://www.facebook.com/sharer/sharer.php?u=http://disid.github.io/disid-blog/sample/code-highlighting-post"
             onclick="window.open(this.href, 'facebook-share','width=580,height=296');return false;" data-toggle="tooltip" title="Share on Facebook" itemprop="Facebook">
                 <i class="icon-facebook"></i>
             </a>
         </li>
         <li>
-            <a href="https://plus.google.com/share?url=http://disid.github.io/disid-blog/sample-posts/sample-author-post"
+            <a href="https://plus.google.com/share?url=http://disid.github.io/disid-blog/sample/code-highlighting-post"
            onclick="window.open(this.href, 'google-plus-share', 'width=490,height=530');return false;" data-toggle="tooltip" title="Share on Google plus" itemprop="GooglePlus">
                 <i class="icon-google-plus"></i>
             </a>
@@ -465,18 +603,17 @@ if (jQuery.cookie('cc_cookie_accept') == "cc_cookie_accept") {
                         <div class="post-author text-center">
 
       
-         <img src="https://pbs.twimg.com/profile_images/2885389269/098383c349b67aee48bcbccb0914dcb6_400x400.jpeg" alt="Pilar Argudo's photo" itemprop="image" class="post-avatar img-circle img-responsive"/>
+        <img src="http://disid.github.io/disid-blog/images/favicon_DISID.png" alt="DISID Corporation's photo" itemprop="image" class="post-avatar img-circle img-responsive"/>
       
 
       
         <h4 class="bordered-bottom vcard author" itemprop="author" itemscope itemtype="http://schema.org/Person">
         By <span itemprop="name" class="fn">
-        <a href="http://twitter.com/@pilarargudo" title="Connect Pilar Argudo" itemprop="url">Pilar Argudo</a>
-        </a></span>
-        </h4>
-        <p> Front-end developer at
         <a href="http://twitter.com/@disid_corp" title="Connect DISID Corporation" itemprop="url">
-        DISID Corporation</p>
+        DISID Corporation
+        </a></span></h4>
+        <p>Software solutions provider</p>
+
       
 
 <hr>
