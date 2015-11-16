@@ -12,17 +12,23 @@ lang: en
 {% assign tags_list = site.categories %}
   {% if tags_list.first[0] == null %}
     {% for tag in tags_list %}
-      <li><a href="#{{ tag }}">{{ tag | capitalize }} <span>{{ site.tags[tag].size }}</span></a></li>
+       {% unless tag contains 'sample' %}
+        <li><a href="#{{ tag }}">{{ tag | capitalize }} <span>{{ site.tags[tag].size }}</span></a></li>
+       {% endunless %}
     {% endfor %}
   {% else %}
     {% for tag in tags_list %}
+      {% unless tag contains 'sample' %}
       <li><a href="#{{ tag[0] }}">{{ tag[0] | capitalize }} <span>{{ tag[1].size }}</span></a></li>
+      {% endunless %}
     {% endfor %}
   {% endif %}
 {% assign tags_list = nil %}
 </ul>
 
+
 {% for tag in site.categories %}
+{% unless tag contains 'sample' %}
   <h2 id="{{ tag[0] }}" style="color: #EF7229">{{ tag[0] | capitalize }}</h2>
   <ul class="post-list">
     {% assign pages_list = tag[1] %}
@@ -36,4 +42,5 @@ lang: en
     {% assign pages_list = nil %}
     {% assign group = nil %}
   </ul>
+{% endunless %}
 {% endfor %}

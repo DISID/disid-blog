@@ -4,12 +4,13 @@ type: quote
 title: "Sample Quotation Post"
 description: Sample Quotation Post
 headline: "Sample Video Headline Post"
-category: Sample-Posts
-tags: [sample post, quotation]
+category: Sample
+tags: [sample]
 imagefeature: cover-demo.jpg
 image:
   thumb: disid-thumbnail.png #keep it square 200x200 px is good
 lang: en
+hidden: true
 ---
 
 > I hold it that a little rebellion now and then is a good thing,

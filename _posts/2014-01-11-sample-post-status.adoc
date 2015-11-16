@@ -4,12 +4,13 @@ type: status
 title: "Sample Status Post"
 description: "This is a sample status"
 headline: "This is a sample status"
-category: Sample-Posts
-tags: [sample post, images]
+category: Sample
+tags: [sample]
 imagefeature: cover-demo.jpg
 image:
   thumb: disid-thumbnail.png =keep it square 200x200 px is good
 lang: en
+hidden: true
 ---
 Oh Hello. This is a status post. Click here to learn about it more :-)
 

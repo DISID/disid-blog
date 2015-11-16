@@ -3,8 +3,8 @@ layout: post
 title: "A Post with signature author"
 description: "Sign your post"
 headline: "Sign your post"
-category: Sample-Posts
-tags: [sample post, sign]
+category: Sample
+tags: [sample]
 imagefeature: cover-demo.jpg
 image:
   thumb: disid-thumbnail.png #keep it square 200x200 px is good
@@ -15,6 +15,7 @@ author:
   image: https://pbs.twimg.com/profile_images/2885389269/098383c349b67aee48bcbccb0914dcb6_400x400.jpeg
   jobdescription: Front-end developer
   twitter: pilarargudo
+hidden: true
 ---
 
 DISID blog posts embeds a corporative signature after the main content block.
@@ -24,10 +25,10 @@ To add your signature on a post, make sure your post contains the following cont
 [source,yaml]
 ----
 author:
-    name: Pilar Argudo
-    image: https://pbs.twimg.com/profile_images/2885389269/098383c349b67aee48bcbccb0914dcb6_400x400.jpeg
-    jobdescription: Front-end developer
-    twitter: pilarargudo
+    name: Your Name
+    image: profile picture URL
+    jobdescription: Job Description
+    twitter: @twitter-profile
 ----
 
 Enjoy!

@@ -3,12 +3,13 @@ layout: post
 title: Syntax Highlighting Post
 description: "Demo post displaying the various ways of highlighting code in Asciidoc."
 headline: "Demo post displaying the various ways of highlighting code in Asciidoc."
-category: Sample-Posts
-tags: [sample post, highlighting post]
+category: Sample
+tags: [sample]
 imagefeature: cover-demo.jpg
 image:
   thumb: disid-thumbnail.png #keep it square 200x200 px is good
 lang: en
+hidden: true
 ---
 
 Syntax highlighting is a feature that displays source code, in different colors and fonts according to the category of terms. This feature facilitates writing in a structured language such as a programming language or a markup language as both structures and syntax errors are visually distinct. Highlighting does not affect the meaning of the text itself; it is intended only for human readers.[^1]

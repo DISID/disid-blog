@@ -3,8 +3,10 @@
 callback([
 {% for post in site.posts reversed | sort: title %}
   {
+  {% unless post.hidden %}
     "text": "{{post.title | replace:'"','\"'}}",
     "href": "{{site.url}}{{post.url}}"
+  {% endunless %}
   } {% unless forloop.last %},{% endunless%}
 {% endfor %}
 ])

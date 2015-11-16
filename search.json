@@ -3,11 +3,13 @@
 [
 	{% for post in site.posts %}
 		{
+		{% unless post.hidden %}
 		  "title"      : "{{ post.title | escape }}",
 		  "category"   : "{{ post.category }}",
 		  "url"        : "{{ site.url }}{{ post.url }}",
 		  "date"       : "{{ post.date }}",
 		  "shortdate"  : "{{ post.date | date: '%B %d, %Y' }}"
+		{% endunless %}
 		} {% if forloop.last %}{% else %},{% endif %}
 	{% endfor %}
 ]

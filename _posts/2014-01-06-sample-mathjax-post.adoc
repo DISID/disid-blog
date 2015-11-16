@@ -3,13 +3,14 @@ layout: post
 title: "Sample Mathjax Post"
 description: "MathJax Test article"
 headline: "MathJax Test article"
-category: Sample-Posts
-tags: [sample post, MathJax post]
+category: Sample
+tags: [sample]
 imagefeature: cover-demo.jpg
 image:
   thumb: disid-thumbnail.png #keep it square 200x200 px is good
 lang: en
 mathjax: true
+hidden: true
 ---
 
 HMFAYSAL OMEGA theme supports both inline and displayed equations via MathJax.  The theme keeps MathJax turned off by default to improve page load speed. MathJax can be turned on from the post's Front Matter YAML. Simply put the following statement in the post's Front Matter YAML:
