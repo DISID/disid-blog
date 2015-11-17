@@ -2876,6 +2876,8 @@ figure a img:hover {
     box-shadow: 0 0 10px rgba(0,0,0,0.2);
 }
 
+.imageblock{ margin: 10px;}
+
 @media only screen and (min-width:62.5em) {
     .post-body .half img,
     figure.half img {
