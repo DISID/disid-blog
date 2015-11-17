@@ -132,6 +132,24 @@ After you’ve added one or few posts and Once you're satisified with your edits
 Your post will be added at `_drafts` folder and it's not published yet.
 
 
+
+[IMPORTANT] 
+.Check out the AsciiDoc format
+==== 
+Before commit your blog post, it’s time to render the AsciiDoc document to HTML and confirms you’ve entered the correct syntax for an inline or block element in your post.
+
+We recommend selecting an editor that supports syntax highlighting for AsciiDoc. Previewing the output of the document while editing can be helpful.
+
+http://asciidoctor.org/docs/asciidoc-writers-guide/[Asciidoctor] provides a command line tool and a Ruby API for converting AsciiDoc documents to HTML 5 and other custom output formats. To use Asciidoctor to generate an HTML document, type asciidoctor followed by your document’s name on the command line:
+
+----
+$ asciidoctor sample.adoc
+----
+
+Besides, here’s an overview of the different ways to setup http://asciidoctor.org/docs/editing-asciidoc-with-live-preview/[live preview of AsciiDoc].
+====
+
+
 ===  View your post live on the web
 
 All you have to do is add your post at `_drafts` folder, and our team of content curators will review and pick up your content and it will be move it to `_posts` folder.
