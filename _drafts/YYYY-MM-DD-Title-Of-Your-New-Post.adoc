@@ -1,0 +1,142 @@
+---
+layout: post
+type: photo
+title: "Title of your new post"
+description: "Description of your new post"
+headline: "Highlights of your new post"
+category: Sample
+tags: [sample]
+imagefeature: cover-demo.jpg
+image:
+  thumb: disid-thumbnail.png =keep it square 200x200 px is good
+lang: en
+featured: true
+author:
+  name: Pilar Argudo
+  image: https://pbs.twimg.com/profile_images/2885389269/098383c349b67aee48bcbccb0914dcb6_400x400.jpeg
+  jobdescription: Front-end developer
+  twitter: pilarargudo
+---
+
+Below is just about everything you'll need to style in the theme. Check the source code to see the many embedded elements within paragraphs.
+
+= Heading 1
+
+== Heading 2
+
+Lorem ipsum dolor sit amet, test link adipiscing elit. *This is strong*. Nullam dignissim convallis est. Quisque aliquam.
+
+_This is emphasized_. Donec faucibus. Nunc iaculis suscipit dui. Water is H~O~. Nam sit amet sem. Aliquam libero nisi, imperdiet at, tincidunt nec, gravida vehicula, nisl.
+The markup pass:q[<u>underline *me*</u>] renders as underlined text and "`me`" is bold.
+
+
+=== Heading 3
+
+Maecenas ornare tortor. Donec sed tellus eget sapien fringilla nonummy. Mauris a ante. Suspendisse quam sem, consequat at, commodo vitae, feugiat in, nunc. Morbi imperdiet augue quis tellus.
+
+==== Blockquotes
+
+> I hold it that a little rebellion now and then is a good thing,
+> and as necessary in the political world as storms in the physical.
+> -- Albert Einstein
+
+== List Types
+
+=== Ordered Lists
+
+. Step 1
+. Step 2
+.. Step 2a
+.. Step 2b
+. Step 3
+
+=== Unordered Lists
+
+* Item one
+* Item two
+* Item three
+
+
+== Code Snippets
+
+Syntax highlighting via Pygments
+
+[source,css]
+----
+#container {
+  float: left;
+  margin: 0 -240px 0 0;
+  width: 100%;
+}
+----
+
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed pharetra eget erat in sollicitudin. Fusce nec sollicitudin enim. Suspendisse maximus nibh ac libero volutpat feugiat. Sed vel lorem sed diam bibendum porta. Maecenas sapien purus, sollicitudin eu nunc vel, semper bibendum nisl.
+
+
+[source,ruby,numbered]
+----
+module Jekyll
+  class TagIndex < Page
+    def initialize(site, base, dir, tag)
+      @site = site
+      @base = base
+      @dir = dir
+      @name = 'index.html'
+      self.process(@name)
+      self.read_yaml(File.join(base, '_layouts'), 'tag_index.html')
+      self.data['tag'] = tag
+      tag_title_prefix = site.config['tag_title_prefix'] || 'Tagged: '
+      tag_title_suffix = site.config['tag_title_suffix'] || '&#8211;'
+      self.data['title'] = "#{tag_title_prefix}#{tag}"
+      self.data['description'] = "An archive of posts tagged #{tag}."
+    end
+  end
+end
+----
+
+
+== Figures
+
+image::{{ site.url }}/images/cover-demo.jpg[Tiger,200,200,float="left",align="center"]
+
+Here are some examples of what a post with images might look like. If you want to display two or three images next to each other responsively use `figure` with the appropriate `class`. Images are responsive and are opened in a Magnific Popup lightbox if you link a larger image to the entry. Also if you link a larger image, the image thumbs uses CSS3 transitions to turn B&W and change back to color on mouse-hover. Each instance of `figure` is auto-numbered and displayed in the caption.
+
+
+
+=== One Up
+
+Vestibulum at nulla euismod, scelerisque nisl id, rhoncus ante. Donec et enim metus. Aliquam malesuada, dui sed sollicitudin fringilla, quam erat bibendum quam, mattis consectetur risus risus et metus. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Sed efficitur, turpis vel dapibus ultricies, turpis neque tincidunt sapien, hendrerit eleifend ex turpis non elit. Integer ac lectus eget quam commodo tincidunt. Donec egestas metus in venenatis condimentum.
+
+[[img-id-anchor-link]]
+.A description image for caption figure with http://discuss.asciidoctor.org/[link].
+image::{{ site.url }}/images/cover-demo.jpg[Sunset, 300, 200, align="center", link="{{ site.url }}/images/cover-demo.jpg"]
+
+
+=== Two Up
+
+
+Apply the `half` class like so to display two images side by side that share the same caption.
+And you'll get something that looks like this:
+
+[.half]
+image::{{ site.url }}/images/cover-demo.jpg[A,link="{{ site.url }}/images/cover-demo.jpg"]
+
+[.half]
+image::{{ site.url }}/images/cover-demo.jpg[B,link="{{ site.url }}/images/cover-demo.jpg"]
+
+
+=== Three Up
+
+Apply the `third` class like so to display three images side by side that share the same caption.
+And you'll get something that looks like this:
+
+[.third]
+image::{{ site.url }}/images/cover-demo.jpg[B,link="{{ site.url }}/images/cover-demo.jpg"]
+
+[.third]
+image::{{ site.url }}/images/cover-demo.jpg[B,link="{{ site.url }}/images/cover-demo.jpg"]
+
+[.third]
+.Caption describing these three images.
+image::{{ site.url }}/images/cover-demo.jpg[B,link="{{ site.url }}/images/cover-demo.jpg"]
+
