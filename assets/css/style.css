@@ -3540,6 +3540,10 @@ pre {
     page-break-inside: avoid;
 }
 
+.CodeRay pre {
+    border: 1px solid transparent;
+}
+
 .highlight {
     margin-bottom: 1.5em;
     border: 1px solid #dedede;
