@@ -175,11 +175,7 @@ Use the `--drafts` flag to show drafts posts at `_drafts` folder not published y
 
 Copyright (C) 2015 http://www.disid.com/en[DISID CORPORATION S.L.]
 
-This work is licensed under the terms of the GNU General Public License as published by the Free Software Foundation, version 3 of the License.
-
-This work is distributed in the hope that it will be useful, but WITHOUT ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the GNU General Public License for more details.
-
-To view a copy of this license, visit http://www.gnu.org/copyleft/gpl.html
+DISID blog content is licensed under a https://creativecommons.org/licenses/by-nc-sa/3.0/[Creative Commons Attribution-NonCommercial-ShareAlike 3.0 Unported License]. Based on a work at blog.disid.com.
 
 
 == Stay tuned
