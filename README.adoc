@@ -119,6 +119,8 @@ samples: true
 
 This values let us publish hidden posts and lets you see sample posts in Github Pages.
 
+Besides, you have available a _adoc_ template in `_drafts` folder.
+
 
 === Commit your post
 
@@ -133,9 +135,9 @@ Your post will be added at `_drafts` folder and it's not published yet.
 
 
 
-[IMPORTANT] 
+[IMPORTANT]
 .Check out the AsciiDoc format
-==== 
+====
 Before commit your blog post, it’s time to render the AsciiDoc document to HTML and confirms you’ve entered the correct syntax for an inline or block element in your post.
 
 We recommend selecting an editor that supports syntax highlighting for AsciiDoc. Previewing the output of the document while editing can be helpful.
