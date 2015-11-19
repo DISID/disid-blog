@@ -2,16 +2,16 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
     
     <url>
-        <loc>http://disid.github.io/disid-blog/</loc>
+        <loc>http://blog.disid.com/</loc>
     </url>
     <url>
-        <loc>http://disid.github.io/disid-blog/featured</loc>
+        <loc>http://blog.disid.com/featured</loc>
     </url>
     <url>
-        <loc>http://disid.github.io/disid-blog/categories</loc>
+        <loc>http://blog.disid.com/categories</loc>
     </url>
     <url>
-        <loc>http://disid.github.io/disid-blog/tags</loc>
+        <loc>http://blog.disid.com/tags</loc>
     </url>
 
     
