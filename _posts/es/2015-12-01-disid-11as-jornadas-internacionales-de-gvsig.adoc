@@ -28,7 +28,7 @@ Las jornadas Internacionales gvSIG convierten por unos días a Valencia en el ce
 
 Los asistentes a las jornadas podrán disfrutar de un interesante conjunto de ponencias y talleres, que puede consultarse en su http://www.gvsig.com/es/eventos/jornadas-gvsig/11as-jornadas-gvsig/programa[programa].
 
-DISID participa como Patrocinador de Oro de las jornadas y participa activamente con diferentes charlas y seminarios:
+DISID participa como Patrocinador de Oro de las jornadas y participa activamente con diferentes desarrollos de producto, charlas y seminarios:
 
 ++++
 <small><i style="color: #bbb">Miércoles 2 de diciembre</i></small><br>
@@ -44,14 +44,18 @@ DISID participa como Patrocinador de Oro de las jornadas y participa activamente
 
 * Nuestro compañero http://www.twitter.com/@jmvivo[José Manuel Vivó] presenta las últimas novedades de *gvNIX*.
 
-* Le sigue el turno de la aplicación *gvSIG Roads*: gestión de la conservación e inventario de carreteras con software libre, presentación a cargo de nuestro compañero Ricardo Rueda
+* Le sigue el turno de la aplicación *gvSIG Roads*: gestión de la conservación e inventario de carreteras con software libre, presentación a cargo de nuestro compañero Ricardo Rueda.
 
-* Por la tarde, y con un seminario de 3 horas, http://www.twitter.com/@paunaal[Paula Navarro] imparte el taller de *gvNIX*: Desarrollo rápido de Geoportales para visualización y gestión de datos.
+* Presentación de segmentación dinámica en gvSIG Desktop. Aplicación a la gestión de carreteras en la que hemos participado en el desarrollo.
+
+* Por la tarde, y con un seminario de 3 horas, http://www.twitter.com/@paunaal[Paula Navarro] imparte el taller de http://www.gvnix.org[gvNIX]: Desarrollo rápido de Geoportales para visualización y gestión de datos.
 
 ++++
 <small><i style="color: #bbb">Viernes 4 de diciembre</i></small><br>
 ++++
 
-* Nuestro equipo de desarrollo de gvSIG participará en el Code Sprint para desarrolladores de gvSIG Desktop
+* Nuestro equipo de desarrollo de gvSIG participará en el Code Sprint para desarrolladores de gvSIG Desktop.
+
+* Taller de novedades *gvSIG Desktop*, desarrollo de software en el que hemos participado con nuevas funcionalidades.
 
 Te invitamos a participar. ¡Te esperamos en las jornadas!

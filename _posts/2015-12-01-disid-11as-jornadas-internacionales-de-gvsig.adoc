@@ -28,7 +28,7 @@ The International gvSIG Conference become Valencia for a few days in the middle 
 
 Attendees at the conference will enjoy an interesting set of presentations and workshops, available in your http://www.gvsig.com/en/web/guest/events/gvsig-conference/11th-gvsig-conference/program[program].
 
-DISID participates as Gold Sponsor of the conference and actively participates in various conferences and seminars:
+DISID participates as Gold Sponsor of the conference and actively participates in various product development, conferences and seminars:
 
 ++++
 <small><i style="color: #bbb">Wednesday, December 2</i></small><br>
@@ -45,12 +45,16 @@ DISID participates as Gold Sponsor of the conference and actively participates i
 
 * It is followed by *gvSIG Roads* application: maintenance and conservation of roads management using open source software, presentation by our colleague Ricardo Rueda.
 
-* In the afternoon, with a 3-hour seminar, http://www.twitter.com/@paunaal[Paula Navarro] teaches the workshop *gvNIX*: Rapid development of Geoportals for visualization and data management.
+* Presentation of dynamic segmentation in gvSIG Desktop. Application for roads management in which we've participated in the development.
+
+* In the afternoon, with a 3-hour seminar, http://www.twitter.com/@paunaal[Paula Navarro] teaches the workshop http://www.gvnix.org[gvNIX]: Rapid development of Geoportals for visualization and data management.
 
 ++++
 <small><i style="color: #bbb">Friday, December 4</i></small><br>
 ++++
 
 * Our gvSIG development team participates in the Code Sprint Developer gvSIG Desktop.
+
+* *gvSIG Desktop* new features Workshop, software development in which we have participated with new tools.
 
 We invite you to participate. See you at the conference!
