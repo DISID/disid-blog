@@ -1,10 +1,13 @@
-<!-- languages link -->
+<!-- language variables -->
 <li class="lang">
-  <a href="http://www.disid.com/" data-placement="bottom" alt="Website in Spanish" title="" rel="tooltip" data-original-title="Website in Spanish">
-    <img src="http://www.disid.com/disid-bootstrap-theme/images/language/es_ES.png"> </a>
-    <a href="http://www.disid.com/en" data-placement="bottom" alt="Website in English" title="" rel="tooltip" data-original-title="Website in English">
-  <img src="http://www.disid.com/disid-bootstrap-theme/images/language/en_GB.png">
-  </a>
+  {% if page.lang == "en" %}
+    <a href="{{ site.url }}{{ page.url }}" class="{{ page.lang }}"><img src="http://www.disid.com/disid-bootstrap-theme/images/language/en_GB.png"></a>
+    <a href="{{ site.url }}{{ page.url | replace: '/en/','/es/'}}"><img src="http://www.disid.com/disid-bootstrap-theme/images/language/es_ES.png"></a>
+  {% endif %}
+  {% if page.lang == "es" %}
+    <a href="{{ site.url }}{{ page.url  | replace: '/es/','/en/' }}"><img src="http://www.disid.com/disid-bootstrap-theme/images/language/en_GB.png"></a>
+    <a href="{{ site.url }}{{ page.url }}" class="{{ page.lang }}"><img src="http://www.disid.com/disid-bootstrap-theme/images/language/es_ES.png"></a>
+  {% endif %}
 </li>
 
 <!-- contact -->

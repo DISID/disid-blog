@@ -6,8 +6,12 @@ headline: Software solutions provider
 tags: [blog]
 lang: en
 ---
+
 {% if site.paginate %}
-	{% for post in paginator.posts %}
+
+  {% assign posts=paginator.posts | where:"lang", page.lang %}
+
+	{% for post in posts %}
 		{% if site.wpm %}
 		{% assign readtime = post.content | strip_html | number_of_words | append: '.0' | divided_by:site.wpm %}
 		{% else %}
@@ -292,7 +296,9 @@ lang: en
         </div>
 {% endif %}
 {% else %}
-	{% for post in site.posts %}
+
+  {% assign posts=site.posts | where:"lang", page.lang %}
+	{% for post in posts %}
 		{% assign readtime = post.content | strip_html | number_of_words | append: '.0' | divided_by:site.wpm %}
 		{% assign modifiedtime = post.modified | date: "%Y%m%d" %}
 		{% assign posttime = post.date | date: "%Y%m%d" %}

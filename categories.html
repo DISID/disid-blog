@@ -12,13 +12,13 @@ lang: en
 {% assign tags_list = site.categories %}
   {% if tags_list.first[0] == null %}
     {% for tag in tags_list %}
-       {% unless tag contains 'sample' %}
+       {% unless tag contains 'sample' or tag contains 'es' or tag contains 'en' %}
         <li><a href="#{{ tag }}">{{ tag | capitalize }} <span>{{ site.tags[tag].size }}</span></a></li>
        {% endunless %}
     {% endfor %}
   {% else %}
     {% for tag in tags_list %}
-      {% unless tag contains 'sample' %}
+      {% unless tag contains 'sample' or tag contains 'es' or tag contains 'en' %}
       <li><a href="#{{ tag[0] }}">{{ tag[0] | capitalize }} <span>{{ tag[1].size }}</span></a></li>
       {% endunless %}
     {% endfor %}
@@ -28,7 +28,7 @@ lang: en
 
 
 {% for tag in site.categories %}
-{% unless tag contains 'sample' %}
+{% unless tag contains 'sample' or tag contains 'es' or tag contains 'en' %}
   <h2 id="{{ tag[0] }}" style="color: #EF7229">{{ tag[0] | capitalize }}</h2>
   <ul class="post-list">
     {% assign pages_list = tag[1] %}
