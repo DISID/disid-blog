@@ -4,7 +4,7 @@ type: photo
 title:  DISID in 11th International gvSIG Conference
 description: DiSiD participates as sponsor and speaker in different conferences and seminars
 headline: DISID in 11th International gvSIG Conference
-imagefeature: post/Inicio_web_11as_Jornadas_Int_gvSIG_es.png
+imagefeature: post/Inicio_web_11as_Jornadas_Int_gvSIG_en.png
 image:
   thumb: disid-thumbnail.png =keep it square 200x200 px is good
 lang: en
