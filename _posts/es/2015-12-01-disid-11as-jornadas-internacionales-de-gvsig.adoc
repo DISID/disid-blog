@@ -36,7 +36,7 @@ DISID participa como Patrocinador de Oro de las jornadas y participa activamente
 
 * Nuestro CTO http://www.twitter.com/cordinyana[César Ordiñana] junto con Laura Casanova presentará *GeoTIC*, solución para la gestión de recursos TIC de la DGTIC (Generalitat Valenciana).
 
-* A media mañana de este mismo día nuestro CIO http://www.twitter.com/@enrique_ruiz_[Enrique Ruiz] se hará cargo de moderar la sesión 3 de las jornadas.
+* A media mañana de este mismo día nuestro CINO http://www.twitter.com/@enrique_ruiz_[Enrique Ruiz] se hará cargo de moderar la sesión 3 de las jornadas.
 
 ++++
 <small><i style="color: #bbb">Jueves 3 de diciembre</i></small><br>
@@ -46,7 +46,7 @@ DISID participa como Patrocinador de Oro de las jornadas y participa activamente
 
 * Le sigue el turno de la aplicación *gvSIG Roads*: gestión de la conservación e inventario de carreteras con software libre, presentación a cargo de nuestro compañero Ricardo Rueda
 
-* Por la tarde, y con un seminario de 3 horas, http://www.twitter.com/@paunaal[Paula Navarro] imparte el taller de *gvNIX*: Desarrollo rápido de Geoportales para visualización y gestión de datos
+* Por la tarde, y con un seminario de 3 horas, http://www.twitter.com/@paunaal[Paula Navarro] imparte el taller de *gvNIX*: Desarrollo rápido de Geoportales para visualización y gestión de datos.
 
 ++++
 <small><i style="color: #bbb">Viernes 4 de diciembre</i></small><br>

@@ -35,7 +35,7 @@ DISID participates as Gold Sponsor of the conference and actively participates i
 ++++
 
 * Our CTO http://www.twitter.com/cordinyana[César Ordiñana] presented together with Laura Casanova *GeoTIC* Solution for ICT resources management at DGTIC (Generalitat Valenciana).
-* Our CIO http://www.twitter.com/@enrique_ruiz_[Enrique Ruiz] will moderate the Session 3 of the conference.
+* Our CINO http://www.twitter.com/@enrique_ruiz_[Enrique Ruiz] will moderate the Session 3 of the conference.
 
 ++++
 <small><i style="color: #bbb">Thursday, December 3</i></small><br>
@@ -45,7 +45,7 @@ DISID participates as Gold Sponsor of the conference and actively participates i
 
 * It is followed by *gvSIG Roads* application: maintenance and conservation of roads management using open source software, presentation by our colleague Ricardo Rueda.
 
-* In the afternoon, with a 3-hour seminar, http://www.twitter.com/@paunaal[Paula Navarro] teaches the workshop *gvNIX*: Rapid development of Geoportals for visualization and data management
+* In the afternoon, with a 3-hour seminar, http://www.twitter.com/@paunaal[Paula Navarro] teaches the workshop *gvNIX*: Rapid development of Geoportals for visualization and data management.
 
 ++++
 <small><i style="color: #bbb">Friday, December 4</i></small><br>
