@@ -38,6 +38,20 @@ callback([
 
   {
   
+  } ,
+
+  {
+  
+    "text": "DISID en las 11as Jornadas Internacionales de gvSIG",
+    "href": "http://blog.disid.com/es/events/disid-11as-jornadas-internacionales-de-gvsig"
+  
+  } ,
+
+  {
+  
+    "text": "DISID in 11th International gvSIG Conference",
+    "href": "http://blog.disid.com/en/events/disid-11as-jornadas-internacionales-de-gvsig"
+  
   } 
 
 ])
