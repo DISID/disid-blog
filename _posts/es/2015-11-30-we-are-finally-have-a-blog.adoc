@@ -1,0 +1,35 @@
+---
+layout: post
+title: ¡Por fin! Lanzamos nuestro blog sobre código abierto
+description: Ven, Aprende y Comparte
+imagefeature: post/ununsplash-10294420724_0300cf921d_o.jpg
+image:
+  thumb: disid-thumbnail.png =keep it square 200x200 px is good
+lang: es
+categories:
+ - es
+ - opensource
+tags:
+ - DISID
+ - opensource
+author:
+  name: Pilar Argudo
+  image: https://pbs.twimg.com/profile_images/2885389269/098383c349b67aee48bcbccb0914dcb6_400x400.jpeg
+  jobdescription: Front-end developer
+  twitter: pilarargudo
+---
+
+
+¡Hola! somos DISID, una empresa de desarrollo de software Java ubicada en Valencia.
+
+Somos un equipo de profesionales con experiencia en el desarrollo _Open Source_, por lo que aprendemos y mejoramos de forma continua con cada trabajo. Sin embargo, nos faltaba algo muy importante en el mundo del código abierto: compartir nuestro conocimiento. ¡Y aquí estamos, arrancamos el blog!
+
+Se podría pensar que esta es la parte más fácil de todo el proceso, pero en realidad puede ser muy difícil. Por lo menos al principio. Pero ya hemos empezado el camino y eso es lo importante.
+
+> El comienzo es la parte más importante de la obra
+> -- Platón
+
+Os contaremos de primera mano sobre qué tecnologías desarrollamos y qué proyectos propios de I+D nos motivan. Nuestros trucos y consejos. Los eventos y cursos a los que nos gusta asistir. Siempre sobre código abierto y compartiendo toda la información sobre las mejoras e implementaciones sobre nuestras plataformas de desarrollo de cabecera Liferay, gvNIX, Spring Roo y gvSIG.
+
+
+¡Bienvenidos!
