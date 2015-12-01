@@ -1,0 +1,56 @@
+---
+layout: post
+type: photo
+title:  DISID in 11th International gvSIG Conference
+description: DiSiD participates as sponsor and speaker in different conferences and seminars
+headline: DISID in 11th International gvSIG Conference
+imagefeature: post/Inicio_web_11as_Jornadas_Int_gvSIG_es.png
+image:
+  thumb: disid-thumbnail.png =keep it square 200x200 px is good
+lang: en
+categories:
+ - en
+ - events
+tags:
+ - DISID
+ - events
+author:
+  name: Pilar Argudo
+  image: https://pbs.twimg.com/profile_images/2885389269/098383c349b67aee48bcbccb0914dcb6_400x400.jpeg
+  jobdescription: Front-end developer
+  twitter: pilarargudo
+featured: true
+---
+
+The next 2, 3 and 4 December the 11aS gvSIG Conference are held in the city of Valencia. As every year we will be in this conference to become a meeting point for users and developers interested in free geomatics.
+
+The International gvSIG Conference become Valencia for a few days in the middle of geomatics (technology applied to land management) worldwide. This year it will feature speakers and presentations from countries such as Cyprus, Costa Rica, Mexico, Italy, Cuba, Paraguay and Spain.
+
+Attendees at the conference will enjoy an interesting set of presentations and workshops, available in your http://www.gvsig.com/en/web/guest/events/gvsig-conference/11th-gvsig-conference/program[program].
+
+DISID participates as Gold Sponsor of the conference and actively participates in various conferences and seminars:
+
+++++
+<small><i style="color: #bbb">Wednesday, December 2</i></small><br>
+++++
+
+* Our CTO http://www.twitter.com/cordinyana[César Ordiñana] presented together with Laura Casanova *GeoTIC* Solution for ICT resources management at DGTIC (Generalitat Valenciana).
+* Our CIO http://www.twitter.com/@enrique_ruiz_[Enrique Ruiz] will moderate the Session 3 of the conference.
+
+++++
+<small><i style="color: #bbb">Thursday, December 3</i></small><br>
+++++
+
+* Our colleague http://www.twitter.com/@jmvivo[José Manuel Vivó] presents the latest features of *gvNIX*.
+
+* It is followed by *gvSIG Roads* application: maintenance and conservation of roads management using open source software, presentation by our colleague Ricardo Rueda.
+
+* In the afternoon, with a 3-hour seminar, http://www.twitter.com/@paunaal[Paula Navarro] teaches the workshop *gvNIX*: Rapid development of Geoportals for visualization and data management
+
+++++
+<small><i style="color: #bbb">Friday, December 4</i></small><br>
+++++
+
+* Our gvSIG development team participates in the Code Sprint Developer gvSIG Desktop.
+
+We invite you to participate. See you at the conference!
