@@ -22,7 +22,7 @@ author:
   twitter: pilarargudo
 ---
 
-Los próximos 2,3 y 4 de diciembre se celebran las 11as Jornadas Internacionales de gvSIG en la ciudad de Valencia. Como todos los años estaremos en estas jornadas que se convierten en un punto de encuentro de usuarios y desarrolladores interesados en la geomática libre.
+Los próximos 2, 3 y 4 de diciembre se celebran las 11as Jornadas Internacionales de gvSIG en la ciudad de Valencia. Como todos los años estaremos en estas jornadas que se convierten en un punto de encuentro de usuarios y desarrolladores interesados en la geomática libre.
 
 Las jornadas Internacionales gvSIG convierten por unos días a Valencia en el centro de la geomática (tecnología aplicada a la gestión del territorio) a nivel mundial. Este año se contará con ponentes y ponencias de países como Chipre, Costa Rica, México, Italia, Cuba, Paraguay y España.
 
@@ -34,7 +34,7 @@ DISID participa como Patrocinador de Oro de las jornadas y participa activamente
 <small><i style="color: #bbb">Miércoles 2 de diciembre</i></small><br>
 ++++
 
-* Nuestro CTO http://www.twitter.com/cordinyana[César Ordiñana] junto con Laura Casanova presentará *GeoTIC*, solución para la gestión de recursos TIC de la DGTIC (Generalitat Valenciana).
+* Nuestro CTO http://www.twitter.com/cordinyana[César Ordiñana] junto con Laura Casanova presentarán *GeoTIC*, solución para la gestión de recursos TIC de la DGTIC (Generalitat Valenciana).
 
 * A media mañana de este mismo día nuestro CINO http://www.twitter.com/@enrique_ruiz_[Enrique Ruiz] se hará cargo de moderar la sesión 3 de las jornadas.
 
@@ -44,9 +44,9 @@ DISID participa como Patrocinador de Oro de las jornadas y participa activamente
 
 * Nuestro compañero http://www.twitter.com/@jmvivo[José Manuel Vivó] presenta las últimas novedades de *gvNIX*.
 
-* Le sigue el turno de la aplicación *gvSIG Roads*: gestión de la conservación e inventario de carreteras con software libre, presentación a cargo de nuestro compañero Ricardo Rueda.
+* Le sigue el turno la aplicación *gvSIG Roads*: gestión de la conservación e inventario de carreteras con software libre, presentación a cargo de nuestro compañero Ricardo Rueda.
 
-* Presentación de segmentación dinámica en gvSIG Desktop. Aplicación a la gestión de carreteras en la que hemos participado en el desarrollo.
+* Presentación de segmentación dinámica en gvSIG Desktop. Aplicación a la gestión de carreteras en cuyo desarrollo hemos participado.
 
 * Por la tarde, y con un seminario de 3 horas, http://www.twitter.com/@paunaal[Paula Navarro] imparte el taller de http://www.gvnix.org[gvNIX]: Desarrollo rápido de Geoportales para visualización y gestión de datos.
 

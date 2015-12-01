@@ -55,6 +55,6 @@ DISID participates as Gold Sponsor of the conference and actively participates i
 
 * Our gvSIG development team participates in the Code Sprint Developer gvSIG Desktop.
 
-* *gvSIG Desktop* new features Workshop, software development in which we have participated with new tools.
+* *gvSIG Desktop* new features workshop, software development in which we have participated with new tools.
 
 We invite you to participate. See you at the conference!
