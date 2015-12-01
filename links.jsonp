@@ -42,6 +42,20 @@ callback([
 
   {
   
+    "text": "¡Por fin! Lanzamos nuestro blog sobre código abierto",
+    "href": "http://blog.disid.com/es/opensource/we-are-finally-have-a-blog"
+  
+  } ,
+
+  {
+  
+    "text": "We are finally do it! We have an wonderful opensource blog!",
+    "href": "http://blog.disid.com/en/opensource/we-are-finally-have-a-blog"
+  
+  } ,
+
+  {
+  
     "text": "DISID en las 11as Jornadas Internacionales de gvSIG",
     "href": "http://blog.disid.com/es/events/disid-11as-jornadas-internacionales-de-gvsig"
   
