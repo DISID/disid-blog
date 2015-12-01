@@ -21,10 +21,9 @@ author:
 
 Hello! we are DISID, a software engineering company specializing in Java technology located in Valencia.
 
-We are a dedicated team of professionals with experience in _Open Source_ development, so learn and improve continuously with each project.
-However, we lacked something very important in the world of open source: sharing our knowledge. And here we are, we started the blog!
+We are a dedicated team of professionals with experience in _Open Source_ development, so learn and improve continuously with each project. However, we lacked something very important in the world of open source: sharing our knowledge. And here we are, we started the blog!
 
-You might think that this is the easiest part of the whole process, but in fact it can be very difficult. At least at first, pero hemos empezado el camino y eso es lo importante.
+You might think that this is the easiest part of the whole process, but in fact it can be very difficult. At least at first, but we started the way and that's what matters.
 
 > The beginning is the most important part of the work.
 > -- Plato
