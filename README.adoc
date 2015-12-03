@@ -10,14 +10,12 @@ You can use Git command-line to write, commit, and automatically publish blog po
 
 If you're just getting started, then follow the directions immediately below. It's actually pretty easy.
 
-
 == Repository Structure
 
 The repository requires the following structure to work correctly:
 
 * **master**, for markup sources and blog configuration.
 * **gh-pages**, for the generated static content produced by Travis CI with Jekyll AsciiDoc Quickstart plugin.
-
 
 
 == Contributing
@@ -40,7 +38,7 @@ Open up your newly created file, and fill out the Front matter YAML. This enable
 
 ==== Edit the YAML front matter
 
-DISID blog theme uses variable post templates for articles, quotation, video, photo and status updates.
+DISID blog theme uses variable post templates for articles, quotation, video, photo and status updates (type option).
 
 The lines in between the triple dashes (-) provide the essential information about that post to the AsciiDoc parser during Jekyll compilation.
 
@@ -72,17 +70,21 @@ Content goes here
 
 ==== Adding images on post
 
-The theme supports for large feature images that span the full-width of the screen, and is meant for text heavy blog posts (or articles).
+The theme supports for large feature images that span the full-width of the screen, and is meant for text heavy blog posts (or articles). 
+
+This image appears at page's header, and, if your post is a photo type, the image will be displayed as  thumbnail on summary at home too.
 
 A good rule of thumb is to keep feature images nice and wide. An image cropped around around 1024 x 768 pixels will keep file size down with an acceptable resolution for most devices. If you want to serve these images responsively I'd suggest looking at https://github.com/scottjehl/picturefill[Picturefill] or http://adaptive-images.com/[Adaptive Images].
 
 The layout make the assumption that the feature images live in the *images* folder. To add a feature image to a post just include the filename in the front matter like so.
 
+We recommend you create a new folder with the same name of your post `YYYY-MM-DD-Title-Of-Your-New-Post` to locate the images easily.
+
 [source,yaml]
 ----
 image:
-  feature: feature-image-filename.jpg
-  thumb: thumbnail-image.jpg #keep it square 200x200 px is good
+  feature: YYYY-MM-DD-Title-Of-Your-New-Post/feature-image-filename.jpg
+  thumb:   YYYY-MM-DD-Title-Of-Your-New-Post/thumbnail-image.jpg #keep it square 200x200 px is good
 ----
 
 
