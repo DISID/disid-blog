@@ -37,7 +37,7 @@
             cookieMessage: 'We use cookies on this website, you can <a href="{{cookiePolicyLink}}" title="read about our cookies">read about them here</a>. To use the website as intended please...',
             cookieAnalyticsMessage: "This site uses own and third-party cookies just to track visits to our website, we store no personal details. If you continue to browse, consider accepting its use.",
             cookieErrorMessage: "We\'re sorry, this feature places cookies in your browser and has been disabled. <br>To continue using this functionality, please",
-            cookieWhatAreTheyLink: "/en/cookies-policy/",
+            cookieWhatAreTheyLink: "http://www.disid.com/en/cookies-policy/",
             cookieDisable: '',
             cookieExpires: 365,
             cookieAcceptButtonText: "Accept cookies",
