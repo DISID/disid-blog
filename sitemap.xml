@@ -7,8 +7,7 @@
         <loc>{{ site.url }}{{ link.url }}</loc>
     </url>{% endif %}{% endfor %}
 
-    {% assign posts=site.posts | where:"lang", page.lang %}
-    {% for post in posts %}
+    {% for post in site.posts %}
     {% unless post.hidden %}
     <url>
         <loc>{{ site.url }}{{ post.url }}</loc>

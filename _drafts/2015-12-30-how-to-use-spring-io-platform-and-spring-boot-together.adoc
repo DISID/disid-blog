@@ -1,0 +1,136 @@
+---
+layout: post
+type: photo
+title: "How to use Spring IO Platform and Spring Boot together"
+description: "What is Spring IO Platform? What is Spring Boot? How to use them together?"
+headline: "How to use Spring IO Platform and Spring Boot together"
+categories:
+  - en
+  - spring
+  - spring-boot
+tags:
+  - Spring
+  - Spring Boot
+  - Spring IO
+imagefeature: 2015-12-30-how-to-use-spring-io-platform-and-spring-boot-together/cover.jpg
+image:
+  thumb: 2015-12-30-how-to-use-spring-io-platform-and-spring-boot-together/disid-thumbnail.png =keep it square 200x200 px is good
+lang: en
+featured: true
+author:
+  name: Juan Carlos García
+  image: https://pbs.twimg.com/profile_images/590600412098600962/p_juRpGB_400x400.jpg
+  jobdescription: Software Architect
+  twitter: juancaFX
+featured: true
+---
+
+Hi everyone!
+
+This is my first post on DISID blog so I'm going to introduce myself!
+
+My name is Juan Carlos García and I work as Software Architect on DISID. I'm focused on Java and Spring technologies that I can apply on http://projects.spring.io/spring-roo/[Spring Roo] and http://www.gvnix.org/[gvNIX] project, so most of my posts will be related with these ones. If you want to know something more about me and my work, you could check my https://github.com/jcagarcia[gitHub profile].
+
+Without further ado, I leave you with my first post where I'm going to introduce *really quick* Spring Boot and Spring IO Platform and how to use them together.
+
+== Spring IO Platform
+
+http://platform.spring.io/platform/[Spring IO Platform] is a container of dependencies (both Spring Framework dependencies as third-party libraries) that could be included on a Java project to allow you to choose the necessary dependencies without worrying about compatibility between their versions. 
+
+The recommended way to get started using platform in your project is with a dependency management system.
+
+
+[source,xml]
+----
+<dependencyManagement>
+    <dependencies>
+        <dependency>
+            <groupId>io.spring.platform</groupId>
+            <artifactId>platform-bom</artifactId>
+            <version>2.0.1.RELEASE</version>
+            <type>pom</type>
+            <scope>import</scope>
+        </dependency>
+    </dependencies>
+</dependencyManagement>
+----
+
+After include Spring IO Platform dependency in your project with *pom* value as type and *import* value as scope, you will be able to include all necessary dependencies without specify its version.
+
+On the next sample you could see how to include http://hibernate.org/[Hibernate] dependency without specify dependency version.
+
+[source,xml]
+----
+<dependency>
+    <groupId>org.hibernate</groupId>
+    <artifactId>hibernate-core</artifactId>
+</dependency>
+----
+
+To know all libraries and their versions included on Spring IO Platform, you should read http://docs.spring.io/platform/docs/2.0.1.RELEASE/reference/htmlsingle/#appendix-dependency-versions[Appendix - Dependency Versions].
+
+== Spring Boot
+
+http://projects.spring.io/spring-boot/[Spring Boot] is a framework that makes development and configuration of Spring applications easy. This could be possible thanks to a list of predefined properties and configuration classes that could be included using Java *annotations* and http://docs.spring.io/spring-boot/docs/current/reference/htmlsingle/#using-boot-starter-poms["starters"].
+
+The recommended way to get started using spring-boot in your project is with a dependency management system.
+
+[source,xml]
+----
+<parent>
+    <groupId>org.springframework.boot</groupId>
+    <artifactId>spring-boot-starter-parent</artifactId>
+    <version>1.3.1.RELEASE</version>
+</parent>
+<dependencies>
+    <dependency>
+        <groupId>org.springframework.boot</groupId>
+        <artifactId>spring-boot-starter</artifactId>
+    </dependency>
+</dependencies>
+----
+
+You could get more info about Spring Boot project and how to work with it reading http://docs.spring.io/spring-boot/docs/current/reference/htmlsingle/[Spring Boot reference guide].
+
+== Spring IO and Spring Boot together.
+
+Now that you know that Spring Boot makes Spring configuration easy using *starters* as dependencies and that you know that Spring IO Platform allows you to manage your project dependencies without worrying about versions, I'm going to explain you how to use them together to get the most of them.
+
+As we read, Spring Boot recommends to specify *spring-boot-starter-parent* dependency as parent. However, reading the http://docs.spring.io/platform/docs/2.0.1.RELEASE/reference/htmlsingle/#appendix-dependency-versions[list of dependencies included by Spring IO Platform] you could see that it includes all necessary Spring Boot libraries and Spring Boot starters. In addition, if we check the http://search.maven.org/#artifactdetails|io.spring.platform|platform-bom|2.0.1.RELEASE|pom[Spring IO Platform pom.xml file], we can see that Spring IO Platform project has Spring Boot as parent. That's the reason because Spring IO Platform includes all Spring Boot dependencies.
+
+So the recommended way to use Spring IO Platform and Spring Boot in the same project is to use Spring IO Platform as parent like the following sample:
+
+[source,xml]
+----
+<parent>
+    <groupId>io.spring.platform</groupId>
+    <artifactId>platform-bom</artifactId>
+    <version>2.0.0.RELEASE</version>
+    <relativePath/>
+</parent>
+----
+
+And then, include Spring Boot starters and dependencies without worrying about version like the following sample:
+
+[source,xml]
+----
+<dependency>
+    <groupId>org.springframework.boot</groupId>
+    <artifactId>spring-boot-starter</artifactId>
+</dependency>
+----
+
+
+== Conclusions
+
+* Spring IO Platforms allows you to manage dependencies without worrying about versions and compatibility between them
+* Spring Boot makes Spring application configuration easy using predefined properties, annotations and starters as dependencies.
+* Spring IO Platform includes Spring Boot as parent. That's the reason because Spring IO Platform includes all Spring Boot dependencies and starters.
+* Use Spring IO Platform as parent if you want to use Spring IO Platform and Spring Boot together.
+
+Hope you enjoy with my first post and you learn more about Spring technologies.
+
+If you have some comment or question, feel free to make it.
+
+See you soon!
+
