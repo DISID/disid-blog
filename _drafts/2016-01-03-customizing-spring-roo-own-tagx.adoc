@@ -14,8 +14,8 @@ tags:
   - customize
   - tagx
   - spring roo
-imagefeature: 2016-01-03-own-tagx/cover.jpg
-imagedir: /images/2016-01-03-own-tagx/
+imagefeature: 2016-01-03-customizing-spring-roo-own-tagx/cover.jpg
+imagedir: /images/2016-01-03-customizing-spring-roo-own-tagx/
 image:
   thumb: disid-thumbnail.png #keep it square 200x200 px is good
 featured: true
