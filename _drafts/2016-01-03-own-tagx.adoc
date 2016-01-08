@@ -1,27 +1,29 @@
 ---
 layout: post
 type: photo
-title: Customizing tagx              # Title of the post
-description: How to personalize Spring Roo components that are implemented over _tagx_ files   # Description of the post, used for Facebook Opengraph & Twitter
-headline: Customizing tagx         # Will appear in bold letters on top of the post
-modified: 2016-01-03            # Date
+title: Customizing Spring Roo tagx
+description: How to personalize Spring Roo components that are implemented over tagx files
+headline: Do you know customizing Spring Roo tagx?
+modified: 2016-01-03
 lang: en
 categories:
  - en
  - spring-roo
-tags: 
+tags:
   - personalize
   - customize
   - tagx
-  - spring roo 
+  - spring roo
 imagefeature: 2016-01-03-own-tagx/cover.jpg
+imagedir: /images/2016-01-03-own-tagx/
 image:
-  thumb: 2016-01-03-own-tagx/disid-thumbnail.png
+  thumb: disid-thumbnail.png #keep it square 200x200 px is good
 featured: true
 author:
-    name: Manuel Iborra González
-    jobdescription: Software Engineer
-    twitter: iborra_manuel
+  name: Manuel Iborra González
+  image: https://media.licdn.com/mpr/mpr/shrinknp_400_400/p/1/000/1a5/116/07ae519.jpg
+  jobdescription: Software Engineer
+  twitter: iborra_manuel
 ---
 
 The idea in this article is show how apply or modify the components that are implemented over _tagx_ files. For do that, we are following the changes in a example based on Spring Roo project:
@@ -29,25 +31,26 @@ The idea in this article is show how apply or modify the components that are imp
 * We use the IDE Eclipse STS.
 * We have a project, that it has been generated with Spring Roo using the clinic.roo script.
 
-image:
-    2016-01-03-own-tagx/spring_roo_console_clinic.png[Spring Roo Console]
+
+image::{{ site.url }}{{ page.imagedir }}spring_roo_console_clinic.png[Spring Roo Console,align="center"]
+
 
 * We are going to modify the _input.tagx_ , because we want to add the posibility of add a default value.
 
-image:2016-01-03-own-tagx/structure.png[Structure]
+image::{{ site.url }}{{ page.imagedir }}structure.png[Structure]
 
 On account of possible version changes of Roo used during the life of a project (including here the maintenance and the developments in the future), because new versions include improvements that offers something interesting to include or their solves some bugs, we recommend make our own version of the _tagx_ to change, so this will be independent about the changes that can happen in the originals.
 
-Imagine that in a new version of Roo we have a change in the _input tagx_, which is the _tagx_ of the example that we are going to modify. To update our _tagx_, we only need launch the command _update tagx_ into Roo console and this one automatically will update all the tagx to the new version, overwriting the changes that we had done over them. If we have our own version of the _tagx_, the console will update only the originals, but not the our, keep our modifications. 
+Imagine that in a new version of Roo we have a change in the _input tagx_, which is the _tagx_ of the example that we are going to modify. To update our _tagx_, we only need launch the command _update tagx_ into Roo console and this one automatically will update all the tagx to the new version, overwriting the changes that we had done over them. If we have our own version of the _tagx_, the console will update only the originals, but not the our, keep our modifications.
 
-image:2016-01-03-own-tagx/update_tags.png[Update tags]
+image::{{ site.url }}{{ page.imagedir }}update_tags.png[Update tags]
 
-How integrate new version changes to our own version of the _tagx_? Very easy, we should compare the files each other and copy or modify the changes into our own version. 
+How integrate new version changes to our own version of the _tagx_? Very easy, we should compare the files each other and copy or modify the changes into our own version.
 
-We recommend place our own tagx into folder located in the same level of the originals and name it like the project. This indicate that it content is specify of this project. 
+We recommend place our own tagx into folder located in the same level of the originals and name it like the project. This indicate that it content is specify of this project.
 
-image:2016-01-03-own-tagx/new_structure.png[New structure]
+image::{{ site.url }}{{ page.imagedir }}new_structure.png[New structure]
 
 After you copy and modify the _input tagx_, we show you how to use it. For do that, in the pages where you want use it, you must have to include the _XML namespace_ with the route where our new _tagx_ is placed for can reference it. The last change that you have to do is modify the reference of the input by the new _XML namespace_ included.
 
-image:2016-01-03-own-tagx/use_new_tag.png[Use new tag]
+image::{{ site.url }}{{ page.imagedir }}use_new_tag.png[Use new tag]

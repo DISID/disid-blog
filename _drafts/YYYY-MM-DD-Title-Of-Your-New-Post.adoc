@@ -15,7 +15,7 @@ tags:
  - how-to
 imagefeature: cover-demo.jpg
 image:
-  thumb: disid-thumbnail.png =keep it square 200x200 px is good
+  thumb: disid-thumbnail.png #keep it square 200x200 px is good
 featured: true
 author:
   name: Pilar Argudo
