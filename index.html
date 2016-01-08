@@ -71,7 +71,14 @@ lang: en
                 </header>
 
                 <div class="summer-index-post-tags">
-                    {% for tag in post.categories %}<a href="{{ site.url }}/categories/index.html#{{ post.categories | cgi_encode }}" title="Other posts from the {{ tag | capitalize }} category">{{ tag | capitalize }}</a>{% unless forloop.last %}&nbsp;{% endunless %}{% endfor %}
+                    {% for tag in post.categories %}
+                    {% unless tag contains 'es' or tag contains 'en' %}
+                    <a href="{{ site.url }}/categories/index.html#{{ post.categories | cgi_encode }}" title="Other posts from the {{ tag | capitalize }} category">
+                    {{ tag | capitalize }}
+                    </a>
+                    {% endunless %}
+                    {% unless forloop.last %}&nbsp; {% endunless %}
+                    {% endfor %}
                 </div>
             </div>
         </article>
@@ -129,7 +136,14 @@ lang: en
                 </header>
 
                 <div class="summer-index-post-tags">
-                    {% for tag in post.categories %}<a href="{{ site.url }}/categories/index.html#{{ post.categories | cgi_encode }}" title="Other posts from the {{ tag | capitalize }} category">{{ tag | capitalize }}</a>{% unless forloop.last %}&nbsp;{% endunless %}{% endfor %}
+                    {% for tag in post.categories %}
+                    {% unless tag contains 'es' or tag contains 'en' %}
+                    <a href="{{ site.url }}/categories/index.html#{{ post.categories | cgi_encode }}" title="Other posts from the {{ tag | capitalize }} category">
+                    {{ tag | capitalize }}
+                    </a>
+                    {% endunless %}
+                    {% unless forloop.last %}&nbsp; {% endunless %}
+                    {% endfor %}
                 </div>
             </div>
         </article>
@@ -177,8 +191,15 @@ lang: en
                   </section>
 
                   <div class="summer-index-post-tags">
-                      {% for tag in post.categories %}<a href="{{ site.url }}/categories/index.html#{{ post.categories | cgi_encode }}" title="Other posts from the {{ tag | capitalize }} category">{{ tag | capitalize }}</a>{% unless forloop.last %}&nbsp;{% endunless %}{% endfor %}
-                  </div>
+                    {% for tag in post.categories %}
+                    {% unless tag contains 'es' or tag contains 'en' %}
+                    <a href="{{ site.url }}/categories/index.html#{{ post.categories | cgi_encode }}" title="Other posts from the {{ tag | capitalize }} category">
+                    {{ tag | capitalize }}
+                    </a>
+                    {% endunless %}
+                    {% unless forloop.last %}&nbsp; {% endunless %}
+                    {% endfor %}
+                </div>
               </div>
           </article>
           </div>
@@ -222,7 +243,14 @@ lang: en
                 </section>
 
                 <div class="summer-index-post-tags">
-                    {% for tag in post.categories %}<a href="{{ site.url }}/categories/index.html#{{ post.categories | cgi_encode }}" title="Other posts from the {{ tag | capitalize }} category">{{ tag | capitalize }}</a>{% unless forloop.last %}&nbsp;{% endunless %}{% endfor %}
+                    {% for tag in post.categories %}
+                    {% unless tag contains 'es' or tag contains 'en' %}
+                    <a href="{{ site.url }}/categories/index.html#{{ post.categories | cgi_encode }}" title="Other posts from the {{ tag | capitalize }} category">
+                    {{ tag | capitalize }}
+                    </a>
+                    {% endunless %}
+                    {% unless forloop.last %}&nbsp; {% endunless %}
+                    {% endfor %}
                 </div>
             </div>
         </article>
@@ -267,7 +295,14 @@ lang: en
                 </section>
 
                 <div class="summer-index-post-tags">
-                    {% for tag in post.categories %}<a href="{{ site.url }}/categories/index.html#{{ post.categories | cgi_encode }}" title="Other posts from the {{ tag | capitalize }} category">{{ tag | capitalize }}</a>{% unless forloop.last %}&nbsp;{% endunless %}{% endfor %}
+                    {% for tag in post.categories %}
+                    {% unless tag contains 'es' or tag contains 'en' %}
+                    <a href="{{ site.url }}/categories/index.html#{{ post.categories | cgi_encode }}" title="Other posts from the {{ tag | capitalize }} category">
+                    {{ tag | capitalize }}
+                    </a>
+                    {% endunless %}
+                    {% unless forloop.last %}&nbsp; {% endunless %}
+                    {% endfor %}
                 </div>
             </div>
         </article>
@@ -397,7 +432,14 @@ lang: en
                 </header>
 
                 <div class="summer-index-post-tags">
-                    {% for tag in post.categories %}<a href="{{ site.url }}/categories/index.html#{{ post.categories | cgi_encode }}" title="Other posts from the {{ tag | capitalize }} category">{{ tag | capitalize }}</a>{% unless forloop.last %}&nbsp;{% endunless %}{% endfor %}
+                    {% for tag in post.categories %}
+                    {% unless tag contains 'es' or tag contains 'en' %}
+                    <a href="{{ site.url }}/categories/index.html#{{ post.categories | cgi_encode }}" title="Other posts from the {{ tag | capitalize }} category">
+                    {{ tag | capitalize }}
+                    </a>
+                    {% endunless %}
+                    {% unless forloop.last %}&nbsp; {% endunless %}
+                    {% endfor %}
                 </div>
             </div>
         </article>
@@ -443,8 +485,16 @@ lang: en
                   </section>
 
                   <div class="summer-index-post-tags">
-                      {% for tag in post.categories %}<a href="{{ site.url }}/categories/index.html#{{ post.categories | cgi_encode }}" title="Other posts from the {{ tag | capitalize }} category">{{ tag | capitalize }}</a>{% unless forloop.last %}&nbsp;{% endunless %}{% endfor %}
-                  </div>
+                    {% for tag in post.categories %}
+                    {% unless tag contains 'es' or tag contains 'en' %}
+                    <a href="{{ site.url }}/categories/index.html#{{ post.categories | cgi_encode }}" title="Other posts from the {{ tag | capitalize }} category">
+                    {{ tag | capitalize }}
+                    </a>
+                    {% endunless %}
+                    {% unless forloop.last %}&nbsp; {% endunless %}
+                    {% endfor %}
+                </div>
+
               </div>
           </article>
           </div>
@@ -486,7 +536,14 @@ lang: en
                 </section>
 
                 <div class="summer-index-post-tags">
-                    {% for tag in post.categories %}<a href="{{ site.url }}/categories/index.html#{{ post.categories | cgi_encode }}" title="Other posts from the {{ tag | capitalize }} category">{{ tag | capitalize }}</a>{% unless forloop.last %}&nbsp;{% endunless %}{% endfor %}
+                    {% for tag in post.categories %}
+                    {% unless tag contains 'es' or tag contains 'en' %}
+                    <a href="{{ site.url }}/categories/index.html#{{ post.categories | cgi_encode }}" title="Other posts from the {{ tag | capitalize }} category">
+                    {{ tag | capitalize }}
+                    </a>
+                    {% endunless %}
+                    {% unless forloop.last %}&nbsp; {% endunless %}
+                    {% endfor %}
                 </div>
             </div>
         </article>
@@ -529,7 +586,14 @@ lang: en
                 </section>
 
                 <div class="summer-index-post-tags">
-                    {% for tag in post.categories %}<a href="{{ site.url }}/categories/index.html#{{ post.categories | cgi_encode }}" title="Other posts from the {{ tag | capitalize }} category">{{ tag | capitalize }}</a>{% unless forloop.last %}&nbsp;{% endunless %}{% endfor %}
+                    {% for tag in post.categories %}
+                    {% unless tag contains 'es' or tag contains 'en' %}
+                    <a href="{{ site.url }}/categories/index.html#{{ post.categories | cgi_encode }}" title="Other posts from the {{ tag | capitalize }} category">
+                    {{ tag | capitalize }}
+                    </a>
+                    {% endunless %}
+                    {% unless forloop.last %}&nbsp; {% endunless %}
+                    {% endfor %}
                 </div>
             </div>
         </article>
