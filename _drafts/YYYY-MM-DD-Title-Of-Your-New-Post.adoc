@@ -6,7 +6,6 @@ description: "Description of your new post"
 headline: "Highlights of your new post"
 modified: 2016-01-08
 lang: en
-
 categories:
   - en
   - Sample
