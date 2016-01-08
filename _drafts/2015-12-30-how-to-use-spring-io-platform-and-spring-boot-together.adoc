@@ -4,6 +4,8 @@ type: photo
 title: "How to use Spring IO Platform and Spring Boot together"
 description: "What is Spring IO Platform? What is Spring Boot? How to use them together?"
 headline: "How to use Spring IO Platform and Spring Boot together"
+#modified: 2016-01-08          # Date
+lang: en
 categories:
   - en
   - spring
@@ -15,14 +17,12 @@ tags:
 imagefeature: 2015-12-30-how-to-use-spring-io-platform-and-spring-boot-together/cover.jpg
 image:
   thumb: 2015-12-30-how-to-use-spring-io-platform-and-spring-boot-together/disid-thumbnail.png =keep it square 200x200 px is good
-lang: en
 featured: true
 author:
   name: Juan Carlos García
   image: https://pbs.twimg.com/profile_images/590600412098600962/p_juRpGB_400x400.jpg
   jobdescription: Software Architect
   twitter: juancaFX
-featured: true
 ---
 
 Hi everyone!

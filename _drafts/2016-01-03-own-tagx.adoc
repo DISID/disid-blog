@@ -1,26 +1,29 @@
 ---
 layout: post
+type: photo
 title: Customizing tagx              # Title of the post
 description: How to personalize Spring Roo components that are implemented over _tagx_ files   # Description of the post, used for Facebook Opengraph & Twitter
 headline: Customizing tagx         # Will appear in bold letters on top of the post
-modified: 2015-01-03            # Date
-imagefeature: 2016-01-03-own-tagx/cover.jpg
-image:
-  thumb: 2016-01-03-own-tagx/disid-thumbnail.png
+modified: 2016-01-03            # Date
+lang: en
 categories:
  - en
  - spring-roo
-lang: en
 tags: 
   - personalize
   - customize
   - tagx
-  - spring roo
+  - spring roo 
+imagefeature: 2016-01-03-own-tagx/cover.jpg
+image:
+  thumb: 2016-01-03-own-tagx/disid-thumbnail.png
+featured: true
 author:
     name: Manuel Iborra González
     jobdescription: Software Engineer
-    twitter: @iborra_manuel
+    twitter: iborra_manuel
 ---
+
 The idea in this article is show how apply or modify the components that are implemented over _tagx_ files. For do that, we are following the changes in a example based on Spring Roo project:
 
 * We use the IDE Eclipse STS.

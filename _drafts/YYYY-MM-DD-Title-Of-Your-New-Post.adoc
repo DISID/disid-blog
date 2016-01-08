@@ -4,12 +4,18 @@ type: photo
 title: "Title of your new post"
 description: "Description of your new post"
 headline: "Highlights of your new post"
-category: Sample
-tags: [sample]
+modified: 2016-01-08
+lang: en
+
+categories:
+  - en
+  - Sample
+tags:
+ - sample
+ - how-to
 imagefeature: cover-demo.jpg
 image:
   thumb: disid-thumbnail.png =keep it square 200x200 px is good
-lang: en
 featured: true
 author:
   name: Pilar Argudo
