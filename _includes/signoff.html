@@ -6,7 +6,7 @@
         <img src="{{site.url}}/images/{{ site.owner.avatar }}" alt="{{ site.owner.name }}'s photo" itemprop="image" class="post-avatar img-circle img-responsive"/>
       {% endif %}
 
-      {% if page.author.image != null %}
+      {% if page.author.name != null %}
         <h4 class="bordered-bottom vcard author" itemprop="author" itemscope itemtype="http://schema.org/Person">
         By <span itemprop="name" class="fn">
         <a href="http://twitter.com/@{{page.author.twitter}}" title="Connect {{ page.author.name }}" itemprop="url">{{ page.author.name }}</a>
