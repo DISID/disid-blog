@@ -109,7 +109,7 @@ image:
 
 When creating or editing a blog post, you can easily add images. Here’s how to add an image using AsciiDoc format.
 
-To include an image on its own line (i.e., a block image), use the image:: prefix in front of the file name and square brackets after it:
+To include an image on its own line (i.e., a block image), use the image prefix in front of the file name and square brackets after it:
 
 ----
 image::save.png[]
@@ -198,7 +198,7 @@ The Spanish posts should go to _/posts/es/_ and the English ones to _/posts/en_,
 ====
 To add a Spanish version post, simply navigate to the *_drafts/* directory and create a new file with prefix following this structure `ES-YYYY-MM-DD-Title-Of-Your-New-Post.adoc`.
 
-To add a image related to this Spanish version post, simply navigate to the *_images/* directory and create a new file with this structure `ES-YYYY-MM-DD-Title-Of-Your-New-Post.png`.
+To add a image related to this Spanish version post, simply navigate to the *_images/* directory and create a new file with prefix following this structure `ES-YYYY-MM-DD-Title-Of-Your-New-Post.png`.
 ====
 
 
