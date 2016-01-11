@@ -20,6 +20,19 @@ The repository requires the following structure to work correctly:
 
 == Contributing
 
+=== Adding as a collaborator
+
+A member of Communication team give you write access to our DISID blog repository by adding you as collaborator.
+
+For this, you should open an issue on DISID blog repository. Type a title and description for your issue:
+ 
+Title:: Publication request collaborator
+
+Message:: I would like to be a contributor of DISID blog to be able to publish some articles.
+
+Apply _Collaborator_ label to the issue.
+
+As soon as posible, a member of Communication team give you write permissions to repository.
 
 === Create and clone the master branch
 
@@ -53,22 +66,24 @@ A new blog post should have the following structure to utilise the themes functi
 
 ---
 layout: post
-type:  photo                    # ! Important if you want to show a thumbnail on home page
+type:  photo                    # !Important if you want to show a thumbnail on home page
 photo: some-image.jpg           # In case you do not want the featured image to display on the front page
 title: "Some Title"             # Title of the post
 description: Some description   # Description of the post, used for Facebook Opengraph & Twitter
 headline: Some headline         # Will appear in bold letters on top of the post
 modified: YYYY-MM-DD            # Date
-category: how-to
-tags: []
-image:
-  feature: some-image.jpg
+tags:
+ - spring
+ - springroo
+ - gvnix
+ - how-to
 ---
 Content goes here
 ----
 
-
 ==== Adding images on post
+
+===== Header image
 
 The theme supports for large feature images that span the full-width of the screen, and is meant for text heavy blog posts (or articles). 
 
@@ -76,16 +91,115 @@ This image appears at page's header, and, if your post is a photo type, the imag
 
 A good rule of thumb is to keep feature images nice and wide. An image cropped around around 1024 x 768 pixels will keep file size down with an acceptable resolution for most devices. If you want to serve these images responsively I'd suggest looking at https://github.com/scottjehl/picturefill[Picturefill] or http://adaptive-images.com/[Adaptive Images].
 
+[source,yaml]
+----
+
+---
+imagefeature: YYYY-MM-DD-Title-Of-Your-New-Post/feature-image-cover-filename.png
+  #display header image on post page
+image:
+  thumb:   YYYY-MM-DD-Title-Of-Your-New-Post/thumbnail-image.png 
+  #keep it square 200x200 px is good
+  #display summary image on index page
+---
+
+----
+
+===== Content image
+
+When creating or editing a blog post, you can easily add images. Here’s how to add an image using AsciiDoc format.
+
+To include an image on its own line (i.e., a block image), use the image:: prefix in front of the file name and square brackets after it:
+
+----
+image::save.png[]
+----
+
+If you want to include an image inline, use the image: prefix instead (notice there is only one colon):
+
+----
+Press the image:save.png[] button.
+----
+
+You can also give the image an id, a title (i.e., caption), set its dimensions (i.e., width and height) and make it a link:
+
+----
+[[img-save]]
+.Save Project
+image::save.png[Save, 300, 200]
+----
+
+The title of a block image is displayed underneath the image when rendered.
+
+
+===== Image folder
+
 The layout make the assumption that the feature images live in the *images* folder. To add a feature image to a post just include the filename in the front matter like so.
 
-We recommend you create a new folder with the same name of your post `YYYY-MM-DD-Title-Of-Your-New-Post` to locate the images easily.
+We recommend you create a new folder with the same name of your post `YYYY-MM-DD-Title-Of-Your-New-Post.png` to locate the images easily.
+
+Images are resolved relative to the value of the `imagesdir` page attribute, which defaults to an empty value. The imagesdir attribute can be an absolute path, relative path or base URL. 
+
+You should use the imagesdir attribute to avoid hard coding the path to your images in your post.
+
+To add your images directory on a post, customize with your data in your post's Front Matter YAML and add image in content with site variable and page variable:
 
 [source,yaml]
 ----
-image:
-  feature: YYYY-MM-DD-Title-Of-Your-New-Post/feature-image-filename.jpg
-  thumb:   YYYY-MM-DD-Title-Of-Your-New-Post/thumbnail-image.jpg #keep it square 200x200 px is good
+
+---
+imagedir: /images/YYYY-MM-DD-Title-Of-Your-New-Post/
+---
+
+Content goes here
+
+image::{{ site.url }}{{ page.imagedir }}save.png[Save]
+
 ----
+
+
+==== Assigning language to post 
+
+DISID blog it's a Jekyll site with several languages: English and Spanish.
+It's necessary to assign category and language to post on YAML data.
+
+The default language preference is English, you should add:
+
+[source,yaml]
+----
+
+---
+lang: en                        # Define language post
+categories:
+  - en                          # Define language post
+  - how-to                      # You can add other categories
+---
+
+----
+
+If your post is in Spanish version, you will add:
+
+[source,yaml]
+----
+
+---
+lang: es                        # Define language post
+categories:
+  - es                          # Define language post
+  - cómo funciona               # You can add other categories
+---
+
+----
+
+
+The Spanish posts should go to _/posts/es/_ and the English ones to _/posts/en_, with Jekyll, each folder is a category, so in this case we have two English and Spanish. And we will use these categories to filter the posts in the index file of each one of the sections.
+
+[IMPORTANT]
+====
+To add a Spanish version post, simply navigate to the *_drafts/* directory and create a new file with prefix following this structure `ES-YYYY-MM-DD-Title-Of-Your-New-Post.adoc`.
+
+To add a image related to this Spanish version post, simply navigate to the *_images/* directory and create a new file with this structure `ES-YYYY-MM-DD-Title-Of-Your-New-Post.png`.
+====
 
 
 ==== Adding author on post
@@ -96,11 +210,15 @@ To add your signature on a post, make sure your post contains the following cont
 
 [source,yaml]
 ----
+
+---
 author:
     name: Your Name
     image: profile picture URL
     jobdescription: Job Description
-    twitter: @twitter-profile
+    twitter: twitter-profile
+---
+
 ----
 
 
@@ -114,9 +232,13 @@ This sample posts are posts customized as
 
 [source,yaml]
 ----
+
+---
 category: Sample
 tags: [sample]
 samples: true
+---
+
 ----
 
 This values let us publish hidden posts and lets you see sample posts in Github Pages.
@@ -156,9 +278,17 @@ Besides, here’s an overview of the different ways to setup http://asciidoctor.
 
 ===  View your post live on the web
 
+
 All you have to do is add your post at `_drafts` folder, and our team of content curators will review and pick up your content and it will be move it to `_posts` folder.
 
-Joining our content team is simple and easy. We will review your post content and respond as soon as possible.
+For this, you should open an issue on DISID blog repository. Type a title and description for your issue:
+ 
+Title:: Post Review
+
+Message:: I've just uploading the post `YYYY-MM-DD-Title-Of-Your-New-Post.adoc` to _drafts_ folder and is ready to be published. _You can add a summary of your post also_.
+
+
+We will review your post content and respond as soon as possible.
 
 After that, you should be able to see your post at http://blog.disid.com/ and you will be notified by email.
 
@@ -182,7 +312,8 @@ Use the `--drafts` flag to show drafts posts at `_drafts` folder not published y
 
     bundle exec jekyll serve --drafts
 
-> *Important:* Because the `url` is set explicitly within `_config.yml` file, you'll need to fully-qualify the URL to view your pages. Vhen running Jekyll locally will be <http://localhost:4000/>.
+[IMPORTANT]
+Because the `url` is set explicitly within `_config.yml` file, you'll need to fully-qualify the URL to view your pages. Vhen running Jekyll locally will be <http://localhost:4000/>.
 
 
 == Thanks to
