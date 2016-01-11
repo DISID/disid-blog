@@ -23,6 +23,7 @@ author:
   image: https://pbs.twimg.com/profile_images/590600412098600962/p_juRpGB_400x400.jpg
   jobdescription: Software Architect
   twitter: juancaFX
+excerpt: What is Spring IO Platform? What is Spring Boot? How to use them together? I leave you with my first post where I'm going to introduce really quick Spring Boot and Spring IO Platform and how to use them together.
 ---
 
 Hi everyone!

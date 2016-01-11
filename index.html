@@ -184,9 +184,17 @@ lang: en
                     {% if post.video %}
                     {% assign video_embed = post.video | remove:'https://www.youtube.com/watch?v=' %}
                           <p><iframe width="940" height="529" src="//www.youtube.com/embed/{{ video_embed }}?theme=light&amp;color=white" frameborder="0" allowfullscreen> </iframe></p>
-                          <p>{{ post.content | strip_html | truncatewords:40 }}</p>
+                            {% if post.excerpt %}
+                              <p>{{ post.excerpt }}</p>
+                            {% else %}
+                              <p>{{ post.content | strip_html | truncatewords:40 }}</p>
+                            {% endif %}
                           {% else %}
-                          <p>{{ post.content | strip_html | truncatewords:40 }}</p>
+                            {% if post.excerpt %}
+                              <p>{{ post.excerpt }}</p>
+                            {% else %}
+                              <p>{{ post.content | strip_html | truncatewords:40 }}</p>
+                            {% endif %}
                         {% endif %}
                   </section>
 
@@ -239,7 +247,11 @@ lang: en
                 </header>
                 <section class="summer-post-excerpt">
                     {% if post.photo %}<figure><a href="{{ site.url }}{{ post.url }}"><img src="{{ site.url }}/images/{{ post.photo }}" alt="{{ post.title }}" itemprop="image"></a></figure>{% else %}<figure><a href="{{ site.url }}{{ post.url }}"><img src="{{ site.url }}/images/{{ post.imagefeature }}" alt="{{ post.title }}" itemprop="image"></a></figure>{% endif %}
-                    <p>{{ post.content | strip_html | truncatewords:40 }}</p>
+                    {% if post.excerpt %}
+                     <p>{{ post.excerpt }}</p>
+                    {% else %}
+                       <p>{{ post.content | strip_html | truncatewords:40 }}</p>
+                    {% endif %}
                 </section>
 
                 <div class="summer-index-post-tags">
@@ -291,7 +303,11 @@ lang: en
 
                 </header>
                 <section class="summer-post-excerpt">
-                    <p>{{ post.content | strip_html | truncatewords:40 }}</p>
+                    {% if post.excerpt %}
+                     <p>{{ post.excerpt }}</p>
+                    {% else %}
+                       <p>{{ post.content | strip_html | truncatewords:40 }}</p>
+                    {% endif %}
                 </section>
 
                 <div class="summer-index-post-tags">
@@ -478,9 +494,17 @@ lang: en
                     {% if post.video %}
                     {% assign video_embed = post.video | remove:'https://www.youtube.com/watch?v=' %}
                           <p><iframe width="940" height="529" src="//www.youtube.com/embed/{{ video_embed }}?theme=light&amp;color=white" frameborder="0" allowfullscreen> </iframe></p>
-                          <p>{{ post.content | strip_html | truncatewords:40 }}</p>
+                          {% if post.excerpt %}
+                           <p>{{ post.excerpt }}</p>
                           {% else %}
-                          <p>{{ post.content | strip_html | truncatewords:40 }}</p>
+                             <p>{{ post.content | strip_html | truncatewords:40 }}</p>
+                          {% endif %}
+                          {% else %}
+                          {% if post.excerpt %}
+                           <p>{{ post.excerpt }}</p>
+                          {% else %}
+                             <p>{{ post.content | strip_html | truncatewords:40 }}</p>
+                          {% endif %}
                         {% endif %}
                   </section>
 
@@ -532,7 +556,11 @@ lang: en
                 </header>
                 <section class="summer-post-excerpt">
                     {% if post.photo %}<figure><a href="{{ site.url }}{{ post.url }}"><img src="{{ site.url }}/images/{{ post.photo }}" alt="{{ post.title }}" itemprop="image"></a></figure>{% else %}<figure><a href="{{ site.url }}{{ post.url }}"><img src="{{ site.url }}/images/{{ post.imagefeature }}" alt="{{ post.title }}" itemprop="image"></a></figure>{% endif %}
-                    <p>{{ post.content | strip_html | truncatewords:40 }}</p>
+                    {% if post.excerpt %}
+                      <p>{{ post.excerpt }}</p>
+                    {% else %}
+                      <p>{{ post.content | strip_html | truncatewords:40 }}</p>
+                    {% endif %}
                 </section>
 
                 <div class="summer-index-post-tags">
@@ -582,7 +610,11 @@ lang: en
 
                 </header>
                 <section class="summer-post-excerpt">
-                    <p>{{ post.content | strip_html | truncatewords:40 }}</p>
+                    {% if post.excerpt %}
+                      <p>{{ post.excerpt }}</p>
+                    {% else %}
+                      <p>{{ post.content | strip_html | truncatewords:40 }}</p>
+                    {% endif %}
                 </section>
 
                 <div class="summer-index-post-tags">
