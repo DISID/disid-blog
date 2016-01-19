@@ -2,10 +2,10 @@
 <li class="lang">
   {% if page.lang == "en" %}
     <a href="{{ site.url }}{{ page.url }}" class="{{ page.lang }}"><img src="http://www.disid.com/disid-bootstrap-theme/images/language/en_GB.png"></a>
-    <a href="{{ site.url }}{{ page.url | replace: '/en/','/es/'}}"><img src="http://www.disid.com/disid-bootstrap-theme/images/language/es_ES.png"></a>
+    <a href="{{ site.url }}{{ page.url | replace: '/en/','/es/' | replace: 'index.html','es/index.html'}}"><img src="http://www.disid.com/disid-bootstrap-theme/images/language/es_ES.png"></a>
   {% endif %}
   {% if page.lang == "es" %}
-    <a href="{{ site.url }}{{ page.url  | replace: '/es/','/en/' }}"><img src="http://www.disid.com/disid-bootstrap-theme/images/language/en_GB.png"></a>
+    <a href="{{ site.url }}{{ page.url  | replace: '/es/','/en/' | replace: 'en/index.html','index.html' }}"><img src="http://www.disid.com/disid-bootstrap-theme/images/language/en_GB.png"></a>
     <a href="{{ site.url }}{{ page.url }}" class="{{ page.lang }}"><img src="http://www.disid.com/disid-bootstrap-theme/images/language/es_ES.png"></a>
   {% endif %}
 </li>

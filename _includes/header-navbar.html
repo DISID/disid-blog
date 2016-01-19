@@ -30,8 +30,14 @@
               </li>
               {% endif %}
               {% endfor %}
-
-              <li><a href="{{ site.url }}">Blog</a></li>
+              <li>
+               {% if page.lang == "en" %}
+                    <a href="{{ site.url }}">Blog</a>
+               {% endif %}
+               {% if page.lang == "es" %}
+                  <a href="{{ site.url }}/es/index.html">Blog</a>
+              {% endif %}
+              </li>
               <li>
               <div class="social navbar-right">
                 {% include socialmedia-links.html %}

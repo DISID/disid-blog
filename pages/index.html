@@ -1,15 +1,16 @@
 ---
 layout: home
-title: Latest Posts
-description: "The corporative blog of DISID Corporation. All news about our company and tips and tricks about our Java development technologies."
-headline: Software solutions provider
+title: Últimos Posts
+description: "Blog corporativo de DISID Corporation. Todas las noticias de nuestra empresa, trucos y consejos sobre nuestras tecnologías de desarrollo Java."
+headline: Proveedor de soluciones software Java
 tags: [blog]
-lang: en
+permalink: es/index.html
+lang: es
 ---
 
 {% if site.paginate %}
 
-  {% assign posts=paginator.posts | where:"lang", page.lang %}
+  {% assign posts=site.posts | where:"lang", page.lang %}
 
 	{% for post in posts %}
 		{% if site.wpm %}
