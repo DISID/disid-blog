@@ -66,6 +66,20 @@ callback([
     "text": "DISID in 11th International gvSIG Conference",
     "href": "http://blog.disid.com/en/events/disid-11as-jornadas-internacionales-de-gvsig"
   
+  } ,
+
+  {
+  
+    "text": "DISID trains students in web app development with gvNIX",
+    "href": "http://blog.disid.com/en/disid-imparte-seminarios-sobre-desarrollo-java-con-gvnix"
+  
+  } ,
+
+  {
+  
+    "text": "DISID forma a estudiantes en el manejo de gvNIX para el desarrollo de aplicaciones web",
+    "href": "http://blog.disid.com/es/disid-imparte-seminarios-sobre-desarrollo-java-con-gvnix"
+  
   } 
 
 ])
