@@ -1,0 +1,33 @@
+---
+layout: post
+title: DISID trains students in web app development with gvNIX
+description: As project leader, DISID offers gvNIX seminars for different educational centers of the Community of Valencia
+tags: [training, gvNIX, DGTI, gvSIG]
+type: photo
+imagefeature: /post/studies45.jpg
+comments: true
+training: true
+share: true
+category:
+    - en
+lang: en
+---
+
+Widely known and successful experience in the development in open source projects, we taught different seminars on the use of http://www.gvnix.org[gvNIX] environment development.
+
+An action which addresses the vocational schools of higher education of the Community of Valencia, with the support of the http://www.dgti.gva.es/[General Directorate for Information Technologies (DGTI)] and the http://www.gvsig.com[gvSIG Association], to train free of charge to young students of Computer Engineering and Higher Degree in web Application Development.
+
+The main objective of the training is to introduce students in the management of gvNIX to allow them be more competent in the workplace and have greater job opportunities, to encourage technological and scientific vocation so as to ensure quality jobs for our youth, while it helps to develop a vital sector to the growth of Comunidad Valenciana.
+
+This free seminars was facilitated by our colleague Paula Navarro (http://twitter.com/paunaal[@paunaal]), expert in developing applications with gvNIX, and consist of two presencial seminars at training center http://www.idese.es/[IDESE].
+
+[.third]
+image::{{ site.url }}/images/post/seminar-gvnix/IMG-20151214-WA0009.jpg[B,link="{{ site.url }}/images/post/seminar-gvnix/IMG-20151214-WA0009.jpg"]
+
+[.third]
+image::{{ site.url }}/images/post/seminar-gvnix/IMG-20151214-WA0010.jpg[B,link="{{ site.url }}/images/post/seminar-gvnix/IMG-20151214-WA0010.jpg"]
+
+[.third]
+image::{{ site.url }}/images/post/seminar-gvnix/IMG-20151214-WA0011.jpg[B,link="{{ site.url }}/images/post/seminar-gvnix/IMG-20151214-WA0011.jpg"]
+
+Certainly, an initiative that shows great future vision and in which we are glad to take part.

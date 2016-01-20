@@ -1,0 +1,37 @@
+---
+layout: post
+title: DISID forma a estudiantes en el manejo de gvNIX para el desarrollo de aplicaciones web
+description: Como líder del proyecto, DISID ofrece seminarios sobre gvNIX y desarrollo web Java a diferentes centros educativos de la Comunidad Valenciana
+tags: [formación, gvNIX, gvSIG, DGTI]
+type: photo
+imagefeature: /post/studies45.jpg
+training: true
+comments: true
+share: true
+category:
+    - es
+lang: es
+---
+
+Siguiendo nuestra trayectoria en el desarrollo de tecnologías de código abierto, estuvimos impartiendo diferentes seminarios sobre el uso del entorno de desarrollo http://www.gvnix.org[gvNIX].
+
+Una acción dirigida a los institutos de la Comunidad Valenciana, con el soporte de la http://www.dgti.gva.es/[Dirección General de las Tecnologías de la Información (DGTI)] y la http://www.gvsig.com[Asociación gvSIG], para formar de modo gratuito a jóvenes de Ingeniería Informática y de Grado Superior en Desarrollo de Aplicaciones Web.
+
+El objetivo principal de la formación es introducir a estudiantes en el manejo de [gvNIX] que les sirva para ser más competentes en el ámbito laboral y disponer de mayores oportunidades laborales, fomentar la vocación tecnológica y científica que permita garantizar un empleo de calidad para nuestros jóvenes, a la vez que se contribuye a desarrollar un sector vital para el crecimiento de la Comunidad Valenciana.
+
+Esta formación gratuita fue impartida por nuestra compañera Paula Navarro (http://twitter.com/paunaal[@paunaal]) con amplia experiencia en el desarrollo de aplicaciones con gvNIX y constó de dos cursos presenciales en el centro de formación http://www.idese.es/[IDESE].
+
+[.third]
+image::{{ site.url }}/images/post/seminar-gvnix/IMG-20151214-WA0009.jpg[B,link="{{ site.url }}/images/post/seminar-gvnix/IMG-20151214-WA0009.jpg"]
+
+[.third]
+image::{{ site.url }}/images/post/seminar-gvnix/IMG-20151214-WA0010.jpg[B,link="{{ site.url }}/images/post/seminar-gvnix/IMG-20151214-WA0010.jpg"]
+
+[.third]
+image::{{ site.url }}/images/post/seminar-gvnix/IMG-20151214-WA0011.jpg[B,link="{{ site.url }}/images/post/seminar-gvnix/IMG-20151214-WA0011.jpg"]
+
+
+Sin duda, una iniciativa que demuestra una gran visión de futuro y en la que estamos encantados de participar.
+
+
+
