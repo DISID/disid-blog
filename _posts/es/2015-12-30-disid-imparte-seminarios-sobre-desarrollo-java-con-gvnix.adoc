@@ -1,16 +1,22 @@
 ---
 layout: post
+type: photo
 title: DISID forma a estudiantes en el manejo de gvNIX para el desarrollo de aplicaciones web
 description: Como líder del proyecto, DISID ofrece seminarios sobre gvNIX y desarrollo web Java a diferentes centros educativos de la Comunidad Valenciana
-tags: [formación, gvNIX, gvSIG, DGTI]
-type: photo
-imagefeature: /post/studies45.jpg
-training: true
-comments: true
-share: true
-category:
-    - es
+headline: DISID forma a estudiantes en el manejo de gvNIX para el desarrollo de aplicaciones web
+imagefeature: post/studies45.jpg
+image:
+  thumb:  post/studies45.jpg =keep it square 200x200 px is good
 lang: es
+categories:
+ - es
+ - formación
+tags: [DISID, formación, gvNIX, gvSIG, DGTI]
+author:
+  name: Pilar Argudo
+  image: https://pbs.twimg.com/profile_images/2885389269/098383c349b67aee48bcbccb0914dcb6_400x400.jpeg
+  jobdescription: Front-end developer
+  twitter: pilarargudo
 ---
 
 Siguiendo nuestra trayectoria en el desarrollo de tecnologías de código abierto, estuvimos impartiendo diferentes seminarios sobre el uso del entorno de desarrollo http://www.gvnix.org[gvNIX].
