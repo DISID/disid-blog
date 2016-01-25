@@ -36,4 +36,14 @@ image::{{ site.url }}/images/post/seminar-gvnix/IMG-20151214-WA0010.jpg[B,link="
 [.third]
 image::{{ site.url }}/images/post/seminar-gvnix/IMG-20151214-WA0011.jpg[B,link="{{ site.url }}/images/post/seminar-gvnix/IMG-20151214-WA0011.jpg"]
 
+The centers that attended this this initiative
+
+* http://www.floridauniversitaria.es/[Centre Privat FP Florida Catarroja]
+* http://www.solvam.org/[Centre Privat FP Solvam Quart de Poblet]
+* http://mestreacasa.gva.es/web/4602504000/[IES Abastos Valencia]
+* http://ieseljust.edu.gva.es/[IES Jaume II El Just Tavernes de la Valldigna]
+* http://ieslluissimarro.org/[IES Doctor Lluís Simarro Lacabra Xàtiva]
+* http://iesfuentesanluis.edu.gva.es/nova/index.php[IES Fuente San Luis Valencia]
+* http://ieslasenia.es/[IES La Senia Paiporta]
+
 Certainly, an initiative that shows great future vision and in which we are glad to take part.
