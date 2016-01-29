@@ -52,7 +52,7 @@ owner:
   phone:          +34 963 516 309
 
   # For Google Authorship https://plus.google.com/authorship
-  #google_plus:    
+  #google_plus:
 
 # Analytics and webmaster tools stuff goes here
 google_analytics:  UA-1393802-6
@@ -102,7 +102,7 @@ timezone:    Europe/Madrid
 future:      true
 highlighter: pygments
 markdown:    kramdown
-paginate:    5
+paginate:    8
 paginate_path: "page:num"
 
 # https://github.com/mojombo/jekyll/wiki/Permalinks
