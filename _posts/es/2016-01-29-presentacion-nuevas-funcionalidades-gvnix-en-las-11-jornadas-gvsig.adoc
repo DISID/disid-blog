@@ -1,0 +1,22 @@
+---
+layout: post
+anniversary: false
+timeline: false
+title: DISID presenta las nuevas funcionalidades de gvNIX en las 11as Jornadas de gvSIG
+description: DISID participó como ponente
+tags: [gvNIX, gvSIG, Opensource, Ponencias, video]
+comments: true
+type: video
+featured: true
+share: true
+video: https://www.youtube.com/watch?v=rMHE3CizTv8
+category:
+    - es
+lang: es
+---
+
+DISID como Patrocinador de Oro de las jornadas participó activamente con la presentación de las últimas novedades de gvNIX a cargo de nuestro compañero http://www.twitter.com/@jmvivo[José Manuel Vivó] en las 11as Jornadas Internacionales de gvSIG.
+
+La Asociación gvSIG y el equipo de desarrollo de gvNIX de http://www.disid.com[DISID Corporation] presentaron la herramienta gvNIX y las mejoras y funcionalidades incorporadas en su última versión.
+
+Aquí te dejamos el vídeo para que no pierdas detalle.

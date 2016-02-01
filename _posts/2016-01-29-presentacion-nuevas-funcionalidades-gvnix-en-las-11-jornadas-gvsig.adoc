@@ -1,0 +1,23 @@
+---
+layout: post
+anniversary: false
+timeline: false
+title: All gvNIX new features showcased by DISID at 11th International gvSIG Conference
+description: DISID participates as speaker
+tags: [gvNIX, gvSIG, Conference, speaker, video]
+comments: true
+type: video
+video: https://www.youtube.com/watch?v=KEDaUIVoHFA
+featured: true
+share: true
+category:
+    - en
+lang: en
+---
+
+DISID as Gold Sponsor of the conference participates actively in conferences at 11th International gvSIG Conference. Our colleague http://www.twitter.com/@jmvivo[José Manuel Vivó] presented the latest features of *gvNIX*.
+
+The Association gvSIG and the http://www.disid.com[DISID Corporation] gvNIX development team presented the tool and the new features of the latest gvNIX version.
+
+Below is the video so you don't miss out on anything.
+

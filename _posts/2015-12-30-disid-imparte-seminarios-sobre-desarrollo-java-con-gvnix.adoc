@@ -1,0 +1,49 @@
+---
+layout: post
+type: photo
+title: DISID trains students in web app development with gvNIX
+description: As project leader, DISID offers gvNIX seminars for different educational centers of the Community of Valencia
+headline: DISID trains students in web app development with gvNIX
+imagefeature: post/studies45.jpg
+image:
+  thumb:  post/studies45.jpg =keep it square 200x200 px is good
+lang: en
+categories:
+ - en
+ - training
+tags: [DISID, training, gvNIX, DGTI, gvSIG]
+author:
+  name: Pilar Argudo
+  image: https://pbs.twimg.com/profile_images/2885389269/098383c349b67aee48bcbccb0914dcb6_400x400.jpeg
+  jobdescription: Front-end developer
+  twitter: pilarargudo
+---
+
+Widely known and successful experience in the development in open source projects, we taught different seminars on the use of http://www.gvnix.org[gvNIX] environment development.
+
+An action which addresses the vocational schools of higher education of the Community of Valencia, with the support of the http://www.dgti.gva.es/[General Directorate for Information Technologies (DGTI)] and the http://www.gvsig.com[gvSIG Association], to train free of charge to young students of Computer Engineering and Higher Degree in web Application Development.
+
+The main objective of the training is to introduce students in the management of gvNIX to allow them be more competent in the workplace and have greater job opportunities, to encourage technological and scientific vocation so as to ensure quality jobs for our youth, while it helps to develop a vital sector to the growth of Comunidad Valenciana.
+
+This free seminars was facilitated by our colleague Paula Navarro (http://twitter.com/paunaal[@paunaal]), expert in developing applications with gvNIX, and consist of two presencial seminars at training center http://www.idese.es/[IDESE].
+
+[.third]
+image::{{ site.url }}/images/post/seminar-gvnix/IMG-20151214-WA0009.jpg[B,link="{{ site.url }}/images/post/seminar-gvnix/IMG-20151214-WA0009.jpg"]
+
+[.third]
+image::{{ site.url }}/images/post/seminar-gvnix/IMG-20151214-WA0010.jpg[B,link="{{ site.url }}/images/post/seminar-gvnix/IMG-20151214-WA0010.jpg"]
+
+[.third]
+image::{{ site.url }}/images/post/seminar-gvnix/IMG-20151214-WA0011.jpg[B,link="{{ site.url }}/images/post/seminar-gvnix/IMG-20151214-WA0011.jpg"]
+
+The centers that attended this this initiative
+
+* http://www.floridauniversitaria.es/[Centre Privat FP Florida Catarroja]
+* http://www.solvam.org/[Centre Privat FP Solvam Quart de Poblet]
+* http://mestreacasa.gva.es/web/4602504000/[IES Abastos Valencia]
+* http://ieseljust.edu.gva.es/[IES Jaume II El Just Tavernes de la Valldigna]
+* http://ieslluissimarro.org/[IES Doctor Lluís Simarro Lacabra Xàtiva]
+* http://iesfuentesanluis.edu.gva.es/nova/index.php[IES Fuente San Luis Valencia]
+* http://ieslasenia.es/[IES La Senia Paiporta]
+
+Certainly, an initiative that shows great future vision and in which we are glad to take part.
