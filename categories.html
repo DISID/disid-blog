@@ -31,7 +31,7 @@ lang: en
 {% unless tag contains 'sample' or tag contains 'es' or tag contains 'en' %}
   <h2 id="{{ tag[0] }}" style="color: #EF7229">{{ tag[0] | capitalize }}</h2>
   <ul class="post-list">
-    {% assign pages_list = tag[1] %}
+    {% assign pages_list = tag[1] | where:"lang", page.lang %}
     {% for post in pages_list %}
       {% if post.title != null %}
       {% if group == null or group == post.group %}
