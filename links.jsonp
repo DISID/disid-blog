@@ -43,56 +43,56 @@ callback([
   {
   
     "text": "¡Por fin! Lanzamos nuestro blog sobre código abierto",
-    "href": "http://blog.disid.com/es/opensource/we-are-finally-have-a-blog"
+    "href": "http://blog.disid.com/por-fin-tenemos-blog/"
   
   } ,
 
   {
   
     "text": "We are finally do it! We have an wonderful opensource blog!",
-    "href": "http://blog.disid.com/en/opensource/we-are-finally-have-a-blog"
+    "href": "http://blog.disid.com/we-are-finally-have-a-blog/"
   
   } ,
 
   {
   
     "text": "DISID en las 11as Jornadas Internacionales de gvSIG",
-    "href": "http://blog.disid.com/es/events/disid-11as-jornadas-internacionales-de-gvsig"
+    "href": "http://blog.disid.com/disid-11as-jornadas-internacionales-de-gvsig/"
   
   } ,
 
   {
   
     "text": "DISID in 11th International gvSIG Conference",
-    "href": "http://blog.disid.com/en/events/disid-11as-jornadas-internacionales-de-gvsig"
+    "href": "http://blog.disid.com/disid-11th-international-gvsig-conference/"
   
   } ,
 
   {
   
     "text": "DISID forma a estudiantes en el manejo de gvNIX para el desarrollo de aplicaciones web",
-    "href": "http://blog.disid.com/es/formaci%C3%B3n/disid-imparte-seminarios-sobre-desarrollo-java-con-gvnix"
+    "href": "http://blog.disid.com/disid-imparte-seminarios-sobre-desarrollo-java-con-gvnix/"
   
   } ,
 
   {
   
     "text": "DISID trains students in web app development with gvNIX",
-    "href": "http://blog.disid.com/en/training/disid-imparte-seminarios-sobre-desarrollo-java-con-gvnix"
-  
-  } ,
-
-  {
-  
-    "text": "DISID presenta las nuevas funcionalidades de gvNIX en las 11as Jornadas de gvSIG",
-    "href": "http://blog.disid.com/es/presentacion-nuevas-funcionalidades-gvnix-en-las-11-jornadas-gvsig"
+    "href": "http://blog.disid.com/disid-trains-students-webapp-development-with-gvNIX/"
   
   } ,
 
   {
   
     "text": "All gvNIX new features showcased by DISID at 11th International gvSIG Conference",
-    "href": "http://blog.disid.com/en/presentacion-nuevas-funcionalidades-gvnix-en-las-11-jornadas-gvsig"
+    "href": "http://blog.disid.com/all-gvnix-new-features-showcased-by-disid-11th-gvsig-conference/"
+  
+  } ,
+
+  {
+  
+    "text": "DISID presenta las nuevas funcionalidades de gvNIX en las 11as Jornadas de gvSIG",
+    "href": "http://blog.disid.com/presentacion-nuevas-funcionalidades-gvnix-en-las-11-jornadas-gvsig/"
   
   } 
 

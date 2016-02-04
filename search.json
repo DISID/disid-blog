@@ -2,9 +2,9 @@
 	
 		{
 		
-		  "title"      : "All gvNIX new features showcased by DISID at 11th International gvSIG Conference",
-		  "category"   : "en",
-		  "url"        : "http://blog.disid.com/en/presentacion-nuevas-funcionalidades-gvnix-en-las-11-jornadas-gvsig",
+		  "title"      : "DISID presenta las nuevas funcionalidades de gvNIX en las 11as Jornadas de gvSIG",
+		  "category"   : "esgvnix",
+		  "url"        : "http://blog.disid.com/presentacion-nuevas-funcionalidades-gvnix-en-las-11-jornadas-gvsig/",
 		  "date"       : "2016-01-29 00:00:00 +0100",
 		  "shortdate"  : "January 29, 2016"
 		
@@ -12,9 +12,9 @@
 	
 		{
 		
-		  "title"      : "DISID presenta las nuevas funcionalidades de gvNIX en las 11as Jornadas de gvSIG",
-		  "category"   : "es",
-		  "url"        : "http://blog.disid.com/es/presentacion-nuevas-funcionalidades-gvnix-en-las-11-jornadas-gvsig",
+		  "title"      : "All gvNIX new features showcased by DISID at 11th International gvSIG Conference",
+		  "category"   : "engvnix",
+		  "url"        : "http://blog.disid.com/all-gvnix-new-features-showcased-by-disid-11th-gvsig-conference/",
 		  "date"       : "2016-01-29 00:00:00 +0100",
 		  "shortdate"  : "January 29, 2016"
 		
@@ -24,7 +24,7 @@
 		
 		  "title"      : "DISID trains students in web app development with gvNIX",
 		  "category"   : "",
-		  "url"        : "http://blog.disid.com/en/training/disid-imparte-seminarios-sobre-desarrollo-java-con-gvnix",
+		  "url"        : "http://blog.disid.com/disid-trains-students-webapp-development-with-gvNIX/",
 		  "date"       : "2015-12-30 00:00:00 +0100",
 		  "shortdate"  : "December 30, 2015"
 		
@@ -34,7 +34,7 @@
 		
 		  "title"      : "DISID forma a estudiantes en el manejo de gvNIX para el desarrollo de aplicaciones web",
 		  "category"   : "",
-		  "url"        : "http://blog.disid.com/es/formaci%C3%B3n/disid-imparte-seminarios-sobre-desarrollo-java-con-gvnix",
+		  "url"        : "http://blog.disid.com/disid-imparte-seminarios-sobre-desarrollo-java-con-gvnix/",
 		  "date"       : "2015-12-30 00:00:00 +0100",
 		  "shortdate"  : "December 30, 2015"
 		
@@ -44,7 +44,7 @@
 		
 		  "title"      : "DISID in 11th International gvSIG Conference",
 		  "category"   : "",
-		  "url"        : "http://blog.disid.com/en/events/disid-11as-jornadas-internacionales-de-gvsig",
+		  "url"        : "http://blog.disid.com/disid-11th-international-gvsig-conference/",
 		  "date"       : "2015-12-01 00:00:00 +0100",
 		  "shortdate"  : "December 01, 2015"
 		
@@ -54,7 +54,7 @@
 		
 		  "title"      : "DISID en las 11as Jornadas Internacionales de gvSIG",
 		  "category"   : "",
-		  "url"        : "http://blog.disid.com/es/events/disid-11as-jornadas-internacionales-de-gvsig",
+		  "url"        : "http://blog.disid.com/disid-11as-jornadas-internacionales-de-gvsig/",
 		  "date"       : "2015-12-01 00:00:00 +0100",
 		  "shortdate"  : "December 01, 2015"
 		
@@ -64,7 +64,7 @@
 		
 		  "title"      : "We are finally do it! We have an wonderful opensource blog!",
 		  "category"   : "",
-		  "url"        : "http://blog.disid.com/en/opensource/we-are-finally-have-a-blog",
+		  "url"        : "http://blog.disid.com/we-are-finally-have-a-blog/",
 		  "date"       : "2015-11-30 00:00:00 +0100",
 		  "shortdate"  : "November 30, 2015"
 		
@@ -74,7 +74,7 @@
 		
 		  "title"      : "¡Por fin! Lanzamos nuestro blog sobre código abierto",
 		  "category"   : "",
-		  "url"        : "http://blog.disid.com/es/opensource/we-are-finally-have-a-blog",
+		  "url"        : "http://blog.disid.com/por-fin-tenemos-blog/",
 		  "date"       : "2015-11-30 00:00:00 +0100",
 		  "shortdate"  : "November 30, 2015"
 		
