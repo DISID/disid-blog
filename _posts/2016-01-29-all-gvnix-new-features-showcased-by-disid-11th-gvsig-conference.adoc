@@ -12,6 +12,7 @@ featured: true
 share: true
 category:
     - en
+    - gvnix
 lang: en
 ---
 

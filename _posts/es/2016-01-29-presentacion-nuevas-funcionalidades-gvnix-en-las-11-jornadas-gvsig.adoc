@@ -12,6 +12,7 @@ share: true
 video: https://www.youtube.com/watch?v=rMHE3CizTv8
 category:
     - es
+    - gvnix
 lang: es
 ---
 

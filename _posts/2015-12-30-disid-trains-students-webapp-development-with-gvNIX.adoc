@@ -10,7 +10,7 @@ image:
 lang: en
 categories:
  - en
- - training
+ - gvnix
 tags: [DISID, training, gvNIX, DGTI, gvSIG]
 author:
   name: Pilar Argudo

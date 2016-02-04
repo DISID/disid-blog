@@ -10,7 +10,7 @@ image:
 lang: en
 categories:
  - en
- - events
+ - gvsig
 tags:
  - DISID
  - events

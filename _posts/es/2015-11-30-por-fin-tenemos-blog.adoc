@@ -8,7 +8,7 @@ image:
 lang: es
 categories:
  - es
- - opensource
+ - DISID
 tags:
  - DISID
  - opensource

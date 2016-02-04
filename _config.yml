@@ -105,8 +105,27 @@ markdown:    kramdown
 paginate:    8
 paginate_path: "page:num"
 
+
+# multilingual config
+# Info https://www.sylvaindurand.org/making-jekyll-multilingual/
+
+defaults:
+  -
+    scope:
+      path: _posts/en
+    values:
+      layout: default
+      lang: en
+  -
+    scope:
+      path: _posts/es
+    values:
+      layout: default
+      lang: es
+
 # https://github.com/mojombo/jekyll/wiki/Permalinks
-permalink:   /:categories/:title
+permalink: /:title/
+#permalink:   /:categories/:title
 
 kramdown:
   auto_ids: true

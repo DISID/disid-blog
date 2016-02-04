@@ -10,7 +10,7 @@ image:
 lang: es
 categories:
  - es
- - formación
+ - gvnix
 tags: [DISID, formación, gvNIX, gvSIG, DGTI]
 author:
   name: Pilar Argudo
