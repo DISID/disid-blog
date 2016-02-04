@@ -1,13 +1,32 @@
 <!-- language variables -->
+<!-- for home -->
+{% if page.layout == 'home' %}
+  <li class="lang">
+    {% if page.lang == "en" %}
+      <a href="{{ site.url }}{{ page.url }}" class="{{ page.lang }}"><img src="http://www.disid.com/disid-bootstrap-theme/images/language/en_GB.png"></a>
+      <a href="{{ site.url }}{{ page.url | replace: '/en/','/es/' | replace: 'index.html','es/index.html'}}"><img src="http://www.disid.com/disid-bootstrap-theme/images/language/es_ES.png"></a>
+    {% endif %}
+    {% if page.lang == "es" %}
+      <a href="{{ site.url }}{{ page.url  | replace: '/es/','/en/' | replace: 'en/index.html','index.html' }}"><img src="http://www.disid.com/disid-bootstrap-theme/images/language/en_GB.png"></a>
+      <a href="{{ site.url }}{{ page.url }}" class="{{ page.lang }}"><img src="http://www.disid.com/disid-bootstrap-theme/images/language/es_ES.png"></a>
+    {% endif %}
+  </li>
+{% endif %}
+
+<!-- for post layout -->
 <li class="lang">
-  {% if page.lang == "en" %}
-    <a href="{{ site.url }}{{ page.url }}" class="{{ page.lang }}"><img src="http://www.disid.com/disid-bootstrap-theme/images/language/en_GB.png"></a>
-    <a href="{{ site.url }}{{ page.url | replace: '/en/','/es/' | replace: 'index.html','es/index.html'}}"><img src="http://www.disid.com/disid-bootstrap-theme/images/language/es_ES.png"></a>
-  {% endif %}
-  {% if page.lang == "es" %}
-    <a href="{{ site.url }}{{ page.url  | replace: '/es/','/en/' | replace: 'en/index.html','index.html' }}"><img src="http://www.disid.com/disid-bootstrap-theme/images/language/en_GB.png"></a>
-    <a href="{{ site.url }}{{ page.url }}" class="{{ page.lang }}"><img src="http://www.disid.com/disid-bootstrap-theme/images/language/es_ES.png"></a>
-  {% endif %}
+{% assign posts=site.posts | where:"date", page.date | sort: 'path' %}
+    {% for post in posts %}
+      <a href="{{ post.url }}" class="{{ post.lang }}">
+      <!-- {{ post.lang }} -->
+      {% if post.lang == "en" %}
+      <img src="http://www.disid.com/disid-bootstrap-theme/images/language/en_GB.png">
+      {% endif %}
+      {% if post.lang == "es" %}
+      <img src="http://www.disid.com/disid-bootstrap-theme/images/language/es_ES.png">
+      {% endif %}
+      </a>
+    {% endfor %}
 </li>
 
 <!-- contact -->
