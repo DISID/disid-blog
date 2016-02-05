@@ -113,6 +113,7 @@ p{
       text-align: left;
       padding: 0;    }
 
+
 #menu .navbar-nav > li > a {
     display: inline-block;
     border-bottom: 0.2875rem solid transparent;
@@ -127,6 +128,11 @@ p{
     font-weight: 400;
 }
 
+@media (min-width: 768px) {
+    #menu .navbar-nav > li > a {
+        padding: 10px 3px;
+    }
+}
 .nav > li > a:hover, .nav > li > a:focus {
     text-decoration: none;
     background-color: transparent;
