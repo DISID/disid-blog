@@ -2,6 +2,26 @@
 	
 		{
 		
+		  "title"      : "Webinar gvSIG Roads, a free solution for road management",
+		  "category"   : "engvsigroads",
+		  "url"        : "http://blog.disid.com/webinar-gvsig-roads/",
+		  "date"       : "2016-02-05 00:00:00 +0100",
+		  "shortdate"  : "February 05, 2016"
+		
+		} ,
+	
+		{
+		
+		  "title"      : "Webinar gvSIG Roads, solución libre para gestión de carreteras",
+		  "category"   : "esgvsigroads",
+		  "url"        : "http://blog.disid.com/webinar-gvsig-roads/",
+		  "date"       : "2016-02-05 00:00:00 +0100",
+		  "shortdate"  : "February 05, 2016"
+		
+		} ,
+	
+		{
+		
 		  "title"      : "DISID presenta las nuevas funcionalidades de gvNIX en las 11as Jornadas de gvSIG",
 		  "category"   : "esgvnix",
 		  "url"        : "http://blog.disid.com/presentacion-nuevas-funcionalidades-gvnix-en-las-11-jornadas-gvsig/",

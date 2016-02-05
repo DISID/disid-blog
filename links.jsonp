@@ -94,6 +94,20 @@ callback([
     "text": "DISID presenta las nuevas funcionalidades de gvNIX en las 11as Jornadas de gvSIG",
     "href": "http://blog.disid.com/presentacion-nuevas-funcionalidades-gvnix-en-las-11-jornadas-gvsig/"
   
+  } ,
+
+  {
+  
+    "text": "Webinar gvSIG Roads, solución libre para gestión de carreteras",
+    "href": "http://blog.disid.com/webinar-gvsig-roads/"
+  
+  } ,
+
+  {
+  
+    "text": "Webinar gvSIG Roads, a free solution for road management",
+    "href": "http://blog.disid.com/webinar-gvsig-roads/"
+  
   } 
 
 ])
