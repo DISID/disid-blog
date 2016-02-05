@@ -2,76 +2,76 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
     
     <url>
-        <loc>http://blog.disid.com/</loc>
+        <loc>http://localhost:4000/</loc>
     </url>
     <url>
-        <loc>http://blog.disid.com/featured</loc>
+        <loc>http://localhost:4000/featured</loc>
     </url>
     <url>
-        <loc>http://blog.disid.com/categories</loc>
+        <loc>http://localhost:4000/categories</loc>
     </url>
     <url>
-        <loc>http://blog.disid.com/tags</loc>
+        <loc>http://localhost:4000/tags</loc>
     </url>
 
     
     
     <url>
-        <loc>http://blog.disid.com/webinar-gvsig-roads/</loc>
+        <loc>http://localhost:4000/webinar-gvsig-roads-libre-gestion-carreteras/</loc>
     </url>
     
     
     
     <url>
-        <loc>http://blog.disid.com/webinar-gvsig-roads/</loc>
+        <loc>http://localhost:4000/Webinar-gvsig-roads-free-solution-for-road-management/</loc>
     </url>
     
     
     
     <url>
-        <loc>http://blog.disid.com/presentacion-nuevas-funcionalidades-gvnix-en-las-11-jornadas-gvsig/</loc>
+        <loc>http://localhost:4000/presentacion-nuevas-funcionalidades-gvnix-en-las-11-jornadas-gvsig/</loc>
     </url>
     
     
     
     <url>
-        <loc>http://blog.disid.com/all-gvnix-new-features-showcased-by-disid-11th-gvsig-conference/</loc>
+        <loc>http://localhost:4000/all-gvnix-new-features-showcased-by-disid-11th-gvsig-conference/</loc>
     </url>
     
     
     
     <url>
-        <loc>http://blog.disid.com/disid-trains-students-webapp-development-with-gvNIX/</loc>
+        <loc>http://localhost:4000/disid-trains-students-webapp-development-with-gvNIX/</loc>
     </url>
     
     
     
     <url>
-        <loc>http://blog.disid.com/disid-imparte-seminarios-sobre-desarrollo-java-con-gvnix/</loc>
+        <loc>http://localhost:4000/disid-imparte-seminarios-sobre-desarrollo-java-con-gvnix/</loc>
     </url>
     
     
     
     <url>
-        <loc>http://blog.disid.com/disid-11th-international-gvsig-conference/</loc>
+        <loc>http://localhost:4000/disid-11th-international-gvsig-conference/</loc>
     </url>
     
     
     
     <url>
-        <loc>http://blog.disid.com/disid-11as-jornadas-internacionales-de-gvsig/</loc>
+        <loc>http://localhost:4000/disid-11as-jornadas-internacionales-de-gvsig/</loc>
     </url>
     
     
     
     <url>
-        <loc>http://blog.disid.com/we-are-finally-have-a-blog/</loc>
+        <loc>http://localhost:4000/we-are-finally-have-a-blog/</loc>
     </url>
     
     
     
     <url>
-        <loc>http://blog.disid.com/por-fin-tenemos-blog/</loc>
+        <loc>http://localhost:4000/por-fin-tenemos-blog/</loc>
     </url>
     
     

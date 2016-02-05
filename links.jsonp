@@ -43,70 +43,70 @@ callback([
   {
   
     "text": "¡Por fin! Lanzamos nuestro blog sobre código abierto",
-    "href": "http://blog.disid.com/por-fin-tenemos-blog/"
+    "href": "http://localhost:4000/por-fin-tenemos-blog/"
   
   } ,
 
   {
   
     "text": "We are finally do it! We have an wonderful opensource blog!",
-    "href": "http://blog.disid.com/we-are-finally-have-a-blog/"
+    "href": "http://localhost:4000/we-are-finally-have-a-blog/"
   
   } ,
 
   {
   
     "text": "DISID en las 11as Jornadas Internacionales de gvSIG",
-    "href": "http://blog.disid.com/disid-11as-jornadas-internacionales-de-gvsig/"
+    "href": "http://localhost:4000/disid-11as-jornadas-internacionales-de-gvsig/"
   
   } ,
 
   {
   
     "text": "DISID in 11th International gvSIG Conference",
-    "href": "http://blog.disid.com/disid-11th-international-gvsig-conference/"
+    "href": "http://localhost:4000/disid-11th-international-gvsig-conference/"
   
   } ,
 
   {
   
     "text": "DISID forma a estudiantes en el manejo de gvNIX para el desarrollo de aplicaciones web",
-    "href": "http://blog.disid.com/disid-imparte-seminarios-sobre-desarrollo-java-con-gvnix/"
+    "href": "http://localhost:4000/disid-imparte-seminarios-sobre-desarrollo-java-con-gvnix/"
   
   } ,
 
   {
   
     "text": "DISID trains students in web app development with gvNIX",
-    "href": "http://blog.disid.com/disid-trains-students-webapp-development-with-gvNIX/"
+    "href": "http://localhost:4000/disid-trains-students-webapp-development-with-gvNIX/"
   
   } ,
 
   {
   
     "text": "All gvNIX new features showcased by DISID at 11th International gvSIG Conference",
-    "href": "http://blog.disid.com/all-gvnix-new-features-showcased-by-disid-11th-gvsig-conference/"
+    "href": "http://localhost:4000/all-gvnix-new-features-showcased-by-disid-11th-gvsig-conference/"
   
   } ,
 
   {
   
     "text": "DISID presenta las nuevas funcionalidades de gvNIX en las 11as Jornadas de gvSIG",
-    "href": "http://blog.disid.com/presentacion-nuevas-funcionalidades-gvnix-en-las-11-jornadas-gvsig/"
-  
-  } ,
-
-  {
-  
-    "text": "Webinar gvSIG Roads, solución libre para gestión de carreteras",
-    "href": "http://blog.disid.com/webinar-gvsig-roads/"
+    "href": "http://localhost:4000/presentacion-nuevas-funcionalidades-gvnix-en-las-11-jornadas-gvsig/"
   
   } ,
 
   {
   
     "text": "Webinar gvSIG Roads, a free solution for road management",
-    "href": "http://blog.disid.com/webinar-gvsig-roads/"
+    "href": "http://localhost:4000/Webinar-gvsig-roads-free-solution-for-road-management/"
+  
+  } ,
+
+  {
+  
+    "text": "Webinar gvSIG Roads, solución libre para gestión de carreteras",
+    "href": "http://localhost:4000/webinar-gvsig-roads-libre-gestion-carreteras/"
   
   } 
 
