@@ -1,0 +1,44 @@
+---
+layout: post
+anniversary: false
+timeline: false
+title: Webinar gvSIG Roads, a free solution for road management
+description: DISID takes part in the Webinar on gvSIG Roads
+tags: [gvSIG Roads, gvNIX, gvSIG, seminar, video, opensource]
+comments: true
+type: photo
+imagefeature: post/gvsigroads/webinar-gvsigroads.png
+image:
+  header: post/gvsigroads/unsplah-photo-1416862291207-4ca732144d83.jpg
+featured: true
+share: true
+category:
+    - en
+    - gvsigroads
+lang: en
+---
+
+DISID, gvSIG Association and Instituto GEOeduc taught this online seminar to introduce the functionalities and workflow of the free solution for road management *gvSIG Roads*.
+
+The webinar was organized by the gvSIG Association last January 28 and was given by our colleague Ricardo Rueda, CAD GIS Civil Engineering Consultant and functional responsible for the application, with Alvaro Anguix, CEO in gvSIG Association, and Eduardo Freitas, Coordinator Institute GeoEdu.
+
+During the webinar, lasting 1h20min, application modules were explained and were answered all the questions raised by the attendees at the end of the session.
+
+image::{{ site.url }}/images/post/gvsigroads/logo-gvsigroads.png[gvSIG Roads, 350, center]
+
+gvSIG Roads is an open and interoperable solution for the management of roads, open standards-based software, with a comprehensive management system for the maintenance, preservation and inventory of roads, with integrated map data and the power of Spatial Data infrastructures.
+
+gvSIG Roads consists of:
+
+* a powerful application for web management;
+* a desktop GIS for cartographic editing and update;
+* geoportal for managing, editing and viewing geospatial data roads;
+* mobile software for fieldwork activities.
+
+Here you have available recording Webinar _gvSIG Roads, a free solution for road management_:
+
+video::uJVTbUwAowU[youtube]
+
+
+
+

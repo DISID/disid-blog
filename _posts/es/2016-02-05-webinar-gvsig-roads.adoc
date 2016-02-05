@@ -1,0 +1,45 @@
+---
+layout: post
+anniversary: false
+timeline: false
+title: Webinar gvSIG Roads, solución libre para gestión de carreteras
+description: DISID participa en el webinar sobre gvSIG Roads
+tags: [gvSIG Roads, gvNIX, gvSIG, seminario, video, software libre]
+comments: true
+type: photo
+imagefeature: post/gvsigroads/webinar-gvsigroads.png
+image:
+  header: post/gvsigroads/unsplah-photo-1416862291207-4ca732144d83.jpg
+featured: true
+share: true
+category:
+    - es
+    - gvsigroads
+lang: es
+---
+
+DISID, la Asociación gvSIG y el Instituto GEOeduc impartieron este seminario online para presentar las funcionalidades y flujo de trabajo de la solución libre para la gestión de carreteras *gvSIG Roads*.
+
+El webinar fue organizado por la Asociación gvSIG e impartido el pasado 28 de febrero por nuestro compañero Ricardo Rueda, Consultor CAD GIS Ingeniería Civil y responsable funcional de la aplicación, junto con Álvaro Anguix, CEO en la Asociación gvSIG, y Eduardo Freitas, Coordinador Instituto GEOeduc.
+
+Durante el webinar, con una duración de 1h20min, se explicaron los diferentes módulos de la aplicación y se dió respuesta a las dudas planteadas por los asistentes al final de la sesión.
+
+image::{{ site.url }}/images/post/gvsigroads/logo-gvsigroads.png[gvSIG Roads, 350, center]
+
+gvSIG Roads es una solución libre e interoperable para la gestión de carreteras, basada en estándares y software libre. Con un completo sistema de gestión para el mantenimiento, la conservación y el inventario de carreteras, utilizando información cartográfica integrada y con la potencia de las Infraestructuras de Datos Espaciales.
+
+La solución gvSIG Roads está compuesta por:
+
+* una potente aplicación de gestión web;
+* un SIG de escritorio para la edición y mantenimiento de cartografía;
+* geoportal para la gestión, edición y la visualización de los datos geoespaciales de carreteras;
+* y software móvil para tareas de trabajo de campo.
+
+Aquí tienes disponible la grabación del Webinar _gvSIG Roads, solución libre para gestión de carreteras_:
+
+video::uJVTbUwAowU[youtube]
+
+
+
+
+
