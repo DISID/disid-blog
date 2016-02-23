@@ -2,6 +2,26 @@
 	
 		{
 		
+		  "title"      : "Conoce geoTIC, solución para la gestión de recursos TIC con gvNIX",
+		  "category"   : "esgeotic",
+		  "url"        : "http://blog.disid.com/presentacion-geotic-en-las-11-jornadas-gvsig/",
+		  "date"       : "2016-02-23 00:00:00 +0100",
+		  "shortdate"  : "February 23, 2016"
+		
+		} ,
+	
+		{
+		
+		  "title"      : "Get to know geoTIC, solution for ICT resources management with gvNIX",
+		  "category"   : "engeotic",
+		  "url"        : "http://blog.disid.com/geotic-showcased-by-disid-11th-gvsig-conference/",
+		  "date"       : "2016-02-23 00:00:00 +0100",
+		  "shortdate"  : "February 23, 2016"
+		
+		} ,
+	
+		{
+		
 		  "title"      : "Webinar gvSIG Roads, solución libre para gestión de carreteras",
 		  "category"   : "esgvsigroads",
 		  "url"        : "http://blog.disid.com/webinar-gvsig-roads-libre-gestion-carreteras/",

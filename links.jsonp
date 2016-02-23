@@ -108,6 +108,20 @@ callback([
     "text": "Webinar gvSIG Roads, solución libre para gestión de carreteras",
     "href": "http://blog.disid.com/webinar-gvsig-roads-libre-gestion-carreteras/"
   
+  } ,
+
+  {
+  
+    "text": "Get to know geoTIC, solution for ICT resources management with gvNIX",
+    "href": "http://blog.disid.com/geotic-showcased-by-disid-11th-gvsig-conference/"
+  
+  } ,
+
+  {
+  
+    "text": "Conoce geoTIC, solución para la gestión de recursos TIC con gvNIX",
+    "href": "http://blog.disid.com/presentacion-geotic-en-las-11-jornadas-gvsig/"
+  
   } 
 
 ])
