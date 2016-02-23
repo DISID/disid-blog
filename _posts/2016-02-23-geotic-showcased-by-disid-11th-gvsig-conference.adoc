@@ -1,0 +1,32 @@
+---
+layout: post
+anniversary: false
+timeline: false
+title: Get to know geoTIC, solution for ICT resources management with gvNIX
+description: Geoportal of ICT resources of the Generalitat Valenciana
+tags: [gvNIX, GeoTIC, Conference, speaker, video]
+comments: true
+type: photo
+imagefeature: post/geotic/geotic-project.jpg
+image:
+  header: post/geotic/geotic.png
+featured: true
+share: true
+category:
+    - en
+    - geotic
+lang: en
+---
+
+We would like to introduce GeoTIC, a solution for ICT resources management, a complete application that includes geographic component and which adds to the list of products developed with gvNIX, an open source tool for rapid application development with which you can create Java web applications in minutes.
+
+This solution derives from a project realized for the Generalitat Valenciana, which relied on DISID to implement GeoTIC solution, geoportal of ICT resources of the Generalitat Valenciana into the territory, including telecommunications resources, personal computing and systems.
+
+Here you have available the recording of the _GeoTIC_ presentation held in the last 11th International gvSIG Conference where Laura Casanova and our CTO http://www.twitter.com/@cordinyana[Cèsar Ordiñana] showed the application in detail:
+
+video::MXx8_CGmQ_o[youtube]
+
+
+
+
+

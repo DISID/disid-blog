@@ -1,0 +1,29 @@
+---
+layout: post
+anniversary: false
+timeline: false
+title: Conoce geoTIC, solución para la gestión de recursos TIC con gvNIX
+description: Geoportal de los recursos TIC de la Generalitat Valenciana
+tags: [gvNIX, GeoTIC, Opensource, Ponencias, video]
+comments: true
+type: photo
+imagefeature: post/geotic/proyecto-geotic.png
+image:
+  header: post/geotic/geotic.png
+featured: true
+share: true
+category:
+    - es
+    - geotic
+lang: es
+---
+
+Con este post os queremos presentar GeoTIC, una solución para la gestión de recursos TIC, una completa aplicación que incorpora componente geográfica y que se suma al listado de productos desarrollados con gvNIX, la herramienta de código abierto para el desarrollo rápido de aplicaciones web Java.
+
+Esta solución tiene su origen en un proyecto para la Generalitat Valenciana, que confia en DISID para el desarrollo de la solución GeoTIC, geoportal de los recursos TIC de la Generalitat Valenciana en el territorio, incluyendo recursos de telecomunicaciones, microinformática y sistemas.
+
+Aquí tienes disponible la grabación de la presentación de _GeoTIC_ realizada en las pasadas 11as Jornadas Internacionales de gvSIG donde Laura Casanova y nuestro CTO http://www.twitter.com/@cordinyana[Cèsar Ordiñana] presentaron la aplicación en detalle:
+
+video::GKeTGcddJVA[youtube]
+
+
