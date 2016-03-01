@@ -36,11 +36,7 @@ Without further ado, I leave you with my first post where I'm going to introduce
 
 == Spring IO Platform
 
-http://platform.spring.io/platform/[Spring IO Platform] defines a set of
-dependencies (both Spring Framework dependencies as third-party libraries)
-that could be included on a Java project to allow you to choose the necessary
-dependencies without worrying about compatibility between their versions.
-(because Spring IO guarantees it)
+http://platform.spring.io/platform/[Spring IO Platform] defines a set of dependencies (both Spring Framework dependencies as third-party libraries) that could be included on a Java project to allow you to choose the necessary dependencies without worrying about compatibility between their versions (because Spring IO guarantees it).
 
 The recommended way to get started using platform in your project is with a dependency management system.
 
@@ -62,8 +58,7 @@ The recommended way to get started using platform in your project is with a depe
 
 After including the Spring IO Platform dependency in your project with *pom* value as type and *import* value as scope, you will be able to include all necessary dependencies without specify its version.
 
-On the next sample you could see how to include the
-http://hibernate.org/[Hibernate] dependency without specify the version.
+On the next sample you could see how to include the http://hibernate.org/[Hibernate] dependency without specify the version.
 
 [source,xml]
 ----
@@ -130,8 +125,7 @@ about the version like the following sample:
 
 == Conclusions
 
-* Spring IO Platforms allows you to manage dependencies without worrying about
-  the versions and compatibility between them
+* Spring IO Platforms allows you to manage dependencies without worrying about the versions and compatibility between them.
 * Spring Boot makes the Spring application configuration easy using predefined properties, annotations and starters as dependencies.
 * Spring IO Platform includes Spring Boot as parent. That's the reason because Spring IO Platform includes all Spring Boot dependencies and starters.
 * Use Spring IO Platform as parent if you want to use Spring IO Platform and Spring Boot together.
