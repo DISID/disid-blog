@@ -14,7 +14,7 @@ tags:
   - Spring
   - Spring Boot
   - Spring IO
-imagefeature: 2015-12-30-how-to-use-spring-io-platform-and-spring-boot-together/cover.jpg
+imagefeature: 2016-03-03-how-to-use-spring-io-platform-and-spring-boot-together/cover.jpg
 image:
   thumb: disid-thumbnail.png #keep it square 200x200 px is good
 featured: true
