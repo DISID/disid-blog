@@ -6,7 +6,7 @@ description: "What is Spring IO Platform? What is Spring Boot? How to use them t
 headline: "How to use Spring IO Platform and Spring Boot together"
 #modified: 2016-02-29          # Date
 lang: en
-categories:
+category:
   - en
   - spring
   - spring-boot
