@@ -122,6 +122,13 @@ callback([
     "text": "Conoce geoTIC, solución para la gestión de recursos TIC con gvNIX",
     "href": "http://blog.disid.com/presentacion-geotic-en-las-11-jornadas-gvsig/"
   
+  } ,
+
+  {
+  
+    "text": "How to use Spring IO Platform and Spring Boot together",
+    "href": "http://blog.disid.com/how-to-use-spring-io-platform-and-spring-boot-together/"
+  
   } 
 
 ])
