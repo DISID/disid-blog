@@ -571,6 +571,16 @@ html {
   }
   .home-template .row {margin: 0 -5px;} /* fixes overflow on homepage on small screens (caused by stacked -15px from bootstrap) */
 }
+
+/* --------------------- */
+/* POST STYLES AT HOME */
+/* ------------------- */
+
+section.summer-post-excerpt figure a img{
+  max-width: 600px;
+}
+
+
 /* ----------- */
 /* POST STYLES */
 /* ----------- */
