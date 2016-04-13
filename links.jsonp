@@ -129,6 +129,13 @@ callback([
     "text": "How to use Spring IO Platform and Spring Boot together",
     "href": "http://blog.disid.com/how-to-use-spring-io-platform-and-spring-boot-together/"
   
+  } ,
+
+  {
+  
+    "text": "Customizing Spring Roo tagx",
+    "href": "http://blog.disid.com/customizing-spring-roo-own-tagx/"
+  
   } 
 
 ])
