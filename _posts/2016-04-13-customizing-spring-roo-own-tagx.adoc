@@ -1,9 +1,10 @@
 ---
 layout: post
 type: photo
-title: Customizing Spring Roo tagx
-description: How to personalize Spring Roo components that are implemented over tagx files
-headline: Do you know customizing Spring Roo tagx?
+title: "Customizing Spring Roo tagx"
+description: "How to personalize Spring Roo components that are implemented over tagx files"
+headline: "Do you know customizing Spring Roo tagx?"
+excerpt: " Do you know customizing Spring Roo tagx? I use everyday Spring Roo project to develop Java applications and it offers you the possibility of customize the code that it generates with the purpose of extending its functioning. I'm going to explain how to do it."
 modified: 2016-03-13
 lang: en
 categories:
@@ -13,7 +14,7 @@ tags:
   - personalize
   - customize
   - tagx
-  - spring roo
+  - Spring Roo
 imagefeature: 2016-01-03-customizing-spring-roo-own-tagx/cover.jpg
 imagedir: /images/2016-01-03-customizing-spring-roo-own-tagx/
 image:
@@ -28,7 +29,7 @@ author:
 
 Hi friends!
 
-My name is Manuel and this is my first article in DISID blog. I'm a computer engineer and I have worked for more than three years in DISID as an analyst and developer of Java applications. Also I collaborated in the development of Spring Roo (http://projects.spring.io/spring-roo/[Spring Roo]) and gvNIX (http://www.gvnix.org/[gvNIX]) projects. 
+My name is Manuel and this is my first article in DISID blog. I'm a computer engineer and I have worked for more than three years in DISID as an analyst and developer of Java applications. Also I collaborated in the development of http://projects.spring.io/spring-roo/[Spring Roo] and http://www.gvnix.org/[gvNIX] projects.
 
 I use everyday Spring Roo project to develop Java applications, and although it is useful, for example to do repetitive tasks quickly, it offers you the possibility of customize the code that it generates with the purpose of extending its functioning. Sometimes you need to apply modifications over the _tagx_ files defined by Spring Roo, because you need some operations that currently these _tagx_ don't accomplish. This is the main subject of this article: how can you customize _tagx_ files?
 
