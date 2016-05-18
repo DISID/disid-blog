@@ -121,7 +121,7 @@ blockquote:before {
   width: 4px;
 }
 .cursive {
-  color: #4B84AD;
+  color: #7AE2DE;
   text-align: center;
   padding-bottom: 0.5em;
   text-transform: uppercase;
@@ -129,7 +129,7 @@ blockquote:before {
 }
 
 .title-link{
-  border: 1px solid #366180;
+  border: 1px solid #7AE2DE;
   border-radius: 4px;
   padding: 10px;
 }
@@ -225,13 +225,13 @@ a.scrollup {
   text-align: center;
   font: 22px/40px "icon";
   color: #fff;
-  background:#366180;
+  background:#7AE2DE;
   border-radius: 3px;
   z-index: 31;
   padding-top: 4px;
 }
 a.scrollup:hover {
-    background: #30526B;
+    background: #414A52;
     color: #fff;
 }
 
@@ -702,14 +702,14 @@ section.summer-post-excerpt figure a img{
     text-shadow: none;
 }
 .btn-blue {
-    background-color: #366180;
+    background-color: #7AE2DE;
     background-color: rgba(54,97,128,0.9);
     color: #fff;
     font-family: 'Raleway', sans-serif;
 }
 .btn-blue:hover, .btn-blue:focus {
-    background-color: #366180;
-    background-color: #366180;
+    background-color: #7AE2DE;
+    background-color: #7AE2DE;
     color: #e5e5e5;
 }
 
@@ -4066,7 +4066,7 @@ ol.CodeRay li {
 
 button.menu-button {
   position: absolute;
-  top: 10px;
+  top: 40px;
   right: 10px;
   width: 40px;
   height: 40px;
@@ -4096,7 +4096,7 @@ button.menu-button {
   color: #fff
 }
 button.menu-button:hover {
-  background-color: #366180;
+  background-color: #7AE2DE;
   color: #fff;
   box-shadow: rgba(0,0,0,0.2) 0 0 0 3px;
 }
@@ -4133,7 +4133,7 @@ a#slide{
     text-align:center;
     font:22px/40px "icon";
     color:#fff;
-    background:#366180;
+    background:#7AE2DE;
     border-radius:3px;
     z-index:31;
     font-weight: bold;
@@ -4142,7 +4142,7 @@ a#slide{
     }
 
 a#slide:hover{
-    background: #30526B
+    background: #414A52
     }
 
 a#slide:after{

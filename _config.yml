@@ -10,7 +10,7 @@ asciidoctor:
 title:            DISID Blog
 description:      Come Learn and Share
 logo:             logo_DISID.png
-logo-negative:    logo-disid-inverse.png
+logo-negative:    logo-disid-white.png
 
 # Assign a default image for your site's header and footer
 default_bg:       dotted.png
@@ -33,7 +33,15 @@ fin_color:        "255,255,255"
 # Change url to your domain. Leave localhost server or blank when working locally.
 url:              http://blog.disid.com
 #url:             http://localhost:4000
-url-external:     http://www.disid.com/en
+url-external:    http://www.disid.com/
+
+# Color settings (hex-codes without the leading hash-tag)
+# primary_rgb: "59,139,186" #"247,0,49" #rgb of the primary. Needed in some places for the transparency effect.
+color:
+  primary: 366180
+  secondary: 414A52
+  secondary-dark: 002436
+  light: 7AE2DE
 
 # Owner/author information
 owner:
@@ -51,8 +59,8 @@ owner:
   skype:          skype:disid_info?call
   phone:          +34 963 516 309
 
-  # For Google Authorship https://plus.google.com/authorship
-  #google_plus:
+# For Google Authorship https://plus.google.com/authorship
+#google_plus:
 
 # Analytics and webmaster tools stuff goes here
 google_analytics:  UA-1393802-6
@@ -60,34 +68,159 @@ google_verify:
 # https://ssl.bing.com/webmaster/configure/verify/ownership Option 2 content= goes here
 bing_verify:
 
-# Links to include in footer navigation
-# For external links add external: true
+# Social networks usernames (many more available: google-plus, flickr, dribbble, pinterest, instagram, tumblr, linkedin, etc.)
+social:
+  - title: twitter
+    url: http://twitter.com/disid_corp
+  - title: facebook
+    url: https://www.facebook.com/DISIDCorp/
+  - title: github
+    url: https://github.com/DISID
+  - title: linkedin
+    url: https://www.linkedin.com/company/disid
+
+# Postal address (add as many lines as necessary). Shown in footer on Contact section.
+address:
+  - lines:
+    - C/ San Vicente Mártir, 84 - 5A Valencia
+    - CP 46002, Spain
+email: info@disid.com
+tel: (+34) 963 516 309
+
+#
+#Multilanguage
+#
+
+defaults:
+  -
+    scope:
+      path: ""
+    values:
+      lang: en
+  -
+    scope:
+      path: /es
+    values:
+      lang: es
+t:
+  en:
+    title: "DISID, Be software"
+    description: "We are a software engineering company specialized in Java technology."
+    intro-lead-in: "Be Software"
+    intro-heading: "We are your best choice"
+    learn-more: Learn more
+    close: Close
+    footer-text: Sociedad Limitada 2013 CC BY-NC-SA 3.0 ES | Developed with Jekyll & Bootstrap
+    suscribe: Subscribe to stay in the loop
+    suscribe-button: Subscribe me!
+    contact: Drop us a line
+    technologies:
+      section-heading: "Our Know-how"
+      description: We like to provide technological solutions focused on what really matters to the business and developed on a daily basis. Select the most appropriate technology and tools for the development of each solution. Our base in Java, Spring and always working in a collaborative and evolving the OpenSource, we can offer a solution tailored to what you really need.
+    services:
+#      section-heading: "Our solutions"
+#      section-subheading: "Solutions to and from any device."
+    projects:
+      section-heading: "Last Projects"
+      description: "Find out which technologies move us and what R&D projects motivate us.
+      Always on open source, we fix, improve and share our work into the core of the open platforms we use: Liferay, gvNIX, Spring, Spring Roo and gvSIG.
+      An active and continued collaboration."
+  es:
+    title: "DISID, Be Software"
+    description: "We are a software engineering company specialized in Java technology."
+    intro-lead-in: "Be Software"
+    intro-heading: "Nosotros somos tu mejor elección"
+    learn-more: Saber más
+    close: Cerrar
+    footer-text: Sociedad Limitada 2013 CC BY-NC-SA 3.0 ES | Sitio web desarrollado con Jekyll & Bootstrap
+    suscribe: Suscríbete para mantenerte informado de nuestras noticias
+    suscribe-button: ¡Apúntame!
+    contact: Queremos escucharte
+    technologies:
+      section-heading: "Nuestro soporte para el desarrollo"
+      description: Nos gusta facilitar soluciones tecnológicas centradas en lo realmente importante para el negocio y desarrolladas en la base del día a día. Seleccionamos la tecnología y herramientas más apropiadas para el desarrollo de cada solución. Nuestra base en Java, Spring y siempre trabajando en un entorno colaborativo y en constante evolución del OpenSource, nos permite ofrecerte una solución ajustada a lo que realmente necesitas.
+    services:
+#      section-heading: "Nuestras soluciones"
+#      section-subheading: "Soluciones desde y para cualquier dispositivo."
+    projects:
+      section-heading: "Nuestros Proyectos"
+      description: "Entérate de primera mano sobre qué tecnologías nos movemos y qué proyectos nos motivan.
+      Siempre sobre código abierto, desarrollamos mejoras e implementaciones sobre nuestras plataformas de desarrollo Liferay, gvNIX, Spring Roo y gvSIG.
+      Una participación activa y continuada."
+
+
+# To include variable in liquid: {{ site.t[page.lang].labs.section-heading }}
+# You can add translations group
+
+# Links to include in top navigation
+# For external links add external: true/false
+links-site:
+  en:
+    solutions:
+      title: Solutions
+      url: "http://www.disid.com#solutions"
+      external: true
+    projects:
+      title: Projects
+      url: "http://www.disid.com#projects"
+      external: true
+    technologies:
+      title: Technologies
+      url: "http://www.disid.com#technologies"
+      external: true
+    blog:
+      title: Blog
+      url: /
+      icon: home
+    contact:
+      title: Contact
+      url: "http://www.disid.com#contact"
+      external: true
+  es:
+    solutions:
+      title: Soluciones
+      url: "http://www.disid.com/es/#solutions"
+      external: true
+    projects:
+      title: Projectos
+      url: "http://www.disid.com/es/#projects"
+      external: true
+    technologies:
+      title: Tecnologías
+      url: "http://www.disid.com/es/#technologies"
+      external: true
+    blog:
+      title: Blog
+      url: "http://blog.disid.com/es/index.html"
+    contact:
+      title: Contacto
+      url: "http://www.disid.com/es/#contact"
+      external: true
+
+linksextra:
+  en:
+    notice:
+      title: Legal notice
+      url: "http://www.disid.com/legal-notice"
+      external: true
+    cookies:
+      title: Cookies
+      url: "http://www.disid.com/cookies-policy"
+      external: true
+  es:
+    notice:
+      title: Aviso legal
+      url: "http://www.disid.com/aviso-legal"
+      external: true
+    cookies:
+      title: Cookies
+      url: "http://www.disid.com/politica-de-cookies"
+      external: true
+
 links:
-  - title: Home
-    url: http://www.disid.com/en
-    external: true
-    icon: home
-  - title: Projects
-    url: http://www.disid.com/en/#proyectosDisid
-    external: true
-  - title: What we do
-    url: http://www.disid.com/en/que-hacemos
-    external: true
-  - title: Who we are
-    url: http://www.disid.com/en/quienes-somos
-    external: true
-  - title: Labs
-    url: http://www.disid.com/en/labs
-    external: true
-  - title: Jobs
-    url: http://www.disid.com/en/empleo
-    external: true
-  - title: Contact
-    url: http://www.disid.com/en/contacto
-    external: true
-  - title: Blog
-    url: /
-    icon: home
+#  - title: Blog
+#    url: /
+#    icon: home
   - title: Featured posts
     url: /featured
     tooltip: Featured posts
