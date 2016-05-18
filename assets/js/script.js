@@ -82,11 +82,30 @@ function scrollUp(){
  * Start Bootstrap
  */
 
+$(document).ready(function() {
 
-// Closes the Responsive Menu on Menu Item Click
-$('.navbar-collapse ul li a').click(function() {
-    $('.navbar-toggle:visible').click();
+	// Closes the Responsive Menu on Menu Item Click
+//	$('.navbar-collapse ul li a').click(function() {
+//	    $('.navbar-toggle:visible').click();
+//	});
+
+    /***************** Responsive Nav ******************/
+
+    $('.nav-toggle').click(function() {
+        $(this).toggleClass('active');
+        $('.navicon').toggleClass('fixed');
+        $('.primary-nav-wrapper').toggleClass('open');
+        event.preventDefault();
+    });
+
+    $('.primary-nav-wrapper li a').click(function() {
+        $('.nav-toggle').toggleClass('active');
+        $('.navicon').toggleClass('fixed');
+        $('.primary-nav-wrapper').toggleClass('open');
+    });
+
+
+
 });
-
 
 
