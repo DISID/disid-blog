@@ -12,23 +12,16 @@
 .cc-cookies a.cc-cookie-decline,
 .cc-cookies-error a.cc-cookie-decline,
 .cc-cookies a.cc-cookie-reset {
-  /* display: inline-block;
-  text-decoration: none; */
-  border-color: #fff;
-  color: #222;
-  background-color: #fff;
- /*  padding: 0.5em 0.75em;
-  border-radius: 3px; */
- /*  box-shadow: 0 0 2px rgba(0,0,0,0.25);
-  text-shadow: 0 -1px 0 rgba(0,0,0,0.35); */
   -o-transition: background 0.5s ease-in;
   -webkit-transition: background 0.25s ease-in;
   -moz-transition: background 0.25s ease-in;
   margin-right: 5px;
+  padding: 10px 5px;
  }
 
 .cc-cookies a.cc-cookie-decline, .cc-cookies-error a.cc-cookie-decline { background: #af3b3b; margin-left: 0.5em; }
 .cc-cookies a.cc-cookie-reset { background: #f15b00; }
+
 .cc-cookies a:hover.cc-cookie-accept,
 .cc-cookies-error a:hover.cc-cookie-accept,
 .cc-cookies a:hover.cc-cookie-decline,

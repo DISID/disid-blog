@@ -33,13 +33,13 @@
             cookieAcceptButton: true, // this will disable non essential cookies
             cookieResetButton: false,
             cookieOverlayEnabled: false, // don't want a discreet toolbar? Fine, set this to true
-            cookiePolicyLink: 'http://www.disid.com/es/politica-de-cookies', // if applicable, enter the link to your privacy policy here...
+            cookiePolicyLink: 'http://www.disid.com/politica-de-cookies/', // if applicable, enter the link to your privacy policy here...
             cookieMessage: 'We use cookies on this website, you can <a href="{{cookiePolicyLink}}" title="read about our cookies">read about them here</a>. To use the website as intended please...',
             //cookieAnalyticsMessage: 'Hacemos uso de cookies, para monitorizar las visitas a nuestra web, no guardamos ningún tipo de información personal.',
             //cookieAnalyticsMessage: 'Hacemos uso de cookies propias y de terceros para mejorar tu experiencia de usuario y ofrecer contenidos adaptados a tus intereses, no guardamos ningún tipo de información personal. Si sigues navegando sin cambiar la configuración consideramos que aceptas su uso.',
             cookieAnalyticsMessage: 'Hacemos uso de cookies propias y de terceros para monitorizar las visitas a nuestra web, no guardamos ningún tipo de información personal. Si sigues navegando, consideramos que aceptas su uso.',
             cookieErrorMessage: "We\'re sorry, this feature places cookies in your browser and has been disabled. <br>To continue using this functionality, please",
-            cookieWhatAreTheyLink: "/http://www.disid.com/es/politica-de-cookies",
+            cookieWhatAreTheyLink: "/http://www.disid.com/politica-de-cookies",
             cookieDisable: '',
             cookieExpires: 365,
             cookieAcceptButtonText: "Acepto cookies",
@@ -98,7 +98,7 @@
         };
         // write cookie accept button
         if (cookieAcceptButton) {
-            var cookieAccept = ' <a href="#accept" class="cc-cookie-accept btn btn-default">' + cookieAcceptButtonText + '</a> ';
+            var cookieAccept = ' <a href="#accept" class="cc-cookie-accept btn primary">' + cookieAcceptButtonText + '</a> ';
         } else {
             var cookieAccept = "";
         }
