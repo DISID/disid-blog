@@ -1,0 +1,253 @@
+---
+layout: post
+type: photo
+title: "How to generate Spring Boot applications using Spring Roo 2.0.0.M2"
+description: "Do you know the new Spring Roo 2.0.0.M2 features? Do you want to generate complete Spring Boot applications quickly?"
+headline: "How to generate Spring Boot applications using Spring Roo 2.0.0.M2"
+#modified: 2016-05-29          # Date
+lang: en
+category:
+  - en
+  - spring-roo
+  - spring-boot
+tags:
+  - Spring
+  - Spring Roo
+  - Spring Boot
+imagefeature: 2016-05-29-how-to-generate-spring-boot-applications-using-spring-roo-2/cover.jpg
+imagedir: /images/2016-05-29-how-to-generate-spring-boot-applications-using-spring-roo-2/
+image:
+  thumb: disid-thumbnail.png #keep it square 200x200 px is good
+featured: true
+author:
+  name: Juan Carlos García
+  image: https://pbs.twimg.com/profile_images/590600412098600962/p_juRpGB_400x400.jpg
+  jobdescription: Software Architect
+  twitter: juancaFX
+excerpt: Do you know the new Spring Roo 2.0.0.M2 features? Do you want to generate complete Spring Boot applications quickly? I leave you with my new post where I'm going to introduce really quick how to generate Spring Boot applications using Spring Roo 2.0.0.M2.
+---
+
+Hi all!
+
+Many of you have been asked about tutorials and guides about how to use the new Spring Roo 2.0.0.M2 version and how to generate Spring Boot applications with it.
+
+For that ones that don't know what is Spring Roo project, I'll try to explain it you really quick:
+
+Spring Roo is a development tool that provides all necessary features to generate web applications really quick and easy. Could be used from https://spring.io/tools[STS] (based on Eclipse IDE) or directly from your OS shell (Linux, Windows and OSx). Developers execute some predefined commands that generates all Java code to have a complete web application.
+
+This new version (2.0.0.M2) of Spring Roo includes some new features like:
+
+* Use Spring IO Platform to manage dependency versions and be able to use latest Spring technologies.
+* Update code generation to include Spring Boot on generated projects.
+* Multi-module projects improvement.
+* Push-in operations using Spring Roo Shell.
+* Different response types are allowed in the same controller (JSON, THYMELEAF, etc…)
+* Views could be generated using THYMELEAF.
+* Dojo has been replaced with HTML5, CSS3, Bootstrap and jQuery components. (Datatables, Select2, etc…)
+* ... and much more!
+
+To get more details about all the new Spring Roo 2.0.0.M2 features, see the https://spring.io/blog/2016/05/18/spring-roo-2-0-0m2-released[release note] posted on the Spring Blog. If you are interested on get more information about the Spring Roo project visit http://projects.spring.io/spring-roo/[its official project page].
+
+Now that everyone knows _what is Spring Roo_, let's start with this quick tutorial.
+
+== Introduction
+
+In this quick tutorial we are going to generate a basic Spring Boot application using Spring Roo 2.0.0.M2 from OS shell. Don't worry if you are not familiar with OS shell, this will be a really easy tutorial explained step by step. Also, in future tutorials I'll explain you how to configure your STS to include the Spring Roo shell.
+
+The generated application will contain:
+
+* Basic Spring Boot project structure, Spring IO platform to manage dependencies and Spring Boot starters.
+* JPA Persistence using http://hibernate.org/[HIBERNATE] and http://hsqldb.org/[HYPERSONIC_IN_MEMORY] database.
+* One entity called *Owner* with *username* field and *email* field.
+* http://projects.spring.io/spring-data-jpa/[Spring Data JPA] repository to manage the *Owner* entity.
+* Service interface and its implementation to manage the *Owner* entity.
+* Controller to provide necessary operations to manage the *Owner* entity.
+* http://www.thymeleaf.org/[THYMELEAF] views.
+
+*Remember* that this will be a quick tutorial to show how to generate Spring Boot applications using Spring Roo shell, so I'm not going to go deeper on the other components of the generated project (persistence, view layer, etc.). Just follow this tutorial to have a complete Spring Boot application and in future posts, I'll explain you all about the other generated layers. 
+
+== Pre-requisites
+
+* http://www.oracle.com/technetwork/java/javase/downloads/index.html[JDK 1.7 or JDK 1.8]
+* http://maven.apache.org/download.cgi[Maven 3.2 or above]
+* Internet access so that Maven can download required dependencies 
+
+== Executing Spring Roo 2.0.0.M2
+
+* http://spring-roo-repository.springsource.org.s3.amazonaws.com/milestone/ROO/spring-roo-2.0.0.M2.zip[Download] Spring Roo 2.0.0.M2.
+* Unzip the downloaded distribution. For example inside _~/software_ folder.
+* Open new OS shell on the folder where you want to generate your new project and execute the _~/software/spring-roo-2.0.0.M2/bin/roo.sh_ script file (or use .bat file if you are working on Windows)
+* New Spring Roo 2.0.0.M2 will be executed with this appearance:
+
+image::{{ site.url }}{{ page.imagedir }}shell.png[Shell started]
+
+== Create Spring Boot project
+
+In this new version, Spring Roo generates Spring Boot applications by default. So, executing the following command in the Spring Roo shell a new Spring Boot project will be generated (remember that you could use TAB to autocomplete commands):
+
+[source]
+----
+project setup --topLevelPackage com.disid.blog.tutorial
+----
+
+image::{{ site.url }}{{ page.imagedir }}project_command.png[Project Command]
+
+As you could see on the shell log, the following resources will be generated:
+
+[source]
+----
+Created ROOT/pom.xml
+Created SRC_MAIN_RESOURCES
+Created SRC_MAIN_JAVA/com/disid/blog/tutorial
+Created SRC_MAIN_JAVA/com/disid/blog/tutorial/TutorialApplication.java
+Created SRC_MAIN_RESOURCES/banner.txt
+----
+
+The basic structure of the generated project should be like:
+
+[source]
+----
+.
+├── log.roo
+├── pom.xml
+└── src
+    └── main
+        ├── java
+        │   └── com
+        │       └── disid
+        │           └── blog
+        │               └── tutorial
+        │                   └── TutorialApplication.java
+        └── resources
+            └── banner.txt
+----
+
+The *log.roo* file contains all executed commands in the Spring Roo shell. Will be updated everytime that you execute some new command that ends successfully. Is really useful to know which commands have been executed before. 
+
+The *pom.xml* contains minimum dependencies and minimum Spring Boot starters that will be used in the generated Spring Boot project. To get more info about existing Spring Boot starters you should check the http://docs.spring.io/spring-boot/docs/current/reference/htmlsingle/#using-boot-starter-poms[Spring Boot documentation].
+
+Also, if you open this file, you could check that the parent of the generated project will be the Spring IO Platform. Know more about it reading http://blog.disid.com/how-to-use-spring-io-platform-and-spring-boot-together/[my post] about how to use Spring IO Platform and Spring Boot together.  
+
+The *TutorialApplication.java* file is the class that contains the _main_ method. It's annotated with _@SpringBootApplication_ and has the following appearance:
+
+[source, java]
+----
+@SpringBootApplication
+public class TutorialApplication {
+
+    public static void main(String[] args) {
+        SpringApplication.run(TutorialApplication.class, args);
+    }
+}
+----
+
+The _@SpringBootApplication_ annotation is equivalent to using _@Configuration_, _@EnableAutoconfiguration_ and _@ComponentScan_ annotations with their deffault attributes. To know more about the _@SpringBootApplication_ annotation reading the http://docs.spring.io/spring-boot/docs/current/reference/htmlsingle/#using-boot-using-springbootapplication-annotation[Spring Boot documentation].
+
+Finally, *banner.txt* file has been generated on resources folder. This banner will be displayed during application deployment. The appearance of the generated file should be like:
+
+[source]
+----
+${AnsiColor.GREEN}                _                             
+ ___ _ __  _ __(_)_ __   __ _ _ __ ___   ___  
+/ __| '_ \| '__| | '_ \ / _` | '__/ _ \ / _ \ 
+\__ \ |_) | |  | | | | | (_| | | | (_) | (_) |
+|___/ .__/|_|  |_|_| |_|\__, |_|  \___/ \___/ 
+    |_|                 |___/                 
+
+${AnsiColor.BRIGHT_RED}Spring application made with Spring Roo 2.0
+Doubts? http://projects.spring.io/spring-roo/${AnsiColor.DEFAULT}
+----
+
+Now, we have a basic Spring Boot application that compiles without any problem using the maven command _mvn clean compile_!!! :D 
+
+But... we are not able to run this application because we don't configure yet the presentation layer :(
+
+*Remember* that this tutorial is only a quick guide about how to generate a basic Spring Boot application using Spring Roo 2.0.0.M2 (this section). However, I'm going to give you some quick commands that will allow you to get a complete Spring Boot application with web layer. In future tutorials I'll go deeper in the other components of the generated project. 
+
+== Configure persistence
+
+To be able to generate persistence using _HIBERNATE_ and _HYPERSONIC_IN_MEMORY_ database you should execute the following command:
+
+[source]
+----
+jpa setup --provider HIBERNATE --database HYPERSONIC_IN_MEMORY 
+----
+
+== Create Owner entity and its fields
+
+Create a new entity called *Owner* and include the *username* field and the *email* field. You will be able to do it executing the following commands:
+
+[source]
+----
+entity jpa --class ~.domain.Owner
+field string --fieldName username
+field string --fieldName email
+----
+
+== Generate Spring Data JPA Repository
+
+Generate the Spring Data JPA repository to manage the Owner data access executing the following command:
+
+[source]
+----
+repository jpa --entity ~.domain.Owner --interface ~.repository.OwnerRepository
+----
+
+== Generate Service layer
+
+Generate the service layer executing the following command:
+
+[source]
+----
+service --entity ~.domain.Owner --repository ~.repository.OwnerRepository --interface ~.service.api.OwnerService --class ~.service.impl.OwnerServiceImpl
+----
+
+== Generate web layer
+
+Include Spring MVC support, install THYMELEAF resources and generate controllers executing the following commands:
+
+[source]
+----
+web mvc setup
+web mvc view setup --type THYMELEAF
+web mvc controller --controller ~.web.OwnerController --entity ~.domain.Owner --service ~.service.api.OwnerService --responseType THYMELEAF
+----
+
+== Run generated applications
+
+After execute all the commands above (don't worry if you don't understand some command or the generated code. I'll explain it you in next tutorials :D), you should have a complete Spring Boot application.
+
+If you want to run your generated application you could do it executing the following maven command:
+
+[source]
+----
+mvn clean compile spring-boot:run
+----
+
+After some log messages in your system shell, your application will be deployed on an embedded tomcat server. You could access to http://localhost:8080/ link and see your generated application running:
+
+image::{{ site.url }}{{ page.imagedir }}homepage_application.png[Home page]
+image::{{ site.url }}{{ page.imagedir }}create_page.png[Create new owner page]
+image::{{ site.url }}{{ page.imagedir }}list_page.png[List all owners page]
+
+
+What do you think about it?! Do you like it? And only executing some simple commands! :D
+
+NOTE: The previous maven command is available because the generated *pom.xml* file includes the _spring-boot-maven-plugin_
+
+== Conclusions
+
+* Spring Roo is a development tool that provides you simple commands to generate applications.
+* Spring Roo could be executed directly on system shell or from STS.
+* Since 2.0.0.M2 version, Spring Roo generates complete Spring Boot applications.
+* Spring Roo includes Spring Boot starters on generated project that makes generated code more simple and clear. Without excesive configuration clases or files.
+* Spring Roo includes Spring IO Platform as parent of the generated project.
+* With some simple commands and in few minutes, you could have a complete Spring Boot application with complete web layer that uses THYMELEAF, HTML5, Bootstrap and jQuery components.
+* Run your generated application using _mvn clean compile spring-boot:run_ maven command.
+
+Hope you enjoy with this new post and you learn more about the Spring Roo project and its new features!
+
+If you have some comment or question, feel free to make it.
+
+See you soon!
+
