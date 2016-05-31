@@ -64,7 +64,7 @@ The generated application will contain:
 * Controller to provide necessary operations to manage the *Owner* entity.
 * http://www.thymeleaf.org/[THYMELEAF] views.
 
-*Remember* that this will be a quick tutorial to show how to generate Spring Boot applications using Spring Roo shell, so I'm not going to go deeper on the other components of the generated project (persistence, view layer, etc.). Just follow this tutorial to have a complete Spring Boot application and in future posts, I'll explain you all about the other generated layers. 
+*Remember* that this will be a quick tutorial to show you how to generate Spring Boot applications using Spring Roo shell, so I'm not going to go deeper on the other components of the generated project (persistence, view layer, etc.). Just follow this tutorial to have a complete Spring Boot application and in future posts, I'll explain you all about the other generated layers. 
 
 == Pre-requisites
 
@@ -92,7 +92,7 @@ project setup --topLevelPackage com.disid.blog.tutorial
 
 image::{{ site.url }}{{ page.imagedir }}project_command.png[Project Command]
 
-As you could see on the shell log, the following resources will be generated:
+As you could see on the shell log, the following elements have been generated:
 
 [source]
 ----
@@ -141,7 +141,7 @@ public class TutorialApplication {
 }
 ----
 
-The _@SpringBootApplication_ annotation is equivalent to using _@Configuration_, _@EnableAutoconfiguration_ and _@ComponentScan_ annotations with their deffault attributes. To know more about the _@SpringBootApplication_ annotation reading the http://docs.spring.io/spring-boot/docs/current/reference/htmlsingle/#using-boot-using-springbootapplication-annotation[Spring Boot documentation].
+The _@SpringBootApplication_ annotation is equivalent to using _@Configuration_, _@EnableAutoconfiguration_ and _@ComponentScan_ annotations with their deffault attributes. To know more about the _@SpringBootApplication_ annotation read the http://docs.spring.io/spring-boot/docs/current/reference/htmlsingle/#using-boot-using-springbootapplication-annotation[Spring Boot documentation].
 
 Finally, *banner.txt* file has been generated on resources folder. This banner will be displayed during application deployment. The appearance of the generated file should be like:
 
@@ -158,11 +158,11 @@ ${AnsiColor.BRIGHT_RED}Spring application made with Spring Roo 2.0
 Doubts? http://projects.spring.io/spring-roo/${AnsiColor.DEFAULT}
 ----
 
-Now, we have a basic Spring Boot application that compiles without any problem using the maven command _mvn clean compile_!!! :D 
+Now, we have a basic Spring Boot application that compiles without any problem using the maven command _mvn clean compile_ in our system shell (_not in Spring Roo shell!!_). 
 
 But... we are not able to run this application because we don't configure yet the presentation layer :(
 
-*Remember* that this tutorial is only a quick guide about how to generate a basic Spring Boot application using Spring Roo 2.0.0.M2 (this section). However, I'm going to give you some quick commands that will allow you to get a complete Spring Boot application with web layer. In future tutorials I'll go deeper in the other components of the generated project. 
+*Remember* that this tutorial was only a quick guide about how to generate a basic Spring Boot application using Spring Roo 2.0.0.M2 (this section). However, I'm going to give you some quick commands that will allow you to get a complete Spring Boot application with web layer.
 
 == Configure persistence
 
@@ -217,7 +217,7 @@ web mvc controller --controller ~.web.OwnerController --entity ~.domain.Owner --
 
 After execute all the commands above (don't worry if you don't understand some command or the generated code. I'll explain it you in next tutorials :D), you should have a complete Spring Boot application.
 
-If you want to run your generated application you could do it executing the following maven command:
+If you want to run your generated application you could do it executing the following maven command on your system shell (_not in Spring Roo shell!!_):
 
 [source]
 ----
@@ -231,7 +231,7 @@ image::{{ site.url }}{{ page.imagedir }}create_page.png[Create new owner page]
 image::{{ site.url }}{{ page.imagedir }}list_page.png[List all owners page]
 
 
-What do you think about it?! Do you like it? And only executing some simple commands! :D
+What do you think about it?! Do you like it?... And only executing some simple commands! :D
 
 NOTE: The previous maven command is available because the generated *pom.xml* file includes the _spring-boot-maven-plugin_
 
