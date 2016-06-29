@@ -122,7 +122,7 @@ The basic structure of the generated project should be like:
             └── banner.txt
 ----
 
-The *log.roo* file contains all executed commands in the Spring Roo shell. Will be updated everytime that you execute some new command that ends successfully. Is really useful to know which commands have been executed before. 
+The *log.roo* file contains all the executed commands in the Spring Roo shell. It will be updated everytime that you execute a new command that ends successfully. It's really useful to know which commands have been executed before. 
 
 The *pom.xml* contains minimum dependencies and minimum Spring Boot starters that will be used in the generated Spring Boot project. To get more info about existing Spring Boot starters you should check the http://docs.spring.io/spring-boot/docs/current/reference/htmlsingle/#using-boot-starter-poms[Spring Boot documentation].
 
@@ -141,7 +141,7 @@ public class TutorialApplication {
 }
 ----
 
-The _@SpringBootApplication_ annotation is equivalent to using _@Configuration_, _@EnableAutoconfiguration_ and _@ComponentScan_ annotations with their deffault attributes. To know more about the _@SpringBootApplication_ annotation read the http://docs.spring.io/spring-boot/docs/current/reference/htmlsingle/#using-boot-using-springbootapplication-annotation[Spring Boot documentation].
+The _@SpringBootApplication_ annotation is equivalent to using _@Configuration_, _@EnableAutoconfiguration_ and _@ComponentScan_ annotations with their default attributes. To know more about the _@SpringBootApplication_ annotation read the http://docs.spring.io/spring-boot/docs/current/reference/htmlsingle/#using-boot-using-springbootapplication-annotation[Spring Boot documentation].
 
 Finally, *banner.txt* file has been generated on resources folder. This banner will be displayed during application deployment. The appearance of the generated file should be like:
 
@@ -193,7 +193,7 @@ Generate the Spring Data JPA repository to manage the Owner data access executin
 repository jpa --entity ~.domain.Owner --interface ~.repository.OwnerRepository
 ----
 
-== Generate Service layer
+== Generate the Service layer
 
 Generate the service layer executing the following command:
 
@@ -204,7 +204,7 @@ service --entity ~.domain.Owner --repository ~.repository.OwnerRepository --inte
 
 == Generate web layer
 
-Include Spring MVC support, install THYMELEAF resources and generate controllers executing the following commands:
+Include Spring MVC support, install THYMELEAF resources and generate the controllers executing the following commands:
 
 [source]
 ----
