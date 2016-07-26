@@ -81,7 +81,7 @@ The generated application will contain:
 
 image::{{ site.url }}{{ page.imagedir }}shell.png[Shell started]
 
-== Create Spring Boot project
+== Create a new Spring Boot project
 
 In this new version, Spring Roo generates Spring Boot applications by default. So, executing the following command in the Spring Roo shell a new Spring Boot project will be generated (remember that you could use TAB to autocomplete commands):
 
@@ -164,7 +164,7 @@ But... we are not able to run this application because we don't configure yet th
 
 *Remember* that this tutorial was only a quick guide about how to generate a basic Spring Boot application using Spring Roo 2.0.0.M2 (this section). However, I'm going to give you some quick commands that will allow you to get a complete Spring Boot application with web layer.
 
-== Configure persistence
+== Persistence configuration
 
 To be able to generate persistence using _HIBERNATE_ and _HYPERSONIC_IN_MEMORY_ database you should execute the following command:
 
@@ -173,7 +173,7 @@ To be able to generate persistence using _HIBERNATE_ and _HYPERSONIC_IN_MEMORY_ 
 jpa setup --provider HIBERNATE --database HYPERSONIC_IN_MEMORY 
 ----
 
-== Create Owner entity and its fields
+== Create a new entity and its fields
 
 Create a new entity called *Owner* and include the *username* field and the *email* field. You will be able to do it executing the following commands:
 
@@ -184,7 +184,7 @@ field string --fieldName username
 field string --fieldName email
 ----
 
-== Generate Spring Data JPA Repository
+== Generate the Spring Data JPA repository
 
 Generate the Spring Data JPA repository to manage the Owner data access executing the following command:
 
@@ -202,7 +202,7 @@ Generate the service layer executing the following command:
 service --entity ~.domain.Owner --repository ~.repository.OwnerRepository --interface ~.service.api.OwnerService --class ~.service.impl.OwnerServiceImpl
 ----
 
-== Generate web layer
+== Generate the Web layer
 
 Include Spring MVC support, install THYMELEAF resources and generate the controllers executing the following commands:
 
@@ -213,7 +213,7 @@ web mvc view setup --type THYMELEAF
 web mvc controller --controller ~.web.OwnerController --entity ~.domain.Owner --service ~.service.api.OwnerService --responseType THYMELEAF
 ----
 
-== Run generated applications
+== Running generated applications
 
 After execute all the commands above (don't worry if you don't understand some command or the generated code. I'll explain it you in next tutorials :D), you should have a complete Spring Boot application.
 
