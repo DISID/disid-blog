@@ -418,27 +418,21 @@ modified: YYYY-MM-DD
 <h3 id="align_image">Align image</h3>
 <div class="listingblock">
 <div class="content">
-<pre>image::http://blog.disid.com/images/cover-demo.jpg[Tiger,200,200,float="right",align="center"]
+<pre>image::{{ site.url }}/images/cover-demo.jpg[Tiger,200,200,float="right",align="center"]
 
-image::http://blog.disid.com/images/cover-demo.jpg[Tiger,200,200,float="left",align="center"]
+image::{{ site.url }}/images/cover-demo.jpg[Tiger,200,200,float="left",align="center"]
 
-image::http://blog.disid.com/images/cover-demo.jpg[[Tiger,200,200,align="center"]</pre>
+image::{{ site.url }}/images/cover-demo.jpg[[Tiger,200,200,align="center"]</pre>
 </div>
 </div>
-<div class="imageblock" style="text-align: center;float: right">
-<div class="content">
-<img src="http://blog.disid.com/images/cover-demo.jpg" alt="Tiger" width="200" height="200">
+<div class="paragraph">
+<p>image::{{ site.url }}/images/cover-demo.jpg[Tiger,200,200,float="right",align="center"]</p>
 </div>
+<div class="paragraph">
+<p>image::{{ site.url }}/images/cover-demo.jpg[Tiger,200,200,float="left",align="center"]</p>
 </div>
-<div class="imageblock" style="text-align: center;float: left">
-<div class="content">
-<img src="http://blog.disid.com/images/cover-demo.jpg" alt="Tiger" width="200" height="200">
-</div>
-</div>
-<div class="imageblock" style="text-align: center">
-<div class="content">
-<img src="http://blog.disid.com/images/cover-demo.jpg" alt="[Tiger" width="200" height="200">
-</div>
+<div class="paragraph">
+<p>image::{{ site.url }}/images/cover-demo.jpg[[Tiger,200,200,align="center"]</p>
 </div>
 </div>
 <div class="sect2">
@@ -447,14 +441,12 @@ image::http://blog.disid.com/images/cover-demo.jpg[[Tiger,200,200,align="center"
 <div class="content">
 <pre>[[img-id-anchor-link]]
 .A description image for caption figure with http://discuss.asciidoctor.org/[link].
-image::http://blog.disid.com/images/cover-demo.jpg[Sunset, 300, 200, align="center", link="http://blog.disid.com/images/cover-demo.jpg"]</pre>
+image::{{ site.url }}/images/cover-demo.jpg[Sunset, 300, 200, align="center", link="{{ site.url }}/images/cover-demo.jpg"]</pre>
 </div>
 </div>
-<div id="img-id-anchor-link" class="imageblock" style="text-align: center">
-<div class="content">
-<a class="image" href="http://blog.disid.com/images/cover-demo.jpg"><img src="http://blog.disid.com/images/cover-demo.jpg" alt="Sunset" width="300" height="200"></a>
-</div>
-<div class="title">Figure 1. A description image for caption figure with <a href="http://discuss.asciidoctor.org/">link</a>.</div>
+<div id="img-id-anchor-link" class="paragraph">
+<div class="title">A description image for caption figure with <a href="http://discuss.asciidoctor.org/">link</a>.</div>
+<p>image::{{ site.url }}/images/cover-demo.jpg[Sunset, 300, 200, align="center", link="{{ site.url }}/images/cover-demo.jpg"]</p>
 </div>
 </div>
 <div class="sect2">
@@ -465,42 +457,34 @@ image::http://blog.disid.com/images/cover-demo.jpg[Sunset, 300, 200, align="cent
 <div class="listingblock">
 <div class="content">
 <pre>[.half]
-image::http://blog.disid.com/images/cover-demo.jpg[A,link="http://blog.disid.com/images/cover-demo.jpg"]
+image::{{ site.url }}/images/cover-demo.jpg[A,link="{{ site.url }}/images/cover-demo.jpg"]
 
 [.half]
-image::http://blog.disid.com/images/cover-demo.jpg[B,link="http://blog.disid.com/images/cover-demo.jpg"]
+image::{{ site.url }}/images/cover-demo.jpg[B,link="{{ site.url }}/images/cover-demo.jpg"]
 
 [.half]
-image::http://blog.disid.com/images/cover-demo.jpg[A,link="http://blog.disid.com/images/cover-demo.jpg"]
+image::{{ site.url }}/images/cover-demo.jpg[A,link="{{ site.url }}/images/cover-demo.jpg"]
 
 [.half]
 .Caption describing these three images.
-image::http://blog.disid.com/images/cover-demo.jpg[B,link="http://blog.disid.com/images/cover-demo.jpg"]</pre>
+image::{{ site.url }}/images/cover-demo.jpg[B,link="{{ site.url }}/images/cover-demo.jpg"]</pre>
 </div>
 </div>
 <div class="paragraph">
 <p>And you&#8217;ll get something that looks like this:</p>
 </div>
-<div class="imageblock half">
-<div class="content">
-<a class="image" href="http://blog.disid.com/images/cover-demo.jpg"><img src="http://blog.disid.com/images/cover-demo.jpg" alt="A"></a>
+<div class="paragraph half">
+<p>image::{{ site.url }}/images/cover-demo.jpg[A,link="{{ site.url }}/images/cover-demo.jpg"]</p>
 </div>
+<div class="paragraph half">
+<p>image::{{ site.url }}/images/cover-demo.jpg[B,link="{{ site.url }}/images/cover-demo.jpg"]</p>
 </div>
-<div class="imageblock half">
-<div class="content">
-<a class="image" href="http://blog.disid.com/images/cover-demo.jpg"><img src="http://blog.disid.com/images/cover-demo.jpg" alt="B"></a>
+<div class="paragraph half">
+<p>image::{{ site.url }}/images/cover-demo.jpg[A,link="{{ site.url }}/images/cover-demo.jpg"]</p>
 </div>
-</div>
-<div class="imageblock half">
-<div class="content">
-<a class="image" href="http://blog.disid.com/images/cover-demo.jpg"><img src="http://blog.disid.com/images/cover-demo.jpg" alt="A"></a>
-</div>
-</div>
-<div class="imageblock half">
-<div class="content">
-<a class="image" href="http://blog.disid.com/images/cover-demo.jpg"><img src="http://blog.disid.com/images/cover-demo.jpg" alt="B"></a>
-</div>
-<div class="title">Figure 2. Caption describing these four images.</div>
+<div class="paragraph half">
+<div class="title">Caption describing these four images.</div>
+<p>image::{{ site.url }}/images/cover-demo.jpg[B,link="{{ site.url }}/images/cover-demo.jpg"]</p>
 </div>
 </div>
 <div class="sect2">
@@ -511,58 +495,46 @@ image::http://blog.disid.com/images/cover-demo.jpg[B,link="http://blog.disid.com
 <div class="listingblock">
 <div class="content">
 <pre>[.third]
-image::http://blog.disid.com/images/cover-demo.jpg[A,link="http://blog.disid.com/images/cover-demo.jpg"]
+image::{{ site.url }}/images/cover-demo.jpg[A,link="{{ site.url }}/images/cover-demo.jpg"]
 
 [.third]
-image::http://blog.disid.com/images/cover-demo.jpg[B,link="http://blog.disid.com/images/cover-demo.jpg"]
+image::{{ site.url }}/images/cover-demo.jpg[B,link="{{ site.url }}/images/cover-demo.jpg"]
 
 [.third]
-image::http://blog.disid.com/images/cover-demo.jpg[A,link="http://blog.disid.com/images/cover-demo.jpg"]
+image::{{ site.url }}/images/cover-demo.jpg[A,link="{{ site.url }}/images/cover-demo.jpg"]
 
 [.third]
-image::http://blog.disid.com/images/cover-demo.jpg[A,link="http://blog.disid.com/images/cover-demo.jpg"]
+image::{{ site.url }}/images/cover-demo.jpg[A,link="{{ site.url }}/images/cover-demo.jpg"]
 
 [.third]
-image::http://blog.disid.com/images/cover-demo.jpg[A,link="http://blog.disid.com/images/cover-demo.jpg"]
+image::{{ site.url }}/images/cover-demo.jpg[A,link="{{ site.url }}/images/cover-demo.jpg"]
 
 [.third]
 .Caption describing these three images.
-image::http://blog.disid.com/images/cover-demo.jpg[B,link="http://blog.disid.com/images/cover-demo.jpg"]</pre>
+image::{{ site.url }}/images/cover-demo.jpg[B,link="{{ site.url }}/images/cover-demo.jpg"]</pre>
 </div>
 </div>
 <div class="paragraph">
 <p>And you&#8217;ll get something that looks like this:</p>
 </div>
-<div class="imageblock third">
-<div class="content">
-<a class="image" href="http://blog.disid.com/images/cover-demo.jpg"><img src="http://blog.disid.com/images/cover-demo.jpg" alt="A"></a>
+<div class="paragraph third">
+<p>image::{{ site.url }}/images/cover-demo.jpg[A,link="{{ site.url }}/images/cover-demo.jpg"]</p>
 </div>
+<div class="paragraph third">
+<p>image::{{ site.url }}/images/cover-demo.jpg[B,link="{{ site.url }}/images/cover-demo.jpg"]</p>
 </div>
-<div class="imageblock third">
-<div class="content">
-<a class="image" href="http://blog.disid.com/images/cover-demo.jpg"><img src="http://blog.disid.com/images/cover-demo.jpg" alt="B"></a>
+<div class="paragraph third">
+<p>image::{{ site.url }}/images/cover-demo.jpg[A,link="{{ site.url }}/images/cover-demo.jpg"]</p>
 </div>
+<div class="paragraph third">
+<p>image::{{ site.url }}/images/cover-demo.jpg[B,link="{{ site.url }}/images/cover-demo.jpg"]</p>
 </div>
-<div class="imageblock third">
-<div class="content">
-<a class="image" href="http://blog.disid.com/images/cover-demo.jpg"><img src="http://blog.disid.com/images/cover-demo.jpg" alt="A"></a>
+<div class="paragraph third">
+<p>image::{{ site.url }}/images/cover-demo.jpg[B,link="{{ site.url }}/images/cover-demo.jpg"]</p>
 </div>
-</div>
-<div class="imageblock third">
-<div class="content">
-<a class="image" href="http://blog.disid.com/images/cover-demo.jpg"><img src="http://blog.disid.com/images/cover-demo.jpg" alt="B"></a>
-</div>
-</div>
-<div class="imageblock third">
-<div class="content">
-<a class="image" href="http://blog.disid.com/images/cover-demo.jpg"><img src="http://blog.disid.com/images/cover-demo.jpg" alt="B"></a>
-</div>
-</div>
-<div class="imageblock third">
-<div class="content">
-<a class="image" href="http://blog.disid.com/images/cover-demo.jpg"><img src="http://blog.disid.com/images/cover-demo.jpg" alt="B"></a>
-</div>
-<div class="title">Figure 3. Caption describing these three images.</div>
+<div class="paragraph third">
+<div class="title">Caption describing these three images.</div>
+<p>image::{{ site.url }}/images/cover-demo.jpg[B,link="{{ site.url }}/images/cover-demo.jpg"]</p>
 </div>
 </div>
 </div>

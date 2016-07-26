@@ -502,7 +502,7 @@ if (jQuery.cookie('cc_cookie_accept') == "cc_cookie_accept") {
 <p>Finally, while display equations look good for a page of samples, the ability to mix math and text in a paragraph is also important.  This expression $\(\sqrt{3x-1}+(1+x)^2\)$ is an example of an inline equation.  As you see, MathJax equations can be used this way as well, without unduly disturbing the spacing between lines.</p>
 </div>
 <div class="paragraph">
-<p>In MathJax I use <code>...</code> or (<code>\begin{equation(<strong>)}&#8230;&#8203;\end{equation(</strong>)}</code> also works) for displayed equations and <code>$&#8230;&#8203;.$</code> for inline equations. Take care of &gt;,&lt; and &amp;, because they have special meanings in .html files. If your post/page is not displaying the equations properly, try to wrap the equations between <code>{% raw %}&#8230;&#8203;{% endraw %}</code> tags.</p>
+<p>In MathJax I use <code>...</code> or (<code>\begin{equation(<strong>)}&#8230;&#8203;\end{equation(</strong>)}</code> also works) for displayed equations and <code>$&#8230;&#8203;.$</code> for inline equations. Take care of &gt;,&lt; and &amp;, because they have special meanings in .html files. If your post/page is not displaying the equations properly, try to wrap the equations between <code>{{ "{% raw "}}%}&#8230;&#8203;{{ "{% endraw "}}%}</code> tags.</p>
 </div>
                         <br>
                     
