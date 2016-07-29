@@ -1,26 +1,10 @@
 # jekyll configuration
 
-gems:
-  - jekyll-asciidoc
-
-asciidoc:
-  processor: asciidoctor
-  ext: asciidoc,adoc,ad
-  require_front_matter_header: true
-
 asciidoctor:
   attributes:
     - idseparator=_
+    - source-highlighter=coderay
     - icons=font-awesome
-    - hardbreaks!
-    - hardbreaks-option
-    - source-highlighter=pygments
-    - pygments-css=style
-    - icons=font-awesome
-    - idprefix=_
-
-whitelist:
-  - jekyll-asciidoc
 
 # Assign a default content for your site's
 title:            DISID Blog
