@@ -80,7 +80,7 @@ The generated application will contain:
 * New Spring Roo 2.0.0.M2 will be executed with this appearance:
 
 ++++
-<img src="{{ site.url }}{{ page.imagedir }}shell.png" alt="Shell started"/>
+<img src="http://blog.disid.com/images/2016-05-29-how-to-generate-spring-boot-applications-using-spring-roo-2/shell.png" alt="Shell started"/>
 ++++
 
 
@@ -94,7 +94,7 @@ project setup --topLevelPackage com.disid.blog.tutorial
 ----
 
 ++++
-<img src="{{ site.url }}{{ page.imagedir }}project_command.png" alt="Project Command"/>
+<img src="http://blog.disid.com/images/2016-05-29-how-to-generate-spring-boot-applications-using-spring-roo-2/project_command.png" alt="Project Command"/>
 ++++
 
 As you could see on the shell log, the following elements have been generated:
@@ -232,9 +232,9 @@ mvn clean compile spring-boot:run
 After some log messages in your system shell, your application will be deployed on an embedded tomcat server. You could access to http://localhost:8080/ link and see your generated application running:
 
 ++++
-<img src="{{ site.url }}{{ page.imagedir }}homepage_application.png" alt="Home page" title="Home page" />
-<img src="{{ site.url }}{{ page.imagedir }}create_page.png" alt="Create new owner page" title="Create new owner page" />
-<img src="{{ site.url }}{{ page.imagedir }}list_page.png" alt="List all owners page" title="List all owners page" />
+<img src="http://blog.disid.com/images/2016-05-29-how-to-generate-spring-boot-applications-using-spring-roo-2/homepage_application.png" alt="Home page" title="Home page" />
+<img src="http://blog.disid.com/images/2016-05-29-how-to-generate-spring-boot-applications-using-spring-roo-2/create_page.png" alt="Create new owner page" title="Create new owner page" />
+<img src="http://blog.disid.com/images/2016-05-29-how-to-generate-spring-boot-applications-using-spring-roo-2/list_page.png" alt="List all owners page" title="List all owners page" />
 ++++
 
 What do you think about it?! Do you like it?... And only executing some simple commands! :D
