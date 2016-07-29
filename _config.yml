@@ -6,6 +6,20 @@ asciidoctor:
     - source-highlighter=coderay
     - icons=font-awesome
 
+gems:
+  - jekyll-asciidoc
+
+asciidoc: asciidoctor
+asciidoc_ext: asciidoc,adoc,ad
+
+asciidoctor:
+  attributes:
+    - idseparator=_
+    - icons=font-awesome
+    - hardbreaks!
+    - source-highlighter=pygments
+    - pygments-css=style
+
 # Assign a default content for your site's
 title:            DISID Blog
 description:      Come Learn and Share
