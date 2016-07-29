@@ -348,21 +348,21 @@ if (jQuery.cookie('cc_cookie_accept') == "cc_cookie_accept") {
 </div>
 <div class="listingblock">
 <div class="content">
-<pre class="CodeRay highlight"><code data-lang="yaml"><span class="head"><span class="head">---</span></span>
-<span class="key">layout</span>: <span class="string"><span class="content">post</span></span>
-<span class="key">type</span>:  <span class="string"><span class="content">photo</span></span>                    <span class="comment"># !Important if you want to show a thumbnail on home page</span>
-<span class="key">photo</span>: <span class="string"><span class="content">some-image.jpg</span></span>           <span class="comment"># In case you do not want the featured image to display on the front page</span>
-<span class="key">title</span>: <span class="string"><span class="delimiter">&quot;</span><span class="content">Some Title</span><span class="delimiter">&quot;</span></span>             <span class="comment"># Title of the post</span>
-<span class="key">description</span>: <span class="string"><span class="content">Some description</span></span>   <span class="comment"># Description of the post, used for Facebook Opengraph &amp; Twitter</span>
-<span class="key">headline</span>: <span class="string"><span class="content">Some headline</span></span>         <span class="comment"># Will appear in bold letters on top of the post</span>
-<span class="key">modified</span>: <span class="string"><span class="content">YYYY-MM-DD</span></span>            <span class="comment"># Date</span>
-<span class="key">tags</span>:
- - <span class="string"><span class="content">spring</span></span>
- - <span class="string"><span class="content">springroo</span></span>
- - <span class="string"><span class="content">gvnix</span></span>
- - <span class="string"><span class="content">how-to</span></span>
-<span class="head"><span class="head">---</span></span>
-<span class="error">Content goes here</span></code></pre>
+<pre class="pygments highlight"><code data-lang="yaml"><span style="color: #0000FF; font-weight: bold">---</span>
+layout: post
+type:  photo                    <span style="color: #408080; font-style: italic"># !Important if you want to show a thumbnail on home page</span>
+photo: some-image.jpg           <span style="color: #408080; font-style: italic"># In case you do not want the featured image to display on the front page</span>
+title: <span style="color: #BA2121">&quot;Some</span><span style="color: #19177C"> </span><span style="color: #BA2121">Title&quot;</span>             <span style="color: #408080; font-style: italic"># Title of the post</span>
+description: Some description   <span style="color: #408080; font-style: italic"># Description of the post, used for Facebook Opengraph &amp; Twitter</span>
+headline: Some headline         <span style="color: #408080; font-style: italic"># Will appear in bold letters on top of the post</span>
+modified: YYYY-MM-DD            <span style="color: #408080; font-style: italic"># Date</span>
+tags:
+ - spring
+ - springroo
+ - gvnix
+ - how-to
+<span style="color: #0000FF; font-weight: bold">---</span>
+Content goes here</code></pre>
 </div>
 </div>
 </div>
@@ -381,14 +381,14 @@ if (jQuery.cookie('cc_cookie_accept') == "cc_cookie_accept") {
 </div>
 <div class="listingblock">
 <div class="content">
-<pre class="CodeRay highlight"><code data-lang="yaml"><span class="head"><span class="head">---</span></span>
-<span class="key">imagefeature</span>: <span class="string"><span class="content">YYYY-MM-DD-Title-Of-Your-New-Post/feature-image-cover-filename.png</span><span class="content">
-  #display header image on post page</span></span>
-<span class="key">image</span>:
-  <span class="key">thumb</span>:   <span class="string"><span class="content">YYYY-MM-DD-Title-Of-Your-New-Post/thumbnail-image.png</span></span>
-  <span class="comment">#keep it square 200x200 px is good</span>
-  <span class="comment">#display summary image on index page</span>
-<span class="head"><span class="head">---</span></span></code></pre>
+<pre class="pygments highlight"><code data-lang="yaml"><span style="color: #0000FF; font-weight: bold">---</span>
+imagefeature: YYYY-MM-DD-Title-Of-Your-New-Post/feature-image-cover-filename.png
+  #display header image on post page
+image:
+  thumb:   YYYY-MM-DD-Title-Of-Your-New-Post/thumbnail-image.png
+  <span style="color: #408080; font-style: italic">#keep it square 200x200 px is good</span>
+  <span style="color: #408080; font-style: italic">#display summary image on index page</span>
+<span style="color: #0000FF; font-weight: bold">---</span></code></pre>
 </div>
 </div>
 </div>
@@ -446,13 +446,13 @@ image::save.png[Save, 300, 200]</pre>
 </div>
 <div class="listingblock">
 <div class="content">
-<pre class="CodeRay highlight"><code data-lang="yaml"><span class="head"><span class="head">---</span></span>
-<span class="key">imagedir</span>: <span class="string"><span class="content">/images/YYYY-MM-DD-Title-Of-Your-New-Post/</span></span>
-<span class="head"><span class="head">---</span></span>
+<pre class="pygments highlight"><code data-lang="yaml"><span style="color: #0000FF; font-weight: bold">---</span>
+imagedir: /images/YYYY-MM-DD-Title-Of-Your-New-Post/
+<span style="color: #0000FF; font-weight: bold">---</span>
 
-<span class="error">Content goes here</span>
+Content goes here
 
-<span class="error">image::{{ site.url }}{{ page.imagedir }}save.png[Save]</span></code></pre>
+image::{{ site.url }}{{ page.imagedir }}save.png[Save]</code></pre>
 </div>
 </div>
 </div>
@@ -468,12 +468,12 @@ It&#8217;s necessary to assign category and language to post on YAML data.</p>
 </div>
 <div class="listingblock">
 <div class="content">
-<pre class="CodeRay highlight"><code data-lang="yaml"><span class="head"><span class="head">---</span></span>
-<span class="key">lang</span>: <span class="string"><span class="content">en</span></span>                        <span class="comment"># Define language post</span>
-<span class="key">categories</span>:
-  - <span class="string"><span class="content">en</span></span>                          <span class="comment"># Define language post</span>
-  - <span class="string"><span class="content">how-to</span></span>                      <span class="comment"># You can add other categories</span>
-<span class="head"><span class="head">---</span></span></code></pre>
+<pre class="pygments highlight"><code data-lang="yaml"><span style="color: #0000FF; font-weight: bold">---</span>
+lang: en                        <span style="color: #408080; font-style: italic"># Define language post</span>
+categories:
+  - en                          <span style="color: #408080; font-style: italic"># Define language post</span>
+  - how-to                      <span style="color: #408080; font-style: italic"># You can add other categories</span>
+<span style="color: #0000FF; font-weight: bold">---</span></code></pre>
 </div>
 </div>
 <div class="paragraph">
@@ -481,12 +481,12 @@ It&#8217;s necessary to assign category and language to post on YAML data.</p>
 </div>
 <div class="listingblock">
 <div class="content">
-<pre class="CodeRay highlight"><code data-lang="yaml"><span class="head"><span class="head">---</span></span>
-<span class="key">lang</span>: <span class="string"><span class="content">es</span></span>                        <span class="comment"># Define language post</span>
-<span class="key">categories</span>:
-  - <span class="string"><span class="content">es</span></span>                          <span class="comment"># Define language post</span>
-  - <span class="string"><span class="content">cómo funciona</span></span>               <span class="comment"># You can add other categories</span>
-<span class="head"><span class="head">---</span></span></code></pre>
+<pre class="pygments highlight"><code data-lang="yaml"><span style="color: #0000FF; font-weight: bold">---</span>
+lang: es                        <span style="color: #408080; font-style: italic"># Define language post</span>
+categories:
+  - es                          <span style="color: #408080; font-style: italic"># Define language post</span>
+  - cómo funciona               <span style="color: #408080; font-style: italic"># You can add other categories</span>
+<span style="color: #0000FF; font-weight: bold">---</span></code></pre>
 </div>
 </div>
 <div class="paragraph">
@@ -520,13 +520,13 @@ It&#8217;s necessary to assign category and language to post on YAML data.</p>
 </div>
 <div class="listingblock">
 <div class="content">
-<pre class="CodeRay highlight"><code data-lang="yaml"><span class="head"><span class="head">---</span></span>
-<span class="key">author</span>:
-    <span class="key">name</span>: <span class="string"><span class="content">Your Name</span></span>
-    <span class="key">image</span>: <span class="string"><span class="content">profile picture URL</span></span>
-    <span class="key">jobdescription</span>: <span class="string"><span class="content">Job Description</span></span>
-    <span class="key">twitter</span>: <span class="string"><span class="content">twitter-profile</span></span>
-<span class="head"><span class="head">---</span></span></code></pre>
+<pre class="pygments highlight"><code data-lang="yaml"><span style="color: #0000FF; font-weight: bold">---</span>
+author:
+    name: Your Name
+    image: profile picture URL
+    jobdescription: Job Description
+    twitter: twitter-profile
+<span style="color: #0000FF; font-weight: bold">---</span></code></pre>
 </div>
 </div>
 </div>
@@ -543,11 +543,11 @@ It&#8217;s necessary to assign category and language to post on YAML data.</p>
 </div>
 <div class="listingblock">
 <div class="content">
-<pre class="CodeRay highlight"><code data-lang="yaml"><span class="head"><span class="head">---</span></span>
-<span class="key">category</span>: <span class="string"><span class="content">Sample</span></span>
-<span class="key">tags</span>: <span class="string"><span class="content">[sample]</span></span>
-<span class="key">samples</span>: <span class="string"><span class="content">true</span></span>
-<span class="head"><span class="head">---</span></span></code></pre>
+<pre class="pygments highlight"><code data-lang="yaml"><span style="color: #0000FF; font-weight: bold">---</span>
+category: Sample
+tags: [<span style="color: #19177C">sample</span>]
+samples: true
+<span style="color: #0000FF; font-weight: bold">---</span></code></pre>
 </div>
 </div>
 <div class="paragraph">
