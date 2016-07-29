@@ -306,7 +306,7 @@ if (jQuery.cookie('cc_cookie_accept') == "cc_cookie_accept") {
 <p>Without further ado, I leave you with my first post where I&#8217;m going to introduce <strong>really quick</strong> Spring Boot and Spring IO Platform and how to use them together.</p>
 </div>
 <div class="sect1">
-<h2 id="_spring_io_platform">Spring IO Platform</h2>
+<h2 id="spring_io_platform">Spring IO Platform</h2>
 <div class="sectionbody">
 <div class="paragraph">
 <p><a href="http://platform.spring.io/platform/">Spring IO Platform</a> defines a set of dependencies (both Spring Framework dependencies as third-party libraries) that could be included on a Java project to allow you to choose the necessary dependencies without worrying about compatibility between their versions (because Spring IO guarantees it).</p>
@@ -316,17 +316,17 @@ if (jQuery.cookie('cc_cookie_accept') == "cc_cookie_accept") {
 </div>
 <div class="listingblock">
 <div class="content">
-<pre class="pygments highlight"><code data-lang="xml"><span style="color: #008000; font-weight: bold">&lt;dependencyManagement&gt;</span>
-    <span style="color: #008000; font-weight: bold">&lt;dependencies&gt;</span>
-        <span style="color: #008000; font-weight: bold">&lt;dependency&gt;</span>
-            <span style="color: #008000; font-weight: bold">&lt;groupId&gt;</span>io.spring.platform<span style="color: #008000; font-weight: bold">&lt;/groupId&gt;</span>
-            <span style="color: #008000; font-weight: bold">&lt;artifactId&gt;</span>platform-bom<span style="color: #008000; font-weight: bold">&lt;/artifactId&gt;</span>
-            <span style="color: #008000; font-weight: bold">&lt;version&gt;</span>2.0.1.RELEASE<span style="color: #008000; font-weight: bold">&lt;/version&gt;</span>
-            <span style="color: #008000; font-weight: bold">&lt;type&gt;</span>pom<span style="color: #008000; font-weight: bold">&lt;/type&gt;</span>
-            <span style="color: #008000; font-weight: bold">&lt;scope&gt;</span>import<span style="color: #008000; font-weight: bold">&lt;/scope&gt;</span>
-        <span style="color: #008000; font-weight: bold">&lt;/dependency&gt;</span>
-    <span style="color: #008000; font-weight: bold">&lt;/dependencies&gt;</span>
-<span style="color: #008000; font-weight: bold">&lt;/dependencyManagement&gt;</span></code></pre>
+<pre class="CodeRay highlight"><code data-lang="xml"><span class="tag">&lt;dependencyManagement&gt;</span>
+    <span class="tag">&lt;dependencies&gt;</span>
+        <span class="tag">&lt;dependency&gt;</span>
+            <span class="tag">&lt;groupId&gt;</span>io.spring.platform<span class="tag">&lt;/groupId&gt;</span>
+            <span class="tag">&lt;artifactId&gt;</span>platform-bom<span class="tag">&lt;/artifactId&gt;</span>
+            <span class="tag">&lt;version&gt;</span>2.0.1.RELEASE<span class="tag">&lt;/version&gt;</span>
+            <span class="tag">&lt;type&gt;</span>pom<span class="tag">&lt;/type&gt;</span>
+            <span class="tag">&lt;scope&gt;</span>import<span class="tag">&lt;/scope&gt;</span>
+        <span class="tag">&lt;/dependency&gt;</span>
+    <span class="tag">&lt;/dependencies&gt;</span>
+<span class="tag">&lt;/dependencyManagement&gt;</span></code></pre>
 </div>
 </div>
 <div class="paragraph">
@@ -337,10 +337,10 @@ if (jQuery.cookie('cc_cookie_accept') == "cc_cookie_accept") {
 </div>
 <div class="listingblock">
 <div class="content">
-<pre class="pygments highlight"><code data-lang="xml"><span style="color: #008000; font-weight: bold">&lt;dependency&gt;</span>
-    <span style="color: #008000; font-weight: bold">&lt;groupId&gt;</span>org.hibernate<span style="color: #008000; font-weight: bold">&lt;/groupId&gt;</span>
-    <span style="color: #008000; font-weight: bold">&lt;artifactId&gt;</span>hibernate-core<span style="color: #008000; font-weight: bold">&lt;/artifactId&gt;</span>
-<span style="color: #008000; font-weight: bold">&lt;/dependency&gt;</span></code></pre>
+<pre class="CodeRay highlight"><code data-lang="xml"><span class="tag">&lt;dependency&gt;</span>
+    <span class="tag">&lt;groupId&gt;</span>org.hibernate<span class="tag">&lt;/groupId&gt;</span>
+    <span class="tag">&lt;artifactId&gt;</span>hibernate-core<span class="tag">&lt;/artifactId&gt;</span>
+<span class="tag">&lt;/dependency&gt;</span></code></pre>
 </div>
 </div>
 <div class="paragraph">
@@ -349,7 +349,7 @@ if (jQuery.cookie('cc_cookie_accept') == "cc_cookie_accept") {
 </div>
 </div>
 <div class="sect1">
-<h2 id="_spring_boot">Spring Boot</h2>
+<h2 id="spring_boot">Spring Boot</h2>
 <div class="sectionbody">
 <div class="paragraph">
 <p><a href="http://projects.spring.io/spring-boot/">Spring Boot</a> is a framework that makes development and configuration of Spring applications easy. This could be possible thanks to a list of predefined properties and configuration classes that could be included using Java <strong>annotations</strong> and <a href="http://docs.spring.io/spring-boot/docs/current/reference/htmlsingle/#using-boot-starter-poms">starters</a>.</p>
@@ -359,17 +359,17 @@ if (jQuery.cookie('cc_cookie_accept') == "cc_cookie_accept") {
 </div>
 <div class="listingblock">
 <div class="content">
-<pre class="pygments highlight"><code data-lang="xml"><span style="color: #008000; font-weight: bold">&lt;parent&gt;</span>
-    <span style="color: #008000; font-weight: bold">&lt;groupId&gt;</span>org.springframework.boot<span style="color: #008000; font-weight: bold">&lt;/groupId&gt;</span>
-    <span style="color: #008000; font-weight: bold">&lt;artifactId&gt;</span>spring-boot-starter-parent<span style="color: #008000; font-weight: bold">&lt;/artifactId&gt;</span>
-    <span style="color: #008000; font-weight: bold">&lt;version&gt;</span>1.3.1.RELEASE<span style="color: #008000; font-weight: bold">&lt;/version&gt;</span>
-<span style="color: #008000; font-weight: bold">&lt;/parent&gt;</span>
-<span style="color: #008000; font-weight: bold">&lt;dependencies&gt;</span>
-    <span style="color: #008000; font-weight: bold">&lt;dependency&gt;</span>
-        <span style="color: #008000; font-weight: bold">&lt;groupId&gt;</span>org.springframework.boot<span style="color: #008000; font-weight: bold">&lt;/groupId&gt;</span>
-        <span style="color: #008000; font-weight: bold">&lt;artifactId&gt;</span>spring-boot-starter<span style="color: #008000; font-weight: bold">&lt;/artifactId&gt;</span>
-    <span style="color: #008000; font-weight: bold">&lt;/dependency&gt;</span>
-<span style="color: #008000; font-weight: bold">&lt;/dependencies&gt;</span></code></pre>
+<pre class="CodeRay highlight"><code data-lang="xml"><span class="tag">&lt;parent&gt;</span>
+    <span class="tag">&lt;groupId&gt;</span>org.springframework.boot<span class="tag">&lt;/groupId&gt;</span>
+    <span class="tag">&lt;artifactId&gt;</span>spring-boot-starter-parent<span class="tag">&lt;/artifactId&gt;</span>
+    <span class="tag">&lt;version&gt;</span>1.3.1.RELEASE<span class="tag">&lt;/version&gt;</span>
+<span class="tag">&lt;/parent&gt;</span>
+<span class="tag">&lt;dependencies&gt;</span>
+    <span class="tag">&lt;dependency&gt;</span>
+        <span class="tag">&lt;groupId&gt;</span>org.springframework.boot<span class="tag">&lt;/groupId&gt;</span>
+        <span class="tag">&lt;artifactId&gt;</span>spring-boot-starter<span class="tag">&lt;/artifactId&gt;</span>
+    <span class="tag">&lt;/dependency&gt;</span>
+<span class="tag">&lt;/dependencies&gt;</span></code></pre>
 </div>
 </div>
 <div class="paragraph">
@@ -378,7 +378,7 @@ if (jQuery.cookie('cc_cookie_accept') == "cc_cookie_accept") {
 </div>
 </div>
 <div class="sect1">
-<h2 id="_spring_io_and_spring_boot_together">Spring IO and Spring Boot together.</h2>
+<h2 id="spring_io_and_spring_boot_together">Spring IO and Spring Boot together.</h2>
 <div class="sectionbody">
 <div class="paragraph">
 <p>Now that you know that Spring Boot makes the Spring configuration easy using <strong>starters</strong> as dependencies and that you know that Spring IO Platform allows you to manage your project dependencies without worrying about versions, I&#8217;m going to explain you how to use them together to get the most of them.</p>
@@ -391,12 +391,12 @@ if (jQuery.cookie('cc_cookie_accept') == "cc_cookie_accept") {
 </div>
 <div class="listingblock">
 <div class="content">
-<pre class="pygments highlight"><code data-lang="xml"><span style="color: #008000; font-weight: bold">&lt;parent&gt;</span>
-    <span style="color: #008000; font-weight: bold">&lt;groupId&gt;</span>io.spring.platform<span style="color: #008000; font-weight: bold">&lt;/groupId&gt;</span>
-    <span style="color: #008000; font-weight: bold">&lt;artifactId&gt;</span>platform-bom<span style="color: #008000; font-weight: bold">&lt;/artifactId&gt;</span>
-    <span style="color: #008000; font-weight: bold">&lt;version&gt;</span>2.0.0.RELEASE<span style="color: #008000; font-weight: bold">&lt;/version&gt;</span>
-    <span style="color: #008000; font-weight: bold">&lt;relativePath/&gt;</span>
-<span style="color: #008000; font-weight: bold">&lt;/parent&gt;</span></code></pre>
+<pre class="CodeRay highlight"><code data-lang="xml"><span class="tag">&lt;parent&gt;</span>
+    <span class="tag">&lt;groupId&gt;</span>io.spring.platform<span class="tag">&lt;/groupId&gt;</span>
+    <span class="tag">&lt;artifactId&gt;</span>platform-bom<span class="tag">&lt;/artifactId&gt;</span>
+    <span class="tag">&lt;version&gt;</span>2.0.0.RELEASE<span class="tag">&lt;/version&gt;</span>
+    <span class="tag">&lt;relativePath</span><span class="tag">/&gt;</span>
+<span class="tag">&lt;/parent&gt;</span></code></pre>
 </div>
 </div>
 <div class="paragraph">
@@ -405,16 +405,16 @@ about the version like the following sample:</p>
 </div>
 <div class="listingblock">
 <div class="content">
-<pre class="pygments highlight"><code data-lang="xml"><span style="color: #008000; font-weight: bold">&lt;dependency&gt;</span>
-    <span style="color: #008000; font-weight: bold">&lt;groupId&gt;</span>org.springframework.boot<span style="color: #008000; font-weight: bold">&lt;/groupId&gt;</span>
-    <span style="color: #008000; font-weight: bold">&lt;artifactId&gt;</span>spring-boot-starter<span style="color: #008000; font-weight: bold">&lt;/artifactId&gt;</span>
-<span style="color: #008000; font-weight: bold">&lt;/dependency&gt;</span></code></pre>
+<pre class="CodeRay highlight"><code data-lang="xml"><span class="tag">&lt;dependency&gt;</span>
+    <span class="tag">&lt;groupId&gt;</span>org.springframework.boot<span class="tag">&lt;/groupId&gt;</span>
+    <span class="tag">&lt;artifactId&gt;</span>spring-boot-starter<span class="tag">&lt;/artifactId&gt;</span>
+<span class="tag">&lt;/dependency&gt;</span></code></pre>
 </div>
 </div>
 </div>
 </div>
 <div class="sect1">
-<h2 id="_conclusions">Conclusions</h2>
+<h2 id="conclusions">Conclusions</h2>
 <div class="sectionbody">
 <div class="ulist">
 <ul>

@@ -399,55 +399,55 @@ if (jQuery.cookie('cc_cookie_accept') == "cc_cookie_accept") {
 <p>[^1]: <a href="http://en.wikipedia.org/wiki/Syntax_highlighting" class="bare">http://en.wikipedia.org/wiki/Syntax_highlighting</a></p>
 </div>
 <div class="sect2">
-<h3 id="_pygments_code_blocks">Pygments Code Blocks</h3>
+<h3 id="pygments_code_blocks">Pygments Code Blocks</h3>
 <div class="paragraph">
 <p>To modify styling and highlight colors edit <code>/assets/less/pygments.less</code> and compile <code>main.less</code> with your favorite preprocessor. Or edit <code>main.css</code> if that&#8217;s your thing, the classes you want to modify all begin with <code>.highlight</code>.</p>
 </div>
 <div class="listingblock">
 <div class="content">
-<pre class="pygments highlight"><code data-lang="css"><span style="color: #0000FF">#container</span> {
-    <span style="color: #008000; font-weight: bold">float</span><span style="color: #666666">:</span> <span style="color: #008000; font-weight: bold">left</span>;
-    <span style="color: #008000; font-weight: bold">margin</span><span style="color: #666666">:</span> <span style="color: #666666">0</span> <span style="color: #666666">-240px</span> <span style="color: #666666">0</span> <span style="color: #666666">0</span>;
-    <span style="color: #008000; font-weight: bold">width</span><span style="color: #666666">:</span> <span style="color: #666666">100%</span>;
+<pre class="CodeRay highlight"><code data-lang="css"><span class="id">#container</span> {
+    <span class="key">float</span>: <span class="value">left</span>;
+    <span class="key">margin</span>: <span class="float">0</span> <span class="float">-240px</span> <span class="float">0</span> <span class="float">0</span>;
+    <span class="key">width</span>: <span class="float">100%</span>;
 }</code></pre>
 </div>
 </div>
 <div class="listingblock">
 <div class="content">
-<pre class="pygments highlight"><code data-lang="html"><span style="color: #008000; font-weight: bold">&lt;nav</span> <span style="color: #7D9029">class=</span><span style="color: #BA2121">&quot;pagination&quot;</span> <span style="color: #7D9029">role=</span><span style="color: #BA2121">&quot;navigation&quot;</span><span style="color: #008000; font-weight: bold">&gt;</span>
+<pre class="CodeRay highlight"><code data-lang="html"><span class="tag">&lt;nav</span> <span class="attribute-name">class</span>=<span class="string"><span class="delimiter">&quot;</span><span class="content">pagination</span><span class="delimiter">&quot;</span></span> <span class="attribute-name">role</span>=<span class="string"><span class="delimiter">&quot;</span><span class="content">navigation</span><span class="delimiter">&quot;</span></span><span class="tag">&gt;</span>
     {% if page.previous %}
-        <span style="color: #008000; font-weight: bold">&lt;a</span> <span style="color: #7D9029">href=</span><span style="color: #BA2121">&quot;{{ site.url }}{{ page.previous.url }}&quot;</span> <span style="color: #7D9029">class=</span><span style="color: #BA2121">&quot;btn&quot;</span> <span style="color: #7D9029">title=</span><span style="color: #BA2121">&quot;{{ page.previous.title }}&quot;</span><span style="color: #008000; font-weight: bold">&gt;</span>Previous article<span style="color: #008000; font-weight: bold">&lt;/a&gt;</span>
+        <span class="tag">&lt;a</span> <span class="attribute-name">href</span>=<span class="string"><span class="delimiter">&quot;</span><span class="content">{{ site.url }}{{ page.previous.url }}</span><span class="delimiter">&quot;</span></span> <span class="attribute-name">class</span>=<span class="string"><span class="delimiter">&quot;</span><span class="content">btn</span><span class="delimiter">&quot;</span></span> <span class="attribute-name">title</span>=<span class="string"><span class="delimiter">&quot;</span><span class="content">{{ page.previous.title }}</span><span class="delimiter">&quot;</span></span><span class="tag">&gt;</span>Previous article<span class="tag">&lt;/a&gt;</span>
     {% endif %}
     {% if page.next %}
-        <span style="color: #008000; font-weight: bold">&lt;a</span> <span style="color: #7D9029">href=</span><span style="color: #BA2121">&quot;{{ site.url }}{{ page.next.url }}&quot;</span> <span style="color: #7D9029">class=</span><span style="color: #BA2121">&quot;btn&quot;</span> <span style="color: #7D9029">title=</span><span style="color: #BA2121">&quot;{{ page.next.title }}&quot;</span><span style="color: #008000; font-weight: bold">&gt;</span>Next article<span style="color: #008000; font-weight: bold">&lt;/a&gt;</span>
+        <span class="tag">&lt;a</span> <span class="attribute-name">href</span>=<span class="string"><span class="delimiter">&quot;</span><span class="content">{{ site.url }}{{ page.next.url }}</span><span class="delimiter">&quot;</span></span> <span class="attribute-name">class</span>=<span class="string"><span class="delimiter">&quot;</span><span class="content">btn</span><span class="delimiter">&quot;</span></span> <span class="attribute-name">title</span>=<span class="string"><span class="delimiter">&quot;</span><span class="content">{{ page.next.title }}</span><span class="delimiter">&quot;</span></span><span class="tag">&gt;</span>Next article<span class="tag">&lt;/a&gt;</span>
     {% endif %}
-<span style="color: #008000; font-weight: bold">&lt;/nav&gt;</span><span style="color: #408080; font-style: italic">&lt;!-- /.pagination --&gt;</span></code></pre>
+<span class="tag">&lt;/nav&gt;</span><span class="comment">&lt;!-- /.pagination --&gt;</span></code></pre>
 </div>
 </div>
 <div class="listingblock">
 <div class="content">
-<pre class="pygments highlight"><code data-lang="ruby"><span style="color: #008000; font-weight: bold">module</span> <span style="color: #0000FF; font-weight: bold">Jekyll</span>
-  <span style="color: #008000; font-weight: bold">class</span> <span style="color: #0000FF; font-weight: bold">TagIndex</span> <span style="color: #666666">&lt;</span> <span style="color: #880000">Page</span>
-    <span style="color: #008000; font-weight: bold">def</span> <span style="color: #0000FF">initialize</span>(site, base, dir, tag)
-      <span style="color: #19177C">@site</span> <span style="color: #666666">=</span> site
-      <span style="color: #19177C">@base</span> <span style="color: #666666">=</span> base
-      <span style="color: #19177C">@dir</span> <span style="color: #666666">=</span> dir
-      <span style="color: #19177C">@name</span> <span style="color: #666666">=</span> <span style="color: #BA2121">&#39;index.html&#39;</span>
-      <span style="color: #008000">self</span><span style="color: #666666">.</span>process(<span style="color: #19177C">@name</span>)
-      <span style="color: #008000">self</span><span style="color: #666666">.</span>read_yaml(<span style="color: #880000">File</span><span style="color: #666666">.</span>join(base, <span style="color: #BA2121">&#39;_layouts&#39;</span>), <span style="color: #BA2121">&#39;tag_index.html&#39;</span>)
-      <span style="color: #008000">self</span><span style="color: #666666">.</span>data<span style="color: #666666">[</span><span style="color: #BA2121">&#39;tag&#39;</span><span style="color: #666666">]</span> <span style="color: #666666">=</span> tag
-      tag_title_prefix <span style="color: #666666">=</span> site<span style="color: #666666">.</span>config<span style="color: #666666">[</span><span style="color: #BA2121">&#39;tag_title_prefix&#39;</span><span style="color: #666666">]</span> <span style="color: #666666">||</span> <span style="color: #BA2121">&#39;Tagged: &#39;</span>
-      tag_title_suffix <span style="color: #666666">=</span> site<span style="color: #666666">.</span>config<span style="color: #666666">[</span><span style="color: #BA2121">&#39;tag_title_suffix&#39;</span><span style="color: #666666">]</span> <span style="color: #666666">||</span> <span style="color: #BA2121">&#39;&amp;#8211;&#39;</span>
-      <span style="color: #008000">self</span><span style="color: #666666">.</span>data<span style="color: #666666">[</span><span style="color: #BA2121">&#39;title&#39;</span><span style="color: #666666">]</span> <span style="color: #666666">=</span> <span style="color: #BA2121">&quot;</span><span style="color: #BB6688; font-weight: bold">#{</span>tag_title_prefix<span style="color: #BB6688; font-weight: bold">}#{</span>tag<span style="color: #BB6688; font-weight: bold">}</span><span style="color: #BA2121">&quot;</span>
-      <span style="color: #008000">self</span><span style="color: #666666">.</span>data<span style="color: #666666">[</span><span style="color: #BA2121">&#39;description&#39;</span><span style="color: #666666">]</span> <span style="color: #666666">=</span> <span style="color: #BA2121">&quot;An archive of posts tagged </span><span style="color: #BB6688; font-weight: bold">#{</span>tag<span style="color: #BB6688; font-weight: bold">}</span><span style="color: #BA2121">.&quot;</span>
-    <span style="color: #008000; font-weight: bold">end</span>
-  <span style="color: #008000; font-weight: bold">end</span>
-<span style="color: #008000; font-weight: bold">end</span></code></pre>
+<pre class="CodeRay highlight"><code data-lang="ruby"><span class="keyword">module</span> <span class="class">Jekyll</span>
+  <span class="keyword">class</span> <span class="class">TagIndex</span> &lt; <span class="constant">Page</span>
+    <span class="keyword">def</span> <span class="function">initialize</span>(site, base, dir, tag)
+      <span class="instance-variable">@site</span> = site
+      <span class="instance-variable">@base</span> = base
+      <span class="instance-variable">@dir</span> = dir
+      <span class="instance-variable">@name</span> = <span class="string"><span class="delimiter">'</span><span class="content">index.html</span><span class="delimiter">'</span></span>
+      <span class="predefined-constant">self</span>.process(<span class="instance-variable">@name</span>)
+      <span class="predefined-constant">self</span>.read_yaml(<span class="constant">File</span>.join(base, <span class="string"><span class="delimiter">'</span><span class="content">_layouts</span><span class="delimiter">'</span></span>), <span class="string"><span class="delimiter">'</span><span class="content">tag_index.html</span><span class="delimiter">'</span></span>)
+      <span class="predefined-constant">self</span>.data[<span class="string"><span class="delimiter">'</span><span class="content">tag</span><span class="delimiter">'</span></span>] = tag
+      tag_title_prefix = site.config[<span class="string"><span class="delimiter">'</span><span class="content">tag_title_prefix</span><span class="delimiter">'</span></span>] || <span class="string"><span class="delimiter">'</span><span class="content">Tagged: </span><span class="delimiter">'</span></span>
+      tag_title_suffix = site.config[<span class="string"><span class="delimiter">'</span><span class="content">tag_title_suffix</span><span class="delimiter">'</span></span>] || <span class="string"><span class="delimiter">'</span><span class="content">&amp;#8211;</span><span class="delimiter">'</span></span>
+      <span class="predefined-constant">self</span>.data[<span class="string"><span class="delimiter">'</span><span class="content">title</span><span class="delimiter">'</span></span>] = <span class="string"><span class="delimiter">&quot;</span><span class="inline"><span class="inline-delimiter">#{</span>tag_title_prefix<span class="inline-delimiter">}</span></span><span class="inline"><span class="inline-delimiter">#{</span>tag<span class="inline-delimiter">}</span></span><span class="delimiter">&quot;</span></span>
+      <span class="predefined-constant">self</span>.data[<span class="string"><span class="delimiter">'</span><span class="content">description</span><span class="delimiter">'</span></span>] = <span class="string"><span class="delimiter">&quot;</span><span class="content">An archive of posts tagged </span><span class="inline"><span class="inline-delimiter">#{</span>tag<span class="inline-delimiter">}</span></span><span class="content">.</span><span class="delimiter">&quot;</span></span>
+    <span class="keyword">end</span>
+  <span class="keyword">end</span>
+<span class="keyword">end</span></code></pre>
 </div>
 </div>
 </div>
 <div class="sect2">
-<h3 id="_standard_code_block">Standard Code Block</h3>
+<h3 id="standard_code_block">Standard Code Block</h3>
 <div class="listingblock">
 <div class="content">
 <pre>    &lt;nav class="pagination" role="navigation"&gt;
@@ -462,55 +462,62 @@ if (jQuery.cookie('cc_cookie_accept') == "cc_cookie_accept") {
 </div>
 </div>
 <div class="sect2">
-<h3 id="_fenced_code_blocks">Fenced Code Blocks</h3>
+<h3 id="fenced_code_blocks">Fenced Code Blocks</h3>
 <div class="paragraph">
 <p>To modify styling and highlight colors edit <code>/assets/less/coderay.less</code> and compile <code>main.less</code> with your favorite preprocessor. Or edit <code>main.css</code> if that&#8217;s your thing, the classes you want to modify all begin with <code>.coderay</code>. Line numbers and a few other things can be modified in <code>_config.yml</code> under <code>coderay</code>.</p>
 </div>
 <div class="listingblock">
 <div class="content">
-<pre class="pygments highlight"><code data-lang="css"><table class="pyhltable"><tr><td><div class="linenodiv" style="background-color: #f0f0f0; padding-right: 10px">1
+<pre class="CodeRay highlight"><code data-lang="css"><table class="CodeRay"><tr>
+  <td class="line-numbers"><pre>1
 2
 3
 4
-5</div></td><td class="code"><span style="color: #0000FF">#container</span> {
-    <span style="color: #008000; font-weight: bold">float</span><span style="color: #666666">:</span> <span style="color: #008000; font-weight: bold">left</span>;
-    <span style="color: #008000; font-weight: bold">margin</span><span style="color: #666666">:</span> <span style="color: #666666">0</span> <span style="color: #666666">-240px</span> <span style="color: #666666">0</span> <span style="color: #666666">0</span>;
-    <span style="color: #008000; font-weight: bold">width</span><span style="color: #666666">:</span> <span style="color: #666666">100%</span>;
-}
-</td></tr></table></code></pre>
+5
+</pre></td>
+  <td class="code"><pre><span class="id">#container</span> {
+    <span class="key">float</span>: <span class="value">left</span>;
+    <span class="key">margin</span>: <span class="float">0</span> <span class="float">-240px</span> <span class="float">0</span> <span class="float">0</span>;
+    <span class="key">width</span>: <span class="float">100%</span>;
+}</pre></td>
+</tr></table></code></pre>
 </div>
 </div>
 <div class="listingblock">
 <div class="content">
-<pre class="pygments highlight"><code data-lang="html"><table class="pyhltable"><tr><td><div class="linenodiv" style="background-color: #f0f0f0; padding-right: 10px">1
+<pre class="CodeRay highlight"><code data-lang="html"><table class="CodeRay"><tr>
+  <td class="line-numbers"><pre>1
 2
 3
 4
 5
 6
 7
-8</div></td><td class="code"><span style="color: #008000; font-weight: bold">&lt;nav</span> <span style="color: #7D9029">class=</span><span style="color: #BA2121">&quot;pagination&quot;</span> <span style="color: #7D9029">role=</span><span style="color: #BA2121">&quot;navigation&quot;</span><span style="color: #008000; font-weight: bold">&gt;</span>
+8
+</pre></td>
+  <td class="code"><pre><span class="tag">&lt;nav</span> <span class="attribute-name">class</span>=<span class="string"><span class="delimiter">&quot;</span><span class="content">pagination</span><span class="delimiter">&quot;</span></span> <span class="attribute-name">role</span>=<span class="string"><span class="delimiter">&quot;</span><span class="content">navigation</span><span class="delimiter">&quot;</span></span><span class="tag">&gt;</span>
     {% if page.previous %}
-        <span style="color: #008000; font-weight: bold">&lt;a</span> <span style="color: #7D9029">href=</span><span style="color: #BA2121">&quot;{{ site.url }}{{ page.previous.url }}&quot;</span> <span style="color: #7D9029">class=</span><span style="color: #BA2121">&quot;btn&quot;</span> <span style="color: #7D9029">title=</span><span style="color: #BA2121">&quot;{{ page.previous.title }}&quot;</span><span style="color: #008000; font-weight: bold">&gt;</span>Previous article<span style="color: #008000; font-weight: bold">&lt;/a&gt;</span>
+        <span class="tag">&lt;a</span> <span class="attribute-name">href</span>=<span class="string"><span class="delimiter">&quot;</span><span class="content">{{ site.url }}{{ page.previous.url }}</span><span class="delimiter">&quot;</span></span> <span class="attribute-name">class</span>=<span class="string"><span class="delimiter">&quot;</span><span class="content">btn</span><span class="delimiter">&quot;</span></span> <span class="attribute-name">title</span>=<span class="string"><span class="delimiter">&quot;</span><span class="content">{{ page.previous.title }}</span><span class="delimiter">&quot;</span></span><span class="tag">&gt;</span>Previous article<span class="tag">&lt;/a&gt;</span>
     {% endif %}
     {% if page.next %}
-        <span style="color: #008000; font-weight: bold">&lt;a</span> <span style="color: #7D9029">href=</span><span style="color: #BA2121">&quot;{{ site.url }}{{ page.next.url }}&quot;</span> <span style="color: #7D9029">class=</span><span style="color: #BA2121">&quot;btn&quot;</span> <span style="color: #7D9029">title=</span><span style="color: #BA2121">&quot;{{ page.next.title }}&quot;</span><span style="color: #008000; font-weight: bold">&gt;</span>Next article<span style="color: #008000; font-weight: bold">&lt;/a&gt;</span>
+        <span class="tag">&lt;a</span> <span class="attribute-name">href</span>=<span class="string"><span class="delimiter">&quot;</span><span class="content">{{ site.url }}{{ page.next.url }}</span><span class="delimiter">&quot;</span></span> <span class="attribute-name">class</span>=<span class="string"><span class="delimiter">&quot;</span><span class="content">btn</span><span class="delimiter">&quot;</span></span> <span class="attribute-name">title</span>=<span class="string"><span class="delimiter">&quot;</span><span class="content">{{ page.next.title }}</span><span class="delimiter">&quot;</span></span><span class="tag">&gt;</span>Next article<span class="tag">&lt;/a&gt;</span>
     {% endif %}
-<span style="color: #008000; font-weight: bold">&lt;/nav&gt;</span><span style="color: #408080; font-style: italic">&lt;!-- /.pagination --&gt;</span>
-</td></tr></table></code></pre>
+<span class="tag">&lt;/nav&gt;</span><span class="comment">&lt;!-- /.pagination --&gt;</span></pre></td>
+</tr></table></code></pre>
 </div>
 </div>
 <div class="listingblock">
 <div class="content">
-<pre class="pygments highlight"><code data-lang="ruby"><table class="pyhltable"><tr><td><div class="linenodiv" style="background-color: #f0f0f0; padding-right: 10px"> 1
- 2
- 3
- 4
- 5
- 6
- 7
- 8
- 9
+<pre class="CodeRay highlight"><code data-lang="ruby"><table class="CodeRay"><tr>
+  <td class="line-numbers"><pre>1
+2
+3
+4
+5
+6
+7
+8
+9
 10
 11
 12
@@ -518,24 +525,26 @@ if (jQuery.cookie('cc_cookie_accept') == "cc_cookie_accept") {
 14
 15
 16
-17</div></td><td class="code"><span style="color: #008000; font-weight: bold">module</span> <span style="color: #0000FF; font-weight: bold">Jekyll</span>
-  <span style="color: #008000; font-weight: bold">class</span> <span style="color: #0000FF; font-weight: bold">TagIndex</span> <span style="color: #666666">&lt;</span> <span style="color: #880000">Page</span>
-    <span style="color: #008000; font-weight: bold">def</span> <span style="color: #0000FF">initialize</span>(site, base, dir, tag)
-      <span style="color: #19177C">@site</span> <span style="color: #666666">=</span> site
-      <span style="color: #19177C">@base</span> <span style="color: #666666">=</span> base
-      <span style="color: #19177C">@dir</span> <span style="color: #666666">=</span> dir
-      <span style="color: #19177C">@name</span> <span style="color: #666666">=</span> <span style="color: #BA2121">&#39;index.html&#39;</span>
-      <span style="color: #008000">self</span><span style="color: #666666">.</span>process(<span style="color: #19177C">@name</span>)
-      <span style="color: #008000">self</span><span style="color: #666666">.</span>read_yaml(<span style="color: #880000">File</span><span style="color: #666666">.</span>join(base, <span style="color: #BA2121">&#39;_layouts&#39;</span>), <span style="color: #BA2121">&#39;tag_index.html&#39;</span>)
-      <span style="color: #008000">self</span><span style="color: #666666">.</span>data<span style="color: #666666">[</span><span style="color: #BA2121">&#39;tag&#39;</span><span style="color: #666666">]</span> <span style="color: #666666">=</span> tag
-      tag_title_prefix <span style="color: #666666">=</span> site<span style="color: #666666">.</span>config<span style="color: #666666">[</span><span style="color: #BA2121">&#39;tag_title_prefix&#39;</span><span style="color: #666666">]</span> <span style="color: #666666">||</span> <span style="color: #BA2121">&#39;Tagged: &#39;</span>
-      tag_title_suffix <span style="color: #666666">=</span> site<span style="color: #666666">.</span>config<span style="color: #666666">[</span><span style="color: #BA2121">&#39;tag_title_suffix&#39;</span><span style="color: #666666">]</span> <span style="color: #666666">||</span> <span style="color: #BA2121">&#39;&amp;#8211;&#39;</span>
-      <span style="color: #008000">self</span><span style="color: #666666">.</span>data<span style="color: #666666">[</span><span style="color: #BA2121">&#39;title&#39;</span><span style="color: #666666">]</span> <span style="color: #666666">=</span> <span style="color: #BA2121">&quot;</span><span style="color: #BB6688; font-weight: bold">#{</span>tag_title_prefix<span style="color: #BB6688; font-weight: bold">}#{</span>tag<span style="color: #BB6688; font-weight: bold">}</span><span style="color: #BA2121">&quot;</span>
-      <span style="color: #008000">self</span><span style="color: #666666">.</span>data<span style="color: #666666">[</span><span style="color: #BA2121">&#39;description&#39;</span><span style="color: #666666">]</span> <span style="color: #666666">=</span> <span style="color: #BA2121">&quot;An archive of posts tagged </span><span style="color: #BB6688; font-weight: bold">#{</span>tag<span style="color: #BB6688; font-weight: bold">}</span><span style="color: #BA2121">.&quot;</span>
-    <span style="color: #008000; font-weight: bold">end</span>
-  <span style="color: #008000; font-weight: bold">end</span>
-<span style="color: #008000; font-weight: bold">end</span>
-</td></tr></table></code></pre>
+17
+</pre></td>
+  <td class="code"><pre><span class="keyword">module</span> <span class="class">Jekyll</span>
+  <span class="keyword">class</span> <span class="class">TagIndex</span> &lt; <span class="constant">Page</span>
+    <span class="keyword">def</span> <span class="function">initialize</span>(site, base, dir, tag)
+      <span class="instance-variable">@site</span> = site
+      <span class="instance-variable">@base</span> = base
+      <span class="instance-variable">@dir</span> = dir
+      <span class="instance-variable">@name</span> = <span class="string"><span class="delimiter">'</span><span class="content">index.html</span><span class="delimiter">'</span></span>
+      <span class="predefined-constant">self</span>.process(<span class="instance-variable">@name</span>)
+      <span class="predefined-constant">self</span>.read_yaml(<span class="constant">File</span>.join(base, <span class="string"><span class="delimiter">'</span><span class="content">_layouts</span><span class="delimiter">'</span></span>), <span class="string"><span class="delimiter">'</span><span class="content">tag_index.html</span><span class="delimiter">'</span></span>)
+      <span class="predefined-constant">self</span>.data[<span class="string"><span class="delimiter">'</span><span class="content">tag</span><span class="delimiter">'</span></span>] = tag
+      tag_title_prefix = site.config[<span class="string"><span class="delimiter">'</span><span class="content">tag_title_prefix</span><span class="delimiter">'</span></span>] || <span class="string"><span class="delimiter">'</span><span class="content">Tagged: </span><span class="delimiter">'</span></span>
+      tag_title_suffix = site.config[<span class="string"><span class="delimiter">'</span><span class="content">tag_title_suffix</span><span class="delimiter">'</span></span>] || <span class="string"><span class="delimiter">'</span><span class="content">&amp;#8211;</span><span class="delimiter">'</span></span>
+      <span class="predefined-constant">self</span>.data[<span class="string"><span class="delimiter">'</span><span class="content">title</span><span class="delimiter">'</span></span>] = <span class="string"><span class="delimiter">&quot;</span><span class="inline"><span class="inline-delimiter">#{</span>tag_title_prefix<span class="inline-delimiter">}</span></span><span class="inline"><span class="inline-delimiter">#{</span>tag<span class="inline-delimiter">}</span></span><span class="delimiter">&quot;</span></span>
+      <span class="predefined-constant">self</span>.data[<span class="string"><span class="delimiter">'</span><span class="content">description</span><span class="delimiter">'</span></span>] = <span class="string"><span class="delimiter">&quot;</span><span class="content">An archive of posts tagged </span><span class="inline"><span class="inline-delimiter">#{</span>tag<span class="inline-delimiter">}</span></span><span class="content">.</span><span class="delimiter">&quot;</span></span>
+    <span class="keyword">end</span>
+  <span class="keyword">end</span>
+<span class="keyword">end</span></pre></td>
+</tr></table></code></pre>
 </div>
 </div>
 </div>

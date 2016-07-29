@@ -343,7 +343,7 @@ if (jQuery.cookie('cc_cookie_accept') == "cc_cookie_accept") {
 <p>Now that everyone knows <em>what is Spring Roo</em>, let&#8217;s start with this quick tutorial.</p>
 </div>
 <div class="sect1">
-<h2 id="_introduction">Introduction</h2>
+<h2 id="introduction">Introduction</h2>
 <div class="sectionbody">
 <div class="paragraph">
 <p>In this quick tutorial we are going to generate a basic Spring Boot application using Spring Roo 2.0.0.M2 from OS shell. Don&#8217;t worry if you are not familiar with OS shell, this will be a really easy tutorial explained step by step. Also, in future tutorials I&#8217;ll explain you how to configure your STS to include the Spring Roo shell.</p>
@@ -382,7 +382,7 @@ if (jQuery.cookie('cc_cookie_accept') == "cc_cookie_accept") {
 </div>
 </div>
 <div class="sect1">
-<h2 id="_pre_requisites">Pre-requisites</h2>
+<h2 id="pre_requisites">Pre-requisites</h2>
 <div class="sectionbody">
 <div class="ulist">
 <ul>
@@ -400,7 +400,7 @@ if (jQuery.cookie('cc_cookie_accept') == "cc_cookie_accept") {
 </div>
 </div>
 <div class="sect1">
-<h2 id="_executing_spring_roo_2_0_0_m2">Executing Spring Roo 2.0.0.M2</h2>
+<h2 id="executing_spring_roo_2_0_0_m2">Executing Spring Roo 2.0.0.M2</h2>
 <div class="sectionbody">
 <div class="ulist">
 <ul>
@@ -424,14 +424,14 @@ if (jQuery.cookie('cc_cookie_accept') == "cc_cookie_accept") {
 </div>
 </div>
 <div class="sect1">
-<h2 id="_create_a_new_spring_boot_project">Create a new Spring Boot project</h2>
+<h2 id="create_a_new_spring_boot_project">Create a new Spring Boot project</h2>
 <div class="sectionbody">
 <div class="paragraph">
 <p>In this new version, Spring Roo generates Spring Boot applications by default. So, executing the following command in the Spring Roo shell a new Spring Boot project will be generated (remember that you could use TAB to autocomplete commands):</p>
 </div>
 <div class="listingblock">
 <div class="content">
-<pre class="pygments highlight"><code>project setup --topLevelPackage com.disid.blog.tutorial</code></pre>
+<pre class="CodeRay highlight"><code>project setup --topLevelPackage com.disid.blog.tutorial</code></pre>
 </div>
 </div>
 <div class="paragraph">
@@ -442,7 +442,7 @@ if (jQuery.cookie('cc_cookie_accept') == "cc_cookie_accept") {
 </div>
 <div class="listingblock">
 <div class="content">
-<pre class="pygments highlight"><code>Created ROOT/pom.xml
+<pre class="CodeRay highlight"><code>Created ROOT/pom.xml
 Created SRC_MAIN_RESOURCES
 Created SRC_MAIN_JAVA/com/disid/blog/tutorial
 Created SRC_MAIN_JAVA/com/disid/blog/tutorial/TutorialApplication.java
@@ -454,7 +454,7 @@ Created SRC_MAIN_RESOURCES/banner.txt</code></pre>
 </div>
 <div class="listingblock">
 <div class="content">
-<pre class="pygments highlight"><code>.
+<pre class="CodeRay highlight"><code>.
 ├── log.roo
 ├── pom.xml
 └── src
@@ -483,13 +483,13 @@ Created SRC_MAIN_RESOURCES/banner.txt</code></pre>
 </div>
 <div class="listingblock">
 <div class="content">
-<pre class="pygments highlight"><code data-lang="java"><span style="color: #AA22FF">@SpringBootApplication</span>
-<span style="color: #008000; font-weight: bold">public</span> <span style="color: #008000; font-weight: bold">class</span> <span style="color: #0000FF; font-weight: bold">TutorialApplication</span> <span style="color: #666666">{</span>
+<pre class="CodeRay highlight"><code data-lang="java"><span class="annotation">@SpringBootApplication</span>
+<span class="directive">public</span> <span class="type">class</span> <span class="class">TutorialApplication</span> {
 
-    <span style="color: #008000; font-weight: bold">public</span> <span style="color: #008000; font-weight: bold">static</span> <span style="color: #B00040">void</span> <span style="color: #0000FF">main</span><span style="color: #666666">(</span>String<span style="color: #666666">[]</span> args<span style="color: #666666">)</span> <span style="color: #666666">{</span>
-        SpringApplication<span style="color: #666666">.</span><span style="color: #7D9029">run</span><span style="color: #666666">(</span>TutorialApplication<span style="color: #666666">.</span><span style="color: #7D9029">class</span><span style="color: #666666">,</span> args<span style="color: #666666">);</span>
-    <span style="color: #666666">}</span>
-<span style="color: #666666">}</span></code></pre>
+    <span class="directive">public</span> <span class="directive">static</span> <span class="type">void</span> main(<span class="predefined-type">String</span><span class="type">[]</span> args) {
+        SpringApplication.run(TutorialApplication.class, args);
+    }
+}</code></pre>
 </div>
 </div>
 <div class="paragraph">
@@ -500,7 +500,7 @@ Created SRC_MAIN_RESOURCES/banner.txt</code></pre>
 </div>
 <div class="listingblock">
 <div class="content">
-<pre class="pygments highlight"><code>${AnsiColor.GREEN}                _
+<pre class="CodeRay highlight"><code>${AnsiColor.GREEN}                _
  ___ _ __  _ __(_)_ __   __ _ _ __ ___   ___
 / __| '_ \| '__| | '_ \ / _` | '__/ _ \ / _ \
 \__ \ |_) | |  | | | | | (_| | | | (_) | (_) |
@@ -523,27 +523,27 @@ Doubts? http://projects.spring.io/spring-roo/${AnsiColor.DEFAULT}</code></pre>
 </div>
 </div>
 <div class="sect1">
-<h2 id="_persistence_configuration">Persistence configuration</h2>
+<h2 id="persistence_configuration">Persistence configuration</h2>
 <div class="sectionbody">
 <div class="paragraph">
 <p>To be able to generate persistence using <em>HIBERNATE</em> and <em>HYPERSONIC_IN_MEMORY</em> database you should execute the following command:</p>
 </div>
 <div class="listingblock">
 <div class="content">
-<pre class="pygments highlight"><code>jpa setup --provider HIBERNATE --database HYPERSONIC_IN_MEMORY</code></pre>
+<pre class="CodeRay highlight"><code>jpa setup --provider HIBERNATE --database HYPERSONIC_IN_MEMORY</code></pre>
 </div>
 </div>
 </div>
 </div>
 <div class="sect1">
-<h2 id="_create_a_new_entity_and_its_fields">Create a new entity and its fields</h2>
+<h2 id="create_a_new_entity_and_its_fields">Create a new entity and its fields</h2>
 <div class="sectionbody">
 <div class="paragraph">
 <p>Create a new entity called <strong>Owner</strong> and include the <strong>username</strong> field and the <strong>email</strong> field. You will be able to do it executing the following commands:</p>
 </div>
 <div class="listingblock">
 <div class="content">
-<pre class="pygments highlight"><code>entity jpa --class ~.domain.Owner
+<pre class="CodeRay highlight"><code>entity jpa --class ~.domain.Owner
 field string --fieldName username
 field string --fieldName email</code></pre>
 </div>
@@ -551,40 +551,40 @@ field string --fieldName email</code></pre>
 </div>
 </div>
 <div class="sect1">
-<h2 id="_generate_the_spring_data_jpa_repository">Generate the Spring Data JPA repository</h2>
+<h2 id="generate_the_spring_data_jpa_repository">Generate the Spring Data JPA repository</h2>
 <div class="sectionbody">
 <div class="paragraph">
 <p>Generate the Spring Data JPA repository to manage the Owner data access executing the following command:</p>
 </div>
 <div class="listingblock">
 <div class="content">
-<pre class="pygments highlight"><code>repository jpa --entity ~.domain.Owner --interface ~.repository.OwnerRepository</code></pre>
+<pre class="CodeRay highlight"><code>repository jpa --entity ~.domain.Owner --interface ~.repository.OwnerRepository</code></pre>
 </div>
 </div>
 </div>
 </div>
 <div class="sect1">
-<h2 id="_generate_the_service_layer">Generate the Service layer</h2>
+<h2 id="generate_the_service_layer">Generate the Service layer</h2>
 <div class="sectionbody">
 <div class="paragraph">
 <p>Generate the service layer executing the following command:</p>
 </div>
 <div class="listingblock">
 <div class="content">
-<pre class="pygments highlight"><code>service --entity ~.domain.Owner --repository ~.repository.OwnerRepository --interface ~.service.api.OwnerService --class ~.service.impl.OwnerServiceImpl</code></pre>
+<pre class="CodeRay highlight"><code>service --entity ~.domain.Owner --repository ~.repository.OwnerRepository --interface ~.service.api.OwnerService --class ~.service.impl.OwnerServiceImpl</code></pre>
 </div>
 </div>
 </div>
 </div>
 <div class="sect1">
-<h2 id="_generate_the_web_layer">Generate the Web layer</h2>
+<h2 id="generate_the_web_layer">Generate the Web layer</h2>
 <div class="sectionbody">
 <div class="paragraph">
 <p>Include Spring MVC support, install THYMELEAF resources and generate the controllers executing the following commands:</p>
 </div>
 <div class="listingblock">
 <div class="content">
-<pre class="pygments highlight"><code>web mvc setup
+<pre class="CodeRay highlight"><code>web mvc setup
 web mvc view setup --type THYMELEAF
 web mvc controller --controller ~.web.OwnerController --entity ~.domain.Owner --service ~.service.api.OwnerService --responseType THYMELEAF</code></pre>
 </div>
@@ -592,7 +592,7 @@ web mvc controller --controller ~.web.OwnerController --entity ~.domain.Owner --
 </div>
 </div>
 <div class="sect1">
-<h2 id="_running_generated_applications">Running generated applications</h2>
+<h2 id="running_generated_applications">Running generated applications</h2>
 <div class="sectionbody">
 <div class="paragraph">
 <p>After execute all the commands above (don&#8217;t worry if you don&#8217;t understand some command or the generated code. I&#8217;ll explain it you in next tutorials :D), you should have a complete Spring Boot application.</p>
@@ -602,7 +602,7 @@ web mvc controller --controller ~.web.OwnerController --entity ~.domain.Owner --
 </div>
 <div class="listingblock">
 <div class="content">
-<pre class="pygments highlight"><code>mvn clean compile spring-boot:run</code></pre>
+<pre class="CodeRay highlight"><code>mvn clean compile spring-boot:run</code></pre>
 </div>
 </div>
 <div class="paragraph">
@@ -622,7 +622,7 @@ image::{{ site.url }}{{ page.imagedir }}list_page.png[List all owners page]</p>
 </div>
 </div>
 <div class="sect1">
-<h2 id="_conclusions">Conclusions</h2>
+<h2 id="conclusions">Conclusions</h2>
 <div class="sectionbody">
 <div class="ulist">
 <ul>
