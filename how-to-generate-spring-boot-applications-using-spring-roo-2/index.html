@@ -288,7 +288,7 @@ if (jQuery.cookie('cc_cookie_accept') == "cc_cookie_accept") {
                         <div class="post-info text-center small">
                             <span class="entry-date date published"><time datetime="2016-07-29T00:00:00+02:00" class="post-time" itemprop="datePublished">29 Jul 2016</time><span>
                             in <span class="post-tags"><a href="http://blog.disid.com/categories/index.html#enspring-roospring-boot" data-toggle="tooltip" title="Other posts from the Spring-roo category" rel="tag">Spring-roo</a>&nbsp;&bull;&nbsp;<a href="http://blog.disid.com/categories/index.html#enspring-roospring-boot" data-toggle="tooltip" title="Other posts from the Spring-boot category" rel="tag">Spring-boot</a></span>&nbsp;<span class="post-tags">
-                            <i class="icon-time"></i>&nbsp;<span class="time">7.64</span> minutes read</span>
+                            <i class="icon-time"></i>&nbsp;<span class="time">7.5</span> minutes read</span>
                         </div>
                     </header>
                     <div class="post-body bordered-bottom" itemprop="description">
@@ -418,9 +418,7 @@ if (jQuery.cookie('cc_cookie_accept') == "cc_cookie_accept") {
 </li>
 </ul>
 </div>
-<div class="paragraph">
-<p>image::{{ site.url }}{{ page.imagedir }}shell.png[Shell started]</p>
-</div>
+<img src="{{ site.url }}{{ page.imagedir }}shell.png" alt="Shell started"/>
 </div>
 </div>
 <div class="sect1">
@@ -434,9 +432,7 @@ if (jQuery.cookie('cc_cookie_accept') == "cc_cookie_accept") {
 <pre class="CodeRay highlight"><code>project setup --topLevelPackage com.disid.blog.tutorial</code></pre>
 </div>
 </div>
-<div class="paragraph">
-<p>image::{{ site.url }}{{ page.imagedir }}project_command.png[Project Command]</p>
-</div>
+<img src="{{ site.url }}{{ page.imagedir }}project_command.png" alt="Project Command"/>
 <div class="paragraph">
 <p>As you could see on the shell log, the following elements have been generated:</p>
 </div>
@@ -608,11 +604,9 @@ web mvc controller --controller ~.web.OwnerController --entity ~.domain.Owner --
 <div class="paragraph">
 <p>After some log messages in your system shell, your application will be deployed on an embedded tomcat server. You could access to <a href="http://localhost:8080/" class="bare">http://localhost:8080/</a> link and see your generated application running:</p>
 </div>
-<div class="paragraph">
-<p>image::{{ site.url }}{{ page.imagedir }}homepage_application.png[Home page]
-image::{{ site.url }}{{ page.imagedir }}create_page.png[Create new owner page]
-image::{{ site.url }}{{ page.imagedir }}list_page.png[List all owners page]</p>
-</div>
+<img src="{{ site.url }}{{ page.imagedir }}homepage_application.png" alt="Home page" title="Home page" />
+<img src="{{ site.url }}{{ page.imagedir }}create_page.png" alt="Create new owner page" title="Create new owner page" />
+<img src="{{ site.url }}{{ page.imagedir }}list_page.png" alt="List all owners page" title="List all owners page" />
 <div class="paragraph">
 <p>What do you think about it?! Do you like it?&#8230;&#8203; And only executing some simple commands! :D</p>
 </div>
