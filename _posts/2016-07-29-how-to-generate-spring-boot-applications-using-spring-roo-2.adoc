@@ -79,7 +79,10 @@ The generated application will contain:
 * Open new OS shell on the folder where you want to generate your new project and execute the _~/software/spring-roo-2.0.0.M2/bin/roo.sh_ script file (or use .bat file if you are working on Windows)
 * New Spring Roo 2.0.0.M2 will be executed with this appearance:
 
-image::{{ site.url }}{{ page.imagedir }}shell.png[Shell started]
+++++
+<img src="{{ site.url }}{{ page.imagedir }}shell.png" alt="Shell started"/>
+++++
+
 
 == Create a new Spring Boot project
 
@@ -90,7 +93,9 @@ In this new version, Spring Roo generates Spring Boot applications by default. S
 project setup --topLevelPackage com.disid.blog.tutorial
 ----
 
-image::{{ site.url }}{{ page.imagedir }}project_command.png[Project Command]
+++++
+<img src="{{ site.url }}{{ page.imagedir }}project_command.png" alt="Project Command"/>
+++++
 
 As you could see on the shell log, the following elements have been generated:
 
@@ -226,10 +231,11 @@ mvn clean compile spring-boot:run
 
 After some log messages in your system shell, your application will be deployed on an embedded tomcat server. You could access to http://localhost:8080/ link and see your generated application running:
 
-image::{{ site.url }}{{ page.imagedir }}homepage_application.png[Home page]
-image::{{ site.url }}{{ page.imagedir }}create_page.png[Create new owner page]
-image::{{ site.url }}{{ page.imagedir }}list_page.png[List all owners page]
-
+++++
+<img src="{{ site.url }}{{ page.imagedir }}homepage_application.png" alt="Home page" title="Home page" />
+<img src="{{ site.url }}{{ page.imagedir }}create_page.png" alt="Create new owner page" title="Create new owner page" />
+<img src="{{ site.url }}{{ page.imagedir }}list_page.png" alt="List all owners page" title="List all owners page" />
+++++
 
 What do you think about it?! Do you like it?... And only executing some simple commands! :D
 
