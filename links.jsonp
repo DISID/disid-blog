@@ -136,6 +136,13 @@ callback([
     "text": "Customizing Spring Roo tagx",
     "href": "http://blog.disid.com/customizing-spring-roo-own-tagx/"
   
+  } ,
+
+  {
+  
+    "text": "How to generate Spring Boot applications using Spring Roo 2.0.0.M2",
+    "href": "http://blog.disid.com/how-to-generate-spring-boot-applications-using-spring-roo-2/"
+  
   } 
 
 ])

@@ -2,6 +2,16 @@
 	
 		{
 		
+		  "title"      : "How to generate Spring Boot applications using Spring Roo 2.0.0.M2",
+		  "category"   : "enspring-roospring-boot",
+		  "url"        : "http://blog.disid.com/how-to-generate-spring-boot-applications-using-spring-roo-2/",
+		  "date"       : "2016-07-29 00:00:00 +0200",
+		  "shortdate"  : "July 29, 2016"
+		
+		} ,
+	
+		{
+		
 		  "title"      : "Customizing Spring Roo tagx",
 		  "category"   : "",
 		  "url"        : "http://blog.disid.com/customizing-spring-roo-own-tagx/",
