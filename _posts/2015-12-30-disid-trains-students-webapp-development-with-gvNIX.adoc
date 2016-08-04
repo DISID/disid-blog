@@ -28,15 +28,15 @@ The main objective of the training is to introduce students in the management of
 This free seminars was facilitated by our colleague Paula Navarro (http://twitter.com/paunaal[@paunaal]), expert in developing applications with gvNIX, and consist of two presencial seminars at training center http://www.idese.es/[IDESE].
 
 ++++
-<img class="third" src="http://blog.disid.com/images/post/seminar-gvnix/IMG-20151214-WA0009.jpg" alt=""/>
+<img class="third" src="http://blog.disid.com/images/post/seminar-gvnix/IMG-20151214-WA0009.jpg"/>
 ++++
 
 ++++
-<img class="third" src="http://blog.disid.com/images/post/seminar-gvnix/IMG-20151214-WA00010.jpg" alt=""/>
+<img class="third" src="http://blog.disid.com/images/post/seminar-gvnix/IMG-20151214-WA0010.jpg" />
 ++++
 
 ++++
-<img class="third" src="http://blog.disid.com/images/post/seminar-gvnix/IMG-20151214-WA00011.jpg" alt=""/>
+<img class="third" src="http://blog.disid.com/images/post/seminar-gvnix/IMG-20151214-WA0011.jpg"/>
 ++++
 
 
