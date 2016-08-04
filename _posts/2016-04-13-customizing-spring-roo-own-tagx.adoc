@@ -38,21 +38,31 @@ To explain how to do it, I will use an example based on Spring Roo project. You 
 * IDE Eclipse STS.
 * An application generated from Spring Roo, for example, a project created using clinic.roo script.
 
-image::{{ site.url }}{{ page.imagedir }}spring_roo_console_clinic.png[Spring Roo Console,align="center"]
+++++
+<img src="http://blog.disid.com/images/2016-01-03-customizing-spring-roo-own-tagx/spring_roo_console_clinic.png" alt="Spring Roo Console"/>
+++++
 
 The reason that I will use it to change a _tagx_ file is that I want to set a default value in inputs and currently this action isn't supported by the input defined on the Spring Roo project.
 
-image::{{ site.url }}{{ page.imagedir }}structure.png[Structure]
+++++
+<img src="http://blog.disid.com/images/2016-01-03-customizing-spring-roo-own-tagx/structure.png" alt="Structure"/>
+++++
 
 Taking into account the possibility to change the version of Spring Roo while the project is developing, I recommend making a copy of the _tagx_ that you want to modify. When a Spring Roo version in a project is changed, usually you will open the Roo console and you will execute a command to update all the _tagx_ because these could have changed due to improvements developed in the new version. If you don't have your own copy of the modified _tagx_, you will lose all your changes.
 
-image::{{ site.url }}{{ page.imagedir }}update_tags.png[Update tags]
+++++
+<img src="http://blog.disid.com/images/2016-01-03-customizing-spring-roo-own-tagx/update_tags.png" alt="Update tags"/>
+++++
 
 I suggest you place your new _tagx_ file into a folder located in the same level of the originals and give the folder a name similar to the project name. I strongly recommend this name because it is an easy way to identify your own _tagx_.
 
-image::{{ site.url }}{{ page.imagedir }}new_structure.png[New structure]
+++++
+<img src="http://blog.disid.com/images/2016-01-03-customizing-spring-roo-own-tagx/new_structure.png" alt="New structure"/>
+++++
 
 Finally, you need to indicate in your _jspx_ files that you want to use your _tagx_ file instead of the original one. To do that, you have to include the _XML namespace_ with the route where your new _tagx_ is defined. The last change that you will have to make, is to modify the reference of the input inside the content of the jspx by the new _XML namespace_ defined.
 
-image::{{ site.url }}{{ page.imagedir }}use_new_tag.png[Use new tag]
+++++
+<img src="http://blog.disid.com/images/2016-01-03-customizing-spring-roo-own-tagx/use_new_tag.png" alt="Use new tag"/>
+++++
 

@@ -24,7 +24,9 @@ The webinar was organized by the gvSIG Association last January 28 and was given
 
 During the webinar, lasting 1h20min, application modules were explained and were answered all the questions raised by the attendees at the end of the session.
 
-image::{{ site.url }}/images/post/gvsigroads/logo-gvsigroads.png[gvSIG Roads, 350, center]
+++++
+<img src="http://blog.disid.com/images/post/gvsigroads/logo-gvsigroads.png" alt="gvSIG Roads"/>
+++++
 
 gvSIG Roads is an open and interoperable solution for the management of roads, open standards-based software, with a comprehensive management system for the maintenance, preservation and inventory of roads, with integrated map data and the power of Spatial Data infrastructures.
 
