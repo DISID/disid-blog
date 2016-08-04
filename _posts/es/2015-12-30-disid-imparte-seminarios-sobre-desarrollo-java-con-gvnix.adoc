@@ -28,15 +28,15 @@ El objetivo principal de la formación es introducir a estudiantes en el manejo 
 Esta formación gratuita fue impartida por nuestra compañera Paula Navarro (http://twitter.com/paunaal[@paunaal]) con amplia experiencia en el desarrollo de aplicaciones con gvNIX y constó de dos cursos presenciales en el centro de formación http://www.idese.es/[IDESE].
 
 ++++
-<img class="third" src="http://blog.disid.com/images/post/seminar-gvnix/IMG-20151214-WA00009.jpg" alt=""/>
+<img class="third" src="http://blog.disid.com/images/post/seminar-gvnix/IMG-20151214-WA0009.jpg" alt=""/>
 ++++
 
 ++++
-<img class="third" src="http://blog.disid.com/images/post/seminar-gvnix/IMG-20151214-WA00010.jpg" alt=""/>
+<img class="third" src="http://blog.disid.com/images/post/seminar-gvnix/IMG-20151214-WA0010.jpg" alt=""/>
 ++++
 
 ++++
-<img class="third" src="http://blog.disid.com/images/post/seminar-gvnix/IMG-20151214-WA00011.jpg" alt=""/>
+<img class="third" src="http://blog.disid.com/images/post/seminar-gvnix/IMG-20151214-WA0011.jpg" alt=""/>
 ++++
 
 Los centros que asistieron a esta iniciativa fueron
