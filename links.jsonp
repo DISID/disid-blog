@@ -2,46 +2,6 @@ callback([
 
   {
   
-  } ,
-
-  {
-  
-  } ,
-
-  {
-  
-  } ,
-
-  {
-  
-  } ,
-
-  {
-  
-  } ,
-
-  {
-  
-  } ,
-
-  {
-  
-  } ,
-
-  {
-  
-  } ,
-
-  {
-  
-  } ,
-
-  {
-  
-  } ,
-
-  {
-  
     "text": "¡Por fin! Lanzamos nuestro blog sobre código abierto",
     "href": "http://blog.disid.com/por-fin-tenemos-blog/"
   
@@ -142,6 +102,20 @@ callback([
   
     "text": "How to generate Spring Boot applications using Spring Roo 2.0.0.M2",
     "href": "http://blog.disid.com/how-to-generate-spring-boot-applications-using-spring-roo-2/"
+  
+  } ,
+
+  {
+  
+    "text": "Spring Roo 2.0.0 RC1 liberado",
+    "href": "http://blog.disid.com/spring-roo-2-0-rc1-liberado/"
+  
+  } ,
+
+  {
+  
+    "text": "Spring Roo 2.0.0 RC1 released",
+    "href": "http://blog.disid.com/spring-roo-2-0-rc1-released/"
   
   } 
 

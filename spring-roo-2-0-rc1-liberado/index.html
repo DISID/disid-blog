@@ -1,0 +1,661 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<title>Spring Roo 2.0.0 RC1 liberado - DISID Blog</title>
+<meta name="description" content="Incluye mejoras, correcciones de errores y nuevas características importantes">
+<meta name="keywords" content="Spring, Spring Roo, DISID Java team, OpenSource, release">
+
+<!-- Twitter Cards -->
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:image" content="http://localhost:4000/images/2017-03-10-spring-roo-2-0-rc1-released/spring-roo-cover.png">
+
+<meta name="twitter:title" content="Spring Roo 2.0.0 RC1 liberado">
+<meta name="twitter:description" content="Incluye mejoras, correcciones de errores y nuevas características importantes">
+<meta name="twitter:creator" content="@disid_corp">
+
+<!-- Open Graph -->
+<meta property="og:locale" content="en_US">
+<meta property="og:type" content="article">
+<meta property="og:title" content="Spring Roo 2.0.0 RC1 liberado">
+<meta property="og:description" content="Incluye mejoras, correcciones de errores y nuevas características importantes">
+<meta property="og:url" content="http://localhost:4000/spring-roo-2-0-rc1-liberado/">
+<meta property="og:site_name" content="DISID Blog">
+<meta property="og:image" content="http://localhost:4000/images/2017-03-10-spring-roo-2-0-rc1-released/spring-roo-cover.png">
+
+
+
+
+
+<link rel="canonical" href="http://localhost:4000/spring-roo-2-0-rc1-liberado/">
+<link href="http://localhost:4000/feed.xml" type="application/atom+xml" rel="alternate" title="DISID Blog Feed">
+
+
+<!-- http://t.co/dKP3o1e -->
+<meta name="HandheldFriendly" content="True">
+<meta name="MobileOptimized" content="320">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<link rel="stylesheet" type="text/css" href="http://localhost:4000/assets/css/bootstrap.css" />
+<link rel="stylesheet" type="text/css" href="http://localhost:4000/assets/css/coderay.css"/>
+<link rel="stylesheet" type="text/css" href="http://localhost:4000/assets/css/style.css" />
+<link rel="stylesheet" type="text/css" href="http://localhost:4000/assets/css/style-notepad.css" />
+<link rel="stylesheet" type="text/css" href="http://localhost:4000/assets/css/styles.css" />
+<link rel="stylesheet" type="text/css" href="http://localhost:4000/assets/css/disid.css" />
+
+<!-- Fonts -->
+<link href='http://fonts.googleapis.com/css?family=Montserrat:400,700&amp;subset=latin,latin-ext' rel='stylesheet'>
+<link href='http://fonts.googleapis.com/css?family=Open+Sans:400,300,700,800,600&amp;subset=latin,latin-ext' rel='stylesheet'>
+<link rel="stylesheet" href="http://localhost:4000/assets/css/font-awesome.min.css">
+
+<!-- cookies  -->
+<link rel="stylesheet" href="http://localhost:4000/assets/css/cookiecuttr.css" rel="stylesheet" type="text/css">
+
+
+
+<!-- Icons -->
+<link rel="apple-touch-icon" sizes="57x57" href="/apple-touch-icon-57x57.png">
+<link rel="apple-touch-icon" sizes="60x60" href="/apple-touch-icon-60x60.png">
+<link rel="apple-touch-icon" sizes="72x72" href="/apple-touch-icon-72x72.png">
+<link rel="apple-touch-icon" sizes="76x76" href="/apple-touch-icon-76x76.png">
+<link rel="apple-touch-icon" sizes="114x114" href="/apple-touch-icon-114x114.png">
+<link rel="apple-touch-icon" sizes="120x120" href="/apple-touch-icon-120x120.png">
+<link rel="apple-touch-icon" sizes="144x144" href="/apple-touch-icon-144x144.png">
+<link rel="apple-touch-icon" sizes="152x152" href="/apple-touch-icon-152x152.png">
+<link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon-180x180.png">
+<link rel="icon" type="image/png" href="/favicon-32x32.png" sizes="32x32">
+<link rel="icon" type="image/png" href="/favicon-194x194.png" sizes="194x194">
+<link rel="icon" type="image/png" href="/favicon-96x96.png" sizes="96x96">
+<link rel="icon" type="image/png" href="/android-chrome-192x192.png" sizes="192x192">
+<link rel="icon" type="image/png" href="/favicon-16x16.png" sizes="16x16">
+<link rel="manifest" href="/manifest.json">
+<link rel="shortcut icon" href="/favicon.ico">
+<meta name="msapplication-TileColor" content="#2b5797">
+<meta name="msapplication-TileImage" content="/mstile-144x144.png">
+<meta name="theme-color" content="#ffffff">
+
+<!-- jQuery, needed for CookieCuttr -->
+<script type="text/javascript" src="http://localhost:4000/assets/js/jquery-1.11.1.js"></script>
+
+<!-- Jekyll-Asciidoc Quickstart -->
+<script src="http://localhost:4000/assets/js/vendor/modernizr.js"></script>
+<script src="http://localhost:4000/assets/js/toc.js"></script>
+
+
+
+<!-- jQuery CookieCuttr -->
+<script type="text/javascript" src="http://localhost:4000/assets/js/jquery.cookie.js"></script>
+
+  <script type="text/javascript" src="http://localhost:4000/assets/js/jquery.cookiecuttr-es.js"></script>
+
+
+
+<script type="text/javascript">
+if (jQuery.cookie('cc_cookie_accept') == "cc_cookie_accept") {
+  // insert the code you do not want to run UNTIL cookies are accepted here
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-1393802-6']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+  var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+  ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+  var s = document. getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+  }
+</script>
+
+
+
+
+</head>
+<body class="post-template" itemscope itemtype="http://schema.org/WebPage">
+
+<!-- Navigation -->
+
+  <div class="container-fluid navbar-fixed-top">
+    <div class="row">
+      <div class="header-nav-wrapper">
+
+        <div class="logo">
+          <a class="navbar-brand page-scroll" href="http://localhost:4000#page-top">
+           <img src="http://localhost:4000/images/logo-disid-white.png" class="img-responsive">
+          </a>
+        </div>
+
+        <!-- Collect the nav links, forms, and other content for toggling -->
+        <div class="primary-nav-wrapper">
+          <nav>
+            <ul class="primary-nav">
+              <li class="hidden"><a href="#page-top"></a></li>
+
+
+                 
+                      <li>
+                        <a class="page-scroll" href="http://www.disid.com/es/#solutions">Soluciones</a>
+                        
+                      </li>
+                
+                      <li>
+                        <a class="page-scroll" href="http://www.disid.com/es/#projects">Proyectos</a>
+                        
+                      </li>
+                
+                      <li>
+                        <a class="page-scroll" href="http://www.disid.com/es/#technologies">Tecnologías</a>
+                        
+                      </li>
+                
+                      <li>
+                        <a class="page-scroll" href="http://blog.disid.com/es/index.html">Blog</a>
+                        
+                      </li>
+                
+                      <li>
+                        <a class="page-scroll" href="http://www.disid.com/es/#contact">Contacto</a>
+                        
+                      </li>
+                
+            </ul>
+          </nav>
+          <div class="secondary-nav-wrapper">
+            <ul class="secondary-nav">
+               <!-- language variables -->
+
+                    <!-- for home -->
+                    
+
+                    <!-- for post layout -->
+										
+										    
+										      <li class="lang subscribe">
+										      <a href="/spring-roo-2-0-rc1-released/" class="en">
+										      <!-- en -->
+										      
+										      EN
+										      
+										      
+										      </a>
+										      </li>
+
+										    
+										      <li class="lang subscribe">
+										      <a href="/spring-roo-2-0-rc1-liberado/" class="es">
+										      <!-- es -->
+										      
+										      
+										      ES
+										      
+										      </a>
+										      </li>
+
+										    
+										
+
+            </ul>
+          </div>
+
+        </div>
+
+        <div class="navicon">
+          <a class="nav-toggle" href="#"><span></span></a>
+        </div>
+
+      </div>
+    </div>
+  </div>
+
+<!-- Search -->
+
+<div class="search-wrapper">
+    <div class="search-form">
+        <input type="text" class="search-field" placeholder="Search...">
+        <i class="icon-remove-sign"></i>
+        <ul class="search-results post-list"></ul><!-- /.search-results -->
+    </div><!-- /.search-form -->
+</div><!-- ./search-wrapper -->
+
+
+
+<div id="fade"></div>
+<a id="slide" class="animated fade"></a>
+
+<aside id="sidebar">
+    <nav id="navigation">
+      <h2>MENU</h2>
+      <hr>
+      
+              
+              <li>
+                <a href="http://localhost:4000/featured">Featured posts</a>
+              </li>
+              
+      
+              
+              <li>
+                <a href="http://localhost:4000/categories">Category Index</a>
+              </li>
+              
+      
+              
+              <li>
+                <a href="http://localhost:4000/tags">Tags</a>
+              </li>
+              
+      
+      <li><a href="http://localhost:4000/feed.xml" title="Atom/RSS feed"><i class="icon-rss"></i> Feed</a></li>
+    </nav>
+</aside>
+
+
+  <header id="masthead" class="blog-background overlay align-center align-middle animated from-bottom"
+  style="background-image: url(http://localhost:4000/images/2017-03-10-spring-roo-2-0-rc1-released/spring-roo-cover.png )"
+  itemscope itemtype="http://schema.org/Organization">
+  
+
+
+
+
+    <button class="menu-button animated fade dosearch">
+        <i class="icon-search"></i>
+    </button>
+
+
+    <div class="inner">
+        <div class="container">
+            <a class="brand light" href="http://localhost:4000" role="banner" itemprop="url">
+            <h1 class="blog-title light" itemprop="name">
+                DISID Blog
+            </h1>
+            </a>
+            <h2 class="blog-description light bordered bordered-top" itemprop="description">
+                ¡Spring Roo 2.0.0 RC1 disponible!
+            </h2>
+        </div>
+    </div>
+    
+
+</header>
+<div id="main" class="content" role="main" itemprop="mainContentOfPage" itemscope itemtype="http://schema.org/Blog">
+    <div class="container">
+        <div class="row">
+            <article class="post col-md-10 col-md-offset-1 hentry" itemprop="blogPost" itemscope itemtype="http://schema.org/BlogPosting">
+            
+            
+            
+            
+            
+                    <header class="post-header entry-header">
+                    <div class="cursive">Featured post</div>
+                        
+                        <h1 class="post-title text-center super lighter entry-title" itemprop="headline"><a href="https://spring.io/blog/2017/03/07/spring-roo-2-0-rc1-released" data-toggle="tooltip" title="Go to https://spring.io/blog/2017/03/07/spring-roo-2-0-rc1-released" class="title-link">
+                        
+<!--                         
+                        
+                        <i class="icon-picture"></i>  -->
+                        Spring Roo 2.0.0 RC1 liberado <span class="link-arrow">&rarr;</span></a></h1>
+                        
+                        <div class="text-center cursive lighter"><h2>Incluye mejoras, correcciones de errores y nuevas características importantes</h2></div>
+                        <div class="post-info text-center small">
+                            <span class="entry-date date published updated"><time datetime="2017-03-10T00:00:00+01:00" class="post-time" itemprop="datePublished">10 Mar 2017</time><span>
+                            in <span class="post-tags"><a href="http://localhost:4000/categories/index.html#esspring roo" data-toggle="tooltip" title="Other posts from the Spring roo category" rel="tag">Spring roo</a></span>&nbsp;<span class="post-tags">
+                            <i class="icon-time"></i>&nbsp;<span class="time">2.66</span> minutes read</span>
+                        </div>
+                    </header>
+                    <div class="post-body bordered-bottom" itemprop="description">
+                        
+                        <div class="paragraph">
+<p>En nombre del equipo de desarrollo Java de DISID, estamos orgullosos de anunciar la primera versión candidata de Spring Roo 2.0.<br>
+Este es la primera RC1, a partir de ahora ya estamos trabajando en las mejoras y corrección de errores que la comunidad de desarrollo detecte y así poder publicar la versión final.</p>
+</div>
+<div class="paragraph">
+<p>Os animamos a participar en este proceso probando la versión 2.0.0.RC1 y reportando los posibles errores y mejoras en <a href="https://jira.spring.io/browse/ROO">JIRA</a>.</p>
+</div>
+<div class="paragraph">
+<p>La versión RC1 incluye mejoras y correcciones de errores detectadas en la versión Spring Roo 2.0.0.M3. Además, incluye nuevas características importantes:</p>
+</div>
+<div class="ulist">
+<ul>
+<li>
+<p>Incluye algunas mejoras en los comandos existentes:</p>
+<div class="ulist">
+<ul>
+<li>
+<p>Mejora de la generación de datos a petición para utilizarlo en comandos de prueba.</p>
+</li>
+<li>
+<p>Comando de unidad de prueba mejorado que ahora crea pruebas completamente funcionales para entidades JPA.</p>
+</li>
+<li>
+<p>Comando de integración de pruebas mejorado que ahora permite crear pruebas de integración para repositorios JPA y controladores JSON/Thymeleaf.</p>
+</li>
+<li>
+<p>Mejora de la legibilidad de los comandos de campo, eliminando las opciones innecesarias y haciendo otras dinámicamente visibles.</p>
+</li>
+<li>
+<p>Improved <code>push-in --method</code> comando, que permite distinguir entre los métodos con el mismo nombre, pero con diferentes argumentos.</p>
+</li>
+<li>
+<p>Comando de repositorio mejorado que permite a los desarrolladores usar proyecciones como tipo de retorno predeterminado.</p>
+</li>
+</ul>
+</div>
+</li>
+<li>
+<p>Incluye algunas mejoras en el código generado:</p>
+<div class="ulist">
+<ul>
+<li>
+<p>Actualización de la versión Spring IO a <code>Athens-RELEASE</code>.</p>
+</li>
+<li>
+<p>Actualizada la versión <a href="https://github.com/DISID/springlets">Springlets library</a> a <code>1.2.0.RC1</code>. Proporciona nuevas características impresionantes que hacen más fácil el desarrollo de aplicaciones de Spring.</p>
+</li>
+<li>
+<p>Utilice las proyecciones como tipo de retorno predeterminado de sus métodos de repositorio.</p>
+</li>
+<li>
+<p>Mejora de la gestión de entidades de sólo lectura.</p>
+</li>
+<li>
+<p>Incluyendo nuevos JSONDeserializers y clases JSONMixin.</p>
+</li>
+<li>
+<p>Incluyendo nuevas clases de LinkFactories para obtener URL de Thymeleaf fácilmente.</p>
+</li>
+<li>
+<p>Generar JavaDoc predeterminado a todos los métodos, constructores y campos generados.</p>
+</li>
+<li>
+<p>Se ha creado una nueva extensión de DataTables para aplicar configuración avanzada en elementos DataTables. Esta extensión es totalmente extensible, por lo que los desarrolladores podrán personalizar su componente DataTable fácilmente.</p>
+</li>
+<li>
+<p>Añadido <code>datatables.mark.js</code> para marcar el texto filtrado en el componente DataTables.</p>
+</li>
+<li>
+<p>Añadido control de concurrencia en la capa de vista, respondiendo al usuario si quiere descartar sus cambios y volver a cargar el registro o quiere aplicar sus cambios.</p>
+</li>
+<li>
+<p>Mejoras HTML5 y migración a Thymeleaf 3.</p>
+</li>
+<li>
+<p>Generar informes usando <a href="http://dynamicjasper.com/">DynamicJasper</a> en el componente DataTables, permitiendo exportar datos a CSV, PDF y XLS.</p>
+</li>
+<li>
+<p>Añadido soporte de visualización de entidad nueva usando <code>--entityFormatExpression</code> y` --entityFormatMessage` en comandos de entidad.</p>
+</li>
+<li>
+<p>Añadido soporte para seleccionar las vistas de una entidad en particular que debe mostrar detalles.</p>
+</li>
+<li>
+<p>Se ha añadido un nuevo sistema de visualización para entidades relacionadas con la composición de uno a uno.</p>
+</li>
+<li>
+<p>Añadido soporte multi-idioma para constantes enumeradas de Java.</p>
+</li>
+<li>
+<p>Añadido soporte para la selección de filas múltiples y la eliminación por lotes.</p>
+</li>
+</ul>
+</div>
+</li>
+<li>
+<p>Como siempre "Spring Roo Reference Guide" se ha actualizado con todas las nuevas características.</p>
+</li>
+</ul>
+</div>
+<div class="paragraph">
+<p>Para obtener más información sobre los cambios realizados en esta nueva versión de Spring Roo, consulte <a href="https://jira.spring.io/jira/secure/ReleaseNote.jspa?projectId=10340&amp;version=15810">Spring Roo 2.0.0.RC1 Release Note</a> (EN).<br>
+Puedes descargar la nueva versión Spring Roo 2.0.0.RC1 en la <a href="http://projects.spring.io/spring-roo/">Página del Proyecto</a>.</p>
+</div>
+<hr>
+<div class="paragraph">
+<p>Contenido original (EN): <strong>Spring Blog</strong> <a href="https://spring.io/blog/2017/03/07/spring-roo-2-0-rc1-released" class="bare">https://spring.io/blog/2017/03/07/spring-roo-2-0-rc1-released</a></p>
+</div>
+<hr>
+                        <br>
+                    
+                    
+                    <div class="entry-tags text-center">
+
+                        <i class="icon-tags"></i>&nbsp;Tagged with <a href="http://localhost:4000/tags/index.html#Spring" data-toggle="tooltip" title="Posts tagged with Spring" rel="tag">Spring</a>&nbsp;&bull;&nbsp;<a href="http://localhost:4000/tags/index.html#Spring Roo" data-toggle="tooltip" title="Posts tagged with Spring Roo" rel="tag">Spring Roo</a>&nbsp;&bull;&nbsp;<a href="http://localhost:4000/tags/index.html#DISID Java team" data-toggle="tooltip" title="Posts tagged with DISID Java team" rel="tag">DISID Java team</a>&nbsp;&bull;&nbsp;<a href="http://localhost:4000/tags/index.html#OpenSource" data-toggle="tooltip" title="Posts tagged with OpenSource" rel="tag">OpenSource</a>&nbsp;&bull;&nbsp;<a href="http://localhost:4000/tags/index.html#release" data-toggle="tooltip" title="Posts tagged with release" rel="tag">release</a>
+
+                    </div>
+                    
+                    </div>
+        </div>
+                    <footer class="post-footer entry-meta">
+                        <div class="post-share text-center">
+    <p class="light small">
+        <!-- Share this post -->
+    </p>
+    <ul class="social-mini">
+        <li>
+            <a href="https://twitter.com/intent/tweet?text=&quot;Spring Roo 2.0.0 RC1 liberado&quot;%20http://localhost:4000/spring-roo-2-0-rc1-liberado/%20via%20&#64;disid_corp"
+            onclick="window.open(this.href, 'twitter-share', 'width=550,height=235');return false;" data-toggle="tooltip" title="Share on Twitter" itemprop="Twitter">
+                <i class="icon-twitter"></i>
+            </a>
+        </li>
+        <li>
+            <a  href="https://www.facebook.com/sharer/sharer.php?u=http://localhost:4000/spring-roo-2-0-rc1-liberado/"
+            onclick="window.open(this.href, 'facebook-share','width=580,height=296');return false;" data-toggle="tooltip" title="Share on Facebook" itemprop="Facebook">
+                <i class="icon-facebook"></i>
+            </a>
+        </li>
+        <li>
+            <a href="https://plus.google.com/share?url=http://localhost:4000/spring-roo-2-0-rc1-liberado/"
+           onclick="window.open(this.href, 'google-plus-share', 'width=490,height=530');return false;" data-toggle="tooltip" title="Share on Google plus" itemprop="GooglePlus">
+                <i class="icon-google-plus"></i>
+            </a>
+        </li>
+    </ul>
+</div>
+                        <div class="post-author text-center">
+
+      
+         <img src="https://avatars2.githubusercontent.com/u/4609931?v=3&s=460" alt="Pilar Argudo's photo" itemprop="image" class="post-avatar img-circle img-responsive"/>
+      
+
+      
+        <h4 class="bordered-bottom vcard author" itemprop="author" itemscope itemtype="http://schema.org/Person">
+        By <span itemprop="name" class="fn">
+        <a href="http://twitter.com/@pilarargudo" title="Connect Pilar Argudo" itemprop="url">Pilar Argudo</a>
+        </a></span>
+        </h4>
+        <p> Front-end developer at
+        <a href="http://twitter.com/@disid_corp" title="Connect DISID Corporation" itemprop="url">
+        DISID Corporation</p>
+      
+
+<hr>
+</div>
+
+
+                        <div id="disqus_thread"></div><!-- /#disqus_thread -->
+                    </footer>
+            </article>
+    </div>
+</div>
+<!-- SECTION: Footer -->
+  <footer class="has-padding footer-bg">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-4 footer-branding">
+          <img src="http://localhost:4000/images/logo-disid-white.png"
+          class="img-responsive footer-branding-logo" alt="DISID Corporation">
+          <p>We are a software engineering company specialized in Java technology.</p>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-md-12 footer-nav">
+          <ul class="footer-primary-nav">
+            
+                    <li>
+                      <a class="page-scroll" href="http://www.disid.com/aviso-legal">Aviso legal</a>
+                      
+                    </li>
+            
+                    <li>
+                      <a class="page-scroll" href="http://www.disid.com/politica-de-cookies">Cookies</a>
+                      
+                    </li>
+            
+
+          </ul>
+          <ul class="footer-share">
+            
+              <li><a href="http://twitter.com/disid_corp"><i class="fa fa-twitter"></i></a></li>
+            
+              <li><a href="https://www.facebook.com/DISIDCorp/"><i class="fa fa-facebook"></i></a></li>
+            
+              <li><a href="https://github.com/DISID"><i class="fa fa-github"></i></a></li>
+            
+              <li><a href="https://www.linkedin.com/company/disid"><i class="fa fa-linkedin"></i></a></li>
+            
+          </ul>
+
+          <ul class="footer-secondary-nav">
+            <li>&copy; DISID Corporation 2016.</li>
+            <li><small>Sociedad Limitada 2013 CC BY-NC-SA 3.0 ES | Sitio web desarrollado con Jekyll & Bootstrap</small></li>
+          </ul>
+
+        </div>
+      </div>
+    </div>
+  </footer>
+  <!-- END SECTION: Footer -->
+
+
+
+
+
+<!--  Replaced by query-1.11.1. in head -->
+<!-- <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script> -->
+<script>window.jQuery || document.write('<script src="http://localhost:4000/assets/js/vendor/jquery-1.9.1.min.js"><\/script>')</script>
+
+
+<script type="text/javascript" src="http://localhost:4000/assets/js/scripts.min.js"></script>
+<script type="text/javascript" src="http://localhost:4000/assets/js/waypoints.min.js"></script>
+
+<!-- JS CDNs -->
+  <script src="http://vjs.zencdn.net/5.4.6/video.min.js"></script>
+
+  <!-- JS Locals -->
+  <script src="http://localhost:4000/assets/js/min/modernizr-2.8.3-respond-1.4.2.min.js"></script>
+  <script src="http://localhost:4000/assets/js/min/retina.min.js"></script>
+  <script src="http://localhost:4000/assets/js/min/jquery.waypoints.min.js"></script>
+  <script src="http://localhost:4000/assets/js/min/flickity.pkgd.min.js"></script>
+
+
+ <!-- Menu Scroll -->
+ <script type="text/javascript" src="http://localhost:4000/assets/js/cbpAnimatedHeader.js"></script>
+
+<script type="text/javascript" src="http://localhost:4000/assets/js/script.js"></script>
+<script type='text/javascript'>console.log("HMFaysal Omega Theme Version 2.0 custom by DISID");</script>
+<script type='text/javascript'>$(document).ready(function(){$(".time").text(function(a,b){return Math.round(parseFloat(b))})});</script>
+
+ <!-- Animations article Notepad Theme -->
+ <script src="http://localhost:4000/assets/js/summerb146.js"></script>
+
+ <!-- Menu Responsive -->
+ <script type="text/javascript" src="/assets/js/bootstrap.min.js"></script>
+
+
+<script type="text/javascript">
+
+/*      Slides       */
+
+$("a#slide").click(function(){
+    $("#sidebar,body,a#slide,#fade").addClass("slide")
+});
+
+$("#fade,#header,#posts-container").click(function(){
+    $("#sidebar,body,a#slide,#fade").removeClass("slide")
+});
+
+$("a#click-filter").click(function(){
+    $("#slide-filter").slideToggle("medium");
+    $("#slide-pages").slideOut("medium");
+});
+
+$("a#click-pages").click(function(){
+    $("#slide-pages").slideToggle("medium");
+    $("#slide-filter").slideOut("medium");
+});
+
+/*      End-Slides      */
+
+</script>
+
+
+<!-- Jekyll Simple Search option -->
+<script>
+  $(document).ready(function() {
+      $('.search-field').simpleJekyllSearch({
+          jsonFile : 'http://localhost:4000/search.json',
+          searchResults : '.search-results',
+          template : '<li><article><a href="{url}">{title} <span class="entry-date"><time datetime="{date}">{shortdate}</time></span></a></article></li>',
+          noResults: '<p>Nothing found.</p>'
+        });
+  });
+
+  (function( $, window, undefined ) {
+
+     var bs = {
+          close: $(".icon-remove-sign"),
+          searchform: $(".search-form"),
+          canvas: $("body"),
+          dothis: $('.dosearch')
+      };
+
+    bs.dothis.on('click', function() {
+      $('.search-wrapper').css({ display: "block" });
+      bs.searchform.toggleClass('active');
+      bs.searchform.find('input').focus();
+      bs.canvas.toggleClass('search-overlay');
+    });
+
+      bs.close.on('click', function() {
+        $('.search-wrapper').removeAttr( 'style' );
+        bs.searchform.toggleClass('active');
+        bs.canvas.removeClass('search-overlay');
+    });
+  })( jQuery, window );
+</script>
+
+
+
+
+<!-- cookies consent -->
+
+
+<script>
+    $(document).ready(function () {
+      console.log("Cookies consent loaded");
+      $.cookieCuttr();
+    });
+</script>
+
+
+<script type="text/javascript">
+    /* * * CONFIGURATION VARIABLES: EDIT BEFORE PASTING INTO YOUR WEBPAGE * * */
+    var disqus_shortname = 'disid'; // required: replace example with your forum shortname
+
+    /* * * DON'T EDIT BELOW THIS LINE * * */
+    (function() {
+        var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+        dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+        (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+    })();
+
+    /* * * DON'T EDIT BELOW THIS LINE * * */
+    (function () {
+        var s = document.createElement('script'); s.async = true;
+        s.type = 'text/javascript';
+        s.src = '//' + disqus_shortname + '.disqus.com/count.js';
+        (document.getElementsByTagName('HEAD')[0] || document.getElementsByTagName('BODY')[0]).appendChild(s);
+    }());
+</script>
+<noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+</body>
+</html>
