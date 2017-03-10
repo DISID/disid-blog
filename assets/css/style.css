@@ -132,6 +132,7 @@ blockquote:before {
   border: 1px solid #7AE2DE;
   border-radius: 4px;
   padding: 10px;
+  font-size: 0.7em;
 }
 .clearfix{ clear: both;}
 /* - Form elements - */
@@ -630,6 +631,7 @@ section.summer-post-excerpt figure a img{
   margin-bottom: 12px;
   padding-bottom: 12px;
 }
+.post-author p { color: #333;}
 /* - Post Avatar - */
 .post-avatar {
   max-width: 150px;
