@@ -1,0 +1,73 @@
+---
+layout: post
+type: photo
+link: https://spring.io/blog/2017/03/07/spring-roo-2-0-rc1-released
+title: "Spring Roo 2.0.0 RC1 released"
+description: "It includes some improvements, bugs fixes and significant new features"
+headline: "Spring Roo 2.0.0 RC1 is out!"
+excerpt: "We’re pleased to announce the first release candidate of Spring Roo 2.0. This is the first release candidate, from now on we’re going to work in the improvements and bug fixes that the community detects until we’ll be able to publish the final release."
+modified:
+lang: en
+category:
+  - en
+  - Spring Roo
+tags:
+  - Spring
+  - Spring Roo
+  - DISID Java team
+  - OpenSource
+  - release
+imagefeature: 2017-03-10-spring-roo-2-0-rc1-released/spring-roo-cover.png
+imagedir: /images/2017-03-10-spring-roo-2-0-rc1-released/
+image:
+  thumb: spring-roo-thumb.png #keep it square 200x200 px is good
+featured: true
+author:
+  name: Pilar Argudo
+  image: https://avatars2.githubusercontent.com/u/4609931?v=3&s=460
+  jobdescription: Front-end developer
+  twitter: pilarargudo
+---
+
+On behalf of Java DISID team, we're pleased to announce the first release candidate of Spring Roo 2.0. This is the first release candidate, from now on we’re going to work in the improvements and bug fixes that the community detects until we'll be able to publish the final release. We encourage you all to participate in this process testing the 2.0.0.RC1 version and reporting the possible bugs and improvements in https://jira.spring.io/browse/ROO[JIRA].
+
+RC1 version includes some improvements and bugs fixes detected in the Spring Roo 2.0.0.M3 version. Also, it includes some significant new features:
+
+* Included some improvements on existing commands:
+** Improved data-on-demand generation to use it in test commands.
+** Improved test unit command which now creates fully functional tests for JPA entities.
+** Improved test integration command which now allows to create integration tests for JPA repositories and JSON/Thymeleaf controllers.
+** Improved field commands readability, removing unnecessary options and make other dynamically visible.
+** Improved push-in --method command, allowing to distinguish between methods with same name but different arguments.
+** Improved repository command to allows developers to use projections as default return type.
+
+* Included some improvements into the generated code:
+** Update Spring IO version to `Athens-RELEASE`.
+** Update the https://github.com/DISID/springlets[Springlets library] version to `1.2.0.RC1`. It provides some awesome new features that makes more easy the Spring application development.
+** Use projections as default return type of your repository methods.
+** Improved read-only entities management.
+** Including new JSONDeserializers and JSONMixin classes.
+** Including new LinkFactories classes to obtain URLs from Thymeleaf easily.
+** Generating default JavaDoc to all generated methods, constructors and fields.
+** New DataTables extension has been created to apply advanced configuration on DataTables elements. This extension is fully extensible, so developers will be able to customize its DataTable component easily.
+** Added `datatables.mark.js` to mark the filtered text in DataTables component.
+** Added concurrency control in view layer, answering to the user if he wants to discard his changes and reload the record or he wants to apply his changes.
+** HTML5 improvements and migration to Thymeleaf 3.
+** Generating reports using http://dynamicjasper.com/[DynamicJasper] on DataTables component, allowing to export data to CSV, PDF and XLS.
+** Added new entity visualization support using `--entityFormatExpression` and `--entityFormatMessage` in entity commands.
+** Added support for selecting those views of a particular entity which should show details.
+** Added new visualization system for one-to-one composition related entities.
+** Added multi-language support for Java enumerated constants.
+** Added support for multi row selection and batch delete.
+
+* As always, Spring Roo Reference guide has been updated with all the new features.
+
+For full details on the changes made in the new Spring Roo version, please refer to the https://jira.spring.io/jira/secure/ReleaseNote.jspa?projectId=10340&version=15810[Spring Roo 2.0.0.RC1 Release Note].
+
+Download the new Spring Roo 2.0.0.RC1 version in http://projects.spring.io/spring-roo/[Project Page].
+
+---
+
+Original Source: *Spring Blog* https://spring.io/blog/2017/03/07/spring-roo-2-0-rc1-released
+
+---

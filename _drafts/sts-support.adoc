@@ -1,0 +1,12 @@
+
+Además, Spring Tool Suite (STS) equipo está trabajando en la liberación de la STS 3.8.4 que incluirá el Spring IDE Roo de soporte para Roo 2.0.0.RC1.
+Si quieres instalar los componentes Roo actualizados antes de esto, lo puedes hacer manualmente a través del sitio de actualización de Spring IDE, pero recuerde que obtendrá una versión inestable de STS que podría contener errores. Consulte la https://docs.spring.io/spring-roo/docs/2.0.0.RC1/reference/html/#getting-started-install-roo[Spring Roo reference guide] para saber cómo instalar la distribución nocturna .
+
+Para obtener información más específica sobre el proyecto Spring Roo, consulte la página http://projects.spring.io/spring-roo/[Project] | Https://github.com/spring-projects/spring-roo[GitHub]
+
+
+
+Additionally Spring Tool Suite (STS) team is working in releasing the STS 3.8.4 which will include the Spring IDE Roo Support for Roo 2.0.0.RC1.
+If you want to install the updated Roo components before, you would do it manually via the Spring IDE nightly update site, but remember that you will get an unstable version of STS that could contains errors. Check the https://docs.spring.io/spring-roo/docs/2.0.0.RC1/reference/html/#getting-started-install-roo[Spring Roo reference guide] to know how to install the nightly distribution.
+
+For more specific information about Spring Roo project please see the http://projects.spring.io/spring-roo/[Project Page] | https://github.com/spring-projects/spring-roo[GitHub]

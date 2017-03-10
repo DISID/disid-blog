@@ -1,0 +1,76 @@
+---
+layout: post
+type: photo
+link: https://spring.io/blog/2017/03/07/spring-roo-2-0-rc1-released
+title: "Spring Roo 2.0.0 RC1 liberado"
+description: "Incluye mejoras, correcciones de errores y nuevas características importantes"
+headline: "¡Spring Roo 2.0.0 RC1 disponible!"
+excerpt: " Estamos orgullosos de anunciar la primera versión candidata de Spring Roo 2.0. Este es la primera RC1, a partir de ahora ya estamos trabajando en las mejoras y corrección de errores que la comunidad de desarrollo detecte y así poder publicar la versión final."
+modified:
+lang: es
+category:
+  - es
+  - Spring Roo
+tags:
+  - Spring
+  - Spring Roo
+  - DISID Java team
+  - OpenSource
+  - release
+imagefeature: 2017-03-10-spring-roo-2-0-rc1-released/spring-roo-cover.png
+imagedir: /images/2017-03-10-spring-roo-2-0-rc1-released/
+image:
+  thumb: spring-roo-thumb.png #keep it square 200x200 px is good
+featured: true
+author:
+  name: Pilar Argudo
+  image: https://avatars2.githubusercontent.com/u/4609931?v=3&s=460
+  jobdescription: Front-end developer
+  twitter: pilarargudo
+---
+
+En nombre del equipo de desarrollo Java de DISID, estamos orgullosos de anunciar la primera versión candidata de Spring Roo 2.0.
+Este es la primera RC1, a partir de ahora ya estamos trabajando en las mejoras y corrección de errores que la comunidad de desarrollo detecte y así poder publicar la versión final.
+
+Os animamos a participar en este proceso probando la versión 2.0.0.RC1 y reportando los posibles errores y mejoras en https://jira.spring.io/browse/ROO[JIRA].
+
+La versión RC1 incluye mejoras y correcciones de errores detectadas en la versión Spring Roo 2.0.0.M3. Además, incluye nuevas características importantes:
+
+
+* Incluye algunas mejoras en los comandos existentes:
+** Mejora de la generación de datos a petición para utilizarlo en comandos de prueba.
+** Comando de unidad de prueba mejorado que ahora crea pruebas completamente funcionales para entidades JPA.
+** Comando de integración de pruebas mejorado que ahora permite crear pruebas de integración para repositorios JPA y controladores JSON/Thymeleaf.
+** Mejora de la legibilidad de los comandos de campo, eliminando las opciones innecesarias y haciendo otras dinámicamente visibles.
+** Improved `push-in --method` comando, que permite distinguir entre los métodos con el mismo nombre, pero con diferentes argumentos.
+** Comando de repositorio mejorado que permite a los desarrolladores usar proyecciones como tipo de retorno predeterminado.
+
+
+* Incluye algunas mejoras en el código generado:
+** Actualización de la versión Spring IO a `Athens-RELEASE`.
+** Actualizada la versión https://github.com/DISID/springlets[Springlets library] a `1.2.0.RC1`. Proporciona nuevas características impresionantes que hacen más fácil el desarrollo de aplicaciones de Spring.
+** Utilice las proyecciones como tipo de retorno predeterminado de sus métodos de repositorio.
+** Mejora de la gestión de entidades de sólo lectura.
+** Incluyendo nuevos JSONDeserializers y clases JSONMixin.
+** Incluyendo nuevas clases de LinkFactories para obtener URL de Thymeleaf fácilmente.
+** Generar JavaDoc predeterminado a todos los métodos, constructores y campos generados.
+** Se ha creado una nueva extensión de DataTables para aplicar configuración avanzada en elementos DataTables. Esta extensión es totalmente extensible, por lo que los desarrolladores podrán personalizar su componente DataTable fácilmente.
+** Añadido `datatables.mark.js` para marcar el texto filtrado en el componente DataTables.
+** Añadido control de concurrencia en la capa de vista, respondiendo al usuario si quiere descartar sus cambios y volver a cargar el registro o quiere aplicar sus cambios.
+** Mejoras HTML5 y migración a Thymeleaf 3.
+** Generar informes usando http://dynamicjasper.com/[DynamicJasper] en el componente DataTables, permitiendo exportar datos a CSV, PDF y XLS.
+** Añadido soporte de visualización de entidad nueva usando `--entityFormatExpression` y` --entityFormatMessage` en comandos de entidad.
+** Añadido soporte para seleccionar las vistas de una entidad en particular que debe mostrar detalles.
+** Se ha añadido un nuevo sistema de visualización para entidades relacionadas con la composición de uno a uno.
+** Añadido soporte multi-idioma para constantes enumeradas de Java.
+** Añadido soporte para la selección de filas múltiples y la eliminación por lotes.
+* Como siempre "Spring Roo Reference Guide" se ha actualizado con todas las nuevas características.
+
+Para obtener más información sobre los cambios realizados en esta nueva versión de Spring Roo, consulte https://jira.spring.io/jira/secure/ReleaseNote.jspa?projectId=10340&version=15810[Spring Roo 2.0.0.RC1 Release Note] (EN).
+Puedes descargar la nueva versión Spring Roo 2.0.0.RC1 en la http://projects.spring.io/spring-roo/[Página del Proyecto].
+
+---
+
+Contenido original (EN): *Spring Blog* https://spring.io/blog/2017/03/07/spring-roo-2-0-rc1-released
+
+---
