@@ -32,6 +32,26 @@
 	
 		{
 		
+		  "title"      : "DISID participates in the Spring I/O 2016 event",
+		  "category"   : "enSpring Roo",
+		  "url"        : "http://blog.disid.com/spring-roo-2-0-preview-at-spring-io-2016/",
+		  "date"       : "2016-05-27 00:00:00 +0200",
+		  "shortdate"  : "May 27, 2016"
+		
+		} ,
+	
+		{
+		
+		  "title"      : "DISID participa en la conferencia Spring I/O 2016",
+		  "category"   : "esSpring Roo",
+		  "url"        : "http://blog.disid.com/spring-roo-2-0-avance-en-spring-io-2016/",
+		  "date"       : "2016-05-27 00:00:00 +0200",
+		  "shortdate"  : "May 27, 2016"
+		
+		} ,
+	
+		{
+		
 		  "title"      : "Customizing Spring Roo tagx",
 		  "category"   : "",
 		  "url"        : "http://blog.disid.com/customizing-spring-roo-own-tagx/",
