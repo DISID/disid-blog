@@ -23,10 +23,10 @@ image:
   thumb: spring-roo-thumb.png #keep it square 200x200 px is good
 featured: true
 author:
-  name: Pilar Argudo
-  image: https://avatars2.githubusercontent.com/u/4609931?v=3&s=460
-  jobdescription: Front-end developer
-  twitter: pilarargudo
+  name: Juan Carlos García
+  image: https://pbs.twimg.com/profile_images/590600412098600962/p_juRpGB_400x400.jpg
+  jobdescription: Software Architect
+  twitter: juancaFX
 ---
 
 On behalf of Java DISID team, we're pleased to announce the first release candidate of Spring Roo 2.0. This is the first release candidate, from now on we’re going to work in the improvements and bug fixes that the community detects until we'll be able to publish the final release. We encourage you all to participate in this process testing the 2.0.0.RC1 version and reporting the possible bugs and improvements in https://jira.spring.io/browse/ROO[JIRA].

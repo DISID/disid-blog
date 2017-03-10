@@ -23,10 +23,10 @@ image:
   thumb: spring-roo-thumb.png #keep it square 200x200 px is good
 featured: true
 author:
-  name: Pilar Argudo
-  image: https://avatars2.githubusercontent.com/u/4609931?v=3&s=460
-  jobdescription: Front-end developer
-  twitter: pilarargudo
+  name: Juan Carlos García
+  image: https://pbs.twimg.com/profile_images/590600412098600962/p_juRpGB_400x400.jpg
+  jobdescription: Software Architect
+  twitter: juancaFX
 ---
 
 En nombre del equipo de desarrollo Java de DISID, estamos orgullosos de anunciar la primera versión candidata de Spring Roo 2.0.
