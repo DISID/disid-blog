@@ -1,0 +1,40 @@
+---
+layout: post
+type: video
+video: https://www.youtube.com/watch?v=r7bum9BPc0o
+title: "DISID participates in the Spring I/O 2016 event"
+description: "Spring Roo 2.0 Preview presented by the project lead company"
+headline: "Spring Roo 2.0 Preview by DISID"
+modified: 2016-07-06   # Date
+lang: en
+category:
+  - en
+  - Spring Roo
+tags:
+  - Spring Roo
+  - OpenSource
+  - Event
+  - SpringIO
+imagefeature: 2016-05-27-spring-roo-2-0-preview-at-spring-io-2016/springio-bg.jpg
+image:
+  thumb: disid-thumbnail.png #keep it square 200x200 px is good
+author:
+  name: Pilar Argudo
+  image: https://avatars0.githubusercontent.com/u/4609931?v=3&u=4764d5c85d293955e3c9cbac55e63dd710bdbf11&s=400
+  jobdescription: Front-end developer
+  twitter: pilarargudo
+---
+
+We’re proud to have participated as sponsor and speaker at Spring I/O 2016 Conference in Barcelona where we talked about what's new in SpringRoo 2.0.0 M2.
+
+In this talk we are going to present a preview of Spring Roo 2.0, a rewrite of the code generating tool for the development of Java web applications based on current Spring technologies like Spring Boot, Spring Data, etc. A release with lots of cool looking features supporting Spring Boot and removing the older ActiveRecord-style support in favor of proper Spring Data repositories.
+
+
+https://twitter.com/enrique_ruiz_[Enrique Ruiz], CINO at DISID and Spring Roo project lead and https://twitter.com/cordinyana[César Ordiñana], CTO at DISID presented the latest features of Spring Roo.
+
+
+The slides of our "SpringRoo 2.0 Preview" talk at Spring I/O 2016 are available at http://www.slideshare.net/disid/spring-roo-20-preview-at-spring-io-2016[SlideShare].
+
+Proud to be part of Spring I/O 2016 Conference!
+
+
